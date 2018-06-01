@@ -1,0 +1,1534 @@
+try without f _avg_speed_weekday
+['_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5368
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.295
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 618.761
+[3]	valid_0's l1: 605.635
+[4]	valid_0's l1: 593.097
+[5]	valid_0's l1: 580.989
+[6]	valid_0's l1: 568.714
+[7]	valid_0's l1: 558.613
+[8]	valid_0's l1: 549.078
+[9]	valid_0's l1: 540.306
+[10]	valid_0's l1: 531.668
+[11]	valid_0's l1: 524.516
+[12]	valid_0's l1: 516.092
+[13]	valid_0's l1: 509.44
+[14]	valid_0's l1: 503.544
+[15]	valid_0's l1: 497.714
+[16]	valid_0's l1: 492.264
+[17]	valid_0's l1: 487.462
+[18]	valid_0's l1: 481.954
+[19]	valid_0's l1: 477.951
+[20]	valid_0's l1: 473.854
+[21]	valid_0's l1: 469.777
+[22]	valid_0's l1: 466.813
+[23]	valid_0's l1: 462.992
+[24]	valid_0's l1: 460.153
+[25]	valid_0's l1: 456.984
+[26]	valid_0's l1: 454.398
+[27]	valid_0's l1: 451.449
+[28]	valid_0's l1: 448.979
+[29]	valid_0's l1: 446.955
+[30]	valid_0's l1: 444.674
+[31]	valid_0's l1: 442.911
+[32]	valid_0's l1: 441.125
+[33]	valid_0's l1: 439.672
+[34]	valid_0's l1: 437.884
+[35]	valid_0's l1: 436.22
+[36]	valid_0's l1: 434.914
+[37]	valid_0's l1: 433.828
+[38]	valid_0's l1: 432.687
+[39]	valid_0's l1: 431.685
+[40]	valid_0's l1: 430.615
+[41]	valid_0's l1: 429.552
+[42]	valid_0's l1: 428.711
+[43]	valid_0's l1: 427.948
+[44]	valid_0's l1: 427.053
+[45]	valid_0's l1: 426.447
+[46]	valid_0's l1: 425.469
+[47]	valid_0's l1: 424.777
+[48]	valid_0's l1: 424.254
+[49]	valid_0's l1: 423.713
+[50]	valid_0's l1: 423.259
+[51]	valid_0's l1: 422.743
+[52]	valid_0's l1: 421.825
+[53]	valid_0's l1: 421.301
+[54]	valid_0's l1: 420.661
+[55]	valid_0's l1: 420.027
+[56]	valid_0's l1: 419.627
+[57]	valid_0's l1: 418.949
+[58]	valid_0's l1: 418.583
+[59]	valid_0's l1: 418.204
+[60]	valid_0's l1: 417.955
+[61]	valid_0's l1: 417.454
+[62]	valid_0's l1: 416.73
+[63]	valid_0's l1: 416.49
+[64]	valid_0's l1: 416.094
+[65]	valid_0's l1: 415.842
+[66]	valid_0's l1: 415.489
+[67]	valid_0's l1: 415.094
+[68]	valid_0's l1: 414.879
+[69]	valid_0's l1: 414.468
+[70]	valid_0's l1: 414.252
+[71]	valid_0's l1: 413.939
+[72]	valid_0's l1: 413.736
+[73]	valid_0's l1: 413.54
+[74]	valid_0's l1: 412.979
+[75]	valid_0's l1: 412.797
+[76]	valid_0's l1: 412.615
+[77]	valid_0's l1: 412.25
+[78]	valid_0's l1: 412.162
+[79]	valid_0's l1: 411.831
+[80]	valid_0's l1: 411.557
+[81]	valid_0's l1: 411.244
+[82]	valid_0's l1: 411.142
+[83]	valid_0's l1: 410.989
+[84]	valid_0's l1: 410.821
+[85]	valid_0's l1: 410.77
+[86]	valid_0's l1: 410.541
+[87]	valid_0's l1: 410.391
+[88]	valid_0's l1: 410.241
+[89]	valid_0's l1: 410.023
+[90]	valid_0's l1: 409.937
+[91]	valid_0's l1: 409.707
+[92]	valid_0's l1: 409.586
+[93]	valid_0's l1: 409.235
+[94]	valid_0's l1: 409.051
+[95]	valid_0's l1: 408.919
+[96]	valid_0's l1: 408.906
+[97]	valid_0's l1: 408.782
+[98]	valid_0's l1: 408.433
+[99]	valid_0's l1: 408.28
+[100]	valid_0's l1: 408.117
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_not_fetched_order_num', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [51, 181, 0, 1213, 1222, 685, 1715, 164, 1415, 1208, 350, 51, 97, 55, 778, 748, 581, 1127, 798, 305, 2925, 789, 200, 1430, 722, 190, 2485, 646, 514, 130, 1872, 853])
+                                      feature  importances
+2                             _avg_speed_hour            0
+0                     _avg_speed_weekday_hour           51
+11                                _10min_wind           51
+13                           _avg_speed_10min           55
+12                                   food_num           97
+29                                    weekday          130
+7                                 _10min_rain          164
+1                                       10min          181
+25                         _10min_temperature          190
+22                            dropoff_cluster          200
+19                                  direction          305
+10            _avg_speed_hour_dropoff_cluster          350
+28                            box_total_value          514
+16                               weekday_hour          581
+27                                       hour          646
+5                           customer_latitude          685
+24                 _avg_speed_dropoff_cluster          722
+15                         customer_longitude          748
+14  _avg_speed_pickup_cluster_dropoff_cluster          778
+21                  _avg_speed_pickup_cluster          789
+18               _10min_deliverying_order_num          798
+31                             pickup_cluster          853
+17                          waiting_order_num         1127
+9                    _10min_working_rider_num         1208
+3            _10min_notbusy_working_rider_num         1213
+4              _avg_speed_hour_pickup_cluster         1222
+8                           delivery_distance         1415
+23                           food_total_value         1430
+6                _10min_not_fetched_order_num         1715
+30                                    poi_lat         1872
+26                                     poi_id         2485
+20                                    poi_lng         2925
+408.1167055
+try without f _avg_speed_weekday_hour
+['_avg_speed_weekday', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5365
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.295
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 618.761
+[3]	valid_0's l1: 605.652
+[4]	valid_0's l1: 593.125
+[5]	valid_0's l1: 581.023
+[6]	valid_0's l1: 568.743
+[7]	valid_0's l1: 558.689
+[8]	valid_0's l1: 549.081
+[9]	valid_0's l1: 539.984
+[10]	valid_0's l1: 531.366
+[11]	valid_0's l1: 524.36
+[12]	valid_0's l1: 515.981
+[13]	valid_0's l1: 509.35
+[14]	valid_0's l1: 503.424
+[15]	valid_0's l1: 497.617
+[16]	valid_0's l1: 492.101
+[17]	valid_0's l1: 487.319
+[18]	valid_0's l1: 481.805
+[19]	valid_0's l1: 477.729
+[20]	valid_0's l1: 473.589
+[21]	valid_0's l1: 469.386
+[22]	valid_0's l1: 466.514
+[23]	valid_0's l1: 462.703
+[24]	valid_0's l1: 459.99
+[25]	valid_0's l1: 456.788
+[26]	valid_0's l1: 454.248
+[27]	valid_0's l1: 451.323
+[28]	valid_0's l1: 448.832
+[29]	valid_0's l1: 446.819
+[30]	valid_0's l1: 444.581
+[31]	valid_0's l1: 442.8
+[32]	valid_0's l1: 440.956
+[33]	valid_0's l1: 439.699
+[34]	valid_0's l1: 437.941
+[35]	valid_0's l1: 436.344
+[36]	valid_0's l1: 435.028
+[37]	valid_0's l1: 433.973
+[38]	valid_0's l1: 432.779
+[39]	valid_0's l1: 431.856
+[40]	valid_0's l1: 430.769
+[41]	valid_0's l1: 429.691
+[42]	valid_0's l1: 428.818
+[43]	valid_0's l1: 428.119
+[44]	valid_0's l1: 427.249
+[45]	valid_0's l1: 426.688
+[46]	valid_0's l1: 425.629
+[47]	valid_0's l1: 425.019
+[48]	valid_0's l1: 424.498
+[49]	valid_0's l1: 423.942
+[50]	valid_0's l1: 423.389
+[51]	valid_0's l1: 422.933
+[52]	valid_0's l1: 422.044
+[53]	valid_0's l1: 421.484
+[54]	valid_0's l1: 420.819
+[55]	valid_0's l1: 420.199
+[56]	valid_0's l1: 419.79
+[57]	valid_0's l1: 419.09
+[58]	valid_0's l1: 418.738
+[59]	valid_0's l1: 418.284
+[60]	valid_0's l1: 417.948
+[61]	valid_0's l1: 417.433
+[62]	valid_0's l1: 416.937
+[63]	valid_0's l1: 416.684
+[64]	valid_0's l1: 416.187
+[65]	valid_0's l1: 415.928
+[66]	valid_0's l1: 415.645
+[67]	valid_0's l1: 415.253
+[68]	valid_0's l1: 415.01
+[69]	valid_0's l1: 414.609
+[70]	valid_0's l1: 414.415
+[71]	valid_0's l1: 414.11
+[72]	valid_0's l1: 413.889
+[73]	valid_0's l1: 413.634
+[74]	valid_0's l1: 413.058
+[75]	valid_0's l1: 412.826
+[76]	valid_0's l1: 412.616
+[77]	valid_0's l1: 412.435
+[78]	valid_0's l1: 412.36
+[79]	valid_0's l1: 412.127
+[80]	valid_0's l1: 411.848
+[81]	valid_0's l1: 411.572
+[82]	valid_0's l1: 411.482
+[83]	valid_0's l1: 411.352
+[84]	valid_0's l1: 411.143
+[85]	valid_0's l1: 411.055
+[86]	valid_0's l1: 410.82
+[87]	valid_0's l1: 410.711
+[88]	valid_0's l1: 410.485
+[89]	valid_0's l1: 410.223
+[90]	valid_0's l1: 410.082
+[91]	valid_0's l1: 409.882
+[92]	valid_0's l1: 409.765
+[93]	valid_0's l1: 409.421
+[94]	valid_0's l1: 409.281
+[95]	valid_0's l1: 409.074
+[96]	valid_0's l1: 409.035
+[97]	valid_0's l1: 408.901
+[98]	valid_0's l1: 408.697
+[99]	valid_0's l1: 408.554
+[100]	valid_0's l1: 408.43
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_not_fetched_order_num', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [387, 173, 0, 1217, 1253, 671, 1713, 115, 1409, 1170, 336, 54, 107, 60, 812, 781, 356, 1129, 776, 344, 2861, 756, 176, 1427, 721, 218, 2528, 589, 544, 66, 1892, 859])
+                                      feature  importances
+2                             _avg_speed_hour            0
+11                                _10min_wind           54
+13                           _avg_speed_10min           60
+29                                    weekday           66
+12                                   food_num          107
+7                                 _10min_rain          115
+1                                       10min          173
+22                            dropoff_cluster          176
+25                         _10min_temperature          218
+10            _avg_speed_hour_dropoff_cluster          336
+19                                  direction          344
+16                               weekday_hour          356
+0                          _avg_speed_weekday          387
+28                            box_total_value          544
+27                                       hour          589
+5                           customer_latitude          671
+24                 _avg_speed_dropoff_cluster          721
+21                  _avg_speed_pickup_cluster          756
+18               _10min_deliverying_order_num          776
+15                         customer_longitude          781
+14  _avg_speed_pickup_cluster_dropoff_cluster          812
+31                             pickup_cluster          859
+17                          waiting_order_num         1129
+9                    _10min_working_rider_num         1170
+3            _10min_notbusy_working_rider_num         1217
+4              _avg_speed_hour_pickup_cluster         1253
+8                           delivery_distance         1409
+23                           food_total_value         1427
+6                _10min_not_fetched_order_num         1713
+30                                    poi_lat         1892
+26                                     poi_id         2528
+20                                    poi_lng         2861
+408.430366514
+try without f 10min
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '_10min_not_fetched_order_num', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5370
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.325
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 617.444
+[3]	valid_0's l1: 604.318
+[4]	valid_0's l1: 591.985
+[5]	valid_0's l1: 579.794
+[6]	valid_0's l1: 568.587
+[7]	valid_0's l1: 558.26
+[8]	valid_0's l1: 547.757
+[9]	valid_0's l1: 539.274
+[10]	valid_0's l1: 529.944
+[11]	valid_0's l1: 522.912
+[12]	valid_0's l1: 514.694
+[13]	valid_0's l1: 508.028
+[14]	valid_0's l1: 502.711
+[15]	valid_0's l1: 496.403
+[16]	valid_0's l1: 491.159
+[17]	valid_0's l1: 486.652
+[18]	valid_0's l1: 481.372
+[19]	valid_0's l1: 477.743
+[20]	valid_0's l1: 473.587
+[21]	valid_0's l1: 469.674
+[22]	valid_0's l1: 466.705
+[23]	valid_0's l1: 463.549
+[24]	valid_0's l1: 461.113
+[25]	valid_0's l1: 457.899
+[26]	valid_0's l1: 454.85
+[27]	valid_0's l1: 452.028
+[28]	valid_0's l1: 449.547
+[29]	valid_0's l1: 447.637
+[30]	valid_0's l1: 445.901
+[31]	valid_0's l1: 443.93
+[32]	valid_0's l1: 442.257
+[33]	valid_0's l1: 440.844
+[34]	valid_0's l1: 438.977
+[35]	valid_0's l1: 437.56
+[36]	valid_0's l1: 435.995
+[37]	valid_0's l1: 434.87
+[38]	valid_0's l1: 433.867
+[39]	valid_0's l1: 432.576
+[40]	valid_0's l1: 431.449
+[41]	valid_0's l1: 430.612
+[42]	valid_0's l1: 429.61
+[43]	valid_0's l1: 428.845
+[44]	valid_0's l1: 428.368
+[45]	valid_0's l1: 427.508
+[46]	valid_0's l1: 426.577
+[47]	valid_0's l1: 425.924
+[48]	valid_0's l1: 425.293
+[49]	valid_0's l1: 424.736
+[50]	valid_0's l1: 424.139
+[51]	valid_0's l1: 423.547
+[52]	valid_0's l1: 422.686
+[53]	valid_0's l1: 422.274
+[54]	valid_0's l1: 421.628
+[55]	valid_0's l1: 421.036
+[56]	valid_0's l1: 420.548
+[57]	valid_0's l1: 419.803
+[58]	valid_0's l1: 419.425
+[59]	valid_0's l1: 419.028
+[60]	valid_0's l1: 418.692
+[61]	valid_0's l1: 418.128
+[62]	valid_0's l1: 417.63
+[63]	valid_0's l1: 417.374
+[64]	valid_0's l1: 416.995
+[65]	valid_0's l1: 416.724
+[66]	valid_0's l1: 416.389
+[67]	valid_0's l1: 415.915
+[68]	valid_0's l1: 415.707
+[69]	valid_0's l1: 415.311
+[70]	valid_0's l1: 415.144
+[71]	valid_0's l1: 414.879
+[72]	valid_0's l1: 414.61
+[73]	valid_0's l1: 414.474
+[74]	valid_0's l1: 413.951
+[75]	valid_0's l1: 413.726
+[76]	valid_0's l1: 413.517
+[77]	valid_0's l1: 413.334
+[78]	valid_0's l1: 413.238
+[79]	valid_0's l1: 413.041
+[80]	valid_0's l1: 412.53
+[81]	valid_0's l1: 412.126
+[82]	valid_0's l1: 411.94
+[83]	valid_0's l1: 411.789
+[84]	valid_0's l1: 411.342
+[85]	valid_0's l1: 411.234
+[86]	valid_0's l1: 411.111
+[87]	valid_0's l1: 411.001
+[88]	valid_0's l1: 410.885
+[89]	valid_0's l1: 410.708
+[90]	valid_0's l1: 410.569
+[91]	valid_0's l1: 410.393
+[92]	valid_0's l1: 410.24
+[93]	valid_0's l1: 409.852
+[94]	valid_0's l1: 409.7
+[95]	valid_0's l1: 409.541
+[96]	valid_0's l1: 409.368
+[97]	valid_0's l1: 409.104
+[98]	valid_0's l1: 408.962
+[99]	valid_0's l1: 408.764
+[100]	valid_0's l1: 408.601
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'_10min_not_fetched_order_num', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [395, 52, 1782, 0, 1197, 1202, 835, 98, 1382, 1210, 365, 77, 102, 162, 782, 722, 352, 1192, 756, 306, 2777, 813, 200, 1385, 717, 222, 2512, 601, 508, 50, 1906, 840])
+                                      feature  importances
+3                             _avg_speed_hour            0
+29                                    weekday           50
+1                     _avg_speed_weekday_hour           52
+11                                _10min_wind           77
+7                                 _10min_rain           98
+12                                   food_num          102
+13                           _avg_speed_10min          162
+22                            dropoff_cluster          200
+25                         _10min_temperature          222
+19                                  direction          306
+16                               weekday_hour          352
+10            _avg_speed_hour_dropoff_cluster          365
+0                          _avg_speed_weekday          395
+28                            box_total_value          508
+27                                       hour          601
+24                 _avg_speed_dropoff_cluster          717
+15                         customer_longitude          722
+18               _10min_deliverying_order_num          756
+14  _avg_speed_pickup_cluster_dropoff_cluster          782
+21                  _avg_speed_pickup_cluster          813
+6                           customer_latitude          835
+31                             pickup_cluster          840
+17                          waiting_order_num         1192
+4            _10min_notbusy_working_rider_num         1197
+5              _avg_speed_hour_pickup_cluster         1202
+9                    _10min_working_rider_num         1210
+8                           delivery_distance         1382
+23                           food_total_value         1385
+2                _10min_not_fetched_order_num         1782
+30                                    poi_lat         1906
+26                                     poi_id         2512
+20                                    poi_lng         2777
+408.601134285
+try without f _avg_speed_hour
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5376
+[LightGBM] [Info] Number of data: 497228, number of used features: 32
+[1]	valid_0's l1: 632.295
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 618.642
+[3]	valid_0's l1: 605.54
+[4]	valid_0's l1: 593.036
+[5]	valid_0's l1: 580.908
+[6]	valid_0's l1: 568.642
+[7]	valid_0's l1: 558.551
+[8]	valid_0's l1: 548.964
+[9]	valid_0's l1: 539.896
+[10]	valid_0's l1: 531.277
+[11]	valid_0's l1: 524.283
+[12]	valid_0's l1: 515.904
+[13]	valid_0's l1: 509.284
+[14]	valid_0's l1: 503.357
+[15]	valid_0's l1: 497.543
+[16]	valid_0's l1: 492.112
+[17]	valid_0's l1: 487.359
+[18]	valid_0's l1: 481.836
+[19]	valid_0's l1: 477.834
+[20]	valid_0's l1: 473.788
+[21]	valid_0's l1: 469.616
+[22]	valid_0's l1: 466.697
+[23]	valid_0's l1: 462.885
+[24]	valid_0's l1: 460.176
+[25]	valid_0's l1: 457.012
+[26]	valid_0's l1: 454.445
+[27]	valid_0's l1: 451.606
+[28]	valid_0's l1: 449.141
+[29]	valid_0's l1: 447.131
+[30]	valid_0's l1: 444.878
+[31]	valid_0's l1: 443.067
+[32]	valid_0's l1: 441.308
+[33]	valid_0's l1: 440.051
+[34]	valid_0's l1: 438.214
+[35]	valid_0's l1: 436.646
+[36]	valid_0's l1: 435.342
+[37]	valid_0's l1: 434.319
+[38]	valid_0's l1: 433.165
+[39]	valid_0's l1: 432.238
+[40]	valid_0's l1: 431.138
+[41]	valid_0's l1: 430.089
+[42]	valid_0's l1: 429.203
+[43]	valid_0's l1: 428.445
+[44]	valid_0's l1: 427.576
+[45]	valid_0's l1: 427.026
+[46]	valid_0's l1: 425.932
+[47]	valid_0's l1: 425.256
+[48]	valid_0's l1: 424.73
+[49]	valid_0's l1: 424.161
+[50]	valid_0's l1: 423.665
+[51]	valid_0's l1: 423.137
+[52]	valid_0's l1: 422.209
+[53]	valid_0's l1: 421.627
+[54]	valid_0's l1: 421.027
+[55]	valid_0's l1: 420.299
+[56]	valid_0's l1: 419.838
+[57]	valid_0's l1: 419.18
+[58]	valid_0's l1: 418.863
+[59]	valid_0's l1: 418.457
+[60]	valid_0's l1: 418.033
+[61]	valid_0's l1: 417.491
+[62]	valid_0's l1: 416.726
+[63]	valid_0's l1: 416.478
+[64]	valid_0's l1: 416.028
+[65]	valid_0's l1: 415.801
+[66]	valid_0's l1: 415.475
+[67]	valid_0's l1: 414.992
+[68]	valid_0's l1: 414.777
+[69]	valid_0's l1: 414.342
+[70]	valid_0's l1: 414.146
+[71]	valid_0's l1: 413.86
+[72]	valid_0's l1: 413.667
+[73]	valid_0's l1: 413.457
+[74]	valid_0's l1: 413.126
+[75]	valid_0's l1: 412.948
+[76]	valid_0's l1: 412.733
+[77]	valid_0's l1: 412.607
+[78]	valid_0's l1: 412.537
+[79]	valid_0's l1: 412.315
+[80]	valid_0's l1: 412.009
+[81]	valid_0's l1: 411.806
+[82]	valid_0's l1: 411.723
+[83]	valid_0's l1: 411.621
+[84]	valid_0's l1: 411.387
+[85]	valid_0's l1: 411.288
+[86]	valid_0's l1: 411.027
+[87]	valid_0's l1: 410.877
+[88]	valid_0's l1: 410.654
+[89]	valid_0's l1: 410.467
+[90]	valid_0's l1: 410.353
+[91]	valid_0's l1: 410.05
+[92]	valid_0's l1: 409.911
+[93]	valid_0's l1: 409.623
+[94]	valid_0's l1: 409.43
+[95]	valid_0's l1: 409.201
+[96]	valid_0's l1: 409.111
+[97]	valid_0's l1: 408.977
+[98]	valid_0's l1: 408.528
+[99]	valid_0's l1: 408.338
+[100]	valid_0's l1: 408.173
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_not_fetched_order_num', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [391, 69, 138, 1188, 1264, 696, 1691, 116, 1393, 1195, 353, 66, 106, 82, 786, 754, 329, 1175, 804, 328, 2852, 790, 209, 1426, 706, 210, 2483, 584, 528, 65, 1889, 834])
+                                      feature  importances
+29                                    weekday           65
+11                                _10min_wind           66
+1                     _avg_speed_weekday_hour           69
+13                           _avg_speed_10min           82
+12                                   food_num          106
+7                                 _10min_rain          116
+2                                       10min          138
+22                            dropoff_cluster          209
+25                         _10min_temperature          210
+19                                  direction          328
+16                               weekday_hour          329
+10            _avg_speed_hour_dropoff_cluster          353
+0                          _avg_speed_weekday          391
+28                            box_total_value          528
+27                                       hour          584
+5                           customer_latitude          696
+24                 _avg_speed_dropoff_cluster          706
+15                         customer_longitude          754
+14  _avg_speed_pickup_cluster_dropoff_cluster          786
+21                  _avg_speed_pickup_cluster          790
+18               _10min_deliverying_order_num          804
+31                             pickup_cluster          834
+17                          waiting_order_num         1175
+3            _10min_notbusy_working_rider_num         1188
+9                    _10min_working_rider_num         1195
+4              _avg_speed_hour_pickup_cluster         1264
+8                           delivery_distance         1393
+23                           food_total_value         1426
+6                _10min_not_fetched_order_num         1691
+30                                    poi_lat         1889
+26                                     poi_id         2483
+20                                    poi_lng         2852
+408.172550082
+try without f _10min_notbusy_working_rider_num
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5180
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.34
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 618.695
+[3]	valid_0's l1: 605.595
+[4]	valid_0's l1: 593.242
+[5]	valid_0's l1: 581.126
+[6]	valid_0's l1: 568.943
+[7]	valid_0's l1: 558.953
+[8]	valid_0's l1: 549.393
+[9]	valid_0's l1: 540.895
+[10]	valid_0's l1: 532.262
+[11]	valid_0's l1: 525.328
+[12]	valid_0's l1: 516.947
+[13]	valid_0's l1: 510.146
+[14]	valid_0's l1: 504.234
+[15]	valid_0's l1: 498.401
+[16]	valid_0's l1: 492.999
+[17]	valid_0's l1: 488.279
+[18]	valid_0's l1: 482.735
+[19]	valid_0's l1: 478.688
+[20]	valid_0's l1: 474.617
+[21]	valid_0's l1: 470.488
+[22]	valid_0's l1: 467.926
+[23]	valid_0's l1: 464.075
+[24]	valid_0's l1: 461.43
+[25]	valid_0's l1: 458.319
+[26]	valid_0's l1: 455.724
+[27]	valid_0's l1: 452.767
+[28]	valid_0's l1: 450.227
+[29]	valid_0's l1: 448.328
+[30]	valid_0's l1: 446.118
+[31]	valid_0's l1: 444.356
+[32]	valid_0's l1: 442.685
+[33]	valid_0's l1: 441.53
+[34]	valid_0's l1: 439.657
+[35]	valid_0's l1: 437.934
+[36]	valid_0's l1: 436.469
+[37]	valid_0's l1: 435.482
+[38]	valid_0's l1: 434.261
+[39]	valid_0's l1: 433.357
+[40]	valid_0's l1: 432.261
+[41]	valid_0's l1: 431.156
+[42]	valid_0's l1: 430.286
+[43]	valid_0's l1: 429.597
+[44]	valid_0's l1: 428.683
+[45]	valid_0's l1: 428.165
+[46]	valid_0's l1: 427.154
+[47]	valid_0's l1: 426.456
+[48]	valid_0's l1: 425.932
+[49]	valid_0's l1: 425.401
+[50]	valid_0's l1: 424.981
+[51]	valid_0's l1: 424.502
+[52]	valid_0's l1: 423.567
+[53]	valid_0's l1: 423.136
+[54]	valid_0's l1: 422.579
+[55]	valid_0's l1: 421.903
+[56]	valid_0's l1: 421.402
+[57]	valid_0's l1: 420.546
+[58]	valid_0's l1: 420.218
+[59]	valid_0's l1: 419.82
+[60]	valid_0's l1: 419.528
+[61]	valid_0's l1: 419.065
+[62]	valid_0's l1: 418.35
+[63]	valid_0's l1: 418.149
+[64]	valid_0's l1: 417.637
+[65]	valid_0's l1: 417.456
+[66]	valid_0's l1: 417.131
+[67]	valid_0's l1: 416.656
+[68]	valid_0's l1: 416.431
+[69]	valid_0's l1: 415.998
+[70]	valid_0's l1: 415.853
+[71]	valid_0's l1: 415.573
+[72]	valid_0's l1: 415.374
+[73]	valid_0's l1: 415.094
+[74]	valid_0's l1: 414.759
+[75]	valid_0's l1: 414.542
+[76]	valid_0's l1: 414.334
+[77]	valid_0's l1: 414.21
+[78]	valid_0's l1: 414.147
+[79]	valid_0's l1: 413.719
+[80]	valid_0's l1: 413.471
+[81]	valid_0's l1: 413.268
+[82]	valid_0's l1: 413.198
+[83]	valid_0's l1: 413.042
+[84]	valid_0's l1: 412.923
+[85]	valid_0's l1: 412.864
+[86]	valid_0's l1: 412.625
+[87]	valid_0's l1: 412.473
+[88]	valid_0's l1: 412.324
+[89]	valid_0's l1: 412.089
+[90]	valid_0's l1: 411.976
+[91]	valid_0's l1: 411.849
+[92]	valid_0's l1: 411.688
+[93]	valid_0's l1: 411.304
+[94]	valid_0's l1: 411.155
+[95]	valid_0's l1: 410.905
+[96]	valid_0's l1: 410.894
+[97]	valid_0's l1: 410.795
+[98]	valid_0's l1: 410.486
+[99]	valid_0's l1: 410.315
+[100]	valid_0's l1: 410.172
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_not_fetched_order_num', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [464, 75, 141, 0, 1254, 827, 1675, 174, 1388, 1887, 364, 74, 107, 73, 779, 801, 384, 1150, 828, 311, 2916, 742, 196, 1484, 701, 251, 2393, 651, 513, 63, 1960, 874])
+                                      feature  importances
+3                             _avg_speed_hour            0
+29                                    weekday           63
+13                           _avg_speed_10min           73
+11                                _10min_wind           74
+1                     _avg_speed_weekday_hour           75
+12                                   food_num          107
+2                                       10min          141
+7                                 _10min_rain          174
+22                            dropoff_cluster          196
+25                         _10min_temperature          251
+19                                  direction          311
+10            _avg_speed_hour_dropoff_cluster          364
+16                               weekday_hour          384
+0                          _avg_speed_weekday          464
+28                            box_total_value          513
+27                                       hour          651
+24                 _avg_speed_dropoff_cluster          701
+21                  _avg_speed_pickup_cluster          742
+14  _avg_speed_pickup_cluster_dropoff_cluster          779
+15                         customer_longitude          801
+5                           customer_latitude          827
+18               _10min_deliverying_order_num          828
+31                             pickup_cluster          874
+17                          waiting_order_num         1150
+4              _avg_speed_hour_pickup_cluster         1254
+8                           delivery_distance         1388
+23                           food_total_value         1484
+6                _10min_not_fetched_order_num         1675
+9                    _10min_working_rider_num         1887
+30                                    poi_lat         1960
+26                                     poi_id         2393
+20                                    poi_lng         2916
+410.172307456
+try without f _avg_speed_hour_pickup_cluster
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5121
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.34
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 618.695
+[3]	valid_0's l1: 605.425
+[4]	valid_0's l1: 593.568
+[5]	valid_0's l1: 581.491
+[6]	valid_0's l1: 569.444
+[7]	valid_0's l1: 559.557
+[8]	valid_0's l1: 549.937
+[9]	valid_0's l1: 541.428
+[10]	valid_0's l1: 534.017
+[11]	valid_0's l1: 527.265
+[12]	valid_0's l1: 518.954
+[13]	valid_0's l1: 511.952
+[14]	valid_0's l1: 506.229
+[15]	valid_0's l1: 501.002
+[16]	valid_0's l1: 495.373
+[17]	valid_0's l1: 490.596
+[18]	valid_0's l1: 484.978
+[19]	valid_0's l1: 480.809
+[20]	valid_0's l1: 476.593
+[21]	valid_0's l1: 472.39
+[22]	valid_0's l1: 469.621
+[23]	valid_0's l1: 465.731
+[24]	valid_0's l1: 462.956
+[25]	valid_0's l1: 459.576
+[26]	valid_0's l1: 456.961
+[27]	valid_0's l1: 453.912
+[28]	valid_0's l1: 451.349
+[29]	valid_0's l1: 449.364
+[30]	valid_0's l1: 446.981
+[31]	valid_0's l1: 445.037
+[32]	valid_0's l1: 443.202
+[33]	valid_0's l1: 441.821
+[34]	valid_0's l1: 439.968
+[35]	valid_0's l1: 438.253
+[36]	valid_0's l1: 436.926
+[37]	valid_0's l1: 435.787
+[38]	valid_0's l1: 434.594
+[39]	valid_0's l1: 433.537
+[40]	valid_0's l1: 432.391
+[41]	valid_0's l1: 431.278
+[42]	valid_0's l1: 430.449
+[43]	valid_0's l1: 429.666
+[44]	valid_0's l1: 428.644
+[45]	valid_0's l1: 427.983
+[46]	valid_0's l1: 426.78
+[47]	valid_0's l1: 426.064
+[48]	valid_0's l1: 425.526
+[49]	valid_0's l1: 425.05
+[50]	valid_0's l1: 424.522
+[51]	valid_0's l1: 423.842
+[52]	valid_0's l1: 422.756
+[53]	valid_0's l1: 422.297
+[54]	valid_0's l1: 421.376
+[55]	valid_0's l1: 420.786
+[56]	valid_0's l1: 420.297
+[57]	valid_0's l1: 419.519
+[58]	valid_0's l1: 419.18
+[59]	valid_0's l1: 418.751
+[60]	valid_0's l1: 418.578
+[61]	valid_0's l1: 418.006
+[62]	valid_0's l1: 417.505
+[63]	valid_0's l1: 417.212
+[64]	valid_0's l1: 416.702
+[65]	valid_0's l1: 416.509
+[66]	valid_0's l1: 416.143
+[67]	valid_0's l1: 415.727
+[68]	valid_0's l1: 415.484
+[69]	valid_0's l1: 415.039
+[70]	valid_0's l1: 414.857
+[71]	valid_0's l1: 414.482
+[72]	valid_0's l1: 414.157
+[73]	valid_0's l1: 413.861
+[74]	valid_0's l1: 413.452
+[75]	valid_0's l1: 413.181
+[76]	valid_0's l1: 412.949
+[77]	valid_0's l1: 412.856
+[78]	valid_0's l1: 412.768
+[79]	valid_0's l1: 412.403
+[80]	valid_0's l1: 412.11
+[81]	valid_0's l1: 411.826
+[82]	valid_0's l1: 411.631
+[83]	valid_0's l1: 411.502
+[84]	valid_0's l1: 411.287
+[85]	valid_0's l1: 411.13
+[86]	valid_0's l1: 410.79
+[87]	valid_0's l1: 410.688
+[88]	valid_0's l1: 410.502
+[89]	valid_0's l1: 410.26
+[90]	valid_0's l1: 410.134
+[91]	valid_0's l1: 409.941
+[92]	valid_0's l1: 409.718
+[93]	valid_0's l1: 409.29
+[94]	valid_0's l1: 409.095
+[95]	valid_0's l1: 408.993
+[96]	valid_0's l1: 408.888
+[97]	valid_0's l1: 408.718
+[98]	valid_0's l1: 408.345
+[99]	valid_0's l1: 408.154
+[100]	valid_0's l1: 408.012
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'customer_latitude', u'_10min_not_fetched_order_num', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [325, 74, 165, 0, 1018, 841, 1542, 97, 1337, 1214, 431, 58, 115, 69, 795, 769, 347, 1021, 753, 302, 3236, 1005, 164, 1373, 737, 168, 2744, 605, 573, 55, 2349, 1218])
+                                      feature  importances
+3                             _avg_speed_hour            0
+29                                    weekday           55
+11                                _10min_wind           58
+13                           _avg_speed_10min           69
+1                     _avg_speed_weekday_hour           74
+7                                 _10min_rain           97
+12                                   food_num          115
+22                            dropoff_cluster          164
+2                                       10min          165
+25                         _10min_temperature          168
+19                                  direction          302
+0                          _avg_speed_weekday          325
+16                               weekday_hour          347
+10            _avg_speed_hour_dropoff_cluster          431
+28                            box_total_value          573
+27                                       hour          605
+24                 _avg_speed_dropoff_cluster          737
+18               _10min_deliverying_order_num          753
+15                         customer_longitude          769
+14  _avg_speed_pickup_cluster_dropoff_cluster          795
+5                           customer_latitude          841
+21                  _avg_speed_pickup_cluster         1005
+4            _10min_notbusy_working_rider_num         1018
+17                          waiting_order_num         1021
+9                    _10min_working_rider_num         1214
+31                             pickup_cluster         1218
+8                           delivery_distance         1337
+23                           food_total_value         1373
+6                _10min_not_fetched_order_num         1542
+30                                    poi_lat         2349
+26                                     poi_id         2744
+20                                    poi_lng         3236
+408.012158991
+try without f customer_latitude
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5121
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.149
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 617.49
+[3]	valid_0's l1: 604.12
+[4]	valid_0's l1: 592.115
+[5]	valid_0's l1: 579.924
+[6]	valid_0's l1: 567.729
+[7]	valid_0's l1: 557.8
+[8]	valid_0's l1: 547.927
+[9]	valid_0's l1: 539.477
+[10]	valid_0's l1: 530.967
+[11]	valid_0's l1: 524.037
+[12]	valid_0's l1: 515.819
+[13]	valid_0's l1: 508.966
+[14]	valid_0's l1: 503.171
+[15]	valid_0's l1: 498.148
+[16]	valid_0's l1: 492.691
+[17]	valid_0's l1: 488.009
+[18]	valid_0's l1: 482.499
+[19]	valid_0's l1: 478.561
+[20]	valid_0's l1: 474.449
+[21]	valid_0's l1: 470.385
+[22]	valid_0's l1: 467.815
+[23]	valid_0's l1: 463.963
+[24]	valid_0's l1: 461.154
+[25]	valid_0's l1: 457.818
+[26]	valid_0's l1: 455.3
+[27]	valid_0's l1: 452.34
+[28]	valid_0's l1: 449.858
+[29]	valid_0's l1: 447.996
+[30]	valid_0's l1: 445.652
+[31]	valid_0's l1: 443.693
+[32]	valid_0's l1: 441.98
+[33]	valid_0's l1: 440.625
+[34]	valid_0's l1: 438.762
+[35]	valid_0's l1: 437.093
+[36]	valid_0's l1: 435.653
+[37]	valid_0's l1: 434.441
+[38]	valid_0's l1: 433.232
+[39]	valid_0's l1: 432.213
+[40]	valid_0's l1: 431.168
+[41]	valid_0's l1: 430.164
+[42]	valid_0's l1: 429.259
+[43]	valid_0's l1: 428.523
+[44]	valid_0's l1: 427.583
+[45]	valid_0's l1: 427.034
+[46]	valid_0's l1: 425.949
+[47]	valid_0's l1: 425.319
+[48]	valid_0's l1: 424.747
+[49]	valid_0's l1: 424.225
+[50]	valid_0's l1: 423.815
+[51]	valid_0's l1: 423.277
+[52]	valid_0's l1: 422.343
+[53]	valid_0's l1: 421.906
+[54]	valid_0's l1: 421.212
+[55]	valid_0's l1: 420.622
+[56]	valid_0's l1: 420.131
+[57]	valid_0's l1: 419.415
+[58]	valid_0's l1: 419.113
+[59]	valid_0's l1: 418.727
+[60]	valid_0's l1: 418.383
+[61]	valid_0's l1: 417.789
+[62]	valid_0's l1: 417.32
+[63]	valid_0's l1: 417.119
+[64]	valid_0's l1: 416.623
+[65]	valid_0's l1: 416.363
+[66]	valid_0's l1: 416.019
+[67]	valid_0's l1: 415.592
+[68]	valid_0's l1: 415.38
+[69]	valid_0's l1: 414.931
+[70]	valid_0's l1: 414.801
+[71]	valid_0's l1: 414.554
+[72]	valid_0's l1: 414.311
+[73]	valid_0's l1: 414.087
+[74]	valid_0's l1: 413.723
+[75]	valid_0's l1: 413.5
+[76]	valid_0's l1: 413.337
+[77]	valid_0's l1: 413.079
+[78]	valid_0's l1: 412.964
+[79]	valid_0's l1: 412.532
+[80]	valid_0's l1: 412.265
+[81]	valid_0's l1: 411.99
+[82]	valid_0's l1: 411.82
+[83]	valid_0's l1: 411.71
+[84]	valid_0's l1: 411.602
+[85]	valid_0's l1: 411.488
+[86]	valid_0's l1: 411.193
+[87]	valid_0's l1: 411.059
+[88]	valid_0's l1: 410.829
+[89]	valid_0's l1: 410.607
+[90]	valid_0's l1: 410.508
+[91]	valid_0's l1: 410.273
+[92]	valid_0's l1: 410.095
+[93]	valid_0's l1: 409.819
+[94]	valid_0's l1: 409.637
+[95]	valid_0's l1: 409.395
+[96]	valid_0's l1: 409.283
+[97]	valid_0's l1: 409.195
+[98]	valid_0's l1: 408.758
+[99]	valid_0's l1: 408.632
+[100]	valid_0's l1: 408.494
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'_10min_not_fetched_order_num', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [394, 64, 153, 0, 1230, 1254, 1657, 120, 1408, 1215, 382, 78, 92, 63, 812, 788, 355, 1170, 845, 368, 2929, 795, 229, 1435, 732, 207, 2575, 635, 521, 58, 2069, 867])
+                                      feature  importances
+3                             _avg_speed_hour            0
+29                                    weekday           58
+13                           _avg_speed_10min           63
+1                     _avg_speed_weekday_hour           64
+11                                _10min_wind           78
+12                                   food_num           92
+7                                 _10min_rain          120
+2                                       10min          153
+25                         _10min_temperature          207
+22                            dropoff_cluster          229
+16                               weekday_hour          355
+19                                  direction          368
+10            _avg_speed_hour_dropoff_cluster          382
+0                          _avg_speed_weekday          394
+28                            box_total_value          521
+27                                       hour          635
+24                 _avg_speed_dropoff_cluster          732
+15                         customer_longitude          788
+21                  _avg_speed_pickup_cluster          795
+14  _avg_speed_pickup_cluster_dropoff_cluster          812
+18               _10min_deliverying_order_num          845
+31                             pickup_cluster          867
+17                          waiting_order_num         1170
+9                    _10min_working_rider_num         1215
+4            _10min_notbusy_working_rider_num         1230
+5              _avg_speed_hour_pickup_cluster         1254
+8                           delivery_distance         1408
+23                           food_total_value         1435
+6                _10min_not_fetched_order_num         1657
+30                                    poi_lat         2069
+26                                     poi_id         2575
+20                                    poi_lng         2929
+408.493674314
+try without f _10min_not_fetched_order_num
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_rain', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5121
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.325
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 617.748
+[3]	valid_0's l1: 604.629
+[4]	valid_0's l1: 592.47
+[5]	valid_0's l1: 580.585
+[6]	valid_0's l1: 569.433
+[7]	valid_0's l1: 559.665
+[8]	valid_0's l1: 549.881
+[9]	valid_0's l1: 541.51
+[10]	valid_0's l1: 533.153
+[11]	valid_0's l1: 526.414
+[12]	valid_0's l1: 518.455
+[13]	valid_0's l1: 512.098
+[14]	valid_0's l1: 506.844
+[15]	valid_0's l1: 501.883
+[16]	valid_0's l1: 497.723
+[17]	valid_0's l1: 493.576
+[18]	valid_0's l1: 489.283
+[19]	valid_0's l1: 485.569
+[20]	valid_0's l1: 481.638
+[21]	valid_0's l1: 478.333
+[22]	valid_0's l1: 475.483
+[23]	valid_0's l1: 472.391
+[24]	valid_0's l1: 470.275
+[25]	valid_0's l1: 466.89
+[26]	valid_0's l1: 464.364
+[27]	valid_0's l1: 461.978
+[28]	valid_0's l1: 459.765
+[29]	valid_0's l1: 458.039
+[30]	valid_0's l1: 456.43
+[31]	valid_0's l1: 454.505
+[32]	valid_0's l1: 452.634
+[33]	valid_0's l1: 451.443
+[34]	valid_0's l1: 449.808
+[35]	valid_0's l1: 448.551
+[36]	valid_0's l1: 447.057
+[37]	valid_0's l1: 446.087
+[38]	valid_0's l1: 445.02
+[39]	valid_0's l1: 444.16
+[40]	valid_0's l1: 443.025
+[41]	valid_0's l1: 442.292
+[42]	valid_0's l1: 441.293
+[43]	valid_0's l1: 440.49
+[44]	valid_0's l1: 440.151
+[45]	valid_0's l1: 439.702
+[46]	valid_0's l1: 438.912
+[47]	valid_0's l1: 438.436
+[48]	valid_0's l1: 437.965
+[49]	valid_0's l1: 437.59
+[50]	valid_0's l1: 437.269
+[51]	valid_0's l1: 436.664
+[52]	valid_0's l1: 435.782
+[53]	valid_0's l1: 435.619
+[54]	valid_0's l1: 434.954
+[55]	valid_0's l1: 434.905
+[56]	valid_0's l1: 434.815
+[57]	valid_0's l1: 434.091
+[58]	valid_0's l1: 433.953
+[59]	valid_0's l1: 433.644
+[60]	valid_0's l1: 433.373
+[61]	valid_0's l1: 433.134
+[62]	valid_0's l1: 432.853
+[63]	valid_0's l1: 432.709
+[64]	valid_0's l1: 432.332
+[65]	valid_0's l1: 432.339
+[66]	valid_0's l1: 432
+[67]	valid_0's l1: 431.525
+[68]	valid_0's l1: 431.314
+[69]	valid_0's l1: 430.95
+[70]	valid_0's l1: 430.806
+[71]	valid_0's l1: 430.52
+[72]	valid_0's l1: 430.339
+[73]	valid_0's l1: 430.134
+[74]	valid_0's l1: 429.984
+[75]	valid_0's l1: 429.75
+[76]	valid_0's l1: 429.501
+[77]	valid_0's l1: 429.731
+[78]	valid_0's l1: 429.756
+[79]	valid_0's l1: 429.723
+[80]	valid_0's l1: 429.606
+[81]	valid_0's l1: 429.614
+[82]	valid_0's l1: 429.402
+[83]	valid_0's l1: 429.37
+[84]	valid_0's l1: 429.278
+[85]	valid_0's l1: 429.22
+[86]	valid_0's l1: 428.951
+[87]	valid_0's l1: 428.922
+[88]	valid_0's l1: 428.919
+[89]	valid_0's l1: 428.724
+[90]	valid_0's l1: 428.622
+[91]	valid_0's l1: 428.369
+[92]	valid_0's l1: 428.18
+[93]	valid_0's l1: 427.845
+[94]	valid_0's l1: 427.633
+[95]	valid_0's l1: 427.725
+[96]	valid_0's l1: 427.74
+[97]	valid_0's l1: 427.633
+[98]	valid_0's l1: 427.688
+[99]	valid_0's l1: 427.504
+[100]	valid_0's l1: 427.263
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_rain', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [740, 142, 413, 0, 1331, 1286, 845, 152, 1347, 1147, 406, 149, 80, 216, 616, 711, 742, 1137, 1423, 246, 2696, 634, 143, 1365, 690, 593, 2232, 794, 474, 168, 1856, 726])
+                                      feature  importances
+3                             _avg_speed_hour            0
+12                                   food_num           80
+1                     _avg_speed_weekday_hour          142
+22                            dropoff_cluster          143
+11                                _10min_wind          149
+7                                 _10min_rain          152
+29                                    weekday          168
+13                           _avg_speed_10min          216
+19                                  direction          246
+10            _avg_speed_hour_dropoff_cluster          406
+2                                       10min          413
+28                            box_total_value          474
+25                         _10min_temperature          593
+14  _avg_speed_pickup_cluster_dropoff_cluster          616
+21                  _avg_speed_pickup_cluster          634
+24                 _avg_speed_dropoff_cluster          690
+15                         customer_longitude          711
+31                             pickup_cluster          726
+0                          _avg_speed_weekday          740
+16                               weekday_hour          742
+27                                       hour          794
+6                           customer_latitude          845
+17                          waiting_order_num         1137
+9                    _10min_working_rider_num         1147
+5              _avg_speed_hour_pickup_cluster         1286
+4            _10min_notbusy_working_rider_num         1331
+8                           delivery_distance         1347
+23                           food_total_value         1365
+18               _10min_deliverying_order_num         1423
+30                                    poi_lat         1856
+26                                     poi_id         2232
+20                                    poi_lng         2696
+427.262738911
+try without f _10min_rain
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', 'delivery_distance', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5282
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.325
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 617.444
+[3]	valid_0's l1: 604.126
+[4]	valid_0's l1: 592.13
+[5]	valid_0's l1: 579.819
+[6]	valid_0's l1: 568.382
+[7]	valid_0's l1: 558.13
+[8]	valid_0's l1: 547.665
+[9]	valid_0's l1: 538.874
+[10]	valid_0's l1: 529.576
+[11]	valid_0's l1: 522.468
+[12]	valid_0's l1: 514.394
+[13]	valid_0's l1: 508.127
+[14]	valid_0's l1: 502.405
+[15]	valid_0's l1: 496.122
+[16]	valid_0's l1: 490.861
+[17]	valid_0's l1: 486.289
+[18]	valid_0's l1: 481.94
+[19]	valid_0's l1: 477.793
+[20]	valid_0's l1: 473.679
+[21]	valid_0's l1: 470.227
+[22]	valid_0's l1: 467.249
+[23]	valid_0's l1: 463.339
+[24]	valid_0's l1: 460.956
+[25]	valid_0's l1: 457.706
+[26]	valid_0's l1: 455.154
+[27]	valid_0's l1: 452.572
+[28]	valid_0's l1: 450.004
+[29]	valid_0's l1: 448.1
+[30]	valid_0's l1: 446.331
+[31]	valid_0's l1: 444.301
+[32]	valid_0's l1: 442.472
+[33]	valid_0's l1: 441.031
+[34]	valid_0's l1: 439.146
+[35]	valid_0's l1: 437.684
+[36]	valid_0's l1: 436.214
+[37]	valid_0's l1: 434.894
+[38]	valid_0's l1: 433.617
+[39]	valid_0's l1: 432.316
+[40]	valid_0's l1: 431.167
+[41]	valid_0's l1: 430.132
+[42]	valid_0's l1: 429.162
+[43]	valid_0's l1: 428.362
+[44]	valid_0's l1: 427.533
+[45]	valid_0's l1: 426.669
+[46]	valid_0's l1: 425.784
+[47]	valid_0's l1: 425.146
+[48]	valid_0's l1: 424.485
+[49]	valid_0's l1: 423.946
+[50]	valid_0's l1: 423.423
+[51]	valid_0's l1: 422.776
+[52]	valid_0's l1: 421.754
+[53]	valid_0's l1: 421.328
+[54]	valid_0's l1: 420.644
+[55]	valid_0's l1: 420.025
+[56]	valid_0's l1: 419.587
+[57]	valid_0's l1: 418.878
+[58]	valid_0's l1: 418.431
+[59]	valid_0's l1: 418.042
+[60]	valid_0's l1: 417.722
+[61]	valid_0's l1: 417.145
+[62]	valid_0's l1: 416.652
+[63]	valid_0's l1: 416.406
+[64]	valid_0's l1: 415.948
+[65]	valid_0's l1: 415.647
+[66]	valid_0's l1: 415.335
+[67]	valid_0's l1: 414.857
+[68]	valid_0's l1: 414.622
+[69]	valid_0's l1: 414.309
+[70]	valid_0's l1: 414.132
+[71]	valid_0's l1: 413.838
+[72]	valid_0's l1: 413.556
+[73]	valid_0's l1: 413.343
+[74]	valid_0's l1: 412.885
+[75]	valid_0's l1: 412.68
+[76]	valid_0's l1: 412.473
+[77]	valid_0's l1: 412.211
+[78]	valid_0's l1: 412.101
+[79]	valid_0's l1: 411.72
+[80]	valid_0's l1: 411.459
+[81]	valid_0's l1: 410.886
+[82]	valid_0's l1: 410.751
+[83]	valid_0's l1: 410.621
+[84]	valid_0's l1: 410.199
+[85]	valid_0's l1: 410.134
+[86]	valid_0's l1: 409.758
+[87]	valid_0's l1: 409.634
+[88]	valid_0's l1: 409.594
+[89]	valid_0's l1: 409.417
+[90]	valid_0's l1: 409.309
+[91]	valid_0's l1: 409.121
+[92]	valid_0's l1: 408.992
+[93]	valid_0's l1: 408.66
+[94]	valid_0's l1: 408.497
+[95]	valid_0's l1: 408.356
+[96]	valid_0's l1: 408.322
+[97]	valid_0's l1: 408.195
+[98]	valid_0's l1: 408.012
+[99]	valid_0's l1: 407.764
+[100]	valid_0's l1: 407.641
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_not_fetched_order_num', u'delivery_distance', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [353, 68, 129, 0, 1169, 1222, 791, 1714, 1399, 1215, 332, 74, 91, 77, 753, 772, 345, 1163, 754, 307, 2919, 793, 189, 1391, 732, 229, 2531, 570, 505, 70, 1953, 890])
+                                      feature  importances
+3                             _avg_speed_hour            0
+1                     _avg_speed_weekday_hour           68
+29                                    weekday           70
+11                                _10min_wind           74
+13                           _avg_speed_10min           77
+12                                   food_num           91
+2                                       10min          129
+22                            dropoff_cluster          189
+25                         _10min_temperature          229
+19                                  direction          307
+10            _avg_speed_hour_dropoff_cluster          332
+16                               weekday_hour          345
+0                          _avg_speed_weekday          353
+28                            box_total_value          505
+27                                       hour          570
+24                 _avg_speed_dropoff_cluster          732
+14  _avg_speed_pickup_cluster_dropoff_cluster          753
+18               _10min_deliverying_order_num          754
+15                         customer_longitude          772
+6                           customer_latitude          791
+21                  _avg_speed_pickup_cluster          793
+31                             pickup_cluster          890
+17                          waiting_order_num         1163
+4            _10min_notbusy_working_rider_num         1169
+9                    _10min_working_rider_num         1215
+5              _avg_speed_hour_pickup_cluster         1222
+23                           food_total_value         1391
+8                           delivery_distance         1399
+7                _10min_not_fetched_order_num         1714
+30                                    poi_lat         1953
+26                                     poi_id         2531
+20                                    poi_lng         2919
+407.641304602
+try without f delivery_distance
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', '_10min_working_rider_num', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5121
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 633.749
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 618.902
+[3]	valid_0's l1: 605.559
+[4]	valid_0's l1: 593.587
+[5]	valid_0's l1: 581.304
+[6]	valid_0's l1: 571.037
+[7]	valid_0's l1: 560.738
+[8]	valid_0's l1: 551.905
+[9]	valid_0's l1: 543.21
+[10]	valid_0's l1: 535.368
+[11]	valid_0's l1: 528.254
+[12]	valid_0's l1: 521.354
+[13]	valid_0's l1: 515.152
+[14]	valid_0's l1: 509.45
+[15]	valid_0's l1: 504.254
+[16]	valid_0's l1: 499.043
+[17]	valid_0's l1: 494.28
+[18]	valid_0's l1: 490.44
+[19]	valid_0's l1: 486.328
+[20]	valid_0's l1: 482.973
+[21]	valid_0's l1: 479.833
+[22]	valid_0's l1: 476.753
+[23]	valid_0's l1: 473.687
+[24]	valid_0's l1: 471.307
+[25]	valid_0's l1: 468.57
+[26]	valid_0's l1: 466.502
+[27]	valid_0's l1: 464.394
+[28]	valid_0's l1: 462.134
+[29]	valid_0's l1: 460.217
+[30]	valid_0's l1: 458.545
+[31]	valid_0's l1: 456.589
+[32]	valid_0's l1: 454.806
+[33]	valid_0's l1: 453.341
+[34]	valid_0's l1: 451.73
+[35]	valid_0's l1: 450.431
+[36]	valid_0's l1: 449.154
+[37]	valid_0's l1: 447.97
+[38]	valid_0's l1: 446.989
+[39]	valid_0's l1: 445.819
+[40]	valid_0's l1: 444.709
+[41]	valid_0's l1: 443.629
+[42]	valid_0's l1: 442.673
+[43]	valid_0's l1: 441.729
+[44]	valid_0's l1: 440.843
+[45]	valid_0's l1: 440.017
+[46]	valid_0's l1: 439.077
+[47]	valid_0's l1: 438.206
+[48]	valid_0's l1: 437.651
+[49]	valid_0's l1: 437.173
+[50]	valid_0's l1: 436.538
+[51]	valid_0's l1: 435.873
+[52]	valid_0's l1: 435.018
+[53]	valid_0's l1: 434.462
+[54]	valid_0's l1: 433.791
+[55]	valid_0's l1: 433.329
+[56]	valid_0's l1: 432.671
+[57]	valid_0's l1: 431.967
+[58]	valid_0's l1: 431.556
+[59]	valid_0's l1: 431.103
+[60]	valid_0's l1: 430.654
+[61]	valid_0's l1: 430.138
+[62]	valid_0's l1: 429.81
+[63]	valid_0's l1: 429.486
+[64]	valid_0's l1: 429.069
+[65]	valid_0's l1: 428.6
+[66]	valid_0's l1: 428.21
+[67]	valid_0's l1: 427.849
+[68]	valid_0's l1: 427.438
+[69]	valid_0's l1: 427.129
+[70]	valid_0's l1: 426.817
+[71]	valid_0's l1: 426.467
+[72]	valid_0's l1: 426.222
+[73]	valid_0's l1: 425.903
+[74]	valid_0's l1: 425.539
+[75]	valid_0's l1: 425.185
+[76]	valid_0's l1: 424.826
+[77]	valid_0's l1: 424.603
+[78]	valid_0's l1: 424.456
+[79]	valid_0's l1: 424.19
+[80]	valid_0's l1: 423.927
+[81]	valid_0's l1: 423.604
+[82]	valid_0's l1: 423.11
+[83]	valid_0's l1: 422.918
+[84]	valid_0's l1: 422.382
+[85]	valid_0's l1: 422.137
+[86]	valid_0's l1: 421.903
+[87]	valid_0's l1: 421.652
+[88]	valid_0's l1: 421.281
+[89]	valid_0's l1: 420.666
+[90]	valid_0's l1: 420.467
+[91]	valid_0's l1: 420.187
+[92]	valid_0's l1: 419.882
+[93]	valid_0's l1: 419.611
+[94]	valid_0's l1: 419.267
+[95]	valid_0's l1: 419.174
+[96]	valid_0's l1: 419.021
+[97]	valid_0's l1: 418.938
+[98]	valid_0's l1: 418.771
+[99]	valid_0's l1: 418.564
+[100]	valid_0's l1: 418.334
+[LightGBM] [Info] Finished loading 100 models
+('Feature names:', [u'_avg_speed_weekday', u'_avg_speed_weekday_hour', u'10min', u'_avg_speed_hour', u'_10min_notbusy_working_rider_num', u'_avg_speed_hour_pickup_cluster', u'customer_latitude', u'_10min_not_fetched_order_num', u'_10min_rain', u'_10min_working_rider_num', u'_avg_speed_hour_dropoff_cluster', u'_10min_wind', u'food_num', u'_avg_speed_10min', u'_avg_speed_pickup_cluster_dropoff_cluster', u'customer_longitude', u'weekday_hour', u'waiting_order_num', u'_10min_deliverying_order_num', u'direction', u'poi_lng', u'_avg_speed_pickup_cluster', u'dropoff_cluster', u'food_total_value', u'_avg_speed_dropoff_cluster', u'_10min_temperature', u'poi_id', u'hour', u'box_total_value', u'weekday', u'poi_lat', u'pickup_cluster'])
+Calculate feature importances...
+('Feature importances:', [233, 13, 79, 0, 792, 1155, 1771, 1212, 68, 824, 388, 28, 63, 44, 2051, 1695, 166, 791, 468, 553, 2959, 927, 358, 902, 1600, 106, 2229, 458, 327, 34, 2218, 988])
+                                      feature  importances
+3                             _avg_speed_hour            0
+1                     _avg_speed_weekday_hour           13
+11                                _10min_wind           28
+29                                    weekday           34
+13                           _avg_speed_10min           44
+12                                   food_num           63
+8                                 _10min_rain           68
+2                                       10min           79
+25                         _10min_temperature          106
+16                               weekday_hour          166
+0                          _avg_speed_weekday          233
+28                            box_total_value          327
+22                            dropoff_cluster          358
+10            _avg_speed_hour_dropoff_cluster          388
+27                                       hour          458
+18               _10min_deliverying_order_num          468
+19                                  direction          553
+17                          waiting_order_num          791
+4            _10min_notbusy_working_rider_num          792
+9                    _10min_working_rider_num          824
+23                           food_total_value          902
+21                  _avg_speed_pickup_cluster          927
+31                             pickup_cluster          988
+5              _avg_speed_hour_pickup_cluster         1155
+7                _10min_not_fetched_order_num         1212
+24                 _avg_speed_dropoff_cluster         1600
+15                         customer_longitude         1695
+6                           customer_latitude         1771
+14  _avg_speed_pickup_cluster_dropoff_cluster         2051
+30                                    poi_lat         2218
+26                                     poi_id         2229
+20                                    poi_lng         2959
+418.333594566
+try without f _10min_working_rider_num
+['_avg_speed_weekday', '_avg_speed_weekday_hour', '10min', '_avg_speed_hour', '_10min_notbusy_working_rider_num', '_avg_speed_hour_pickup_cluster', 'customer_latitude', '_10min_not_fetched_order_num', '_10min_rain', 'delivery_distance', '_avg_speed_hour_dropoff_cluster', '_10min_wind', 'food_num', '_avg_speed_10min', '_avg_speed_pickup_cluster_dropoff_cluster', 'customer_longitude', 'weekday_hour', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', '_avg_speed_pickup_cluster', 'dropoff_cluster', 'food_total_value', '_avg_speed_dropoff_cluster', '_10min_temperature', 'poi_id', 'hour', 'box_total_value', 'weekday', 'poi_lat', 'pickup_cluster']
+Start training...
+[LightGBM] [Info] Total Bins 5131
+[LightGBM] [Info] Number of data: 497228, number of used features: 31
+[1]	valid_0's l1: 632.472
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 616.275
+[3]	valid_0's l1: 602.955
+[4]	valid_0's l1: 590.621
+[5]	valid_0's l1: 577.334
+[6]	valid_0's l1: 566.051
+[7]	valid_0's l1: 555.582
+[8]	valid_0's l1: 546.797
+[9]	valid_0's l1: 537.937
+[10]	valid_0's l1: 528.746
+[11]	valid_0's l1: 520.704
+[12]	valid_0's l1: 512.508
+[13]	valid_0's l1: 505.401
+[14]	valid_0's l1: 498.912
+[15]	valid_0's l1: 492.971
+[16]	valid_0's l1: 487.64
+[17]	valid_0's l1: 482.998
+[18]	valid_0's l1: 478.931
+[19]	valid_0's l1: 474.787
+[20]	valid_0's l1: 471.436
+[21]	valid_0's l1: 468.282
+[22]	valid_0's l1: 465.311
+[23]	valid_0's l1: 461.569
+[24]	valid_0's l1: 459.316
+[25]	valid_0's l1: 456.511
+[26]	valid_0's l1: 453.985
+[27]	valid_0's l1: 451.486
+[28]	valid_0's l1: 448.965
+[29]	valid_0's l1: 447.179
+[30]	valid_0's l1: 445.569
+[31]	valid_0's l1: 443.621
+[32]	valid_0's l1: 441.847
+[33]	valid_0's l1: 440.546
+[34]	valid_0's l1: 438.617
+[35]	valid_0's l1: 437.185
+[36]	valid_0's l1: 435.806
+[37]	valid_0's l1: 434.657
+[38]	valid_0's l1: 433.49
+[39]	valid_0's l1: 432.288
+[40]	valid_0's l1: 431.075
+[41]	valid_0's l1: 430.087
+[42]	valid_0's l1: 428.985
+[43]	valid_0's l1: 428.249
+[44]	valid_0's l1: 427.418
+[45]	valid_0's l1: 426.545
+[46]	valid_0's l1: 425.644
+[47]	valid_0's l1: 425.003
+[48]	valid_0's l1: 424.336
+[49]	valid_0's l1: 423.858
+[50]	valid_0's l1: 423.379
+[51]	valid_0's l1: 422.623
+[52]	valid_0's l1: 421.69
+[53]	valid_0's l1: 421.14
+[54]	valid_0's l1: 420.472
+[55]	valid_0's l1: 420.064
+[56]	valid_0's l1: 419.576
+[57]	valid_0's l1: 419.142
+[58]	valid_0's l1: 418.805
+[59]	valid_0's l1: 418.528
+[60]	valid_0's l1: 417.902
+[61]	valid_0's l1: 417.596
+[62]	valid_0's l1: 417.22
+[63]	valid_0's l1: 416.894
+[64]	valid_0's l1: 416.621
+[65]	valid_0's l1: 416.262
+[66]	valid_0's l1: 415.916
+[67]	valid_0's l1: 415.605
+[68]	valid_0's l1: 415.119
+[69]	valid_0's l1: 414.883
+[70]	valid_0's l1: 414.669
+[71]	valid_0's l1: 414.402
+[72]	valid_0's l1: 414.138
+[73]	valid_0's l1: 413.996
+[74]	valid_0's l1: 413.796
+[75]	valid_0's l1: 413.593
+[76]	valid_0's l1: 413.399
+[77]	valid_0's l1: 413.27
+[78]	valid_0's l1: 413.129
+[79]	valid_0's l1: 412.899
+[80]	valid_0's l1: 412.666
+[81]	valid_0's l1: 412.033
+[82]	valid_0's l1: 411.562
+[83]	valid_0's l1: 411.449
+[84]	valid_0's l1: 411.003
+[85]	valid_0's l1: 410.895
+[86]	valid_0's l1: 410.769
+[87]	valid_0's l1: 410.596
+[88]	valid_0's l1: 410.53

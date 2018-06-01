@@ -1,0 +1,1775 @@
+features,length 524, ['pick_cluster_agg__food_total_value__min_by__pickup_cluster', 'poi_bin__box_total_value__min_by__poi_lat_bin#poi_lng_bin', 'rolling_user_bin__food_num__forward_5_sum__cst_lat_bin#cst_lng_bin', 'poi_bin__food_total_value__min_by__poi_lat_bin#poi_lng_bin', 'poi_agg__arriveshop_cost__std_by__poi_id', 'poi_lng_bin', 'user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin', 'poi_agg__arrive_guest_cost__median_by__poi_id', 'poi_user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__fetch_cost__std_by__dropoff_cluster', '15min_user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin#15min', 'poi_user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'cst_lng_bin', '15min_poi_bin__arriveshop_cost__median_by__poi_lat_bin#poi_lng_bin#15min', 'pick_drop_cluster_agg__arriveshop_cost__min_by__pickup_cluster#dropoff_cluster', 'rolling_user_bin__food_total_value__back_5_sum__cst_lat_bin#cst_lng_bin', 'poi_user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '_10min_deliverying_order_num', 'poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'rolling_poi_fea__food_total_value__back_5_mean__poi_id', 'pick_cluster_agg__delivery_distance__max_by__pickup_cluster', 'cur_block_poi_info__waiting_order_num__std_by__poi_id#cur_10_block_y', 'food_total_value', '15min_user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin#15min', 'poi_bin__arriveshop_cost__max_by__poi_lat_bin#poi_lng_bin', 'rolling_poi_fea__food_total_value__forward_5_mean__poi_id', 'poi_user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__min_by__poi_lat_bin#poi_lng_bin', 'cur_block_area_info___10min_not_fetched_order_num__sum_by__area_id#cur_10_block_x', 'cur_block_area_info___10min_not_fetched_order_num__sum_by__area_id#cur_10_block_y', 'poi_bin__delivery_distance__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__sum_by__poi_lat_bin#poi_lng_bin', 'cur_block_poi_info__box_total_value__mean_by__poi_id#cur_10_block_y', 'pick_drop_cluster_agg__food_total_value__std_by__pickup_cluster#dropoff_cluster', '15min_poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', 'rolling_poi_bin__food_num__forward_5_mean__poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__food_total_value__sum_by__pickup_cluster#dropoff_cluster', 'cur_block_poi_info__food_total_value__sum_by__poi_id#cur_10_block', 'user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin', 'pick_drop_cluster_agg__waiting_order_num__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_duration__std_by__pickup_cluster#dropoff_cluster', 'pick_cluster_agg__delivery_distance__std_by__pickup_cluster', 'user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin', '15min_user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', 'pick_cluster_agg__arrive_guest_cost__min_by__pickup_cluster', 'rolling_user_bin__waiting_order_num__forward_5_sum__cst_lat_bin#cst_lng_bin', 'poi_agg__delivery_duration__median_by__poi_id', 'poi_bin__box_total_value__sum_by__poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_poi_bin__arriveshop_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', 'poi_bin__order_id__count_by__poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'cur_block_poi_info__food_total_value__mean_by__poi_id#cur_10_block', 'poi_user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__delivery_distance__min_by__dropoff_cluster', 'poi_bin__arriveshop_cost__std_by__poi_lat_bin#poi_lng_bin', 'cur_block_poi_info__delivery_distance__mean_by__poi_id#cur_10_block_x', 'poi_lat', 'lasthour_poi_agg__fetch_cost__std_by__poi_id', 'pick_drop_cluster_agg__waiting_order_num__sum_by__pickup_cluster#dropoff_cluster', 'poi_agg__avg_speed__std_by__poi_id', 'pick_cluster_agg__waiting_order_num__median_by__pickup_cluster', 'rolling_poi_bin__delivery_distance__back_5_mean__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__sum_by__poi_lat_bin#poi_lng_bin', 'pick_cluster_agg__food_total_value__median_by__pickup_cluster', 'drop_cluster_agg__fetch_cost__min_by__dropoff_cluster', 'lasthour_poi_agg__arriveshop_cost__std_by__poi_id', 'pick_drop_cluster_agg__arrive_guest_cost__max_by__pickup_cluster#dropoff_cluster', 'user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin', 'drop_cluster_agg__food_total_value__max_by__dropoff_cluster', 'pick_cluster_agg__delivery_distance__sum_by__pickup_cluster', 'user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_poi_fea__food_num__back_5_sum__poi_id', '15min_user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin#15min', 'user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin', '15min_poi_bin__waiting_order_num__max_by__poi_lat_bin#poi_lng_bin#15min', 'area_agg__prd_arrive_guest_time__median_by__area_id#hour#minute', 'pick_drop_cluster_agg__fetch_cost__median_by__pickup_cluster#dropoff_cluster', 'poi_bin__delivery_duration__max_by__poi_lat_bin#poi_lng_bin', 'lasthour_poi_dict__fetch_cost', 'drop_cluster_agg__food_total_value__median_by__dropoff_cluster', '15min_poi_bin__delivery_duration__median_by__poi_lat_bin#poi_lng_bin#15min', 'pick_drop_cluster_agg__box_total_value__median_by__pickup_cluster#dropoff_cluster', 'rolling_poi_fea__delivery_distance__forward_5_sum__poi_id', 'poi_user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'pick_cluster_agg__delivery_distance__min_by__pickup_cluster', 'drop_cluster_agg__box_total_value__sum_by__dropoff_cluster', '15min_user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_poi_bin__delivery_duration__std_by__poi_lat_bin#poi_lng_bin#15min', 'cur_block_poi_info__waiting_order_num__sum_by__poi_id#cur_10_block_y', 'poi_bin__box_total_value__max_by__poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__fetch_cost__min_by__pickup_cluster#dropoff_cluster', 'user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__delivery_duration__min_by__pickup_cluster', '15min_user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin#15min', 'pick_cluster_agg__box_total_value__max_by__pickup_cluster', 'cur_block_area_info__delivery_distance__sum_by__area_id#cur_10_block_y', 'cur_block_area_info__delivery_distance__sum_by__area_id#cur_10_block_x', 'user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin', '15min_poi_bin__arrive_guest_cost__min_by__poi_lat_bin#poi_lng_bin#15min', 'drop_cluster_agg__box_total_value__min_by__dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__std_by__pickup_cluster#dropoff_cluster', 'user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin', 'cur_block_poi_info__delivery_distance__sum_by__poi_id#cur_10_block', '15min_poi_bin__waiting_order_num__median_by__poi_lat_bin#poi_lng_bin#15min', 'user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin', 'poi_user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin#15min', 'poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_lng_bin', '15min_poi_bin__food_total_value__max_by__poi_lat_bin#poi_lng_bin#15min', 'pick_drop_cluster_agg__arriveshop_cost__median_by__pickup_cluster#dropoff_cluster', 'user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin', 'rolling_poi_fea__delivery_distance__forward_5_std__poi_id', 'pick_drop_cluster_agg__order_id__count_by__pickup_cluster#dropoff_cluster', 'drop_cluster_agg__delivery_duration__min_by__dropoff_cluster', 'rolling_poi_fea__delivery_distance__forward_5_mean__poi_id', 'pick_cluster_agg__arriveshop_cost__min_by__pickup_cluster', 'drop_cluster_agg__fetch_cost__max_by__dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__sum_by__pickup_cluster#dropoff_cluster', '15min_poi_bin__box_total_value__median_by__poi_lat_bin#poi_lng_bin#15min', 'poi_agg__delivery_duration__std_by__poi_id', 'cur_block_poi_info__delivery_distance__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__delivery_distance__std_by__poi_id#cur_10_block_x', 'user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin', '15min_user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin#15min', 'user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin', 'lasthour_poi_agg__waiting_order_num__median_by__poi_id', '15min_user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin#15min', 'rolling_poi_bin__delivery_distance__forward_5_sum__poi_lat_bin#poi_lng_bin', '15min_poi_bin__delivery_distance__min_by__poi_lat_bin#poi_lng_bin#15min', 'pick_cluster_agg__arrive_guest_cost__median_by__pickup_cluster', 'rolling_poi_bin__waiting_order_num__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_std__cst_lat_bin#cst_lng_bin', 'pick_drop_cluster_agg__waiting_order_num__median_by__pickup_cluster#dropoff_cluster', 'poi_user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__delivery_distance__median_by__dropoff_cluster', 'rolling_poi_bin__food_total_value__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_std__poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'rolling_user_bin__food_num__forward_5_mean__cst_lat_bin#cst_lng_bin', '15min_poi_bin__arrive_guest_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', 'rolling_poi_bin__delivery_distance__back_5_sum__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__median_by__poi_lat_bin#poi_lng_bin', '15min_user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', 'cur_block_poi_info__order_id__count_by__poi_id#cur_10_block_x', 'cur_block_poi_info__order_id__count_by__poi_id#cur_10_block_y', 'rolling_user_bin__delivery_distance__back_5_sum__cst_lat_bin#cst_lng_bin', '15min_user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin#15min', 'pick_drop_cluster_agg__arrive_guest_cost__median_by__pickup_cluster#dropoff_cluster', '15min_user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin#15min', 'poi_user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'lasthour_poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'rolling_poi_fea__food_num__back_5_mean__poi_id', 'pick_drop_cluster_agg__delivery_distance__max_by__pickup_cluster#dropoff_cluster', 'poi_user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__waiting_order_num__std_by__dropoff_cluster', 'customer_latitude', 'poi_bin__arrive_guest_cost__std_by__poi_lat_bin#poi_lng_bin', '15min_user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin#15min', 'poi_user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_std__poi_lat_bin#poi_lng_bin', 'delivery_distance', 'rolling_user_bin__food_num__forward_5_std__cst_lat_bin#cst_lng_bin', 'pick_drop_cluster_agg__arriveshop_cost__std_by__pickup_cluster#dropoff_cluster', 'cur_block_poi_info__box_total_value__mean_by__poi_id#cur_10_block_x', 'lasthour_poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__waiting_order_num__std_by__poi_id', 'poi_user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_poi_bin__arrive_guest_cost__max_by__poi_lat_bin#poi_lng_bin#15min', 'lasthour_poi_dict__food_total_value_last_ten', 'area_agg__food_total_value__sum_by__area_id#hour#minute', 'food_num', 'drop_cluster_agg__box_total_value__median_by__dropoff_cluster', 'poi_id', 'pick_cluster_agg__delivery_duration__std_by__pickup_cluster', 'cur_block_poi_info__waiting_order_num__sum_by__poi_id#cur_10_block_x', '15min_poi_bin__arriveshop_cost__min_by__poi_lat_bin#poi_lng_bin#15min', 'pick_cluster_agg__fetch_cost__std_by__pickup_cluster', 'rolling_poi_bin__food_total_value__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_std__poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__arrive_guest_cost__min_by__dropoff_cluster', 'rolling_poi_fea__waiting_order_num__back_5_mean__poi_id', 'poi_user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__waiting_order_num__max_by__pickup_cluster', 'lasthour_poi_agg__food_total_value__median_by__poi_id', 'pick_drop_cluster_agg__food_total_value__median_by__pickup_cluster#dropoff_cluster', '15min_user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin#15min', 'cur_block_poi_info__food_total_value__mean_by__poi_id#cur_10_block_x', 'cur_block_poi_info__food_total_value__mean_by__poi_id#cur_10_block_y', 'lasthour_poi_agg__box_total_value__std_by__poi_id', '15min_user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin#15min', 'area_agg__delivery_distance__sum_by__area_id#hour#minute', '15min_poi_bin__food_total_value__min_by__poi_lat_bin#poi_lng_bin#15min', 'pick_drop_cluster_agg__food_total_value__max_by__pickup_cluster#dropoff_cluster', 'rolling_user_bin__food_num__back_5_sum__cst_lat_bin#cst_lng_bin', 'cur_block_poi_info__delivery_distance__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__delivery_distance__sum_by__poi_id#cur_10_block_x', '15min_user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin#15min', 'poi_agg__box_total_value__std_by__poi_id', 'pick_drop_cluster_agg__arriveshop_cost__max_by__pickup_cluster#dropoff_cluster', 'area_agg__prd_arrive_guest_time__std_by__area_id#hour#minute', 'poi_lng', 'rolling_poi_bin__delivery_distance__back_5_std__poi_lat_bin#poi_lng_bin', 'cur_block_poi_info__box_total_value__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__std_by__poi_id#cur_10_block_x', 'poi_bin__fetch_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_agg__waiting_order_num__median_by__poi_id', '15min_user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin#15min', 'pick_cluster_agg__fetch_cost__max_by__pickup_cluster', 'rolling_poi_fea__food_total_value__forward_5_sum__poi_id', 'pick_drop_cluster_agg__fetch_cost__sum_by__pickup_cluster#dropoff_cluster', 'pick_cluster_agg__arriveshop_cost__median_by__pickup_cluster', 'rolling_poi_bin__food_num__forward_5_std__poi_lat_bin#poi_lng_bin', 'lasthour_poi_agg__delivery_duration__median_by__poi_id', 'lasthour_poi_agg__avg_speed__std_by__poi_id', 'user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin', '10min', 'area_agg__arriveshop_cost__std_by__area_id#hour#minute', 'poi_lat_bin', '15min_user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_poi_bin__box_total_value__std_by__poi_lat_bin#poi_lng_bin#15min', 'poi_bin__waiting_order_num__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_agg__delivery_distance__median_by__poi_id', '15min_poi_bin__fetch_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin#15min', 'rolling_user_bin__waiting_order_num__forward_5_mean__cst_lat_bin#cst_lng_bin', '15min_poi_bin__fetch_cost__median_by__poi_lat_bin#poi_lng_bin#15min', 'poi_bin__fetch_cost__median_by__poi_lat_bin#poi_lng_bin', 'lasthour_poi_dict__arriveshop_cost', 'rolling_poi_fea__waiting_order_num__forward_5_std__poi_id', '15min_user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin#15min', 'rolling_user_bin__waiting_order_num__back_5_std__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__food_total_value__max_by__pickup_cluster', '15min_poi_bin__order_id__count_by__poi_lat_bin#poi_lng_bin#15min', 'pick_cluster_agg__arrive_guest_cost__std_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__sum_by__pickup_cluster', '15min_poi_bin__delivery_duration__min_by__poi_lat_bin#poi_lng_bin#15min', 'rolling_poi_bin__food_total_value__forward_5_mean__poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__fetch_cost__median_by__dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__std_by__pickup_cluster#dropoff_cluster', 'user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_sum__cst_lat_bin#cst_lng_bin', 'cur_block_poi_info__box_total_value__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__sum_by__poi_id#cur_10_block_x', 'lasthour_poi_agg__delivery_distance__median_by__poi_id', '15min_user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_poi_bin__waiting_order_num__std_by__poi_lat_bin#poi_lng_bin#15min', 'area_id', 'poi_user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'area_agg__order_id__count_by__area_id#hour#minute', 'poi_user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__median_by__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_sum__poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__order_id__count_by__dropoff_cluster', 'poi_bin__food_total_value__sum_by__poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__waiting_order_num__sum_by__dropoff_cluster', 'pick_cluster_agg__arriveshop_cost__std_by__pickup_cluster', '15min_poi_bin__delivery_distance__max_by__poi_lat_bin#poi_lng_bin#15min', 'rolling_poi_fea__waiting_order_num__back_5_sum__poi_id', 'user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin', 'drop_cluster_agg__waiting_order_num__max_by__dropoff_cluster', 'cur_block_poi_info__waiting_order_num__sum_by__poi_id#cur_10_block', 'box_total_value', 'pick_cluster_agg__waiting_order_num__sum_by__pickup_cluster', 'lasthour_poi_agg__box_total_value__median_by__poi_id', 'poi_bin__food_total_value__max_by__poi_lat_bin#poi_lng_bin', '15min_poi_bin__delivery_duration__sum_by__poi_lat_bin#poi_lng_bin#15min', 'cur_block_poi_info__waiting_order_num__mean_by__poi_id#cur_10_block', 'drop_cluster_agg__arriveshop_cost__max_by__dropoff_cluster', '15min_user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin#15min', 'user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin', '15min_poi_bin__box_total_value__max_by__poi_lat_bin#poi_lng_bin#15min', 'drop_cluster_agg__delivery_duration__std_by__dropoff_cluster', 'poi_user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_poi_bin__food_total_value__std_by__poi_lat_bin#poi_lng_bin#15min', 'rolling_poi_fea__food_total_value__back_5_std__poi_id', 'drop_cluster_agg__arrive_guest_cost__sum_by__dropoff_cluster', 'pick_cluster_agg__waiting_order_num__std_by__pickup_cluster', 'rolling_poi_fea__delivery_distance__back_5_mean__poi_id', 'cur_block_poi_info__delivery_distance__std_by__poi_id#cur_10_block', '15min_poi_bin__box_total_value__min_by__poi_lat_bin#poi_lng_bin#15min', 'drop_cluster_agg__arrive_guest_cost__median_by__dropoff_cluster', 'pick_cluster_agg__arriveshop_cost__max_by__pickup_cluster', 'cur_block_poi_info__food_total_value__std_by__poi_id#cur_10_block', 'drop_cluster_agg__arriveshop_cost__std_by__dropoff_cluster', 'user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin', 'poi_user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin', 'drop_cluster_agg__food_total_value__sum_by__dropoff_cluster', '15min_user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin#15min', 'pick_drop_cluster_agg__delivery_duration__median_by__pickup_cluster#dropoff_cluster', 'rolling_poi_bin__food_total_value__back_5_mean__poi_lat_bin#poi_lng_bin', 'cur_block_poi_info__order_id__count_by__poi_id#cur_10_block', 'rolling_poi_bin__delivery_distance__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_std__poi_lat_bin#poi_lng_bin', 'user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin', 'cur_block_poi_info__food_total_value__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__food_total_value__sum_by__poi_id#cur_10_block_x', '15min', 'rolling_poi_bin__food_num__back_5_sum__poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__fetch_cost__std_by__pickup_cluster#dropoff_cluster', 'user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__box_total_value__min_by__pickup_cluster', 'lasthour_poi_agg__arriveshop_cost__median_by__poi_id', 'pick_cluster_agg__fetch_cost__min_by__pickup_cluster', 'user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin', '15min_poi_bin__delivery_duration__max_by__poi_lat_bin#poi_lng_bin#15min', 'poi_agg__arriveshop_cost__median_by__poi_id', 'user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_mean__cst_lat_bin#cst_lng_bin', 'poi_bin__waiting_order_num__median_by__poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__waiting_order_num__min_by__dropoff_cluster', 'poi_bin__delivery_distance__std_by__poi_lat_bin#poi_lng_bin', 'direction', 'poi_user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin#15min', 'pick_cluster_agg__food_total_value__sum_by__pickup_cluster', 'drop_cluster_agg__food_total_value__std_by__dropoff_cluster', 'rolling_poi_bin__waiting_order_num__forward_5_mean__poi_lat_bin#poi_lng_bin', 'poi_agg__food_total_value__median_by__poi_id', 'pick_drop_cluster_agg__delivery_distance__min_by__pickup_cluster#dropoff_cluster', 'rolling_poi_bin__food_num__back_5_mean__poi_lat_bin#poi_lng_bin', 'lasthour_poi_agg__arrive_guest_cost__median_by__poi_id', '15min_user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin#15min', 'area_agg__arriveshop_cost__median_by__area_id#hour#minute', 'lasthour_poi_agg__avg_speed__median_by__poi_id', 'poi_bin__food_total_value__std_by__poi_lat_bin#poi_lng_bin', 'rolling_user_bin__delivery_distance__back_5_std__cst_lat_bin#cst_lng_bin', 'poi_user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__std_by__poi_lat_bin#poi_lng_bin', 'user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin', '15min_poi_bin__delivery_distance__std_by__poi_lat_bin#poi_lng_bin#15min', 'poi_bin__waiting_order_num__std_by__poi_lat_bin#poi_lng_bin', '15min_user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin#15min', 'pick_cluster_agg__arriveshop_cost__sum_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__max_by__pickup_cluster', 'cur_block_poi_info__box_total_value__std_by__poi_id#cur_10_block', 'pick_drop_cluster_agg__arrive_guest_cost__min_by__pickup_cluster#dropoff_cluster', 'lasthour_poi_agg__delivery_duration__std_by__poi_id', '15min_poi_bin__food_total_value__sum_by__poi_lat_bin#poi_lng_bin#15min', 'cur_block_poi_info__food_total_value__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__food_total_value__std_by__poi_id#cur_10_block_x', 'user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin', 'waiting_order_num', 'bill_number_per_rider', 'poi_bin__delivery_distance__median_by__poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_agg__order_id__count_by__poi_id', '15min_poi_bin__fetch_cost__min_by__poi_lat_bin#poi_lng_bin#15min', 'poi_user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'lasthour_poi_agg__arrive_guest_cost__std_by__poi_id', 'pick_cluster_agg__box_total_value__std_by__pickup_cluster', 'cur_block_poi_info__delivery_distance__mean_by__poi_id#cur_10_block_y', 'rolling_poi_fea__food_total_value__back_5_sum__poi_id', 'poi_user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'lasthour_poi_agg__waiting_order_num__std_by__poi_id', 'poi_bin__delivery_duration__sum_by__poi_lat_bin#poi_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_poi_fea__delivery_distance__back_5_sum__poi_id', 'rolling_user_bin__food_total_value__back_5_mean__cst_lat_bin#cst_lng_bin', 'pick_drop_cluster_agg__delivery_duration__sum_by__pickup_cluster#dropoff_cluster', 'cur_block_poi_info__waiting_order_num__mean_by__poi_id#cur_10_block_y', 'cur_block_poi_info__waiting_order_num__mean_by__poi_id#cur_10_block_x', 'poi_bin__arrive_guest_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin', 'rolling_poi_fea__waiting_order_num__forward_5_mean__poi_id', 'cur_block_area_info__food_total_value__sum_by__area_id#cur_10_block_y', 'rolling_poi_fea__waiting_order_num__back_5_std__poi_id', 'rolling_user_bin__food_num__back_5_std__cst_lat_bin#cst_lng_bin', 'pick_drop_cluster_agg__delivery_distance__median_by__pickup_cluster#dropoff_cluster', 'cur_block_poi_info__waiting_order_num__std_by__poi_id#cur_10_block_x', 'poi_agg__food_total_value__std_by__poi_id', 'pick_cluster_agg__delivery_duration__median_by__pickup_cluster', 'pick_drop_cluster_agg__waiting_order_num__min_by__pickup_cluster#dropoff_cluster', 'rolling_user_bin__delivery_distance__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_sum__cst_lat_bin#cst_lng_bin', '15min_poi_bin__fetch_cost__std_by__poi_lat_bin#poi_lng_bin#15min', 'cur_block_area_info__order_id__count_by__area_id#cur_10_block_x', 'cur_block_area_info__order_id__count_by__area_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__mean_by__poi_id#cur_10_block', 'rolling_poi_bin__waiting_order_num__back_5_sum__poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__arrive_guest_cost__max_by__dropoff_cluster', 'pick_drop_cluster_agg__box_total_value__min_by__pickup_cluster#dropoff_cluster', 'drop_cluster_agg__delivery_duration__sum_by__dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__sum_by__pickup_cluster#dropoff_cluster', 'drop_cluster_agg__arrive_guest_cost__std_by__dropoff_cluster', '15min_user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin#15min', 'rolling_poi_fea__food_num__forward_5_mean__poi_id', 'drop_cluster_agg__delivery_distance__max_by__dropoff_cluster', 'pick_cluster_agg__box_total_value__median_by__pickup_cluster', '15min_poi_bin__food_total_value__median_by__poi_lat_bin#poi_lng_bin#15min', 'poi_bin__delivery_distance__max_by__poi_lat_bin#poi_lng_bin', 'cst_lat_bin', 'rolling_user_bin__food_total_value__back_5_std__cst_lat_bin#cst_lng_bin', 'lasthour_poi_agg__food_total_value__std_by__poi_id', 'drop_cluster_agg__food_total_value__min_by__dropoff_cluster', 'poi_user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin#15min', 'customer_longitude', 'rolling_poi_fea__food_total_value__forward_5_std__poi_id', 'pick_drop_cluster_agg__waiting_order_num__max_by__pickup_cluster#dropoff_cluster', 'pick_cluster_agg__arrive_guest_cost__sum_by__pickup_cluster', 'poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__delivery_distance__std_by__poi_id', 'drop_cluster_agg__arriveshop_cost__sum_by__dropoff_cluster', '15min_poi_bin__arriveshop_cost__max_by__poi_lat_bin#poi_lng_bin#15min', 'user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__box_total_value__sum_by__pickup_cluster', '15min_poi_bin__waiting_order_num__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin#15min', 'drop_cluster_agg__box_total_value__max_by__dropoff_cluster', '15min_user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin#15min', 'pick_drop_cluster_agg__box_total_value__std_by__pickup_cluster#dropoff_cluster', 'cur_block_poi_info__box_total_value__sum_by__poi_id#cur_10_block', 'pick_cluster_agg__delivery_distance__median_by__pickup_cluster', '15min_user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin#15min', 'lasthour_poi_agg__order_id__count_by__poi_id', 'pick_cluster_agg__fetch_cost__sum_by__pickup_cluster', 'poi_bin__arriveshop_cost__median_by__poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__arriveshop_cost__sum_by__pickup_cluster#dropoff_cluster', '15min_user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin#15min', 'pick_drop_cluster_agg__delivery_duration__max_by__pickup_cluster#dropoff_cluster', 'poi_bin__fetch_cost__min_by__poi_lat_bin#poi_lng_bin', 'pick_cluster_agg__fetch_cost__median_by__pickup_cluster', '15min_user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin#15min', 'poi_user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '_10min_notbusy_working_rider_num', 'rolling_poi_bin__waiting_order_num__forward_5_sum__poi_lat_bin#poi_lng_bin', 'pick_cluster_agg__order_id__count_by__pickup_cluster', 'rolling_poi_bin__food_total_value__forward_5_std__poi_lat_bin#poi_lng_bin', '_10min_not_fetched_order_num', 'user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin', 'poi_agg__arrive_guest_cost__std_by__poi_id', 'poi_bin__fetch_cost__max_by__poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__fetch_cost__max_by__pickup_cluster#dropoff_cluster', 'poi_bin__arrive_guest_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_agg__box_total_value__median_by__poi_id', 'drop_cluster_agg__delivery_duration__max_by__dropoff_cluster', 'cur_block_poi_info__delivery_distance__mean_by__poi_id#cur_10_block', '15min_poi_bin__arrive_guest_cost__median_by__poi_lat_bin#poi_lng_bin#15min', 'drop_cluster_agg__arriveshop_cost__min_by__dropoff_cluster', 'poi_agg__avg_speed__median_by__poi_id', 'user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin', 'drop_cluster_agg__delivery_distance__sum_by__dropoff_cluster', 'drop_cluster_agg__waiting_order_num__median_by__dropoff_cluster', '15min_user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin#15min', 'lasthour_poi_agg__delivery_distance__std_by__poi_id', 'poi_bin__arrive_guest_cost__max_by__poi_lat_bin#poi_lng_bin', 'pick_cluster_agg__arrive_guest_cost__max_by__pickup_cluster', 'user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin', 'pick_drop_cluster_agg__box_total_value__sum_by__pickup_cluster#dropoff_cluster', 'poi_user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'drop_cluster_agg__arriveshop_cost__median_by__dropoff_cluster', 'rolling_user_bin__waiting_order_num__forward_5_std__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__food_total_value__std_by__pickup_cluster', 'rolling_poi_fea__food_num__forward_5_std__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'poi_user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'area_busy_coef', 'rolling_user_bin__food_total_value__forward_5_mean__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin', '15min_poi_bin__box_total_value__sum_by__poi_lat_bin#poi_lng_bin#15min', 'user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin', '15min_user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin#15min', 'user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin', 'pick_cluster_agg__waiting_order_num__min_by__pickup_cluster', 'poi_agg__fetch_cost__std_by__poi_id', 'poi_user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__delivery_duration__min_by__pickup_cluster#dropoff_cluster', 'poi_user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'rolling_poi_fea__food_num__forward_5_sum__poi_id', '15min_user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin#15min', 'poi_user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '_10min_working_rider_num', 'rolling_poi_fea__waiting_order_num__forward_5_sum__poi_id', 'poi_user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'cur_block_area_info__food_total_value__sum_by__area_id#cur_10_block_x', 'poi_user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', '15min_poi_bin__delivery_distance__sum_by__poi_lat_bin#poi_lng_bin#15min', 'user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_std__cst_lat_bin#cst_lng_bin', '15min_poi_bin__waiting_order_num__sum_by__poi_lat_bin#poi_lng_bin#15min', 'poi_user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'rolling_poi_fea__delivery_distance__back_5_std__poi_id', 'drop_cluster_agg__fetch_cost__sum_by__dropoff_cluster', 'drop_cluster_agg__delivery_duration__median_by__dropoff_cluster', '15min_poi_bin__delivery_distance__median_by__poi_lat_bin#poi_lng_bin#15min', 'pick_drop_cluster_agg__box_total_value__max_by__pickup_cluster#dropoff_cluster', 'cur_block_poi_info__waiting_order_num__std_by__poi_id#cur_10_block', '15min_poi_bin__arrive_guest_cost__std_by__poi_lat_bin#poi_lng_bin#15min', 'drop_cluster_agg__delivery_distance__std_by__dropoff_cluster', 'rolling_poi_bin__waiting_order_num__back_5_mean__poi_lat_bin#poi_lng_bin', '15min_user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', 'drop_cluster_agg__box_total_value__std_by__dropoff_cluster', 'poi_bin__arrive_guest_cost__median_by__poi_lat_bin#poi_lng_bin', 'rolling_user_bin__food_num__back_5_mean__cst_lat_bin#cst_lng_bin', 'prd_arrive_guest_time', 'poi_bin__box_total_value__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__min_by__poi_lat_bin#poi_lng_bin', 'pick_drop_cluster_agg__food_total_value__min_by__pickup_cluster#dropoff_cluster', '15min_poi_bin__arriveshop_cost__std_by__poi_lat_bin#poi_lng_bin#15min', 'poi_user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'rolling_poi_fea__food_num__back_5_std__poi_id']
+                       order_id
+delivery_duration_bin          
+0                          6355
+1                         54409
+2                         53326
+3                         23802
+4                          5698
+5                          1028
+6                           171
+7                            48
+8                            17
+9                             2
+10                            7
+11                            1
+23                            1
+round 0,name is base, train_feas is ['area_id', '10min', 'bill_number_per_rider', 'poi_lng_bin', 'poi_lat_bin', 'customer_latitude', '_10min_not_fetched_order_num', 'delivery_distance', '_10min_working_rider_num', 'cst_lng_bin', 'customer_longitude', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', 'food_total_value', 'cst_lat_bin', 'food_num', 'poi_id', '_10min_notbusy_working_rider_num', 'prd_arrive_guest_time', 'box_total_value', 'area_busy_coef', '15min', 'poi_lat'] 
+Start training...
+[LightGBM] [Info] Total Bins 4162
+[LightGBM] [Info] Number of data: 331392, number of used features: 25
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 489.056	valid_1's l1: 523.886
+[200]	training's l1: 438.128	valid_1's l1: 473.51
+[300]	training's l1: 419.372	valid_1's l1: 455.213
+[400]	training's l1: 409.386	valid_1's l1: 445.711
+[500]	training's l1: 402.883	valid_1's l1: 439.734
+[600]	training's l1: 398.639	valid_1's l1: 436.207
+[700]	training's l1: 395.706	valid_1's l1: 434.029
+[800]	training's l1: 393.483	valid_1's l1: 432.705
+[900]	training's l1: 391.684	valid_1's l1: 431.773
+[1000]	training's l1: 390.103	valid_1's l1: 431.12
+[1100]	training's l1: 388.749	valid_1's l1: 430.696
+[1200]	training's l1: 387.511	valid_1's l1: 430.332
+[1300]	training's l1: 386.352	valid_1's l1: 430.032
+[1400]	training's l1: 385.281	valid_1's l1: 429.826
+[1500]	training's l1: 384.196	valid_1's l1: 429.572
+[LightGBM] [Info] Finished loading 1500 models
+                             feature  importances
+23                             15min          662
+16                       cst_lat_bin          864
+17                          food_num          954
+1                              10min         1225
+9                        cst_lng_bin         1334
+0                            area_id         1357
+4                        poi_lat_bin         2552
+3                        poi_lng_bin         3798
+21                   box_total_value         4191
+19  _10min_notbusy_working_rider_num         5360
+12      _10min_deliverying_order_num         5392
+10                customer_longitude         5595
+13                         direction         5608
+8           _10min_working_rider_num         5997
+2              bill_number_per_rider         6033
+5                  customer_latitude         6449
+6       _10min_not_fetched_order_num         6647
+11                 waiting_order_num         6977
+20             prd_arrive_guest_time         7372
+7                  delivery_distance         7506
+22                    area_busy_coef         8608
+15                  food_total_value         9318
+24                           poi_lat        13363
+14                           poi_lng        14348
+18                            poi_id        16990
+!!!!!!!!!!!!!! rs is 429.571524737 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 666.699012938 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 372.607189156 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 355.405260423 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 442.846348508 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 959.425148968 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2312.946777
+std         682.965095
+min         977.567622
+25%        1752.260757
+50%        2224.056173
+75%        2824.310897
+max        4360.656456
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 1,name is 15min_poi_bin, train_feas is ['15min_poi_bin__arriveshop_cost__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__order_id__count_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__std_by__poi_lat_bin#poi_lng_bin#15min'] 
+Start training...
+[LightGBM] [Info] Total Bins 7745
+[LightGBM] [Info] Number of data: 331392, number of used features: 40
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 636.958	valid_1's l1: 673.546
+[200]	training's l1: 629.804	valid_1's l1: 665.466
+[300]	training's l1: 628.546	valid_1's l1: 663.803
+[400]	training's l1: 628.272	valid_1's l1: 663.371
+[500]	training's l1: 628.2	valid_1's l1: 663.235
+[600]	training's l1: 628.178	valid_1's l1: 663.187
+[700]	training's l1: 628.171	valid_1's l1: 663.169
+[800]	training's l1: 628.168	valid_1's l1: 663.163
+[900]	training's l1: 628.167	valid_1's l1: 663.16
+[1000]	training's l1: 628.167	valid_1's l1: 663.16
+[1100]	training's l1: 628.167	valid_1's l1: 663.159
+[1200]	training's l1: 628.167	valid_1's l1: 663.159
+[1300]	training's l1: 628.167	valid_1's l1: 663.159
+Early stopping, best iteration is:
+[1273]	training's l1: 628.167	valid_1's l1: 663.159
+[LightGBM] [Info] Finished loading 1273 models
+                                              feature  importances
+33  15min_poi_bin__waiting_order_num__min_by__poi_...            0
+24  15min_poi_bin__box_total_value__min_by__poi_la...          252
+21  15min_poi_bin__delivery_duration__sum_by__poi_...          510
+7   15min_poi_bin__waiting_order_num__median_by__p...          552
+36  15min_poi_bin__delivery_distance__sum_by__poi_...          727
+17  15min_poi_bin__order_id__count_by__poi_lat_bin...          773
+27  15min_poi_bin__food_total_value__sum_by__poi_l...          896
+38  15min_poi_bin__waiting_order_num__sum_by__poi_...          924
+9   15min_poi_bin__box_total_value__median_by__poi...          971
+28  15min_poi_bin__fetch_cost__min_by__poi_lat_bin...         1031
+35  15min_poi_bin__box_total_value__sum_by__poi_la...         1343
+19  15min_poi_bin__waiting_order_num__std_by__poi_...         1766
+11  15min_poi_bin__arrive_guest_cost__sum_by__poi_...         1767
+14  15min_poi_bin__food_total_value__min_by__poi_l...         1981
+22  15min_poi_bin__box_total_value__max_by__poi_la...         1991
+13  15min_poi_bin__waiting_order_num__max_by__poi_...         2307
+29  15min_poi_bin__fetch_cost__median_by__poi_lat_...         2579
+32  15min_poi_bin__arriveshop_cost__max_by__poi_la...         2646
+31  15min_poi_bin__food_total_value__median_by__po...         2688
+23  15min_poi_bin__food_total_value__std_by__poi_l...         2975
+30  15min_poi_bin__fetch_cost__std_by__poi_lat_bin...         2996
+12  15min_poi_bin__arrive_guest_cost__max_by__poi_...         3031
+26  15min_poi_bin__delivery_distance__std_by__poi_...         3044
+39  15min_poi_bin__delivery_distance__median_by__p...         3099
+40  15min_poi_bin__arrive_guest_cost__std_by__poi_...         3319
+15  15min_poi_bin__box_total_value__std_by__poi_la...         3451
+16  15min_poi_bin__fetch_cost__max_by__poi_lat_bin...         3456
+20  15min_poi_bin__delivery_distance__max_by__poi_...         3562
+8   15min_poi_bin__food_total_value__max_by__poi_l...         3808
+34  15min_poi_bin__arrive_guest_cost__median_by__p...         3985
+25  15min_poi_bin__delivery_duration__max_by__poi_...         4016
+2   15min_poi_bin__arriveshop_cost__sum_by__poi_la...         4064
+5   15min_poi_bin__arriveshop_cost__min_by__poi_la...         4104
+10  15min_poi_bin__delivery_distance__min_by__poi_...         4310
+18  15min_poi_bin__delivery_duration__min_by__poi_...         4400
+6   15min_poi_bin__arrive_guest_cost__min_by__poi_...         4487
+37  15min_poi_bin__arriveshop_cost__std_by__poi_la...         4916
+1   15min_poi_bin__fetch_cost__sum_by__poi_lat_bin...         6042
+4   15min_poi_bin__delivery_duration__std_by__poi_...         7316
+0   15min_poi_bin__arriveshop_cost__median_by__poi...         7842
+3   15min_poi_bin__delivery_duration__median_by__p...        12100
+!!!!!!!!!!!!!! rs is 663.15896727 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1232.61650854 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 579.810176207 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 328.099057649 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 1013.75068402 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1924.05050256 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2235.522461
+std         304.077541
+min        1148.966163
+25%        2027.753753
+50%        2250.825207
+75%        2443.357884
+max        3067.161419
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 2,name is 15min_user_bin, train_feas is ['15min_user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin#15min'] 
+Start training...
+[LightGBM] [Info] Total Bins 8496
+[LightGBM] [Info] Number of data: 331392, number of used features: 41
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 636.078	valid_1's l1: 673.464
+[200]	training's l1: 628.565	valid_1's l1: 665.613
+[300]	training's l1: 627.213	valid_1's l1: 664.094
+[400]	training's l1: 626.931	valid_1's l1: 663.734
+[500]	training's l1: 626.872	valid_1's l1: 663.636
+[600]	training's l1: 626.866	valid_1's l1: 663.609
+Early stopping, best iteration is:
+[593]	training's l1: 626.865	valid_1's l1: 663.61
+[LightGBM] [Info] Finished loading 593 models
+                                              feature  importances
+23  15min_user_bin__waiting_order_num__min_by__cst...            2
+18  15min_user_bin__box_total_value__min_by__cst_l...           68
+27  15min_user_bin__order_id__count_by__cst_lat_bi...          345
+8   15min_user_bin__box_total_value__median_by__cs...          352
+19  15min_user_bin__delivery_duration__sum_by__cst...          399
+32  15min_user_bin__waiting_order_num__median_by__...          427
+39  15min_user_bin__arrive_guest_cost__sum_by__cst...          449
+40  15min_user_bin__box_total_value__sum_by__cst_l...          471
+16  15min_user_bin__food_total_value__sum_by__cst_...          523
+4   15min_user_bin__fetch_cost__min_by__cst_lat_bi...          548
+36  15min_user_bin__fetch_cost__sum_by__cst_lat_bi...          564
+2   15min_user_bin__arriveshop_cost__sum_by__cst_l...          787
+1   15min_user_bin__waiting_order_num__sum_by__cst...          899
+5   15min_user_bin__box_total_value__max_by__cst_l...          907
+7   15min_user_bin__food_total_value__min_by__cst_...          931
+17  15min_user_bin__waiting_order_num__max_by__cst...         1075
+28  15min_user_bin__waiting_order_num__std_by__cst...         1121
+30  15min_user_bin__food_total_value__std_by__cst_...         1127
+15  15min_user_bin__arriveshop_cost__max_by__cst_l...         1237
+33  15min_user_bin__fetch_cost__max_by__cst_lat_bi...         1278
+12  15min_user_bin__food_total_value__max_by__cst_...         1291
+37  15min_user_bin__delivery_distance__max_by__cst...         1297
+10  15min_user_bin__box_total_value__std_by__cst_l...         1318
+21  15min_user_bin__food_total_value__median_by__c...         1363
+3   15min_user_bin__arriveshop_cost__min_by__cst_l...         1403
+0   15min_user_bin__delivery_distance__sum_by__cst...         1413
+24  15min_user_bin__delivery_distance__median_by__...         1517
+38  15min_user_bin__delivery_distance__std_by__cst...         1537
+6   15min_user_bin__arrive_guest_cost__min_by__cst...         1596
+11  15min_user_bin__arrive_guest_cost__max_by__cst...         1663
+25  15min_user_bin__fetch_cost__median_by__cst_lat...         1674
+9   15min_user_bin__delivery_distance__min_by__cst...         1683
+35  15min_user_bin__fetch_cost__std_by__cst_lat_bi...         1724
+14  15min_user_bin__arrive_guest_cost__std_by__cst...         1987
+22  15min_user_bin__delivery_duration__max_by__cst...         2374
+13  15min_user_bin__arriveshop_cost__std_by__cst_l...         2869
+29  15min_user_bin__delivery_duration__std_by__cst...         2982
+31  15min_user_bin__delivery_duration__min_by__cst...         3047
+34  15min_user_bin__arriveshop_cost__median_by__cs...         3104
+20  15min_user_bin__arrive_guest_cost__median_by__...         3275
+26  15min_user_bin__delivery_duration__median_by__...         6080
+!!!!!!!!!!!!!! rs is 663.609758729 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1238.06049862 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 582.848590868 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 329.845105767 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 1005.05967716 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1921.24758531 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2243.630440
+std         310.325876
+min        1340.264315
+25%        2041.461159
+50%        2234.588608
+75%        2466.385545
+max        3647.518883
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 3,name is area_agg, train_feas is ['area_agg__prd_arrive_guest_time__median_by__area_id#hour#minute', 'area_agg__food_total_value__sum_by__area_id#hour#minute', 'area_agg__delivery_distance__sum_by__area_id#hour#minute', 'area_agg__prd_arrive_guest_time__std_by__area_id#hour#minute', 'area_agg__arriveshop_cost__std_by__area_id#hour#minute', 'area_agg__order_id__count_by__area_id#hour#minute', 'area_agg__arriveshop_cost__median_by__area_id#hour#minute'] 
+Start training...
+[LightGBM] [Info] Total Bins 1762
+[LightGBM] [Info] Number of data: 331392, number of used features: 7
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 586.26	valid_1's l1: 627.969
+[200]	training's l1: 566.809	valid_1's l1: 616.363
+[300]	training's l1: 562.139	valid_1's l1: 615.86
+Early stopping, best iteration is:
+[269]	training's l1: 563.079	valid_1's l1: 615.767
+[LightGBM] [Info] Finished loading 269 models
+                                             feature  importances
+4  area_agg__arriveshop_cost__std_by__area_id#hou...         3188
+3  area_agg__prd_arrive_guest_time__std_by__area_...         3382
+5  area_agg__order_id__count_by__area_id#hour#minute         3626
+6  area_agg__arriveshop_cost__median_by__area_id#...         3752
+0  area_agg__prd_arrive_guest_time__median_by__ar...         4182
+1  area_agg__food_total_value__sum_by__area_id#ho...         4249
+2  area_agg__delivery_distance__sum_by__area_id#h...         4252
+!!!!!!!!!!!!!! rs is 615.767342319 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1298.27689656 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 627.253544237 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 355.165517857 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 654.380043972 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1529.05853464 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2402.278928
+std         446.642432
+min        1484.693357
+25%        1946.658095
+50%        2427.193428
+75%        2822.946639
+max        3150.555558
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 4,name is cur_block_area_info, train_feas is ['cur_block_area_info___10min_not_fetched_order_num__sum_by__area_id#cur_10_block_x', 'cur_block_area_info___10min_not_fetched_order_num__sum_by__area_id#cur_10_block_y', 'cur_block_area_info__delivery_distance__sum_by__area_id#cur_10_block_y', 'cur_block_area_info__delivery_distance__sum_by__area_id#cur_10_block_x', 'cur_block_area_info__order_id__count_by__area_id#cur_10_block_x', 'cur_block_area_info__order_id__count_by__area_id#cur_10_block_y', 'cur_block_area_info__food_total_value__sum_by__area_id#cur_10_block_y', 'cur_block_area_info__food_total_value__sum_by__area_id#cur_10_block_x'] 
+Start training...
+[LightGBM] [Info] Total Bins 1877
+[LightGBM] [Info] Number of data: 331392, number of used features: 8
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 583.943	valid_1's l1: 641.799
+[200]	training's l1: 566.639	valid_1's l1: 629.708
+[300]	training's l1: 563.08	valid_1's l1: 627.427
+[400]	training's l1: 562.187	valid_1's l1: 626.891
+[500]	training's l1: 561.919	valid_1's l1: 626.687
+[600]	training's l1: 561.828	valid_1's l1: 626.603
+[700]	training's l1: 561.794	valid_1's l1: 626.567
+[800]	training's l1: 561.782	valid_1's l1: 626.548
+[900]	training's l1: 561.777	valid_1's l1: 626.542
+[1000]	training's l1: 561.775	valid_1's l1: 626.54
+[1100]	training's l1: 561.774	valid_1's l1: 626.54
+[1200]	training's l1: 561.774	valid_1's l1: 626.539
+[1300]	training's l1: 561.774	valid_1's l1: 626.539
+[1400]	training's l1: 561.774	valid_1's l1: 626.539
+Early stopping, best iteration is:
+[1351]	training's l1: 561.774	valid_1's l1: 626.539
+[LightGBM] [Info] Finished loading 1351 models
+                                             feature  importances
+7  cur_block_area_info__food_total_value__sum_by_...        12618
+5  cur_block_area_info__order_id__count_by__area_...        13594
+4  cur_block_area_info__order_id__count_by__area_...        13849
+6  cur_block_area_info__food_total_value__sum_by_...        14062
+3  cur_block_area_info__delivery_distance__sum_by...        15157
+2  cur_block_area_info__delivery_distance__sum_by...        17306
+1  cur_block_area_info___10min_not_fetched_order_...        22019
+0  cur_block_area_info___10min_not_fetched_order_...        25144
+!!!!!!!!!!!!!! rs is 626.539165481 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1204.89270964 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 522.511203971 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 394.588451577 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 853.487524107 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1683.15914131 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2255.397171
+std         432.049795
+min        1579.811510
+25%        1875.583848
+50%        2085.553393
+75%        2701.397238
+max        3087.596299
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 5,name is cur_block_poi_info, train_feas is ['cur_block_poi_info__box_total_value__mean_by__poi_id#cur_10_block_y', 'cur_block_poi_info__food_total_value__sum_by__poi_id#cur_10_block', 'cur_block_poi_info__food_total_value__mean_by__poi_id#cur_10_block', 'cur_block_poi_info__delivery_distance__mean_by__poi_id#cur_10_block_x', 'cur_block_poi_info__delivery_distance__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__delivery_distance__std_by__poi_id#cur_10_block_x', 'cur_block_poi_info__order_id__count_by__poi_id#cur_10_block_x', 'cur_block_poi_info__order_id__count_by__poi_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__mean_by__poi_id#cur_10_block_x', 'cur_block_poi_info__waiting_order_num__sum_by__poi_id#cur_10_block_x', 'cur_block_poi_info__waiting_order_num__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__food_total_value__mean_by__poi_id#cur_10_block_x', 'cur_block_poi_info__food_total_value__mean_by__poi_id#cur_10_block_y', 'cur_block_poi_info__delivery_distance__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__delivery_distance__sum_by__poi_id#cur_10_block_x', 'cur_block_poi_info__box_total_value__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__std_by__poi_id#cur_10_block_x', 'cur_block_poi_info__box_total_value__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__sum_by__poi_id#cur_10_block_x', 'cur_block_poi_info__waiting_order_num__sum_by__poi_id#cur_10_block', 'cur_block_poi_info__waiting_order_num__mean_by__poi_id#cur_10_block', 'cur_block_poi_info__delivery_distance__std_by__poi_id#cur_10_block', 'cur_block_poi_info__food_total_value__std_by__poi_id#cur_10_block', 'cur_block_poi_info__order_id__count_by__poi_id#cur_10_block', 'cur_block_poi_info__food_total_value__sum_by__poi_id#cur_10_block_y', 'cur_block_poi_info__food_total_value__sum_by__poi_id#cur_10_block_x', 'cur_block_poi_info__delivery_distance__sum_by__poi_id#cur_10_block', 'cur_block_poi_info__box_total_value__std_by__poi_id#cur_10_block', 'cur_block_poi_info__food_total_value__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__food_total_value__std_by__poi_id#cur_10_block_x', 'cur_block_poi_info__delivery_distance__mean_by__poi_id#cur_10_block_y', 'cur_block_poi_info__waiting_order_num__mean_by__poi_id#cur_10_block_y', 'cur_block_poi_info__waiting_order_num__mean_by__poi_id#cur_10_block_x', 'cur_block_poi_info__waiting_order_num__std_by__poi_id#cur_10_block_x', 'cur_block_poi_info__waiting_order_num__std_by__poi_id#cur_10_block_y', 'cur_block_poi_info__box_total_value__mean_by__poi_id#cur_10_block', 'cur_block_poi_info__box_total_value__sum_by__poi_id#cur_10_block', 'cur_block_poi_info__delivery_distance__mean_by__poi_id#cur_10_block', 'cur_block_poi_info__waiting_order_num__std_by__poi_id#cur_10_block'] 
+Start training...
+[LightGBM] [Info] Total Bins 9647
+[LightGBM] [Info] Number of data: 331392, number of used features: 39
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 590.761	valid_1's l1: 637.315
+[200]	training's l1: 564.107	valid_1's l1: 616.089
+[300]	training's l1: 553.094	valid_1's l1: 609.366
+[400]	training's l1: 546.93	valid_1's l1: 606.665
+[500]	training's l1: 542.62	valid_1's l1: 605.347
+[600]	training's l1: 539.387	valid_1's l1: 604.653
+[700]	training's l1: 536.8	valid_1's l1: 604.3
+[800]	training's l1: 534.62	valid_1's l1: 603.965
+[900]	training's l1: 532.655	valid_1's l1: 603.816
+[1000]	training's l1: 530.901	valid_1's l1: 603.612
+[1100]	training's l1: 529.331	valid_1's l1: 603.501
+[1200]	training's l1: 527.821	valid_1's l1: 603.465
+[1300]	training's l1: 526.298	valid_1's l1: 603.399
+[1400]	training's l1: 524.93	valid_1's l1: 603.336
+[1500]	training's l1: 523.623	valid_1's l1: 603.298
+[LightGBM] [Info] Finished loading 1500 models
+                                              feature  importances
+18  cur_block_poi_info__box_total_value__sum_by__p...         1973
+9   cur_block_poi_info__waiting_order_num__sum_by_...         2077
+17  cur_block_poi_info__box_total_value__sum_by__p...         2203
+7   cur_block_poi_info__order_id__count_by__poi_id...         2419
+10  cur_block_poi_info__waiting_order_num__sum_by_...         2429
+36  cur_block_poi_info__box_total_value__sum_by__p...         2555
+19  cur_block_poi_info__waiting_order_num__sum_by_...         2627
+6   cur_block_poi_info__order_id__count_by__poi_id...         2733
+25  cur_block_poi_info__food_total_value__sum_by__...         2803
+13  cur_block_poi_info__delivery_distance__sum_by_...         2899
+24  cur_block_poi_info__food_total_value__sum_by__...         3010
+16  cur_block_poi_info__box_total_value__std_by__p...         3012
+15  cur_block_poi_info__box_total_value__std_by__p...         3092
+0   cur_block_poi_info__box_total_value__mean_by__...         3147
+23  cur_block_poi_info__order_id__count_by__poi_id...         3199
+8   cur_block_poi_info__box_total_value__mean_by__...         3299
+14  cur_block_poi_info__delivery_distance__sum_by_...         3304
+29  cur_block_poi_info__food_total_value__std_by__...         3507
+34  cur_block_poi_info__waiting_order_num__std_by_...         3591
+12  cur_block_poi_info__food_total_value__mean_by_...         3616
+28  cur_block_poi_info__food_total_value__std_by__...         3657
+31  cur_block_poi_info__waiting_order_num__mean_by...         3721
+35  cur_block_poi_info__box_total_value__mean_by__...         3735
+27  cur_block_poi_info__box_total_value__std_by__p...         3935
+26  cur_block_poi_info__delivery_distance__sum_by_...         3988
+4   cur_block_poi_info__delivery_distance__std_by_...         4070
+30  cur_block_poi_info__delivery_distance__mean_by...         4263
+11  cur_block_poi_info__food_total_value__mean_by_...         4309
+5   cur_block_poi_info__delivery_distance__std_by_...         4450
+3   cur_block_poi_info__delivery_distance__mean_by...         4450
+1   cur_block_poi_info__food_total_value__sum_by__...         4482
+38  cur_block_poi_info__waiting_order_num__std_by_...         4529
+33  cur_block_poi_info__waiting_order_num__std_by_...         4563
+21  cur_block_poi_info__delivery_distance__std_by_...         5267
+22  cur_block_poi_info__food_total_value__std_by__...         5324
+2   cur_block_poi_info__food_total_value__mean_by_...         6028
+37  cur_block_poi_info__delivery_distance__mean_by...         6405
+32  cur_block_poi_info__waiting_order_num__mean_by...         6802
+20  cur_block_poi_info__waiting_order_num__mean_by...         7027
+!!!!!!!!!!!!!! rs is 603.297679052 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1075.41807687 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 509.12419844 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 356.588998079 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 879.225652944 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1631.08437191 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2243.192444
+std         435.148034
+min        1311.705193
+25%        1930.466206
+50%        2185.553899
+75%        2532.780630
+max        3655.798780
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 6,name is drop_cluster_agg, train_feas is ['drop_cluster_agg__fetch_cost__std_by__dropoff_cluster', 'drop_cluster_agg__delivery_distance__min_by__dropoff_cluster', 'drop_cluster_agg__fetch_cost__min_by__dropoff_cluster', 'drop_cluster_agg__food_total_value__max_by__dropoff_cluster', 'drop_cluster_agg__food_total_value__median_by__dropoff_cluster', 'drop_cluster_agg__box_total_value__sum_by__dropoff_cluster', 'drop_cluster_agg__box_total_value__min_by__dropoff_cluster', 'drop_cluster_agg__fetch_cost__max_by__dropoff_cluster', 'drop_cluster_agg__delivery_distance__median_by__dropoff_cluster', 'drop_cluster_agg__waiting_order_num__std_by__dropoff_cluster', 'drop_cluster_agg__box_total_value__median_by__dropoff_cluster', 'drop_cluster_agg__delivery_distance__sum_by__dropoff_cluster', 'drop_cluster_agg__arrive_guest_cost__min_by__dropoff_cluster', 'drop_cluster_agg__fetch_cost__median_by__dropoff_cluster', 'drop_cluster_agg__order_id__count_by__dropoff_cluster', 'drop_cluster_agg__waiting_order_num__sum_by__dropoff_cluster', 'drop_cluster_agg__delivery_duration__min_by__dropoff_cluster', 'drop_cluster_agg__waiting_order_num__max_by__dropoff_cluster', 'drop_cluster_agg__arriveshop_cost__max_by__dropoff_cluster', 'drop_cluster_agg__delivery_duration__std_by__dropoff_cluster', 'drop_cluster_agg__arrive_guest_cost__sum_by__dropoff_cluster', 'drop_cluster_agg__arrive_guest_cost__median_by__dropoff_cluster', 'drop_cluster_agg__arriveshop_cost__std_by__dropoff_cluster', 'drop_cluster_agg__food_total_value__sum_by__dropoff_cluster', 'drop_cluster_agg__waiting_order_num__min_by__dropoff_cluster', 'drop_cluster_agg__food_total_value__std_by__dropoff_cluster', 'drop_cluster_agg__arrive_guest_cost__max_by__dropoff_cluster', 'drop_cluster_agg__delivery_duration__sum_by__dropoff_cluster', 'drop_cluster_agg__arrive_guest_cost__std_by__dropoff_cluster', 'drop_cluster_agg__delivery_distance__max_by__dropoff_cluster', 'drop_cluster_agg__food_total_value__min_by__dropoff_cluster', 'drop_cluster_agg__arriveshop_cost__sum_by__dropoff_cluster', 'drop_cluster_agg__box_total_value__max_by__dropoff_cluster', 'drop_cluster_agg__delivery_duration__max_by__dropoff_cluster', 'drop_cluster_agg__arriveshop_cost__min_by__dropoff_cluster', 'drop_cluster_agg__waiting_order_num__median_by__dropoff_cluster', 'drop_cluster_agg__arriveshop_cost__median_by__dropoff_cluster', 'drop_cluster_agg__fetch_cost__sum_by__dropoff_cluster', 'drop_cluster_agg__delivery_duration__median_by__dropoff_cluster', 'drop_cluster_agg__delivery_distance__std_by__dropoff_cluster', 'drop_cluster_agg__box_total_value__std_by__dropoff_cluster'] 
+Start training...
+[LightGBM] [Info] Total Bins 8335
+[LightGBM] [Info] Number of data: 331392, number of used features: 39
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 631.815	valid_1's l1: 667.352
+[200]	training's l1: 623.498	valid_1's l1: 658.245
+[300]	training's l1: 621.953	valid_1's l1: 656.474
+[400]	training's l1: 621.605	valid_1's l1: 656.052
+[500]	training's l1: 621.514	valid_1's l1: 655.933
+[600]	training's l1: 621.489	valid_1's l1: 655.899
+[700]	training's l1: 621.483	valid_1's l1: 655.889
+[800]	training's l1: 621.483	valid_1's l1: 655.887
+Early stopping, best iteration is:
+[778]	training's l1: 621.483	valid_1's l1: 655.887
+[LightGBM] [Info] Finished loading 778 models
+                                              feature  importances
+6   drop_cluster_agg__box_total_value__min_by__dro...            0
+24  drop_cluster_agg__waiting_order_num__min_by__d...            0
+10  drop_cluster_agg__box_total_value__median_by__...          239
+27  drop_cluster_agg__delivery_duration__sum_by__d...          430
+35  drop_cluster_agg__waiting_order_num__median_by...          683
+2   drop_cluster_agg__fetch_cost__min_by__dropoff_...          697
+30  drop_cluster_agg__food_total_value__min_by__dr...          766
+23  drop_cluster_agg__food_total_value__sum_by__dr...          786
+20  drop_cluster_agg__arrive_guest_cost__sum_by__d...          812
+31  drop_cluster_agg__arriveshop_cost__sum_by__dro...          950
+37  drop_cluster_agg__fetch_cost__sum_by__dropoff_...          961
+32  drop_cluster_agg__box_total_value__max_by__dro...          996
+14  drop_cluster_agg__order_id__count_by__dropoff_...         1016
+17  drop_cluster_agg__waiting_order_num__max_by__d...         1230
+40  drop_cluster_agg__box_total_value__std_by__dro...         1513
+5   drop_cluster_agg__box_total_value__sum_by__dro...         1589
+15  drop_cluster_agg__waiting_order_num__sum_by__d...         1604
+11  drop_cluster_agg__delivery_distance__sum_by__d...         1615
+12  drop_cluster_agg__arrive_guest_cost__min_by__d...         1736
+9   drop_cluster_agg__waiting_order_num__std_by__d...         1747
+29  drop_cluster_agg__delivery_distance__max_by__d...         1759
+34  drop_cluster_agg__arriveshop_cost__min_by__dro...         1762
+25  drop_cluster_agg__food_total_value__std_by__dr...         1796
+3   drop_cluster_agg__food_total_value__max_by__dr...         1802
+18  drop_cluster_agg__arriveshop_cost__max_by__dro...         2069
+7   drop_cluster_agg__fetch_cost__max_by__dropoff_...         2108
+8   drop_cluster_agg__delivery_distance__median_by...         2124
+39  drop_cluster_agg__delivery_distance__std_by__d...         2136
+26  drop_cluster_agg__arrive_guest_cost__max_by__d...         2136
+33  drop_cluster_agg__delivery_duration__max_by__d...         2190
+28  drop_cluster_agg__arrive_guest_cost__std_by__d...         2261
+4   drop_cluster_agg__food_total_value__median_by_...         2350
+1   drop_cluster_agg__delivery_distance__min_by__d...         2584
+16  drop_cluster_agg__delivery_duration__min_by__d...         2790
+13  drop_cluster_agg__fetch_cost__median_by__dropo...         2943
+22  drop_cluster_agg__arriveshop_cost__std_by__dro...         2980
+0   drop_cluster_agg__fetch_cost__std_by__dropoff_...         3169
+36  drop_cluster_agg__arriveshop_cost__median_by__...         3381
+19  drop_cluster_agg__delivery_duration__std_by__d...         3588
+21  drop_cluster_agg__arrive_guest_cost__median_by...         3914
+38  drop_cluster_agg__delivery_duration__median_by...         7810
+!!!!!!!!!!!!!! rs is 655.887015428 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1218.87724119 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 579.6450827 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 330.690013262 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 977.65771877 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1888.87798979 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2251.541521
+std         328.929972
+min        1460.150164
+25%        2016.829683
+50%        2232.031384
+75%        2487.232910
+max        3500.841400
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 7,name is lasthour_poi_agg, train_feas is ['lasthour_poi_agg__fetch_cost__std_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__median_by__poi_id', 'lasthour_poi_agg__food_total_value__median_by__poi_id', 'lasthour_poi_agg__box_total_value__std_by__poi_id', 'lasthour_poi_agg__delivery_duration__median_by__poi_id', 'lasthour_poi_agg__avg_speed__std_by__poi_id', 'lasthour_poi_agg__box_total_value__median_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__median_by__poi_id', 'lasthour_poi_agg__delivery_duration__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__std_by__poi_id', 'lasthour_poi_agg__food_total_value__std_by__poi_id', 'lasthour_poi_agg__order_id__count_by__poi_id', 'lasthour_poi_agg__delivery_distance__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'lasthour_poi_agg__delivery_distance__median_by__poi_id', 'lasthour_poi_agg__avg_speed__median_by__poi_id'] 
+Start training...
+[LightGBM] [Info] Total Bins 4795
+[LightGBM] [Info] Number of data: 331392, number of used features: 21
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 617.061	valid_1's l1: 672.882
+[200]	training's l1: 604.564	valid_1's l1: 660.428
+[300]	training's l1: 601.615	valid_1's l1: 656.597
+[400]	training's l1: 600.667	valid_1's l1: 654.422
+[500]	training's l1: 600.287	valid_1's l1: 653.792
+[600]	training's l1: 600.117	valid_1's l1: 653.866
+Early stopping, best iteration is:
+[510]	training's l1: 600.263	valid_1's l1: 653.763
+[LightGBM] [Info] Finished loading 510 models
+                                              feature  importances
+2   lasthour_poi_agg__waiting_order_num__median_by...          442
+9   lasthour_poi_agg__box_total_value__median_by__...          791
+16       lasthour_poi_agg__order_id__count_by__poi_id         2020
+19  lasthour_poi_agg__delivery_distance__median_by...         2031
+6   lasthour_poi_agg__box_total_value__std_by__poi_id         2143
+14  lasthour_poi_agg__waiting_order_num__std_by__p...         2190
+20     lasthour_poi_agg__avg_speed__median_by__poi_id         2234
+15  lasthour_poi_agg__food_total_value__std_by__po...         2383
+5   lasthour_poi_agg__food_total_value__median_by_...         2385
+0        lasthour_poi_agg__fetch_cost__std_by__poi_id         2390
+13  lasthour_poi_agg__arrive_guest_cost__std_by__p...         2653
+18  lasthour_poi_agg__arrive_guest_avg_speed__medi...         2656
+17  lasthour_poi_agg__delivery_distance__std_by__p...         2670
+12  lasthour_poi_agg__delivery_duration__std_by__p...         2728
+3   lasthour_poi_agg__arrive_guest_avg_speed__std_...         2763
+8         lasthour_poi_agg__avg_speed__std_by__poi_id         2789
+10  lasthour_poi_agg__arriveshop_cost__median_by__...         2803
+4     lasthour_poi_agg__fetch_cost__median_by__poi_id         2913
+1   lasthour_poi_agg__arriveshop_cost__std_by__poi_id         2997
+11  lasthour_poi_agg__arrive_guest_cost__median_by...         3240
+7   lasthour_poi_agg__delivery_duration__median_by...         3269
+!!!!!!!!!!!!!! rs is 653.762745415 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1213.82446809 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 567.260385599 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 306.360303194 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 1043.48168447 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1913.3930302 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2226.462542
+std         245.394650
+min        1620.825042
+25%        2058.605187
+50%        2223.240788
+75%        2345.079581
+max        3123.508866
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 8,name is lasthour_poi_dict, train_feas is ['lasthour_poi_dict__fetch_cost', 'lasthour_poi_dict__food_total_value_last_ten', 'lasthour_poi_dict__arriveshop_cost'] 
+Start training...
+[LightGBM] [Info] Total Bins 764
+[LightGBM] [Info] Number of data: 331392, number of used features: 3
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 631.743	valid_1's l1: 707.833
+[200]	training's l1: 616.941	valid_1's l1: 707.342
+Early stopping, best iteration is:
+[155]	training's l1: 621.961	valid_1's l1: 706.983
+[LightGBM] [Info] Finished loading 155 models
+                                        feature  importances
+1  lasthour_poi_dict__food_total_value_last_ten         4806
+0                 lasthour_poi_dict__fetch_cost         4976
+2            lasthour_poi_dict__arriveshop_cost         5563
+!!!!!!!!!!!!!! rs is 706.983046285 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1251.94792851 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 556.697290551 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 342.336112193 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 1230.32309967 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 2149.58118584 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2148.972492
+std         156.300182
+min        1656.753683
+25%        2046.542110
+50%        2146.555192
+75%        2245.567650
+max        2715.128600
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 9,name is pick_cluster_agg, train_feas is ['pick_cluster_agg__food_total_value__min_by__pickup_cluster', 'pick_cluster_agg__delivery_distance__max_by__pickup_cluster', 'pick_cluster_agg__delivery_distance__std_by__pickup_cluster', 'pick_cluster_agg__arrive_guest_cost__min_by__pickup_cluster', 'pick_cluster_agg__waiting_order_num__median_by__pickup_cluster', 'pick_cluster_agg__food_total_value__median_by__pickup_cluster', 'pick_cluster_agg__delivery_distance__sum_by__pickup_cluster', 'pick_cluster_agg__delivery_distance__min_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__min_by__pickup_cluster', 'pick_cluster_agg__box_total_value__max_by__pickup_cluster', 'pick_cluster_agg__arriveshop_cost__std_by__pickup_cluster', 'pick_cluster_agg__arriveshop_cost__min_by__pickup_cluster', 'pick_cluster_agg__arrive_guest_cost__median_by__pickup_cluster', 'pick_cluster_agg__fetch_cost__std_by__pickup_cluster', 'pick_cluster_agg__waiting_order_num__max_by__pickup_cluster', 'pick_cluster_agg__arriveshop_cost__median_by__pickup_cluster', 'pick_cluster_agg__food_total_value__max_by__pickup_cluster', 'pick_cluster_agg__arrive_guest_cost__std_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__sum_by__pickup_cluster', 'pick_cluster_agg__waiting_order_num__sum_by__pickup_cluster', 'pick_cluster_agg__waiting_order_num__std_by__pickup_cluster', 'pick_cluster_agg__arriveshop_cost__max_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__median_by__pickup_cluster', 'pick_cluster_agg__box_total_value__min_by__pickup_cluster', 'pick_cluster_agg__fetch_cost__min_by__pickup_cluster', 'pick_cluster_agg__food_total_value__sum_by__pickup_cluster', 'pick_cluster_agg__arriveshop_cost__sum_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__max_by__pickup_cluster', 'pick_cluster_agg__box_total_value__std_by__pickup_cluster', 'pick_cluster_agg__box_total_value__median_by__pickup_cluster', 'pick_cluster_agg__arrive_guest_cost__sum_by__pickup_cluster', 'pick_cluster_agg__box_total_value__sum_by__pickup_cluster', 'pick_cluster_agg__delivery_distance__median_by__pickup_cluster', 'pick_cluster_agg__fetch_cost__sum_by__pickup_cluster', 'pick_cluster_agg__fetch_cost__median_by__pickup_cluster', 'pick_cluster_agg__order_id__count_by__pickup_cluster', 'pick_cluster_agg__delivery_duration__std_by__pickup_cluster', 'pick_cluster_agg__arrive_guest_cost__max_by__pickup_cluster', 'pick_cluster_agg__food_total_value__std_by__pickup_cluster', 'pick_cluster_agg__waiting_order_num__min_by__pickup_cluster', 'pick_cluster_agg__fetch_cost__max_by__pickup_cluster'] 
+Start training...
+[LightGBM] [Info] Total Bins 7473
+[LightGBM] [Info] Number of data: 331392, number of used features: 40
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 625.82	valid_1's l1: 660.856
+[200]	training's l1: 616.896	valid_1's l1: 650.185
+[300]	training's l1: 615.337	valid_1's l1: 647.924
+[400]	training's l1: 615.006	valid_1's l1: 647.325
+[500]	training's l1: 614.919	valid_1's l1: 647.134
+[600]	training's l1: 614.892	valid_1's l1: 647.069
+[700]	training's l1: 614.883	valid_1's l1: 647.045
+[800]	training's l1: 614.88	valid_1's l1: 647.037
+[900]	training's l1: 614.879	valid_1's l1: 647.034
+[1000]	training's l1: 614.879	valid_1's l1: 647.033
+[1100]	training's l1: 614.879	valid_1's l1: 647.032
+[1200]	training's l1: 614.879	valid_1's l1: 647.032
+[1300]	training's l1: 614.879	valid_1's l1: 647.032
+[1400]	training's l1: 614.879	valid_1's l1: 647.032
+[1500]	training's l1: 614.879	valid_1's l1: 647.032
+[LightGBM] [Info] Finished loading 1500 models
+                                              feature  importances
+39  pick_cluster_agg__waiting_order_num__min_by__p...            0
+23  pick_cluster_agg__box_total_value__min_by__pic...          380
+35  pick_cluster_agg__order_id__count_by__pickup_c...          473
+30  pick_cluster_agg__arrive_guest_cost__sum_by__p...          823
+24  pick_cluster_agg__fetch_cost__min_by__pickup_c...          977
+29  pick_cluster_agg__box_total_value__median_by__...         1138
+26  pick_cluster_agg__arriveshop_cost__sum_by__pic...         1603
+31  pick_cluster_agg__box_total_value__sum_by__pic...         1830
+25  pick_cluster_agg__food_total_value__sum_by__pi...         1840
+33  pick_cluster_agg__fetch_cost__sum_by__pickup_c...         1962
+19  pick_cluster_agg__waiting_order_num__sum_by__p...         2040
+20  pick_cluster_agg__waiting_order_num__std_by__p...         2066
+4   pick_cluster_agg__waiting_order_num__median_by...         2180
+18  pick_cluster_agg__delivery_duration__sum_by__p...         2193
+14  pick_cluster_agg__waiting_order_num__max_by__p...         2273
+38  pick_cluster_agg__food_total_value__std_by__pi...         2751
+37  pick_cluster_agg__arrive_guest_cost__max_by__p...         3025
+32  pick_cluster_agg__delivery_distance__median_by...         3035
+28  pick_cluster_agg__box_total_value__std_by__pic...         3115
+40  pick_cluster_agg__fetch_cost__max_by__pickup_c...         3129
+16  pick_cluster_agg__food_total_value__max_by__pi...         3307
+9   pick_cluster_agg__box_total_value__max_by__pic...         3342
+21  pick_cluster_agg__arriveshop_cost__max_by__pic...         3588
+34  pick_cluster_agg__fetch_cost__median_by__picku...         3593
+17  pick_cluster_agg__arrive_guest_cost__std_by__p...         3737
+27  pick_cluster_agg__delivery_duration__max_by__p...         3764
+15  pick_cluster_agg__arriveshop_cost__median_by__...         4273
+36  pick_cluster_agg__delivery_duration__std_by__p...         4591
+13  pick_cluster_agg__fetch_cost__std_by__pickup_c...         4651
+7   pick_cluster_agg__delivery_distance__min_by__p...         4655
+11  pick_cluster_agg__arriveshop_cost__min_by__pic...         4667
+12  pick_cluster_agg__arrive_guest_cost__median_by...         4807
+5   pick_cluster_agg__food_total_value__median_by_...         4842
+6   pick_cluster_agg__delivery_distance__sum_by__p...         5511
+10  pick_cluster_agg__arriveshop_cost__std_by__pic...         5516
+0   pick_cluster_agg__food_total_value__min_by__pi...         6199
+8   pick_cluster_agg__delivery_duration__min_by__p...         6248
+2   pick_cluster_agg__delivery_distance__std_by__p...         6373
+3   pick_cluster_agg__arrive_guest_cost__min_by__p...         6994
+1   pick_cluster_agg__delivery_distance__max_by__p...         8006
+22  pick_cluster_agg__delivery_duration__median_by...        13003
+!!!!!!!!!!!!!! rs is 647.032005691 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1164.53720376 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 562.765713478 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 336.623495207 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 978.582078714 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1841.64676128 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2237.840634
+std         342.727269
+min        1258.516137
+25%        2010.960029
+50%        2228.009694
+75%        2498.415419
+max        3109.831667
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 10,name is pick_drop_cluster_agg, train_feas is ['pick_drop_cluster_agg__arriveshop_cost__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__food_total_value__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__food_total_value__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__waiting_order_num__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_duration__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__waiting_order_num__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__fetch_cost__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__box_total_value__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__fetch_cost__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arriveshop_cost__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__order_id__count_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arriveshop_cost__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__food_total_value__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__food_total_value__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arriveshop_cost__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__fetch_cost__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_duration__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__fetch_cost__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__box_total_value__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_duration__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_distance__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__waiting_order_num__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arrive_guest_cost__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__waiting_order_num__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__box_total_value__std_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__arriveshop_cost__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_duration__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__waiting_order_num__median_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__fetch_cost__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__box_total_value__sum_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__delivery_duration__min_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__box_total_value__max_by__pickup_cluster#dropoff_cluster', 'pick_drop_cluster_agg__food_total_value__min_by__pickup_cluster#dropoff_cluster'] 
+Start training...
+[LightGBM] [Info] Total Bins 9155
+[LightGBM] [Info] Number of data: 331392, number of used features: 41
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 600.318	valid_1's l1: 648.271
+[200]	training's l1: 584.888	valid_1's l1: 636.52
+[300]	training's l1: 581.762	valid_1's l1: 634.589
+[400]	training's l1: 581.03	valid_1's l1: 634.209
+[500]	training's l1: 580.845	valid_1's l1: 634.095
+[600]	training's l1: 580.796	valid_1's l1: 634.044
+[700]	training's l1: 580.804	valid_1's l1: 634.013
+Early stopping, best iteration is:
+[647]	training's l1: 580.794	valid_1's l1: 634.028
+[LightGBM] [Info] Finished loading 647 models
+                                              feature  importances
+29  pick_drop_cluster_agg__waiting_order_num__min_...          121
+24  pick_drop_cluster_agg__box_total_value__min_by...          245
+39  pick_drop_cluster_agg__box_total_value__max_by...          332
+8   pick_drop_cluster_agg__box_total_value__median...          332
+31  pick_drop_cluster_agg__waiting_order_num__max_...          529
+37  pick_drop_cluster_agg__box_total_value__sum_by...          573
+30  pick_drop_cluster_agg__arrive_guest_cost__sum_...          610
+2   pick_drop_cluster_agg__food_total_value__sum_b...          634
+18  pick_drop_cluster_agg__food_total_value__max_b...          661
+35  pick_drop_cluster_agg__waiting_order_num__medi...          730
+32  pick_drop_cluster_agg__box_total_value__std_by...          733
+5   pick_drop_cluster_agg__waiting_order_num__sum_...          742
+12  pick_drop_cluster_agg__order_id__count_by__pic...          778
+13  pick_drop_cluster_agg__delivery_distance__sum_...          790
+15  pick_drop_cluster_agg__delivery_distance__max_...          830
+9   pick_drop_cluster_agg__fetch_cost__min_by__pic...          895
+25  pick_drop_cluster_agg__delivery_distance__min_...          914
+40  pick_drop_cluster_agg__food_total_value__min_b...          916
+28  pick_drop_cluster_agg__delivery_distance__medi...          921
+1   pick_drop_cluster_agg__food_total_value__std_b...          927
+10  pick_drop_cluster_agg__delivery_distance__std_...          984
+3   pick_drop_cluster_agg__waiting_order_num__std_...          995
+36  pick_drop_cluster_agg__fetch_cost__max_by__pic...         1069
+20  pick_drop_cluster_agg__fetch_cost__sum_by__pic...         1103
+33  pick_drop_cluster_agg__arriveshop_cost__sum_by...         1147
+27  pick_drop_cluster_agg__delivery_duration__sum_...         1231
+6   pick_drop_cluster_agg__arrive_guest_cost__max_...         1263
+19  pick_drop_cluster_agg__arriveshop_cost__max_by...         1427
+26  pick_drop_cluster_agg__arrive_guest_cost__min_...         1483
+17  pick_drop_cluster_agg__food_total_value__media...         1485
+0   pick_drop_cluster_agg__arriveshop_cost__min_by...         1886
+21  pick_drop_cluster_agg__arrive_guest_cost__std_...         1968
+23  pick_drop_cluster_agg__fetch_cost__std_by__pic...         2505
+16  pick_drop_cluster_agg__arriveshop_cost__std_by...         2939
+14  pick_drop_cluster_agg__arrive_guest_cost__medi...         2959
+11  pick_drop_cluster_agg__arriveshop_cost__median...         3397
+7   pick_drop_cluster_agg__fetch_cost__median_by__...         3526
+34  pick_drop_cluster_agg__delivery_duration__max_...         3580
+4   pick_drop_cluster_agg__delivery_duration__std_...         4978
+38  pick_drop_cluster_agg__delivery_duration__min_...         5318
+22  pick_drop_cluster_agg__delivery_duration__medi...         5597
+!!!!!!!!!!!!!! rs is 634.027985103 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1054.35814093 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 556.421381545 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 351.896243109 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 929.31930071 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1775.38478521 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2252.385507
+std         413.574154
+min        1087.845287
+25%        1993.895314
+50%        2262.272018
+75%        2490.684878
+max        3752.068506
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 11,name is poi_agg, train_feas is ['poi_agg__arriveshop_cost__std_by__poi_id', 'poi_agg__arrive_guest_cost__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'poi_agg__food_total_value__std_by__poi_id', 'poi_agg__delivery_duration__median_by__poi_id', 'poi_agg__avg_speed__std_by__poi_id', 'poi_agg__delivery_duration__std_by__poi_id', 'poi_agg__arrive_guest_cost__std_by__poi_id', 'poi_agg__waiting_order_num__std_by__poi_id', 'poi_agg__box_total_value__std_by__poi_id', 'poi_agg__waiting_order_num__median_by__poi_id', 'poi_agg__delivery_distance__median_by__poi_id', 'poi_agg__arriveshop_cost__median_by__poi_id', 'poi_agg__fetch_cost__std_by__poi_id', 'poi_agg__food_total_value__median_by__poi_id', 'poi_agg__order_id__count_by__poi_id', 'poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__delivery_distance__std_by__poi_id', 'poi_agg__box_total_value__median_by__poi_id', 'poi_agg__avg_speed__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__std_by__poi_id'] 
+Start training...
+[LightGBM] [Info] Total Bins 4848
+[LightGBM] [Info] Number of data: 331392, number of used features: 21
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 609.641	valid_1's l1: 647.125
+[200]	training's l1: 597.253	valid_1's l1: 634.021
+[300]	training's l1: 594.94	valid_1's l1: 631.298
+[400]	training's l1: 594.432	valid_1's l1: 630.574
+[500]	training's l1: 594.317	valid_1's l1: 630.341
+[600]	training's l1: 594.298	valid_1's l1: 630.25
+Early stopping, best iteration is:
+[596]	training's l1: 594.298	valid_1's l1: 630.253
+[LightGBM] [Info] Finished loading 596 models
+                                              feature  importances
+10      poi_agg__waiting_order_num__median_by__poi_id          309
+18        poi_agg__box_total_value__median_by__poi_id          455
+9            poi_agg__box_total_value__std_by__poi_id         1378
+19              poi_agg__avg_speed__median_by__poi_id         1745
+2   poi_agg__arrive_guest_avg_speed__median_by__po...         2042
+20    poi_agg__arrive_guest_avg_speed__std_by__poi_id         2136
+3           poi_agg__food_total_value__std_by__poi_id         2291
+14       poi_agg__food_total_value__median_by__poi_id         2297
+11      poi_agg__delivery_distance__median_by__poi_id         2575
+8          poi_agg__waiting_order_num__std_by__poi_id         2602
+17         poi_agg__delivery_distance__std_by__poi_id         2842
+15                poi_agg__order_id__count_by__poi_id         2866
+13                poi_agg__fetch_cost__std_by__poi_id         2930
+7          poi_agg__arrive_guest_cost__std_by__poi_id         2981
+5                  poi_agg__avg_speed__std_by__poi_id         3297
+0            poi_agg__arriveshop_cost__std_by__poi_id         3792
+16             poi_agg__fetch_cost__median_by__poi_id         3816
+12        poi_agg__arriveshop_cost__median_by__poi_id         3827
+1       poi_agg__arrive_guest_cost__median_by__poi_id         3833
+6          poi_agg__delivery_duration__std_by__poi_id         4297
+4       poi_agg__delivery_duration__median_by__poi_id         6693
+!!!!!!!!!!!!!! rs is 630.252545833 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1097.3433467 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 546.549961129 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 346.944338308 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 930.601529646 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1765.58080866 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2244.393968
+std         386.332204
+min        1159.254888
+25%        1963.119937
+50%        2214.226173
+75%        2514.894834
+max        3329.714882
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 12,name is poi_bin, train_feas is ['poi_bin__box_total_value__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__order_id__count_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__min_by__poi_lat_bin#poi_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 4295
+[LightGBM] [Info] Number of data: 331392, number of used features: 40
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 638.202	valid_1's l1: 674.129
+[200]	training's l1: 631.391	valid_1's l1: 666.073
+[300]	training's l1: 630.21	valid_1's l1: 664.418
+[400]	training's l1: 629.958	valid_1's l1: 663.981
+[500]	training's l1: 629.89	valid_1's l1: 663.846
+[600]	training's l1: 629.869	valid_1's l1: 663.8
+[700]	training's l1: 629.861	valid_1's l1: 663.784
+[800]	training's l1: 629.859	valid_1's l1: 663.778
+[900]	training's l1: 629.858	valid_1's l1: 663.775
+[1000]	training's l1: 629.857	valid_1's l1: 663.775
+[1100]	training's l1: 629.857	valid_1's l1: 663.774
+[1200]	training's l1: 629.857	valid_1's l1: 663.774
+[1300]	training's l1: 629.857	valid_1's l1: 663.774
+[1400]	training's l1: 629.857	valid_1's l1: 663.774
+[1500]	training's l1: 629.857	valid_1's l1: 663.774
+[LightGBM] [Info] Finished loading 1500 models
+                                              feature  importances
+18  poi_bin__waiting_order_num__min_by__poi_lat_bi...            0
+28  poi_bin__delivery_duration__sum_by__poi_lat_bi...            3
+29  poi_bin__arrive_guest_cost__sum_by__poi_lat_bi...            8
+22  poi_bin__food_total_value__sum_by__poi_lat_bin...           69
+39  poi_bin__waiting_order_num__max_by__poi_lat_bi...           93
+33  poi_bin__fetch_cost__min_by__poi_lat_bin#poi_l...          104
+12  poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_l...          181
+35  poi_bin__waiting_order_num__median_by__poi_lat...          225
+7   poi_bin__order_id__count_by__poi_lat_bin#poi_l...          478
+21  poi_bin__box_total_value__median_by__poi_lat_b...          618
+23  poi_bin__food_total_value__max_by__poi_lat_bin...          671
+34  poi_bin__arrive_guest_cost__max_by__poi_lat_bi...          707
+9   poi_bin__waiting_order_num__sum_by__poi_lat_bi...          760
+40  poi_bin__delivery_distance__min_by__poi_lat_bi...          981
+37  poi_bin__box_total_value__std_by__poi_lat_bin#...         1102
+15  poi_bin__arrive_guest_cost__min_by__poi_lat_bi...         1118
+27  poi_bin__waiting_order_num__std_by__poi_lat_bi...         1192
+24  poi_bin__delivery_distance__std_by__poi_lat_bi...         1335
+25  poi_bin__food_total_value__std_by__poi_lat_bin...         1549
+31  poi_bin__delivery_distance__median_by__poi_lat...         1618
+36  poi_bin__arrive_guest_cost__median_by__poi_lat...         1620
+6   poi_bin__box_total_value__sum_by__poi_lat_bin#...         1657
+20  poi_bin__fetch_cost__median_by__poi_lat_bin#po...         1729
+19  poi_bin__arriveshop_cost__min_by__poi_lat_bin#...         1732
+32  poi_bin__arriveshop_cost__median_by__poi_lat_b...         1789
+30  poi_bin__delivery_distance__max_by__poi_lat_bi...         1867
+13  poi_bin__fetch_cost__max_by__poi_lat_bin#poi_l...         2218
+16  poi_bin__arrive_guest_cost__std_by__poi_lat_bi...         2344
+10  poi_bin__delivery_duration__max_by__poi_lat_bi...         2367
+11  poi_bin__box_total_value__max_by__poi_lat_bin#...         2463
+5   poi_bin__arriveshop_cost__sum_by__poi_lat_bin#...         2968
+17  poi_bin__fetch_cost__std_by__poi_lat_bin#poi_l...         3284
+14  poi_bin__food_total_value__median_by__poi_lat_...         3567
+26  poi_bin__delivery_duration__std_by__poi_lat_bi...         3599
+8   poi_bin__arriveshop_cost__std_by__poi_lat_bin#...         6807
+0   poi_bin__box_total_value__min_by__poi_lat_bin#...         7224
+4   poi_bin__delivery_distance__sum_by__poi_lat_bi...         8179
+3   poi_bin__delivery_duration__min_by__poi_lat_bi...        13754
+38  poi_bin__delivery_duration__median_by__poi_lat...        14750
+1   poi_bin__food_total_value__min_by__poi_lat_bin...        21537
+2   poi_bin__arriveshop_cost__max_by__poi_lat_bin#...        30233
+!!!!!!!!!!!!!! rs is 663.774114134 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1235.46566503 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 580.962585144 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 326.599192448 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 1016.49773717 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1926.74197645 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2235.166910
+std         299.549774
+min        1309.816069
+25%        2044.879861
+50%        2284.889123
+75%        2420.035702
+max        2977.636368
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 13,name is poi_user_bin, train_feas is ['poi_user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 8743
+[LightGBM] [Info] Number of data: 331392, number of used features: 41
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 611.424	valid_1's l1: 650.164
+[200]	training's l1: 599.372	valid_1's l1: 638.296
+[300]	training's l1: 597.208	valid_1's l1: 636.13
+[400]	training's l1: 596.748	valid_1's l1: 635.654
+[500]	training's l1: 596.645	valid_1's l1: 635.526
+[600]	training's l1: 596.631	valid_1's l1: 635.486
+Early stopping, best iteration is:
+[591]	training's l1: 596.63	valid_1's l1: 635.489
+[LightGBM] [Info] Finished loading 591 models
+                                              feature  importances
+18  poi_user_bin__waiting_order_num__min_by__cst_l...           18
+13  poi_user_bin__box_total_value__min_by__cst_lat...          134
+27  poi_user_bin__order_id__count_by__cst_lat_bin#...          298
+17  poi_user_bin__box_total_value__median_by__cst_...          339
+36  poi_user_bin__waiting_order_num__median_by__cs...          384
+37  poi_user_bin__food_total_value__sum_by__cst_la...          554
+38  poi_user_bin__fetch_cost__min_by__cst_lat_bin#...          567
+26  poi_user_bin__arrive_guest_cost__sum_by__cst_l...          592
+10  poi_user_bin__delivery_duration__sum_by__cst_l...          624
+21  poi_user_bin__waiting_order_num__sum_by__cst_l...          636
+29  poi_user_bin__fetch_cost__sum_by__cst_lat_bin#...          695
+30  poi_user_bin__waiting_order_num__std_by__cst_l...          785
+6   poi_user_bin__box_total_value__sum_by__cst_lat...          812
+19  poi_user_bin__delivery_distance__sum_by__cst_l...          816
+12  poi_user_bin__waiting_order_num__max_by__cst_l...          823
+0   poi_user_bin__box_total_value__max_by__cst_lat...          914
+8   poi_user_bin__food_total_value__min_by__cst_la...         1018
+11  poi_user_bin__delivery_distance__median_by__cs...         1073
+9   poi_user_bin__delivery_distance__min_by__cst_l...         1110
+2   poi_user_bin__food_total_value__max_by__cst_la...         1113
+34  poi_user_bin__delivery_distance__max_by__cst_l...         1115
+25  poi_user_bin__fetch_cost__max_by__cst_lat_bin#...         1117
+22  poi_user_bin__box_total_value__std_by__cst_lat...         1133
+14  poi_user_bin__arriveshop_cost__max_by__cst_lat...         1190
+1   poi_user_bin__arriveshop_cost__sum_by__cst_lat...         1197
+32  poi_user_bin__delivery_distance__std_by__cst_l...         1213
+40  poi_user_bin__food_total_value__std_by__cst_la...         1296
+20  poi_user_bin__arriveshop_cost__min_by__cst_lat...         1328
+31  poi_user_bin__arrive_guest_cost__max_by__cst_l...         1336
+33  poi_user_bin__arrive_guest_cost__std_by__cst_l...         1484
+28  poi_user_bin__food_total_value__median_by__cst...         1619
+3   poi_user_bin__arrive_guest_cost__min_by__cst_l...         1692
+7   poi_user_bin__arriveshop_cost__std_by__cst_lat...         2373
+5   poi_user_bin__fetch_cost__std_by__cst_lat_bin#...         2498
+15  poi_user_bin__arrive_guest_cost__median_by__cs...         2631
+24  poi_user_bin__arriveshop_cost__median_by__cst_...         2727
+23  poi_user_bin__fetch_cost__median_by__cst_lat_b...         2737
+35  poi_user_bin__delivery_duration__max_by__cst_l...         2860
+39  poi_user_bin__delivery_duration__std_by__cst_l...         3539
+4   poi_user_bin__delivery_duration__min_by__cst_l...         3580
+16  poi_user_bin__delivery_duration__median_by__cs...         6539
+!!!!!!!!!!!!!! rs is 635.48866168 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1090.22600974 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 547.847609131 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 349.179383759 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 941.586606853 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1813.77743118 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2244.412006
+std         386.114756
+min        1168.500066
+25%        1982.172665
+50%        2230.650626
+75%        2508.504179
+max        3915.927660
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 14,name is rolling_poi_bin, train_feas is ['rolling_poi_bin__waiting_order_num__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_mean__poi_lat_bin#poi_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 5217
+[LightGBM] [Info] Number of data: 331392, number of used features: 24
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 603.028	valid_1's l1: 639.396
+[200]	training's l1: 585.494	valid_1's l1: 624.816
+[300]	training's l1: 579.337	valid_1's l1: 621.735
+[400]	training's l1: 575.795	valid_1's l1: 620.94
+[500]	training's l1: 573.231	valid_1's l1: 620.755
+[600]	training's l1: 571.158	valid_1's l1: 620.798
+Early stopping, best iteration is:
+[505]	training's l1: 573.126	valid_1's l1: 620.743
+[LightGBM] [Info] Finished loading 505 models
+                                              feature  importances
+14  rolling_poi_bin__food_num__forward_5_sum__poi_...           81
+18  rolling_poi_bin__food_num__back_5_mean__poi_la...          123
+17  rolling_poi_bin__food_num__back_5_sum__poi_lat...          427
+1   rolling_poi_bin__food_num__forward_5_mean__poi...          520
+15  rolling_poi_bin__delivery_distance__forward_5_...          758
+7   rolling_poi_bin__delivery_distance__back_5_sum...          892
+13  rolling_poi_bin__food_total_value__forward_5_m...          987
+21  rolling_poi_bin__waiting_order_num__forward_5_...         1000
+23  rolling_poi_bin__waiting_order_num__back_5_mea...         1048
+19  rolling_poi_bin__food_total_value__back_5_mean...         1198
+11  rolling_poi_bin__delivery_distance__back_5_std...         1749
+16  rolling_poi_bin__delivery_distance__forward_5_...         1810
+22  rolling_poi_bin__food_total_value__forward_5_s...         1940
+8   rolling_poi_bin__food_total_value__back_5_std_...         2088
+3   rolling_poi_bin__delivery_distance__forward_5_...         2304
+2   rolling_poi_bin__delivery_distance__back_5_mea...         2569
+9   rolling_poi_bin__food_total_value__back_5_sum_...         3136
+20  rolling_poi_bin__waiting_order_num__back_5_sum...         3139
+5   rolling_poi_bin__food_total_value__forward_5_s...         3291
+0   rolling_poi_bin__waiting_order_num__forward_5_...         3371
+4   rolling_poi_bin__waiting_order_num__forward_5_...         3910
+10  rolling_poi_bin__waiting_order_num__back_5_std...         4025
+12  rolling_poi_bin__food_num__forward_5_std__poi_...         4785
+6   rolling_poi_bin__food_num__back_5_std__poi_lat...         4844
+!!!!!!!!!!!!!! rs is 620.742558028 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1227.87100945 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 579.38217941 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 359.345321349 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 788.986784416 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1589.47047823 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2323.207656
+std         429.409676
+min        1392.108079
+25%        1963.387858
+50%        2251.144672
+75%        2685.359504
+max        3620.179270
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 15,name is rolling_poi_fea, train_feas is ['rolling_poi_fea__food_total_value__forward_5_mean__poi_id', 'rolling_poi_fea__food_num__back_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__forward_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__forward_5_std__poi_id', 'rolling_poi_fea__delivery_distance__forward_5_mean__poi_id', 'rolling_poi_fea__food_num__back_5_mean__poi_id', 'rolling_poi_fea__waiting_order_num__back_5_mean__poi_id', 'rolling_poi_fea__food_total_value__forward_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__back_5_sum__poi_id', 'rolling_poi_fea__waiting_order_num__forward_5_std__poi_id', 'rolling_poi_fea__waiting_order_num__back_5_sum__poi_id', 'rolling_poi_fea__food_total_value__back_5_std__poi_id', 'rolling_poi_fea__delivery_distance__back_5_mean__poi_id', 'rolling_poi_fea__waiting_order_num__forward_5_mean__poi_id', 'rolling_poi_fea__waiting_order_num__back_5_std__poi_id', 'rolling_poi_fea__food_total_value__back_5_mean__poi_id', 'rolling_poi_fea__food_num__forward_5_mean__poi_id', 'rolling_poi_fea__food_total_value__forward_5_std__poi_id', 'rolling_poi_fea__food_num__forward_5_std__poi_id', 'rolling_poi_fea__food_num__forward_5_sum__poi_id', 'rolling_poi_fea__food_total_value__back_5_sum__poi_id', 'rolling_poi_fea__waiting_order_num__forward_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__back_5_std__poi_id', 'rolling_poi_fea__food_num__back_5_std__poi_id'] 
+Start training...
+[LightGBM] [Info] Total Bins 5212
+[LightGBM] [Info] Number of data: 331392, number of used features: 24
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 614.363	valid_1's l1: 654.345
+[200]	training's l1: 598.385	valid_1's l1: 641.153
+[300]	training's l1: 592.195	valid_1's l1: 637.55
+[400]	training's l1: 588.432	valid_1's l1: 636.092
+[500]	training's l1: 585.571	valid_1's l1: 635.315
+[600]	training's l1: 583.394	valid_1's l1: 635.001
+[700]	training's l1: 581.614	valid_1's l1: 634.762
+[800]	training's l1: 580.013	valid_1's l1: 634.627
+[900]	training's l1: 578.479	valid_1's l1: 634.533
+[1000]	training's l1: 577.023	valid_1's l1: 634.475
+[1100]	training's l1: 575.59	valid_1's l1: 634.454
+[1200]	training's l1: 574.196	valid_1's l1: 634.432
+[1300]	training's l1: 572.833	valid_1's l1: 634.474
+Early stopping, best iteration is:
+[1201]	training's l1: 574.182	valid_1's l1: 634.427
+[LightGBM] [Info] Finished loading 1201 models
+                                              feature  importances
+19   rolling_poi_fea__food_num__forward_5_sum__poi_id          361
+5      rolling_poi_fea__food_num__back_5_mean__poi_id          426
+16  rolling_poi_fea__food_num__forward_5_mean__poi_id         1272
+1       rolling_poi_fea__food_num__back_5_sum__poi_id         1718
+10  rolling_poi_fea__waiting_order_num__back_5_sum...         2387
+4   rolling_poi_fea__delivery_distance__forward_5_...         2460
+12  rolling_poi_fea__delivery_distance__back_5_mea...         2615
+21  rolling_poi_fea__waiting_order_num__forward_5_...         2669
+20  rolling_poi_fea__food_total_value__back_5_sum_...         2730
+7   rolling_poi_fea__food_total_value__forward_5_s...         3105
+23      rolling_poi_fea__food_num__back_5_std__poi_id         5067
+18   rolling_poi_fea__food_num__forward_5_std__poi_id         5082
+22  rolling_poi_fea__delivery_distance__back_5_std...         6272
+9   rolling_poi_fea__waiting_order_num__forward_5_...         6404
+3   rolling_poi_fea__delivery_distance__forward_5_...         6417
+2   rolling_poi_fea__delivery_distance__forward_5_...         7114
+8   rolling_poi_fea__delivery_distance__back_5_sum...         7420
+17  rolling_poi_fea__food_total_value__forward_5_s...         7495
+14  rolling_poi_fea__waiting_order_num__back_5_std...         7558
+13  rolling_poi_fea__waiting_order_num__forward_5_...         7647
+11  rolling_poi_fea__food_total_value__back_5_std_...         7656
+6   rolling_poi_fea__waiting_order_num__back_5_mea...         7799
+0   rolling_poi_fea__food_total_value__forward_5_m...         8527
+15  rolling_poi_fea__food_total_value__back_5_mean...         8698
+!!!!!!!!!!!!!! rs is 634.427007058 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1227.42201955 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 580.377613688 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 346.447065187 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 887.028796503 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1641.89750476 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2299.450644
+std         403.448362
+min        1375.688017
+25%        1986.320696
+50%        2226.471391
+75%        2542.023751
+max        4137.319185
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 16,name is rolling_user_bin, train_feas is ['rolling_user_bin__food_num__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__forward_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__forward_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_std__cst_lat_bin#cst_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 5195
+[LightGBM] [Info] Number of data: 331392, number of used features: 24
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 597.869	valid_1's l1: 635.082
+[200]	training's l1: 579.694	valid_1's l1: 619.919
+[300]	training's l1: 573.823	valid_1's l1: 617.12
+[400]	training's l1: 570.724	valid_1's l1: 616.554
+Early stopping, best iteration is:
+[399]	training's l1: 570.75	valid_1's l1: 616.554
+[LightGBM] [Info] Finished loading 399 models
+                                              feature  importances
+22  rolling_user_bin__food_num__back_5_mean__cst_l...           70
+18  rolling_user_bin__food_num__forward_5_mean__cs...           76
+7   rolling_user_bin__food_num__back_5_sum__cst_la...          370
+0   rolling_user_bin__food_num__forward_5_sum__cst...          407
+13  rolling_user_bin__food_total_value__back_5_mea...          487
+20  rolling_user_bin__food_total_value__forward_5_...          828
+21  rolling_user_bin__waiting_order_num__back_5_su...          833
+8   rolling_user_bin__waiting_order_num__forward_5...          992
+15  rolling_user_bin__delivery_distance__forward_5...         1062
+11  rolling_user_bin__delivery_distance__back_5_me...         1165
+17  rolling_user_bin__food_total_value__back_5_std...         1324
+23  rolling_user_bin__food_total_value__forward_5_...         1449
+6   rolling_user_bin__food_num__forward_5_std__cst...         1704
+14  rolling_user_bin__food_num__back_5_std__cst_la...         1889
+1   rolling_user_bin__food_total_value__back_5_sum...         2069
+9   rolling_user_bin__waiting_order_num__back_5_st...         2081
+16  rolling_user_bin__food_total_value__forward_5_...         2144
+19  rolling_user_bin__waiting_order_num__forward_5...         2201
+4   rolling_user_bin__delivery_distance__forward_5...         2774
+12  rolling_user_bin__delivery_distance__back_5_st...         2829
+2   rolling_user_bin__waiting_order_num__forward_5...         2910
+3   rolling_user_bin__waiting_order_num__back_5_me...         2978
+5   rolling_user_bin__delivery_distance__back_5_su...         3364
+10  rolling_user_bin__delivery_distance__forward_5...         3495
+!!!!!!!!!!!!!! rs is 616.553735897 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1215.88265256 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 592.07165899 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 350.947336134 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 759.96723999 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1576.57787928 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2341.912884
+std         433.839473
+min        1439.914175
+25%        1988.991828
+50%        2300.102387
+75%        2674.934821
+max        3569.908492
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 17,name is user_bin, train_feas is ['user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 7386
+[LightGBM] [Info] Number of data: 331392, number of used features: 40
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 637.251	valid_1's l1: 673.315
+[200]	training's l1: 630.167	valid_1's l1: 665.38
+[300]	training's l1: 628.926	valid_1's l1: 663.838
+[400]	training's l1: 628.657	valid_1's l1: 663.461
+[500]	training's l1: 628.583	valid_1's l1: 663.347
+[600]	training's l1: 628.56	valid_1's l1: 663.308
+[700]	training's l1: 628.552	valid_1's l1: 663.294
+[800]	training's l1: 628.549	valid_1's l1: 663.289
+[900]	training's l1: 628.548	valid_1's l1: 663.287
+[1000]	training's l1: 628.548	valid_1's l1: 663.287
+[1100]	training's l1: 628.548	valid_1's l1: 663.286
+[1200]	training's l1: 628.548	valid_1's l1: 663.286
+[1300]	training's l1: 628.548	valid_1's l1: 663.286
+[1400]	training's l1: 628.548	valid_1's l1: 663.286
+[1500]	training's l1: 628.548	valid_1's l1: 663.286
+[LightGBM] [Info] Finished loading 1500 models
+                                              feature  importances
+17  user_bin__waiting_order_num__min_by__cst_lat_b...            0
+26  user_bin__delivery_duration__sum_by__cst_lat_b...          297
+38  user_bin__box_total_value__min_by__cst_lat_bin...          343
+37  user_bin__food_total_value__sum_by__cst_lat_bi...          426
+10  user_bin__box_total_value__median_by__cst_lat_...          588
+30  user_bin__fetch_cost__sum_by__cst_lat_bin#cst_...          804
+20  user_bin__arriveshop_cost__sum_by__cst_lat_bin...         1025
+32  user_bin__waiting_order_num__median_by__cst_la...         1284
+14  user_bin__arrive_guest_cost__sum_by__cst_lat_b...         1297
+22  user_bin__waiting_order_num__sum_by__cst_lat_b...         1360
+40  user_bin__food_total_value__min_by__cst_lat_bi...         1445
+19  user_bin__delivery_distance__sum_by__cst_lat_b...         1478
+5   user_bin__fetch_cost__min_by__cst_lat_bin#cst_...         2428
+23  user_bin__waiting_order_num__std_by__cst_lat_b...         2540
+34  user_bin__box_total_value__max_by__cst_lat_bin...         2626
+21  user_bin__waiting_order_num__max_by__cst_lat_b...         2719
+36  user_bin__box_total_value__std_by__cst_lat_bin...         2823
+31  user_bin__arriveshop_cost__max_by__cst_lat_bin...         2832
+39  user_bin__arrive_guest_cost__min_by__cst_lat_b...         3008
+28  user_bin__delivery_distance__max_by__cst_lat_b...         3107
+24  user_bin__fetch_cost__median_by__cst_lat_bin#c...         3280
+13  user_bin__delivery_distance__min_by__cst_lat_b...         3382
+15  user_bin__food_total_value__std_by__cst_lat_bi...         3516
+35  user_bin__food_total_value__median_by__cst_lat...         3544
+27  user_bin__arrive_guest_cost__max_by__cst_lat_b...         3629
+11  user_bin__fetch_cost__max_by__cst_lat_bin#cst_...         3631
+12  user_bin__delivery_distance__median_by__cst_la...         3665
+7   user_bin__food_total_value__max_by__cst_lat_bi...         3815
+33  user_bin__delivery_duration__max_by__cst_lat_b...         3925
+2   user_bin__box_total_value__sum_by__cst_lat_bin...         4167
+8   user_bin__delivery_duration__min_by__cst_lat_b...         4926
+25  user_bin__arrive_guest_cost__std_by__cst_lat_b...         5050
+18  user_bin__arriveshop_cost__median_by__cst_lat_...         5175
+16  user_bin__arrive_guest_cost__median_by__cst_la...         5301
+6   user_bin__arriveshop_cost__std_by__cst_lat_bin...         5730
+9   user_bin__delivery_duration__std_by__cst_lat_b...         6208
+4   user_bin__fetch_cost__std_by__cst_lat_bin#cst_...         6227
+3   user_bin__arriveshop_cost__min_by__cst_lat_bin...         7103
+0   user_bin__delivery_distance__std_by__cst_lat_b...         9951
+1   user_bin__order_id__count_by__cst_lat_bin#cst_...        10513
+29  user_bin__delivery_duration__median_by__cst_la...        13332
+!!!!!!!!!!!!!! rs is 663.286366347 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 1239.1450796 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 582.830499172 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 328.45606882 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 1005.95918707 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 1920.43113816 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2243.377781
+std         307.537790
+min        1476.531880
+25%        2045.056823
+50%        2239.763528
+75%        2452.815805
+max        3861.108836
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 18,name is base@area_agg@poi_agg@lasthour_poi_agg, train_feas is ['area_id', '10min', 'bill_number_per_rider', 'poi_lng_bin', 'poi_lat_bin', 'customer_latitude', '_10min_not_fetched_order_num', 'delivery_distance', '_10min_working_rider_num', 'cst_lng_bin', 'customer_longitude', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', 'food_total_value', 'cst_lat_bin', 'food_num', 'poi_id', '_10min_notbusy_working_rider_num', 'prd_arrive_guest_time', 'box_total_value', 'area_busy_coef', '15min', 'poi_lat', 'area_agg__prd_arrive_guest_time__median_by__area_id#hour#minute', 'area_agg__food_total_value__sum_by__area_id#hour#minute', 'area_agg__delivery_distance__sum_by__area_id#hour#minute', 'area_agg__prd_arrive_guest_time__std_by__area_id#hour#minute', 'area_agg__arriveshop_cost__std_by__area_id#hour#minute', 'area_agg__order_id__count_by__area_id#hour#minute', 'area_agg__arriveshop_cost__median_by__area_id#hour#minute', 'poi_agg__arriveshop_cost__std_by__poi_id', 'poi_agg__arrive_guest_cost__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'poi_agg__food_total_value__std_by__poi_id', 'poi_agg__delivery_duration__median_by__poi_id', 'poi_agg__avg_speed__std_by__poi_id', 'poi_agg__delivery_duration__std_by__poi_id', 'poi_agg__arrive_guest_cost__std_by__poi_id', 'poi_agg__waiting_order_num__std_by__poi_id', 'poi_agg__box_total_value__std_by__poi_id', 'poi_agg__waiting_order_num__median_by__poi_id', 'poi_agg__delivery_distance__median_by__poi_id', 'poi_agg__arriveshop_cost__median_by__poi_id', 'poi_agg__fetch_cost__std_by__poi_id', 'poi_agg__food_total_value__median_by__poi_id', 'poi_agg__order_id__count_by__poi_id', 'poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__delivery_distance__std_by__poi_id', 'poi_agg__box_total_value__median_by__poi_id', 'poi_agg__avg_speed__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__std_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__median_by__poi_id', 'lasthour_poi_agg__food_total_value__median_by__poi_id', 'lasthour_poi_agg__box_total_value__std_by__poi_id', 'lasthour_poi_agg__delivery_duration__median_by__poi_id', 'lasthour_poi_agg__avg_speed__std_by__poi_id', 'lasthour_poi_agg__box_total_value__median_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__median_by__poi_id', 'lasthour_poi_agg__delivery_duration__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__std_by__poi_id', 'lasthour_poi_agg__food_total_value__std_by__poi_id', 'lasthour_poi_agg__order_id__count_by__poi_id', 'lasthour_poi_agg__delivery_distance__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'lasthour_poi_agg__delivery_distance__median_by__poi_id', 'lasthour_poi_agg__avg_speed__median_by__poi_id'] 
+Start training...
+[LightGBM] [Info] Total Bins 15567
+[LightGBM] [Info] Number of data: 331392, number of used features: 74
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 468.36	valid_1's l1: 503.595
+[200]	training's l1: 414.76	valid_1's l1: 450
+[300]	training's l1: 398.427	valid_1's l1: 434.551
+[400]	training's l1: 391.551	valid_1's l1: 428.905
+[500]	training's l1: 387.714	valid_1's l1: 426.255
+[600]	training's l1: 384.987	valid_1's l1: 424.893
+[700]	training's l1: 382.71	valid_1's l1: 423.942
+[800]	training's l1: 380.881	valid_1's l1: 423.404
+[900]	training's l1: 379.343	valid_1's l1: 423.06
+[1000]	training's l1: 377.948	valid_1's l1: 422.806
+[1100]	training's l1: 376.703	valid_1's l1: 422.633
+[1200]	training's l1: 375.464	valid_1's l1: 422.507
+[1300]	training's l1: 374.289	valid_1's l1: 422.4
+[1400]	training's l1: 373.196	valid_1's l1: 422.297
+[1500]	training's l1: 372.105	valid_1's l1: 422.166
+[LightGBM] [Info] Finished loading 1500 models
+                                              feature  importances
+55  lasthour_poi_agg__waiting_order_num__median_by...          154
+50        poi_agg__box_total_value__median_by__poi_id          239
+62  lasthour_poi_agg__box_total_value__median_by__...          258
+17                                           food_num          382
+23                                              15min          384
+42      poi_agg__waiting_order_num__median_by__poi_id          437
+4                                         poi_lat_bin          479
+0                                             area_id          489
+16                                        cst_lat_bin          517
+3                                         poi_lng_bin          548
+71  lasthour_poi_agg__arrive_guest_avg_speed__medi...          672
+53       lasthour_poi_agg__fetch_cost__std_by__poi_id          688
+65  lasthour_poi_agg__delivery_duration__std_by__p...          691
+69       lasthour_poi_agg__order_id__count_by__poi_id          692
+72  lasthour_poi_agg__delivery_distance__median_by...          692
+68  lasthour_poi_agg__food_total_value__std_by__po...          716
+59  lasthour_poi_agg__box_total_value__std_by__poi_id          734
+67  lasthour_poi_agg__waiting_order_num__std_by__p...          756
+64  lasthour_poi_agg__arrive_guest_cost__median_by...          848
+54  lasthour_poi_agg__arriveshop_cost__std_by__poi_id          859
+56  lasthour_poi_agg__arrive_guest_avg_speed__std_...          870
+70  lasthour_poi_agg__delivery_distance__std_by__p...          883
+1                                               10min          893
+73     lasthour_poi_agg__avg_speed__median_by__poi_id          905
+57    lasthour_poi_agg__fetch_cost__median_by__poi_id          916
+66  lasthour_poi_agg__arrive_guest_cost__std_by__p...          926
+58  lasthour_poi_agg__food_total_value__median_by_...          946
+52    poi_agg__arrive_guest_avg_speed__std_by__poi_id          950
+41           poi_agg__box_total_value__std_by__poi_id          971
+9                                         cst_lng_bin         1008
+..                                                ...          ...
+46       poi_agg__food_total_value__median_by__poi_id         1656
+24                                            poi_lat         1733
+21                                    box_total_value         1771
+45                poi_agg__fetch_cost__std_by__poi_id         1839
+39         poi_agg__arrive_guest_cost__std_by__poi_id         1935
+14                                            poi_lng         1961
+30  area_agg__order_id__count_by__area_id#hour#minute         2308
+28  area_agg__prd_arrive_guest_time__std_by__area_...         2311
+27  area_agg__delivery_distance__sum_by__area_id#h...         2333
+38         poi_agg__delivery_duration__std_by__poi_id         2390
+37                 poi_agg__avg_speed__std_by__poi_id         2401
+25  area_agg__prd_arrive_guest_time__median_by__ar...         2425
+48             poi_agg__fetch_cost__median_by__poi_id         2783
+26  area_agg__food_total_value__sum_by__area_id#ho...         2860
+36      poi_agg__delivery_duration__median_by__poi_id         3321
+31  area_agg__arriveshop_cost__median_by__area_id#...         3440
+19                   _10min_notbusy_working_rider_num         3475
+10                                 customer_longitude         3849
+8                            _10min_working_rider_num         3891
+29  area_agg__arriveshop_cost__std_by__area_id#hou...         4030
+12                       _10min_deliverying_order_num         4122
+13                                          direction         4215
+5                                   customer_latitude         4555
+6                        _10min_not_fetched_order_num         5001
+2                               bill_number_per_rider         5158
+11                                  waiting_order_num         5247
+20                              prd_arrive_guest_time         5284
+15                                   food_total_value         7544
+22                                     area_busy_coef         8127
+7                                   delivery_distance         8369
+
+[74 rows x 2 columns]
+!!!!!!!!!!!!!! rs is 422.166470216 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 632.947483195 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 370.821770748 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 353.144933202 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 426.252079261 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 923.246805139 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2319.549973
+std         697.298472
+min         925.103969
+25%        1751.573459
+50%        2231.328610
+75%        2840.082786
+max        4417.199256
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 19,name is base@area_agg@poi_agg@lasthour_poi_agg@rolling_poi_bin@rolling_poi_fea@rolling_user_bin, train_feas is ['area_id', '10min', 'bill_number_per_rider', 'poi_lng_bin', 'poi_lat_bin', 'customer_latitude', '_10min_not_fetched_order_num', 'delivery_distance', '_10min_working_rider_num', 'cst_lng_bin', 'customer_longitude', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', 'food_total_value', 'cst_lat_bin', 'food_num', 'poi_id', '_10min_notbusy_working_rider_num', 'prd_arrive_guest_time', 'box_total_value', 'area_busy_coef', '15min', 'poi_lat', 'area_agg__prd_arrive_guest_time__median_by__area_id#hour#minute', 'area_agg__food_total_value__sum_by__area_id#hour#minute', 'area_agg__delivery_distance__sum_by__area_id#hour#minute', 'area_agg__prd_arrive_guest_time__std_by__area_id#hour#minute', 'area_agg__arriveshop_cost__std_by__area_id#hour#minute', 'area_agg__order_id__count_by__area_id#hour#minute', 'area_agg__arriveshop_cost__median_by__area_id#hour#minute', 'poi_agg__arriveshop_cost__std_by__poi_id', 'poi_agg__arrive_guest_cost__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'poi_agg__food_total_value__std_by__poi_id', 'poi_agg__delivery_duration__median_by__poi_id', 'poi_agg__avg_speed__std_by__poi_id', 'poi_agg__delivery_duration__std_by__poi_id', 'poi_agg__arrive_guest_cost__std_by__poi_id', 'poi_agg__waiting_order_num__std_by__poi_id', 'poi_agg__box_total_value__std_by__poi_id', 'poi_agg__waiting_order_num__median_by__poi_id', 'poi_agg__delivery_distance__median_by__poi_id', 'poi_agg__arriveshop_cost__median_by__poi_id', 'poi_agg__fetch_cost__std_by__poi_id', 'poi_agg__food_total_value__median_by__poi_id', 'poi_agg__order_id__count_by__poi_id', 'poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__delivery_distance__std_by__poi_id', 'poi_agg__box_total_value__median_by__poi_id', 'poi_agg__avg_speed__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__std_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__median_by__poi_id', 'lasthour_poi_agg__food_total_value__median_by__poi_id', 'lasthour_poi_agg__box_total_value__std_by__poi_id', 'lasthour_poi_agg__delivery_duration__median_by__poi_id', 'lasthour_poi_agg__avg_speed__std_by__poi_id', 'lasthour_poi_agg__box_total_value__median_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__median_by__poi_id', 'lasthour_poi_agg__delivery_duration__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__std_by__poi_id', 'lasthour_poi_agg__food_total_value__std_by__poi_id', 'lasthour_poi_agg__order_id__count_by__poi_id', 'lasthour_poi_agg__delivery_distance__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'lasthour_poi_agg__delivery_distance__median_by__poi_id', 'lasthour_poi_agg__avg_speed__median_by__poi_id', 'rolling_poi_bin__waiting_order_num__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__back_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__delivery_distance__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_num__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__forward_5_sum__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__food_total_value__forward_5_std__poi_lat_bin#poi_lng_bin', 'rolling_poi_bin__waiting_order_num__back_5_mean__poi_lat_bin#poi_lng_bin', 'rolling_poi_fea__food_total_value__forward_5_mean__poi_id', 'rolling_poi_fea__food_num__back_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__forward_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__forward_5_std__poi_id', 'rolling_poi_fea__delivery_distance__forward_5_mean__poi_id', 'rolling_poi_fea__food_num__back_5_mean__poi_id', 'rolling_poi_fea__waiting_order_num__back_5_mean__poi_id', 'rolling_poi_fea__food_total_value__forward_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__back_5_sum__poi_id', 'rolling_poi_fea__waiting_order_num__forward_5_std__poi_id', 'rolling_poi_fea__waiting_order_num__back_5_sum__poi_id', 'rolling_poi_fea__food_total_value__back_5_std__poi_id', 'rolling_poi_fea__delivery_distance__back_5_mean__poi_id', 'rolling_poi_fea__waiting_order_num__forward_5_mean__poi_id', 'rolling_poi_fea__waiting_order_num__back_5_std__poi_id', 'rolling_poi_fea__food_total_value__back_5_mean__poi_id', 'rolling_poi_fea__food_num__forward_5_mean__poi_id', 'rolling_poi_fea__food_total_value__forward_5_std__poi_id', 'rolling_poi_fea__food_num__forward_5_std__poi_id', 'rolling_poi_fea__food_num__forward_5_sum__poi_id', 'rolling_poi_fea__food_total_value__back_5_sum__poi_id', 'rolling_poi_fea__waiting_order_num__forward_5_sum__poi_id', 'rolling_poi_fea__delivery_distance__back_5_std__poi_id', 'rolling_poi_fea__food_num__back_5_std__poi_id', 'rolling_user_bin__food_num__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__forward_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__delivery_distance__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__back_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__forward_5_std__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__waiting_order_num__back_5_sum__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_num__back_5_mean__cst_lat_bin#cst_lng_bin', 'rolling_user_bin__food_total_value__forward_5_std__cst_lat_bin#cst_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 31191
+[LightGBM] [Info] Number of data: 331392, number of used features: 146
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 469.004	valid_1's l1: 504.487
+[200]	training's l1: 414.167	valid_1's l1: 450.508
+[300]	training's l1: 396.888	valid_1's l1: 434.655
+[400]	training's l1: 389.568	valid_1's l1: 428.911
+[500]	training's l1: 385.402	valid_1's l1: 426.356
+[600]	training's l1: 382.413	valid_1's l1: 425.097
+[700]	training's l1: 379.972	valid_1's l1: 424.212
+[800]	training's l1: 377.837	valid_1's l1: 423.644
+[900]	training's l1: 375.922	valid_1's l1: 423.277
+[1000]	training's l1: 374.194	valid_1's l1: 422.987
+[1100]	training's l1: 372.653	valid_1's l1: 422.816
+[1200]	training's l1: 371.199	valid_1's l1: 422.705
+[1300]	training's l1: 369.758	valid_1's l1: 422.599
+[1400]	training's l1: 368.34	valid_1's l1: 422.482
+[1500]	training's l1: 366.956	valid_1's l1: 422.376
+[LightGBM] [Info] Finished loading 1500 models
+                                               feature  importances
+144  rolling_user_bin__food_num__back_5_mean__cst_l...           33
+92   rolling_poi_bin__food_num__back_5_mean__poi_la...           33
+140  rolling_user_bin__food_num__forward_5_mean__cs...           35
+88   rolling_poi_bin__food_num__forward_5_sum__poi_...           38
+117   rolling_poi_fea__food_num__forward_5_sum__poi_id           38
+103     rolling_poi_fea__food_num__back_5_mean__poi_id           43
+122  rolling_user_bin__food_num__forward_5_sum__cst...          105
+91   rolling_poi_bin__food_num__back_5_sum__poi_lat...          118
+129  rolling_user_bin__food_num__back_5_sum__cst_la...          118
+75   rolling_poi_bin__food_num__forward_5_mean__poi...          119
+114  rolling_poi_fea__food_num__forward_5_mean__poi_id          138
+99       rolling_poi_fea__food_num__back_5_sum__poi_id          140
+50         poi_agg__box_total_value__median_by__poi_id          142
+23                                               15min          146
+62   lasthour_poi_agg__box_total_value__median_by__...          149
+55   lasthour_poi_agg__waiting_order_num__median_by...          159
+17                                            food_num          173
+118  rolling_poi_fea__food_total_value__back_5_sum_...          263
+121      rolling_poi_fea__food_num__back_5_std__poi_id          267
+16                                         cst_lat_bin          292
+4                                          poi_lat_bin          297
+110  rolling_poi_fea__delivery_distance__back_5_mea...          298
+116   rolling_poi_fea__food_num__forward_5_std__poi_id          299
+93   rolling_poi_bin__food_total_value__back_5_mean...          313
+87   rolling_poi_bin__food_total_value__forward_5_m...          318
+105  rolling_poi_fea__food_total_value__forward_5_s...          320
+135  rolling_user_bin__food_total_value__back_5_mea...          323
+119  rolling_poi_fea__waiting_order_num__forward_5_...          329
+89   rolling_poi_bin__delivery_distance__forward_5_...          334
+1                                                10min          338
+..                                                 ...          ...
+32            poi_agg__arriveshop_cost__std_by__poi_id         1294
+14                                             poi_lng         1330
+60   lasthour_poi_agg__delivery_duration__median_by...         1334
+132  rolling_user_bin__delivery_distance__forward_5...         1377
+40          poi_agg__waiting_order_num__std_by__poi_id         1393
+84   rolling_poi_bin__waiting_order_num__back_5_std...         1393
+39          poi_agg__arrive_guest_cost__std_by__poi_id         1403
+125  rolling_user_bin__waiting_order_num__back_5_me...         1458
+112  rolling_poi_fea__waiting_order_num__back_5_std...         1519
+94   rolling_poi_bin__waiting_order_num__back_5_sum...         1561
+38          poi_agg__delivery_duration__std_by__poi_id         1735
+11                                   waiting_order_num         1760
+31   area_agg__arriveshop_cost__median_by__area_id#...         1808
+13                                           direction         1815
+8                             _10min_working_rider_num         1985
+19                    _10min_notbusy_working_rider_num         2004
+37                  poi_agg__avg_speed__std_by__poi_id         2008
+29   area_agg__arriveshop_cost__std_by__area_id#hou...         2041
+12                        _10min_deliverying_order_num         2059
+10                                  customer_longitude         2260
+48              poi_agg__fetch_cost__median_by__poi_id         2339
+5                                    customer_latitude         2374
+36       poi_agg__delivery_duration__median_by__poi_id         2811
+6                         _10min_not_fetched_order_num         2906
+2                                bill_number_per_rider         3074
+20                               prd_arrive_guest_time         3804
+104  rolling_poi_fea__waiting_order_num__back_5_mea...         3898
+15                                    food_total_value         4860
+22                                      area_busy_coef         5770
+7                                    delivery_distance         6023
+
+[146 rows x 2 columns]
+!!!!!!!!!!!!!! rs is 422.376012185 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 636.785582946 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 372.079657068 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 349.114320894 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 430.192962869 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 931.891508478 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2320.867218
+std         690.801837
+min         872.488181
+25%        1761.221372
+50%        2234.498206
+75%        2833.465550
+max        4401.725615
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 20,name is base@area_agg@poi_agg@lasthour_poi_agg@user_bin@poi_bin@poi_user_bin, train_feas is ['area_id', '10min', 'bill_number_per_rider', 'poi_lng_bin', 'poi_lat_bin', 'customer_latitude', '_10min_not_fetched_order_num', 'delivery_distance', '_10min_working_rider_num', 'cst_lng_bin', 'customer_longitude', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', 'food_total_value', 'cst_lat_bin', 'food_num', 'poi_id', '_10min_notbusy_working_rider_num', 'prd_arrive_guest_time', 'box_total_value', 'area_busy_coef', '15min', 'poi_lat', 'area_agg__prd_arrive_guest_time__median_by__area_id#hour#minute', 'area_agg__food_total_value__sum_by__area_id#hour#minute', 'area_agg__delivery_distance__sum_by__area_id#hour#minute', 'area_agg__prd_arrive_guest_time__std_by__area_id#hour#minute', 'area_agg__arriveshop_cost__std_by__area_id#hour#minute', 'area_agg__order_id__count_by__area_id#hour#minute', 'area_agg__arriveshop_cost__median_by__area_id#hour#minute', 'poi_agg__arriveshop_cost__std_by__poi_id', 'poi_agg__arrive_guest_cost__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'poi_agg__food_total_value__std_by__poi_id', 'poi_agg__delivery_duration__median_by__poi_id', 'poi_agg__avg_speed__std_by__poi_id', 'poi_agg__delivery_duration__std_by__poi_id', 'poi_agg__arrive_guest_cost__std_by__poi_id', 'poi_agg__waiting_order_num__std_by__poi_id', 'poi_agg__box_total_value__std_by__poi_id', 'poi_agg__waiting_order_num__median_by__poi_id', 'poi_agg__delivery_distance__median_by__poi_id', 'poi_agg__arriveshop_cost__median_by__poi_id', 'poi_agg__fetch_cost__std_by__poi_id', 'poi_agg__food_total_value__median_by__poi_id', 'poi_agg__order_id__count_by__poi_id', 'poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__delivery_distance__std_by__poi_id', 'poi_agg__box_total_value__median_by__poi_id', 'poi_agg__avg_speed__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__std_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__median_by__poi_id', 'lasthour_poi_agg__food_total_value__median_by__poi_id', 'lasthour_poi_agg__box_total_value__std_by__poi_id', 'lasthour_poi_agg__delivery_duration__median_by__poi_id', 'lasthour_poi_agg__avg_speed__std_by__poi_id', 'lasthour_poi_agg__box_total_value__median_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__median_by__poi_id', 'lasthour_poi_agg__delivery_duration__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__std_by__poi_id', 'lasthour_poi_agg__food_total_value__std_by__poi_id', 'lasthour_poi_agg__order_id__count_by__poi_id', 'lasthour_poi_agg__delivery_distance__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'lasthour_poi_agg__delivery_distance__median_by__poi_id', 'lasthour_poi_agg__avg_speed__median_by__poi_id', 'user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin', 'user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin', 'user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin', 'poi_bin__box_total_value__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__order_id__count_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__food_total_value__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__sum_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arriveshop_cost__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__fetch_cost__min_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__arrive_guest_cost__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__box_total_value__std_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_duration__median_by__poi_lat_bin#poi_lng_bin', 'poi_bin__waiting_order_num__max_by__poi_lat_bin#poi_lng_bin', 'poi_bin__delivery_distance__min_by__poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin', 'poi_user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin#poi_lat_bin#poi_lng_bin'] 
+Start training...
+[LightGBM] [Info] Total Bins 35991
+[LightGBM] [Info] Number of data: 331392, number of used features: 195
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 469.559	valid_1's l1: 504.775
+[200]	training's l1: 414.469	valid_1's l1: 450.002
+[300]	training's l1: 397.531	valid_1's l1: 434.039
+[400]	training's l1: 390.378	valid_1's l1: 428.153
+[500]	training's l1: 386.36	valid_1's l1: 425.418
+[600]	training's l1: 383.523	valid_1's l1: 423.994
+[700]	training's l1: 381.16	valid_1's l1: 423.171
+[800]	training's l1: 379.203	valid_1's l1: 422.669
+[900]	training's l1: 377.473	valid_1's l1: 422.301
+[1000]	training's l1: 375.961	valid_1's l1: 422.056
+[1100]	training's l1: 374.592	valid_1's l1: 421.884
+[1200]	training's l1: 373.3	valid_1's l1: 421.748
+[1300]	training's l1: 372.051	valid_1's l1: 421.623
+[1400]	training's l1: 370.818	valid_1's l1: 421.527
+[1500]	training's l1: 369.667	valid_1's l1: 421.452
+[LightGBM] [Info] Finished loading 1500 models
+                                               feature  importances
+112  user_bin__box_total_value__min_by__cst_lat_bin...            0
+133  poi_bin__waiting_order_num__min_by__poi_lat_bi...            0
+91   user_bin__waiting_order_num__min_by__cst_lat_b...            0
+174  poi_user_bin__waiting_order_num__min_by__cst_l...            1
+115  poi_bin__box_total_value__min_by__poi_lat_bin#...            4
+84   user_bin__box_total_value__median_by__cst_lat_...           18
+169  poi_user_bin__box_total_value__min_by__cst_lat...           25
+148  poi_bin__fetch_cost__min_by__poi_lat_bin#poi_l...           27
+79   user_bin__fetch_cost__min_by__cst_lat_bin#cst_...           28
+100  user_bin__delivery_duration__sum_by__cst_lat_b...           58
+111  user_bin__food_total_value__sum_by__cst_lat_bi...           59
+144  poi_bin__arrive_guest_cost__sum_by__poi_lat_bi...           72
+150  poi_bin__waiting_order_num__median_by__poi_lat...           77
+136  poi_bin__box_total_value__median_by__poi_lat_b...           80
+122  poi_bin__order_id__count_by__poi_lat_bin#poi_l...           84
+106  user_bin__waiting_order_num__median_by__cst_la...           86
+143  poi_bin__delivery_duration__sum_by__poi_lat_bi...           92
+16                                         cst_lat_bin          112
+137  poi_bin__food_total_value__sum_by__poi_lat_bin...          118
+124  poi_bin__waiting_order_num__sum_by__poi_lat_bi...          119
+154  poi_bin__waiting_order_num__max_by__poi_lat_bi...          119
+50         poi_agg__box_total_value__median_by__poi_id          123
+94   user_bin__arriveshop_cost__sum_by__cst_lat_bin...          127
+183  poi_user_bin__order_id__count_by__cst_lat_bin#...          128
+127  poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_l...          128
+3                                          poi_lng_bin          129
+125  poi_bin__delivery_duration__max_by__poi_lat_bi...          132
+194  poi_user_bin__fetch_cost__min_by__cst_lat_bin#...          132
+76   user_bin__box_total_value__sum_by__cst_lat_bin...          132
+104  user_bin__fetch_cost__sum_by__cst_lat_bin#cst_...          133
+..                                                 ...          ...
+44         poi_agg__arriveshop_cost__median_by__poi_id         1303
+60   lasthour_poi_agg__delivery_duration__median_by...         1307
+46        poi_agg__food_total_value__median_by__poi_id         1344
+195  poi_user_bin__delivery_duration__std_by__cst_l...         1349
+45                 poi_agg__fetch_cost__std_by__poi_id         1455
+21                                     box_total_value         1463
+10                                  customer_longitude         1569
+38          poi_agg__delivery_duration__std_by__poi_id         1576
+28   area_agg__prd_arrive_guest_time__std_by__area_...         1608
+25   area_agg__prd_arrive_guest_time__median_by__ar...         1639
+30   area_agg__order_id__count_by__area_id#hour#minute         1673
+27   area_agg__delivery_distance__sum_by__area_id#h...         1826
+37                  poi_agg__avg_speed__std_by__poi_id         2062
+5                                    customer_latitude         2101
+13                                           direction         2110
+26   area_agg__food_total_value__sum_by__area_id#ho...         2347
+48              poi_agg__fetch_cost__median_by__poi_id         2378
+36       poi_agg__delivery_duration__median_by__poi_id         2516
+31   area_agg__arriveshop_cost__median_by__area_id#...         2785
+19                    _10min_notbusy_working_rider_num         2856
+29   area_agg__arriveshop_cost__std_by__area_id#hou...         3046
+8                             _10min_working_rider_num         3123
+12                        _10min_deliverying_order_num         3319
+6                         _10min_not_fetched_order_num         3942
+20                               prd_arrive_guest_time         3942
+2                                bill_number_per_rider         4083
+11                                   waiting_order_num         4438
+15                                    food_total_value         5850
+7                                    delivery_distance         6391
+22                                      area_busy_coef         7182
+
+[197 rows x 2 columns]
+!!!!!!!!!!!!!! rs is 421.451872771 !!!!!!!!!!!!!!!!!
+0
+!!!!!!!!!!!!!! bin is 0 rs is 631.640490767 !!!!!!!!!!!!!!!!!
+1
+!!!!!!!!!!!!!! bin is 1 rs is 369.528580966 !!!!!!!!!!!!!!!!!
+2
+!!!!!!!!!!!!!! bin is 2 rs is 351.976579154 !!!!!!!!!!!!!!!!!
+3
+!!!!!!!!!!!!!! bin is 3 rs is 427.695450002 !!!!!!!!!!!!!!!!!
+4
+!!!!!!!!!!!!!! bin is 4 rs is 923.861363463 !!!!!!!!!!!!!!!!!
+prd
+count    144865.000000
+mean       2318.793065
+std         696.510926
+min         933.196125
+25%        1752.301570
+50%        2229.204700
+75%        2836.715352
+max        4402.162925
+Name: delivery_duration_prd, dtype: float64
+actual
+count    144865.000000
+mean       2308.448017
+std         923.813886
+min         156.000000
+25%        1642.000000
+50%        2172.000000
+75%        2860.000000
+max       23613.000000
+Name: delivery_duration, dtype: float64
+round 21,name is base@area_agg@poi_agg@lasthour_poi_agg@15min_poi_bin@15min_user_bin, train_feas is ['area_id', '10min', 'bill_number_per_rider', 'poi_lng_bin', 'poi_lat_bin', 'customer_latitude', '_10min_not_fetched_order_num', 'delivery_distance', '_10min_working_rider_num', 'cst_lng_bin', 'customer_longitude', 'waiting_order_num', '_10min_deliverying_order_num', 'direction', 'poi_lng', 'food_total_value', 'cst_lat_bin', 'food_num', 'poi_id', '_10min_notbusy_working_rider_num', 'prd_arrive_guest_time', 'box_total_value', 'area_busy_coef', '15min', 'poi_lat', 'area_agg__prd_arrive_guest_time__median_by__area_id#hour#minute', 'area_agg__food_total_value__sum_by__area_id#hour#minute', 'area_agg__delivery_distance__sum_by__area_id#hour#minute', 'area_agg__prd_arrive_guest_time__std_by__area_id#hour#minute', 'area_agg__arriveshop_cost__std_by__area_id#hour#minute', 'area_agg__order_id__count_by__area_id#hour#minute', 'area_agg__arriveshop_cost__median_by__area_id#hour#minute', 'poi_agg__arriveshop_cost__std_by__poi_id', 'poi_agg__arrive_guest_cost__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'poi_agg__food_total_value__std_by__poi_id', 'poi_agg__delivery_duration__median_by__poi_id', 'poi_agg__avg_speed__std_by__poi_id', 'poi_agg__delivery_duration__std_by__poi_id', 'poi_agg__arrive_guest_cost__std_by__poi_id', 'poi_agg__waiting_order_num__std_by__poi_id', 'poi_agg__box_total_value__std_by__poi_id', 'poi_agg__waiting_order_num__median_by__poi_id', 'poi_agg__delivery_distance__median_by__poi_id', 'poi_agg__arriveshop_cost__median_by__poi_id', 'poi_agg__fetch_cost__std_by__poi_id', 'poi_agg__food_total_value__median_by__poi_id', 'poi_agg__order_id__count_by__poi_id', 'poi_agg__fetch_cost__median_by__poi_id', 'poi_agg__delivery_distance__std_by__poi_id', 'poi_agg__box_total_value__median_by__poi_id', 'poi_agg__avg_speed__median_by__poi_id', 'poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__std_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__std_by__poi_id', 'lasthour_poi_agg__fetch_cost__median_by__poi_id', 'lasthour_poi_agg__food_total_value__median_by__poi_id', 'lasthour_poi_agg__box_total_value__std_by__poi_id', 'lasthour_poi_agg__delivery_duration__median_by__poi_id', 'lasthour_poi_agg__avg_speed__std_by__poi_id', 'lasthour_poi_agg__box_total_value__median_by__poi_id', 'lasthour_poi_agg__arriveshop_cost__median_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__median_by__poi_id', 'lasthour_poi_agg__delivery_duration__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_cost__std_by__poi_id', 'lasthour_poi_agg__waiting_order_num__std_by__poi_id', 'lasthour_poi_agg__food_total_value__std_by__poi_id', 'lasthour_poi_agg__order_id__count_by__poi_id', 'lasthour_poi_agg__delivery_distance__std_by__poi_id', 'lasthour_poi_agg__arrive_guest_avg_speed__median_by__poi_id', 'lasthour_poi_agg__delivery_distance__median_by__poi_id', 'lasthour_poi_agg__avg_speed__median_by__poi_id', '15min_poi_bin__arriveshop_cost__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__order_id__count_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_duration__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__fetch_cost__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__food_total_value__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__max_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__min_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__box_total_value__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arriveshop_cost__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__waiting_order_num__sum_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__delivery_distance__median_by__poi_lat_bin#poi_lng_bin#15min', '15min_poi_bin__arrive_guest_cost__std_by__poi_lat_bin#poi_lng_bin#15min', '15min_user_bin__delivery_distance__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__order_id__count_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__food_total_value__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_duration__min_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__waiting_order_num__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arriveshop_cost__median_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__fetch_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__max_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__delivery_distance__std_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__arrive_guest_cost__sum_by__cst_lat_bin#cst_lng_bin#15min', '15min_user_bin__box_total_value__sum_by__cst_lat_bin#cst_lng_bin#15min'] 
+Start training...
+[LightGBM] [Info] Total Bins 31808
+[LightGBM] [Info] Number of data: 331392, number of used features: 155
+Training until validation scores don't improve for 100 rounds.
+[100]	training's l1: 469.95	valid_1's l1: 505.028
+[200]	training's l1: 414.691	valid_1's l1: 450.201
+[300]	training's l1: 397.914	valid_1's l1: 434.339

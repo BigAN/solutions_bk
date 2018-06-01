@@ -1,0 +1,1543 @@
+try with f None
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4212
+[LightGBM] [Info] Number of data: 500000, number of used features: 20
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.683948
+[20]	valid_0's auc: 0.699692
+[30]	valid_0's auc: 0.701819
+[40]	valid_0's auc: 0.701742
+[50]	valid_0's auc: 0.699926
+[60]	valid_0's auc: 0.701681
+[70]	valid_0's auc: 0.704248
+[80]	valid_0's auc: 0.705099
+[90]	valid_0's auc: 0.706107
+[100]	valid_0's auc: 0.705523
+[110]	valid_0's auc: 0.705136
+[120]	valid_0's auc: 0.705744
+Early stopping, best iteration is:
+[96]	valid_0's auc: 0.7066
+[LightGBM] [Info] Finished loading 96 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70659999547714591}})
+cur f is None,best score is 0, cur_s is 0.706599995477, 
+try with f pic_comment_cnt
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4448
+[LightGBM] [Info] Number of data: 500000, number of used features: 21
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.699154
+[20]	valid_0's auc: 0.705529
+[30]	valid_0's auc: 0.707116
+[40]	valid_0's auc: 0.708901
+[50]	valid_0's auc: 0.708763
+[60]	valid_0's auc: 0.708683
+[70]	valid_0's auc: 0.709002
+[80]	valid_0's auc: 0.709017
+[90]	valid_0's auc: 0.70847
+Early stopping, best iteration is:
+[66]	valid_0's auc: 0.709478
+[LightGBM] [Info] Finished loading 66 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70947797139409186}})
+cur f is pic_comment_cnt,best score is 0, cur_s is 0.709477971394, 
+best add f pic_comment_cnt
+try with f original_price_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4703
+[LightGBM] [Info] Number of data: 500000, number of used features: 22
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.695741
+[20]	valid_0's auc: 0.707413
+[30]	valid_0's auc: 0.710514
+[40]	valid_0's auc: 0.709558
+[50]	valid_0's auc: 0.710459
+[60]	valid_0's auc: 0.710239
+Early stopping, best iteration is:
+[34]	valid_0's auc: 0.711237
+[LightGBM] [Info] Finished loading 34 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.71123659920090121}})
+cur f is original_price_7day,best score is 0.709477971394, cur_s is 0.711236599201, 
+best add f original_price_7day
+try with f pic_comment_rate
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pic_comment_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702731
+[30]	valid_0's auc: 0.705468
+[40]	valid_0's auc: 0.706073
+[50]	valid_0's auc: 0.705688
+[60]	valid_0's auc: 0.705496
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706718
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7067179801566934}})
+cur f is pic_comment_rate,best score is 0.711236599201, cur_s is 0.706717980157, 
+try with f service_fee_rate_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'service_fee_rate_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702788
+[30]	valid_0's auc: 0.705636
+[40]	valid_0's auc: 0.706226
+[50]	valid_0's auc: 0.705884
+[60]	valid_0's auc: 0.705743
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706876
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70687634534483623}})
+cur f is service_fee_rate_7day,best score is 0.711236599201, cur_s is 0.706876345345, 
+try with f pv_ctr_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_ctr_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702829
+[30]	valid_0's auc: 0.705656
+[40]	valid_0's auc: 0.706234
+[50]	valid_0's auc: 0.705945
+[60]	valid_0's auc: 0.705785
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706864
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70686430387255206}})
+cur f is pv_ctr_7day,best score is 0.711236599201, cur_s is 0.706864303873, 
+try with f uv_cxr_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_cxr_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702866
+[30]	valid_0's auc: 0.705578
+[40]	valid_0's auc: 0.706168
+[50]	valid_0's auc: 0.705871
+[60]	valid_0's auc: 0.705676
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706749
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70674853400819793}})
+cur f is uv_cxr_7day,best score is 0.711236599201, cur_s is 0.706748534008, 
+try with f neg_delivery_comment_rate
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'neg_delivery_comment_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702706
+[30]	valid_0's auc: 0.705583
+[40]	valid_0's auc: 0.706172
+[50]	valid_0's auc: 0.705837
+[60]	valid_0's auc: 0.705677
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706815
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70681499729959552}})
+cur f is neg_delivery_comment_rate,best score is 0.711236599201, cur_s is 0.7068149973, 
+try with f pos_comment_rate
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pos_comment_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702815
+[30]	valid_0's auc: 0.705603
+[40]	valid_0's auc: 0.706174
+[50]	valid_0's auc: 0.705839
+[60]	valid_0's auc: 0.705689
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706827
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70682650559888327}})
+cur f is pos_comment_rate,best score is 0.711236599201, cur_s is 0.706826505599, 
+try with f comment_5star
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_5star']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702623
+[30]	valid_0's auc: 0.705365
+[40]	valid_0's auc: 0.705985
+[50]	valid_0's auc: 0.705582
+[60]	valid_0's auc: 0.705447
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.70663
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70663033761652805}})
+cur f is comment_5star,best score is 0.711236599201, cur_s is 0.706630337617, 
+try with f month_original_price
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'month_original_price']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702701
+[30]	valid_0's auc: 0.705417
+[40]	valid_0's auc: 0.706031
+[50]	valid_0's auc: 0.7056
+[60]	valid_0's auc: 0.705437
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706679
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70667931243181703}})
+cur f is month_original_price,best score is 0.711236599201, cur_s is 0.706679312432, 
+try with f dp_avg_price
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'dp_avg_price']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4900
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702938
+[30]	valid_0's auc: 0.705828
+[40]	valid_0's auc: 0.70635
+[50]	valid_0's auc: 0.706077
+[60]	valid_0's auc: 0.705994
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.707003
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70700261417156218}})
+cur f is dp_avg_price,best score is 0.711236599201, cur_s is 0.707002614172, 
+try with f month_order_cnt
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'month_order_cnt']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702739
+[30]	valid_0's auc: 0.705424
+[40]	valid_0's auc: 0.706011
+[50]	valid_0's auc: 0.705577
+[60]	valid_0's auc: 0.705376
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706627
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70662716193469122}})
+cur f is month_order_cnt,best score is 0.711236599201, cur_s is 0.706627161935, 
+try with f order_cnt_14hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_14hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4924
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702755
+[30]	valid_0's auc: 0.705445
+[40]	valid_0's auc: 0.706037
+[50]	valid_0's auc: 0.705635
+[60]	valid_0's auc: 0.705477
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706679
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70667856930468731}})
+cur f is order_cnt_14hr,best score is 0.711236599201, cur_s is 0.706678569305, 
+try with f order_cnt_3hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_3hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4795
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702714
+[30]	valid_0's auc: 0.705537
+[40]	valid_0's auc: 0.706116
+[50]	valid_0's auc: 0.705801
+[60]	valid_0's auc: 0.705665
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706768
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70676845704814417}})
+cur f is order_cnt_3hr,best score is 0.711236599201, cur_s is 0.706768457048, 
+try with f click_tag_pref_3day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'click_tag_pref_3day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4947
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702733
+[30]	valid_0's auc: 0.705684
+[40]	valid_0's auc: 0.706228
+[50]	valid_0's auc: 0.705985
+[60]	valid_0's auc: 0.705905
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706889
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70688905786669476}})
+cur f is click_tag_pref_3day,best score is 0.711236599201, cur_s is 0.706889057867, 
+try with f comment_3star
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_3star']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4955
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702723
+[30]	valid_0's auc: 0.705488
+[40]	valid_0's auc: 0.70608
+[50]	valid_0's auc: 0.705661
+[60]	valid_0's auc: 0.705519
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706725
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70672490437369018}})
+cur f is comment_3star,best score is 0.711236599201, cur_s is 0.706724904374, 
+try with f order_cnt_14day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_14day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.703044
+[30]	valid_0's auc: 0.705592
+[40]	valid_0's auc: 0.706118
+[50]	valid_0's auc: 0.705668
+[60]	valid_0's auc: 0.705445
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706735
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70673477297137943}})
+cur f is order_cnt_14day,best score is 0.711236599201, cur_s is 0.706734772971, 
+try with f total_price_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'total_price_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702685
+[30]	valid_0's auc: 0.70541
+[40]	valid_0's auc: 0.706014
+[50]	valid_0's auc: 0.705605
+[60]	valid_0's auc: 0.705439
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706652
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665234839416591}})
+cur f is total_price_1day,best score is 0.711236599201, cur_s is 0.706652348394, 
+try with f pv_ctr_15day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_ctr_15day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702845
+[30]	valid_0's auc: 0.705672
+[40]	valid_0's auc: 0.706253
+[50]	valid_0's auc: 0.705968
+[60]	valid_0's auc: 0.705815
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706882
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70688192670926042}})
+cur f is pv_ctr_15day,best score is 0.711236599201, cur_s is 0.706881926709, 
+try with f click_tag_pref_15day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'click_tag_pref_15day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702395
+[30]	valid_0's auc: 0.705414
+[40]	valid_0's auc: 0.706033
+[50]	valid_0's auc: 0.705699
+[60]	valid_0's auc: 0.705637
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706678
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7066775348536406}})
+cur f is click_tag_pref_15day,best score is 0.711236599201, cur_s is 0.706677534854, 
+try with f uv_ctr_15day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_ctr_15day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.70283
+[30]	valid_0's auc: 0.70567
+[40]	valid_0's auc: 0.706239
+[50]	valid_0's auc: 0.705958
+[60]	valid_0's auc: 0.705807
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706859
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70685860698312641}})
+cur f is uv_ctr_15day,best score is 0.711236599201, cur_s is 0.706858606983, 
+try with f avg_price_month
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'avg_price_month']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.703116
+[30]	valid_0's auc: 0.706133
+[40]	valid_0's auc: 0.706599
+[50]	valid_0's auc: 0.706447
+[60]	valid_0's auc: 0.706439
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.707235
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70723473453897401}})
+cur f is avg_price_month,best score is 0.711236599201, cur_s is 0.707234734539, 
+try with f uv_cvr_15day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_cvr_15day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4959
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702768
+[30]	valid_0's auc: 0.705457
+[40]	valid_0's auc: 0.706069
+[50]	valid_0's auc: 0.705712
+[60]	valid_0's auc: 0.7055
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706657
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665673859536715}})
+cur f is uv_cvr_15day,best score is 0.711236599201, cur_s is 0.706656738595, 
+try with f order_cnt_21hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_21hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4911
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702719
+[30]	valid_0's auc: 0.705481
+[40]	valid_0's auc: 0.706071
+[50]	valid_0's auc: 0.705721
+[60]	valid_0's auc: 0.705574
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706718
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70671758184657929}})
+cur f is order_cnt_21hr,best score is 0.711236599201, cur_s is 0.706717581847, 
+try with f order_cnt_17hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_17hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702865
+[30]	valid_0's auc: 0.705456
+[40]	valid_0's auc: 0.706026
+[50]	valid_0's auc: 0.705573
+[60]	valid_0's auc: 0.705354
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706646
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70664563614043285}})
+cur f is order_cnt_17hr,best score is 0.711236599201, cur_s is 0.70664563614, 
+try with f order_cnt_increase
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_increase']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4959
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702717
+[30]	valid_0's auc: 0.70541
+[40]	valid_0's auc: 0.706018
+[50]	valid_0's auc: 0.705619
+[60]	valid_0's auc: 0.705429
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706655
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665540277475114}})
+cur f is order_cnt_increase,best score is 0.711236599201, cur_s is 0.706655402775, 
+try with f order_cnt_4hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_4hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4778
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702682
+[30]	valid_0's auc: 0.70551
+[40]	valid_0's auc: 0.706099
+[50]	valid_0's auc: 0.705773
+[60]	valid_0's auc: 0.705641
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706753
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70675264418684114}})
+cur f is order_cnt_4hr,best score is 0.711236599201, cur_s is 0.706752644187, 
+try with f service_fee_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'service_fee_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702791
+[30]	valid_0's auc: 0.705483
+[40]	valid_0's auc: 0.706089
+[50]	valid_0's auc: 0.705675
+[60]	valid_0's auc: 0.705511
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706728
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70672846831998892}})
+cur f is service_fee_7day,best score is 0.711236599201, cur_s is 0.70672846832, 
+try with f avg_food_comment_score
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'avg_food_comment_score']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702704
+[30]	valid_0's auc: 0.705547
+[40]	valid_0's auc: 0.706131
+[50]	valid_0's auc: 0.705819
+[60]	valid_0's auc: 0.705683
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.70678
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70677971998237421}})
+cur f is avg_food_comment_score,best score is 0.711236599201, cur_s is 0.706779719982, 
+try with f order_cnt_15hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_15hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4883
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.70274
+[30]	valid_0's auc: 0.705449
+[40]	valid_0's auc: 0.706044
+[50]	valid_0's auc: 0.705661
+[60]	valid_0's auc: 0.705516
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706691
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669111632442405}})
+cur f is order_cnt_15hr,best score is 0.711236599201, cur_s is 0.706691116324, 
+try with f uv_cxr_15day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_cxr_15day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702852
+[30]	valid_0's auc: 0.705592
+[40]	valid_0's auc: 0.706175
+[50]	valid_0's auc: 0.705897
+[60]	valid_0's auc: 0.705715
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706748
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70674793403161373}})
+cur f is uv_cxr_15day,best score is 0.711236599201, cur_s is 0.706747934032, 
+try with f order_cnt_13hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_13hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702744
+[30]	valid_0's auc: 0.705376
+[40]	valid_0's auc: 0.705978
+[50]	valid_0's auc: 0.705548
+[60]	valid_0's auc: 0.705371
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706599
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7065990948844163}})
+cur f is order_cnt_13hr,best score is 0.711236599201, cur_s is 0.706599094884, 
+try with f pos_delivery_comment_rate
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pos_delivery_comment_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702824
+[30]	valid_0's auc: 0.705648
+[40]	valid_0's auc: 0.706235
+[50]	valid_0's auc: 0.705903
+[60]	valid_0's auc: 0.705761
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706882
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70688163463191944}})
+cur f is pos_delivery_comment_rate,best score is 0.711236599201, cur_s is 0.706881634632, 
+try with f food_comment_rate
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'food_comment_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702877
+[30]	valid_0's auc: 0.705724
+[40]	valid_0's auc: 0.706295
+[50]	valid_0's auc: 0.706039
+[60]	valid_0's auc: 0.705918
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706952
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70695160285140834}})
+cur f is food_comment_rate,best score is 0.711236599201, cur_s is 0.706951602851, 
+try with f order_cnt_7hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_7hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4879
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.70266
+[30]	valid_0's auc: 0.705437
+[40]	valid_0's auc: 0.706043
+[50]	valid_0's auc: 0.705685
+[60]	valid_0's auc: 0.705535
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706691
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669142372138471}})
+cur f is order_cnt_7hr,best score is 0.711236599201, cur_s is 0.706691423721, 
+try with f area_30day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'area_30day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702893
+[30]	valid_0's auc: 0.705762
+[40]	valid_0's auc: 0.706315
+[50]	valid_0's auc: 0.706059
+[60]	valid_0's auc: 0.705972
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.70696
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70696004245505639}})
+cur f is area_30day,best score is 0.711236599201, cur_s is 0.706960042455, 
+try with f poi_one_bought
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'poi_one_bought']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702718
+[30]	valid_0's auc: 0.705336
+[40]	valid_0's auc: 0.705963
+[50]	valid_0's auc: 0.705467
+[60]	valid_0's auc: 0.705253
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706592
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70659190571333974}})
+cur f is poi_one_bought,best score is 0.711236599201, cur_s is 0.706591905713, 
+try with f pv_cvr_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_cvr_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4959
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702745
+[30]	valid_0's auc: 0.705441
+[40]	valid_0's auc: 0.706051
+[50]	valid_0's auc: 0.705689
+[60]	valid_0's auc: 0.705473
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706653
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665260656743023}})
+cur f is pv_cvr_7day,best score is 0.711236599201, cur_s is 0.706652606567, 
+try with f comment_1star
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_1star']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4912
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702702
+[30]	valid_0's auc: 0.705441
+[40]	valid_0's auc: 0.706043
+[50]	valid_0's auc: 0.705629
+[60]	valid_0's auc: 0.705467
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706679
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70667929108480587}})
+cur f is comment_1star,best score is 0.711236599201, cur_s is 0.706679291085, 
+try with f original_price_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'original_price_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702781
+[30]	valid_0's auc: 0.705479
+[40]	valid_0's auc: 0.706059
+[50]	valid_0's auc: 0.705619
+[60]	valid_0's auc: 0.705454
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706694
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669417748582453}})
+cur f is original_price_1day,best score is 0.711236599201, cur_s is 0.706694177486, 
+try with f user_reorder_count
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'user_reorder_count']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4752
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702974
+[30]	valid_0's auc: 0.701853
+[40]	valid_0's auc: 0.703791
+[50]	valid_0's auc: 0.703056
+[60]	valid_0's auc: 0.70257
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.705347
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70534678829653841}})
+cur f is user_reorder_count,best score is 0.711236599201, cur_s is 0.705346788297, 
+try with f food_comment_cnt
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'food_comment_cnt']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702647
+[30]	valid_0's auc: 0.705362
+[40]	valid_0's auc: 0.705993
+[50]	valid_0's auc: 0.705573
+[60]	valid_0's auc: 0.705432
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706634
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70663369386896524}})
+cur f is food_comment_cnt,best score is 0.711236599201, cur_s is 0.706633693869, 
+try with f order_cnt_16hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_16hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4951
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702786
+[30]	valid_0's auc: 0.705438
+[40]	valid_0's auc: 0.706025
+[50]	valid_0's auc: 0.705589
+[60]	valid_0's auc: 0.705415
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706655
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665519256947651}})
+cur f is order_cnt_16hr,best score is 0.711236599201, cur_s is 0.706655192569, 
+try with f discount_rate_new_customer_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'discount_rate_new_customer_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702753
+[30]	valid_0's auc: 0.705491
+[40]	valid_0's auc: 0.706083
+[50]	valid_0's auc: 0.705716
+[60]	valid_0's auc: 0.705544
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706729
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70672873603662301}})
+cur f is discount_rate_new_customer_7day,best score is 0.711236599201, cur_s is 0.706728736037, 
+try with f uv_cxr_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_cxr_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702839
+[30]	valid_0's auc: 0.705735
+[40]	valid_0's auc: 0.706282
+[50]	valid_0's auc: 0.706024
+[60]	valid_0's auc: 0.705867
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706873
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70687330075876198}})
+cur f is uv_cxr_1day,best score is 0.711236599201, cur_s is 0.706873300759, 
+try with f discount_rate_all_customer_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'discount_rate_all_customer_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.70273
+[30]	valid_0's auc: 0.705558
+[40]	valid_0's auc: 0.70613
+[50]	valid_0's auc: 0.70579
+[60]	valid_0's auc: 0.705671
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706779
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70677919760845409}})
+cur f is discount_rate_all_customer_7day,best score is 0.711236599201, cur_s is 0.706779197608, 
+try with f order_cnt_12hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_12hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702878
+[30]	valid_0's auc: 0.705463
+[40]	valid_0's auc: 0.706013
+[50]	valid_0's auc: 0.705552
+[60]	valid_0's auc: 0.705355
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706622
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70662209013598054}})
+cur f is order_cnt_12hr,best score is 0.711236599201, cur_s is 0.706622090136, 
+try with f order_cnt_19hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_19hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702769
+[30]	valid_0's auc: 0.70543
+[40]	valid_0's auc: 0.706019
+[50]	valid_0's auc: 0.705567
+[60]	valid_0's auc: 0.705362
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706649
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70664928798618931}})
+cur f is order_cnt_19hr,best score is 0.711236599201, cur_s is 0.706649287986, 
+try with f order_cnt_23hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_23hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4896
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702693
+[30]	valid_0's auc: 0.705521
+[40]	valid_0's auc: 0.706105
+[50]	valid_0's auc: 0.705769
+[60]	valid_0's auc: 0.705622
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706754
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70675429493865716}})
+cur f is order_cnt_23hr,best score is 0.711236599201, cur_s is 0.706754294939, 
+try with f order_cnt_20hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_20hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4936
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702662
+[30]	valid_0's auc: 0.705412
+[40]	valid_0's auc: 0.706014
+[50]	valid_0's auc: 0.705633
+[60]	valid_0's auc: 0.705476
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706656
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665605147274912}})
+cur f is order_cnt_20hr,best score is 0.711236599201, cur_s is 0.706656051473, 
+try with f order_cnt_22hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_22hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4910
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702739
+[30]	valid_0's auc: 0.705505
+[40]	valid_0's auc: 0.70609
+[50]	valid_0's auc: 0.705753
+[60]	valid_0's auc: 0.705604
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706739
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70673895999926273}})
+cur f is order_cnt_22hr,best score is 0.711236599201, cur_s is 0.706738959999, 
+try with f uv_cvr_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_cvr_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4959
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702836
+[30]	valid_0's auc: 0.7056
+[40]	valid_0's auc: 0.706158
+[50]	valid_0's auc: 0.705827
+[60]	valid_0's auc: 0.705631
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706759
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70675932153193244}})
+cur f is uv_cvr_1day,best score is 0.711236599201, cur_s is 0.706759321532, 
+try with f order_cnt_9hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_9hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4934
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702687
+[30]	valid_0's auc: 0.705409
+[40]	valid_0's auc: 0.70601
+[50]	valid_0's auc: 0.705605
+[60]	valid_0's auc: 0.705441
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706644
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70664363353964454}})
+cur f is order_cnt_9hr,best score is 0.711236599201, cur_s is 0.70664363354, 
+try with f order_cnt_2hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_2hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4821
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702671
+[30]	valid_0's auc: 0.705496
+[40]	valid_0's auc: 0.706086
+[50]	valid_0's auc: 0.705777
+[60]	valid_0's auc: 0.705645
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.70674
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70673955369731434}})
+cur f is order_cnt_2hr,best score is 0.711236599201, cur_s is 0.706739553697, 
+try with f order_cnt_24hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_24hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4874
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702708
+[30]	valid_0's auc: 0.705515
+[40]	valid_0's auc: 0.706098
+[50]	valid_0's auc: 0.705771
+[60]	valid_0's auc: 0.705641
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706749
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70674913071994527}})
+cur f is order_cnt_24hr,best score is 0.711236599201, cur_s is 0.70674913072, 
+try with f order_cnt_5hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_5hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4774
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702694
+[30]	valid_0's auc: 0.705534
+[40]	valid_0's auc: 0.706113
+[50]	valid_0's auc: 0.705793
+[60]	valid_0's auc: 0.705657
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706767
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70676695271171064}})
+cur f is order_cnt_5hr,best score is 0.711236599201, cur_s is 0.706766952712, 
+try with f avg_delivery_comment_score
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'avg_delivery_comment_score']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702901
+[30]	valid_0's auc: 0.705697
+[40]	valid_0's auc: 0.706269
+[50]	valid_0's auc: 0.705956
+[60]	valid_0's auc: 0.705815
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706914
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70691373099333643}})
+cur f is avg_delivery_comment_score,best score is 0.711236599201, cur_s is 0.706913730993, 
+try with f click_tag_pref_30day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'click_tag_pref_30day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702462
+[30]	valid_0's auc: 0.705432
+[40]	valid_0's auc: 0.706048
+[50]	valid_0's auc: 0.705706
+[60]	valid_0's auc: 0.705639
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706688
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70668750240100509}})
+cur f is click_tag_pref_30day,best score is 0.711236599201, cur_s is 0.706687502401, 
+try with f comment_uv
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_uv']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702671
+[30]	valid_0's auc: 0.705424
+[40]	valid_0's auc: 0.706043
+[50]	valid_0's auc: 0.705632
+[60]	valid_0's auc: 0.705495
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706696
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669636894487631}})
+cur f is comment_uv,best score is 0.711236599201, cur_s is 0.706696368945, 
+try with f dp_score
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'dp_score']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4750
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702869
+[30]	valid_0's auc: 0.705794
+[40]	valid_0's auc: 0.706317
+[50]	valid_0's auc: 0.706032
+[60]	valid_0's auc: 0.705926
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706968
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70696785998168499}})
+cur f is dp_score,best score is 0.711236599201, cur_s is 0.706967859982, 
+try with f order_cnt_18hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_18hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702977
+[30]	valid_0's auc: 0.7055
+[40]	valid_0's auc: 0.706066
+[50]	valid_0's auc: 0.705592
+[60]	valid_0's auc: 0.705375
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706686
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7066860528133766}})
+cur f is order_cnt_18hr,best score is 0.711236599201, cur_s is 0.706686052813, 
+try with f poi_two_bought
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'poi_two_bought']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.703345
+[30]	valid_0's auc: 0.705824
+[40]	valid_0's auc: 0.706325
+[50]	valid_0's auc: 0.705795
+[60]	valid_0's auc: 0.705515
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706922
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70692246694372751}})
+cur f is poi_two_bought,best score is 0.711236599201, cur_s is 0.706922466944, 
+try with f order_cnt_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702984
+[30]	valid_0's auc: 0.705491
+[40]	valid_0's auc: 0.70604
+[50]	valid_0's auc: 0.705543
+[60]	valid_0's auc: 0.705285
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706653
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665313120162221}})
+cur f is order_cnt_7day,best score is 0.711236599201, cur_s is 0.706653131202, 
+try with f uv_ctr_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_ctr_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702807
+[30]	valid_0's auc: 0.705615
+[40]	valid_0's auc: 0.706193
+[50]	valid_0's auc: 0.705904
+[60]	valid_0's auc: 0.705745
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706809
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70680872253402061}})
+cur f is uv_ctr_7day,best score is 0.711236599201, cur_s is 0.706808722534, 
+try with f order_cnt_11hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_11hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.703016
+[30]	valid_0's auc: 0.705505
+[40]	valid_0's auc: 0.706054
+[50]	valid_0's auc: 0.705581
+[60]	valid_0's auc: 0.705369
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706675
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70667542426208996}})
+cur f is order_cnt_11hr,best score is 0.711236599201, cur_s is 0.706675424262, 
+try with f order_cnt_6hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_6hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4842
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702648
+[30]	valid_0's auc: 0.705493
+[40]	valid_0's auc: 0.706083
+[50]	valid_0's auc: 0.705753
+[60]	valid_0's auc: 0.705607
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706735
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70673478025447733}})
+cur f is order_cnt_6hr,best score is 0.711236599201, cur_s is 0.706734780254, 
+try with f month_total_price
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'month_total_price']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702658
+[30]	valid_0's auc: 0.705412
+[40]	valid_0's auc: 0.706017
+[50]	valid_0's auc: 0.705597
+[60]	valid_0's auc: 0.705449
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706671
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70667108052203065}})
+cur f is month_total_price,best score is 0.711236599201, cur_s is 0.706671080522, 
+try with f service_fee_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'service_fee_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702723
+[30]	valid_0's auc: 0.705439
+[40]	valid_0's auc: 0.706054
+[50]	valid_0's auc: 0.705686
+[60]	valid_0's auc: 0.705533
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706696
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669574310073724}})
+cur f is service_fee_1day,best score is 0.711236599201, cur_s is 0.706695743101, 
+try with f pv_cvr_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_cvr_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4959
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702742
+[30]	valid_0's auc: 0.705507
+[40]	valid_0's auc: 0.706089
+[50]	valid_0's auc: 0.705747
+[60]	valid_0's auc: 0.705583
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706692
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669248429112752}})
+cur f is pv_cvr_1day,best score is 0.711236599201, cur_s is 0.706692484291, 
+try with f distance_30day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'distance_30day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702822
+[30]	valid_0's auc: 0.705683
+[40]	valid_0's auc: 0.706247
+[50]	valid_0's auc: 0.706039
+[60]	valid_0's auc: 0.705942
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706895
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70689501694764578}})
+cur f is distance_30day,best score is 0.711236599201, cur_s is 0.706895016948, 
+try with f comment_5star_rate
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_5star_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702752
+[30]	valid_0's auc: 0.705582
+[40]	valid_0's auc: 0.706158
+[50]	valid_0's auc: 0.705849
+[60]	valid_0's auc: 0.705711
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.70681
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70680973764718669}})
+cur f is comment_5star_rate,best score is 0.711236599201, cur_s is 0.706809737647, 
+try with f order_cnt_1hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_1hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4845
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702721
+[30]	valid_0's auc: 0.705538
+[40]	valid_0's auc: 0.706115
+[50]	valid_0's auc: 0.705778
+[60]	valid_0's auc: 0.705646
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706769
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7067691622529364}})
+cur f is order_cnt_1hr,best score is 0.711236599201, cur_s is 0.706769162253, 
+try with f order_cnt_8hr
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'order_cnt_8hr']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4944
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702704
+[30]	valid_0's auc: 0.705489
+[40]	valid_0's auc: 0.706077
+[50]	valid_0's auc: 0.70571
+[60]	valid_0's auc: 0.705553
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706724
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70672374962595708}})
+cur f is order_cnt_8hr,best score is 0.711236599201, cur_s is 0.706723749626, 
+try with f pv_cxr_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_cxr_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702834
+[30]	valid_0's auc: 0.705722
+[40]	valid_0's auc: 0.706278
+[50]	valid_0's auc: 0.706035
+[60]	valid_0's auc: 0.705884
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706883
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70688261734785673}})
+cur f is pv_cxr_1day,best score is 0.711236599201, cur_s is 0.706882617348, 
+try with f comment_4star
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_4star']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702676
+[30]	valid_0's auc: 0.705372
+[40]	valid_0's auc: 0.70599
+[50]	valid_0's auc: 0.705571
+[60]	valid_0's auc: 0.705421
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706629
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7066288649238992}})
+cur f is comment_4star,best score is 0.711236599201, cur_s is 0.706628864924, 
+try with f tag_id
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'tag_id']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4824
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.703152
+[30]	valid_0's auc: 0.706068
+[40]	valid_0's auc: 0.706523
+[50]	valid_0's auc: 0.706308
+[60]	valid_0's auc: 0.706239
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.707166
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70716581131846667}})
+cur f is tag_id,best score is 0.711236599201, cur_s is 0.707165811318, 
+try with f pv_cxr_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_cxr_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702873
+[30]	valid_0's auc: 0.70563
+[40]	valid_0's auc: 0.706211
+[50]	valid_0's auc: 0.705915
+[60]	valid_0's auc: 0.705704
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706797
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7067974734125626}})
+cur f is pv_cxr_7day,best score is 0.711236599201, cur_s is 0.706797473413, 
+try with f pv_ctr_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'pv_ctr_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702826
+[30]	valid_0's auc: 0.705692
+[40]	valid_0's auc: 0.706254
+[50]	valid_0's auc: 0.705964
+[60]	valid_0's auc: 0.705804
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706884
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70688404784874592}})
+cur f is pv_ctr_1day,best score is 0.711236599201, cur_s is 0.706884047849, 
+try with f comment_2star
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'comment_2star']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4855
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702682
+[30]	valid_0's auc: 0.705456
+[40]	valid_0's auc: 0.706054
+[50]	valid_0's auc: 0.705637
+[60]	valid_0's auc: 0.705487
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706694
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70669444369561085}})
+cur f is comment_2star,best score is 0.711236599201, cur_s is 0.706694443696, 
+try with f avg_comment_score
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'avg_comment_score']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702761
+[30]	valid_0's auc: 0.705571
+[40]	valid_0's auc: 0.706151
+[50]	valid_0's auc: 0.705835
+[60]	valid_0's auc: 0.705688
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706802
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70680214966371346}})
+cur f is avg_comment_score,best score is 0.711236599201, cur_s is 0.706802149664, 
+try with f click_tag_pref_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'click_tag_pref_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702518
+[30]	valid_0's auc: 0.705477
+[40]	valid_0's auc: 0.70608
+[50]	valid_0's auc: 0.705793
+[60]	valid_0's auc: 0.705698
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706732
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7067323095262914}})
+cur f is click_tag_pref_7day,best score is 0.711236599201, cur_s is 0.706732309526, 
+try with f uv_cvr_7day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_cvr_7day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4959
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702799
+[30]	valid_0's auc: 0.705453
+[40]	valid_0's auc: 0.706064
+[50]	valid_0's auc: 0.705677
+[60]	valid_0's auc: 0.705467
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706657
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70665726272727658}})
+cur f is uv_cvr_7day,best score is 0.711236599201, cur_s is 0.706657262727, 
+try with f uv_ctr_1day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'uv_ctr_1day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702812
+[30]	valid_0's auc: 0.705644
+[40]	valid_0's auc: 0.706206
+[50]	valid_0's auc: 0.705896
+[60]	valid_0's auc: 0.705721
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706823
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.7068232028395447}})
+cur f is uv_ctr_1day,best score is 0.711236599201, cur_s is 0.70682320284, 
+try with f op_time_30day
+[u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day', u'op_time_30day']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4958
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700945
+[20]	valid_0's auc: 0.702713
+[30]	valid_0's auc: 0.705559
+[40]	valid_0's auc: 0.706141
+[50]	valid_0's auc: 0.705828
+[60]	valid_0's auc: 0.705701
+Early stopping, best iteration is:
+[39]	valid_0's auc: 0.706794
+[LightGBM] [Info] Finished loading 39 models
+defaultdict(<type 'dict'>, {'valid_0': {u'auc': 0.70679417467148486}})
+cur f is op_time_30day,best score is 0.711236599201, cur_s is 0.706794174671, 
+final score is  0.711236599201,init_feas is [u'order_tag_pref_3day', u'order_cnt_10hr', u'total_price_7day', u'user_reorder_rate', u'order_cnt_1day', u'neg_comment_rate', u'order_tag_pref_7day', u'submit_tag_pref_30day', u'service_fee_rate_1day', u'submit_tag_pref_3day', u'pv_cxr_15day', u'order_tag_pref_15day', u'user_poi_submit_decay', u'pv_cvr_15day', u'user_poi_order_decay', u'submit_tag_pref_7day', u'poi_reorder_rate', u'submit_tag_pref_15day', u'user_poi_click_decay', 'order_tag_pref_30day', u'pic_comment_cnt', u'original_price_7day']
+[[None, 0, 0.70659999547714591], [u'pic_comment_cnt', 0.70947797139409186, 0.70947797139409186], [u'original_price_7day', 0.71123659920090121, 0.71123659920090121], [u'pic_comment_rate', 0.71123659920090121, 0.7067179801566934], [u'service_fee_rate_7day', 0.71123659920090121, 0.70687634534483623], [u'pv_ctr_7day', 0.71123659920090121, 0.70686430387255206], [u'uv_cxr_7day', 0.71123659920090121, 0.70674853400819793], [u'neg_delivery_comment_rate', 0.71123659920090121, 0.70681499729959552], [u'pos_comment_rate', 0.71123659920090121, 0.70682650559888327], [u'comment_5star', 0.71123659920090121, 0.70663033761652805], [u'month_original_price', 0.71123659920090121, 0.70667931243181703], [u'dp_avg_price', 0.71123659920090121, 0.70700261417156218], [u'month_order_cnt', 0.71123659920090121, 0.70662716193469122], [u'order_cnt_14hr', 0.71123659920090121, 0.70667856930468731], [u'order_cnt_3hr', 0.71123659920090121, 0.70676845704814417], [u'click_tag_pref_3day', 0.71123659920090121, 0.70688905786669476], [u'comment_3star', 0.71123659920090121, 0.70672490437369018], [u'order_cnt_14day', 0.71123659920090121, 0.70673477297137943], [u'total_price_1day', 0.71123659920090121, 0.70665234839416591], [u'pv_ctr_15day', 0.71123659920090121, 0.70688192670926042], [u'click_tag_pref_15day', 0.71123659920090121, 0.7066775348536406], [u'uv_ctr_15day', 0.71123659920090121, 0.70685860698312641], [u'avg_price_month', 0.71123659920090121, 0.70723473453897401], [u'uv_cvr_15day', 0.71123659920090121, 0.70665673859536715], [u'order_cnt_21hr', 0.71123659920090121, 0.70671758184657929], [u'order_cnt_17hr', 0.71123659920090121, 0.70664563614043285], [u'order_cnt_increase', 0.71123659920090121, 0.70665540277475114], [u'order_cnt_4hr', 0.71123659920090121, 0.70675264418684114], [u'service_fee_7day', 0.71123659920090121, 0.70672846831998892], [u'avg_food_comment_score', 0.71123659920090121, 0.70677971998237421], [u'order_cnt_15hr', 0.71123659920090121, 0.70669111632442405], [u'uv_cxr_15day', 0.71123659920090121, 0.70674793403161373], [u'order_cnt_13hr', 0.71123659920090121, 0.7065990948844163], [u'pos_delivery_comment_rate', 0.71123659920090121, 0.70688163463191944], [u'food_comment_rate', 0.71123659920090121, 0.70695160285140834], [u'order_cnt_7hr', 0.71123659920090121, 0.70669142372138471], [u'area_30day', 0.71123659920090121, 0.70696004245505639], [u'poi_one_bought', 0.71123659920090121, 0.70659190571333974], [u'pv_cvr_7day', 0.71123659920090121, 0.70665260656743023], [u'comment_1star', 0.71123659920090121, 0.70667929108480587], [u'original_price_1day', 0.71123659920090121, 0.70669417748582453], [u'user_reorder_count', 0.71123659920090121, 0.70534678829653841], [u'food_comment_cnt', 0.71123659920090121, 0.70663369386896524], [u'order_cnt_16hr', 0.71123659920090121, 0.70665519256947651], [u'discount_rate_new_customer_7day', 0.71123659920090121, 0.70672873603662301], [u'uv_cxr_1day', 0.71123659920090121, 0.70687330075876198], [u'discount_rate_all_customer_7day', 0.71123659920090121, 0.70677919760845409], [u'order_cnt_12hr', 0.71123659920090121, 0.70662209013598054], [u'order_cnt_19hr', 0.71123659920090121, 0.70664928798618931], [u'order_cnt_23hr', 0.71123659920090121, 0.70675429493865716], [u'order_cnt_20hr', 0.71123659920090121, 0.70665605147274912], [u'order_cnt_22hr', 0.71123659920090121, 0.70673895999926273], [u'uv_cvr_1day', 0.71123659920090121, 0.70675932153193244], [u'order_cnt_9hr', 0.71123659920090121, 0.70664363353964454], [u'order_cnt_2hr', 0.71123659920090121, 0.70673955369731434], [u'order_cnt_24hr', 0.71123659920090121, 0.70674913071994527], [u'order_cnt_5hr', 0.71123659920090121, 0.70676695271171064], [u'avg_delivery_comment_score', 0.71123659920090121, 0.70691373099333643], [u'click_tag_pref_30day', 0.71123659920090121, 0.70668750240100509], [u'comment_uv', 0.71123659920090121, 0.70669636894487631], [u'dp_score', 0.71123659920090121, 0.70696785998168499], [u'order_cnt_18hr', 0.71123659920090121, 0.7066860528133766], [u'poi_two_bought', 0.71123659920090121, 0.70692246694372751], [u'order_cnt_7day', 0.71123659920090121, 0.70665313120162221], [u'uv_ctr_7day', 0.71123659920090121, 0.70680872253402061], [u'order_cnt_11hr', 0.71123659920090121, 0.70667542426208996], [u'order_cnt_6hr', 0.71123659920090121, 0.70673478025447733], [u'month_total_price', 0.71123659920090121, 0.70667108052203065], [u'service_fee_1day', 0.71123659920090121, 0.70669574310073724], [u'pv_cvr_1day', 0.71123659920090121, 0.70669248429112752], [u'distance_30day', 0.71123659920090121, 0.70689501694764578], [u'comment_5star_rate', 0.71123659920090121, 0.70680973764718669], [u'order_cnt_1hr', 0.71123659920090121, 0.7067691622529364], [u'order_cnt_8hr', 0.71123659920090121, 0.70672374962595708], [u'pv_cxr_1day', 0.71123659920090121, 0.70688261734785673], [u'comment_4star', 0.71123659920090121, 0.7066288649238992], [u'tag_id', 0.71123659920090121, 0.70716581131846667], [u'pv_cxr_7day', 0.71123659920090121, 0.7067974734125626], [u'pv_ctr_1day', 0.71123659920090121, 0.70688404784874592], [u'comment_2star', 0.71123659920090121, 0.70669444369561085], [u'avg_comment_score', 0.71123659920090121, 0.70680214966371346], [u'click_tag_pref_7day', 0.71123659920090121, 0.7067323095262914], [u'uv_cvr_7day', 0.71123659920090121, 0.70665726272727658], [u'uv_ctr_1day', 0.71123659920090121, 0.7068232028395447], [u'op_time_30day', 0.71123659920090121, 0.70679417467148486]]

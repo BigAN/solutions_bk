@@ -1,0 +1,1724 @@
+try without f waiting_order_num
+['working_rider_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3237
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 751.334
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 736.54
+[3]	valid_0's l1: 732.955
+[4]	valid_0's l1: 721.434
+[5]	valid_0's l1: 716.941
+[6]	valid_0's l1: 704.87
+[7]	valid_0's l1: 694.301
+[8]	valid_0's l1: 683.858
+[9]	valid_0's l1: 673.735
+[10]	valid_0's l1: 665.977
+[11]	valid_0's l1: 662.024
+[12]	valid_0's l1: 654.932
+[13]	valid_0's l1: 646.707
+[14]	valid_0's l1: 638.117
+[15]	valid_0's l1: 631.671
+[16]	valid_0's l1: 623.849
+[17]	valid_0's l1: 621.12
+[18]	valid_0's l1: 614.225
+[19]	valid_0's l1: 607.438
+[20]	valid_0's l1: 605.113
+[21]	valid_0's l1: 599.341
+[22]	valid_0's l1: 594.456
+[23]	valid_0's l1: 591.911
+[24]	valid_0's l1: 587.39
+[25]	valid_0's l1: 585.687
+[26]	valid_0's l1: 581.137
+[27]	valid_0's l1: 578.065
+[28]	valid_0's l1: 574.097
+[29]	valid_0's l1: 571.44
+[30]	valid_0's l1: 570.598
+[31]	valid_0's l1: 566.552
+[32]	valid_0's l1: 562.86
+[33]	valid_0's l1: 559.451
+[34]	valid_0's l1: 556.237
+[35]	valid_0's l1: 552.825
+[36]	valid_0's l1: 550.384
+[37]	valid_0's l1: 549.626
+[38]	valid_0's l1: 546.901
+[39]	valid_0's l1: 544.496
+[40]	valid_0's l1: 542.295
+[41]	valid_0's l1: 539.408
+[42]	valid_0's l1: 538.338
+[43]	valid_0's l1: 536.025
+[44]	valid_0's l1: 534.34
+[45]	valid_0's l1: 532.473
+[46]	valid_0's l1: 530.453
+[47]	valid_0's l1: 529.552
+[48]	valid_0's l1: 529.265
+[49]	valid_0's l1: 527.804
+[50]	valid_0's l1: 526.48
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'working_rider_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [762, 213, 1863, 27, 68, 894, 11, 1930, 0, 421, 693, 1196, 572, 854, 601, 1863, 136, 260, 386])
+                      feature  importances
+8                        rain            0
+6                        wind           11
+3                 temperature           27
+4                        hour           68
+16                   food_num          136
+1                     area_id          213
+17                     minute          260
+18      deliverying_order_num          386
+9             box_total_value          421
+12  notbusy_working_rider_num          572
+14         customer_longitude          601
+10           food_total_value          693
+0           working_rider_num          762
+13          customer_latitude          854
+5           delivery_distance          894
+11      not_fetched_order_num         1196
+15                    poi_lat         1863
+2                     poi_lng         1863
+7                      poi_id         1930
+526.480243564
+try without f area_id
+['waiting_order_num', 'poi_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'box_total_value', 'rain', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3298
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 747.933
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 732.778
+[3]	valid_0's l1: 719.615
+[4]	valid_0's l1: 709.627
+[5]	valid_0's l1: 697.345
+[6]	valid_0's l1: 688.368
+[7]	valid_0's l1: 682.322
+[8]	valid_0's l1: 676.482
+[9]	valid_0's l1: 670.592
+[10]	valid_0's l1: 668.161
+[11]	valid_0's l1: 662.233
+[12]	valid_0's l1: 656.969
+[13]	valid_0's l1: 653.68
+[14]	valid_0's l1: 644.007
+[15]	valid_0's l1: 638.135
+[16]	valid_0's l1: 633.705
+[17]	valid_0's l1: 627.738
+[18]	valid_0's l1: 620.887
+[19]	valid_0's l1: 614.319
+[20]	valid_0's l1: 608.251
+[21]	valid_0's l1: 603.716
+[22]	valid_0's l1: 597.393
+[23]	valid_0's l1: 592.394
+[24]	valid_0's l1: 586.902
+[25]	valid_0's l1: 584.147
+[26]	valid_0's l1: 583.029
+[27]	valid_0's l1: 578.495
+[28]	valid_0's l1: 574.652
+[29]	valid_0's l1: 570.768
+[30]	valid_0's l1: 569.887
+[31]	valid_0's l1: 569.595
+[32]	valid_0's l1: 568.009
+[33]	valid_0's l1: 564.652
+[34]	valid_0's l1: 561.092
+[35]	valid_0's l1: 558.832
+[36]	valid_0's l1: 555.908
+[37]	valid_0's l1: 553.328
+[38]	valid_0's l1: 549.907
+[39]	valid_0's l1: 547.296
+[40]	valid_0's l1: 544.382
+[41]	valid_0's l1: 542.755
+[42]	valid_0's l1: 542.135
+[43]	valid_0's l1: 540.154
+[44]	valid_0's l1: 537.978
+[45]	valid_0's l1: 535.776
+[46]	valid_0's l1: 534.876
+[47]	valid_0's l1: 532.655
+[48]	valid_0's l1: 531.951
+[49]	valid_0's l1: 531.654
+[50]	valid_0's l1: 528.788
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'poi_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'box_total_value', u'rain', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [481, 1577, 1837, 19, 88, 877, 10, 571, 0, 642, 982, 867, 825, 841, 1739, 595, 123, 308, 368])
+                      feature  importances
+8                        rain            0
+6                        wind           10
+3                 temperature           19
+4                        hour           88
+16                   food_num          123
+17                     minute          308
+18      deliverying_order_num          368
+0           waiting_order_num          481
+7             box_total_value          571
+15          working_rider_num          595
+9            food_total_value          642
+12          customer_latitude          825
+13         customer_longitude          841
+11  notbusy_working_rider_num          867
+5           delivery_distance          877
+10      not_fetched_order_num          982
+1                      poi_id         1577
+14                    poi_lat         1739
+2                     poi_lng         1837
+528.787993379
+try without f poi_lng
+['waiting_order_num', 'area_id', 'wind', 'temperature', 'hour', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3056
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.04
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.314
+[3]	valid_0's l1: 720.112
+[4]	valid_0's l1: 709.966
+[5]	valid_0's l1: 697.801
+[6]	valid_0's l1: 688.682
+[7]	valid_0's l1: 682.806
+[8]	valid_0's l1: 677.01
+[9]	valid_0's l1: 671.114
+[10]	valid_0's l1: 668.803
+[11]	valid_0's l1: 662.712
+[12]	valid_0's l1: 657.47
+[13]	valid_0's l1: 654.405
+[14]	valid_0's l1: 645.638
+[15]	valid_0's l1: 637.331
+[16]	valid_0's l1: 633.122
+[17]	valid_0's l1: 627.314
+[18]	valid_0's l1: 620.613
+[19]	valid_0's l1: 613.638
+[20]	valid_0's l1: 607.72
+[21]	valid_0's l1: 602.94
+[22]	valid_0's l1: 595.554
+[23]	valid_0's l1: 590.808
+[24]	valid_0's l1: 585.279
+[25]	valid_0's l1: 582.525
+[26]	valid_0's l1: 581.616
+[27]	valid_0's l1: 577.037
+[28]	valid_0's l1: 572.784
+[29]	valid_0's l1: 569.056
+[30]	valid_0's l1: 568.191
+[31]	valid_0's l1: 567.509
+[32]	valid_0's l1: 565.759
+[33]	valid_0's l1: 562.855
+[34]	valid_0's l1: 559.619
+[35]	valid_0's l1: 557.663
+[36]	valid_0's l1: 554.592
+[37]	valid_0's l1: 552.387
+[38]	valid_0's l1: 549.27
+[39]	valid_0's l1: 546.401
+[40]	valid_0's l1: 543.417
+[41]	valid_0's l1: 542.072
+[42]	valid_0's l1: 541.339
+[43]	valid_0's l1: 539.265
+[44]	valid_0's l1: 537.369
+[45]	valid_0's l1: 534.547
+[46]	valid_0's l1: 533.918
+[47]	valid_0's l1: 531.116
+[48]	valid_0's l1: 530.348
+[49]	valid_0's l1: 529.984
+[50]	valid_0's l1: 527.355
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'wind', u'temperature', u'hour', u'delivery_distance', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [585, 325, 23, 29, 98, 908, 1848, 1, 589, 686, 1106, 1015, 896, 1028, 2098, 568, 151, 359, 437])
+                      feature  importances
+7                        rain            1
+2                        wind           23
+3                 temperature           29
+4                        hour           98
+16                   food_num          151
+1                     area_id          325
+17                     minute          359
+18      deliverying_order_num          437
+15          working_rider_num          568
+0           waiting_order_num          585
+8             box_total_value          589
+9            food_total_value          686
+12          customer_latitude          896
+5           delivery_distance          908
+11  notbusy_working_rider_num         1015
+13         customer_longitude         1028
+10      not_fetched_order_num         1106
+6                      poi_id         1848
+14                    poi_lat         2098
+527.35523027
+try without f temperature
+['waiting_order_num', 'area_id', 'poi_lng', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.132
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.447
+[3]	valid_0's l1: 720.257
+[4]	valid_0's l1: 713.089
+[5]	valid_0's l1: 702.2
+[6]	valid_0's l1: 692.674
+[7]	valid_0's l1: 686.719
+[8]	valid_0's l1: 680.497
+[9]	valid_0's l1: 675.029
+[10]	valid_0's l1: 672.235
+[11]	valid_0's l1: 666.045
+[12]	valid_0's l1: 660.385
+[13]	valid_0's l1: 656.783
+[14]	valid_0's l1: 647.133
+[15]	valid_0's l1: 638.639
+[16]	valid_0's l1: 634.208
+[17]	valid_0's l1: 628.249
+[18]	valid_0's l1: 621.434
+[19]	valid_0's l1: 614.567
+[20]	valid_0's l1: 608.632
+[21]	valid_0's l1: 602.828
+[22]	valid_0's l1: 596.514
+[23]	valid_0's l1: 590.91
+[24]	valid_0's l1: 585.235
+[25]	valid_0's l1: 582.474
+[26]	valid_0's l1: 581.241
+[27]	valid_0's l1: 577.2
+[28]	valid_0's l1: 573.04
+[29]	valid_0's l1: 570.025
+[30]	valid_0's l1: 569.005
+[31]	valid_0's l1: 567.374
+[32]	valid_0's l1: 565.351
+[33]	valid_0's l1: 561.758
+[34]	valid_0's l1: 558.738
+[35]	valid_0's l1: 556.805
+[36]	valid_0's l1: 553.656
+[37]	valid_0's l1: 550.692
+[38]	valid_0's l1: 547.284
+[39]	valid_0's l1: 544.465
+[40]	valid_0's l1: 542.085
+[41]	valid_0's l1: 540.689
+[42]	valid_0's l1: 539.978
+[43]	valid_0's l1: 537.832
+[44]	valid_0's l1: 535.707
+[45]	valid_0's l1: 532.728
+[46]	valid_0's l1: 532.006
+[47]	valid_0's l1: 529.925
+[48]	valid_0's l1: 529.205
+[49]	valid_0's l1: 528.617
+[50]	valid_0's l1: 526.471
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [517, 209, 1672, 81, 834, 18, 1516, 1, 607, 590, 1013, 847, 827, 782, 1853, 543, 112, 302, 426])
+                      feature  importances
+7                        rain            1
+5                        wind           18
+3                        hour           81
+16                   food_num          112
+1                     area_id          209
+17                     minute          302
+18      deliverying_order_num          426
+0           waiting_order_num          517
+15          working_rider_num          543
+9            food_total_value          590
+8             box_total_value          607
+13         customer_longitude          782
+12          customer_latitude          827
+4           delivery_distance          834
+11  notbusy_working_rider_num          847
+10      not_fetched_order_num         1013
+6                      poi_id         1516
+2                     poi_lng         1672
+14                    poi_lat         1853
+526.470911926
+try without f hour
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3307
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.222
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.549
+[3]	valid_0's l1: 720.355
+[4]	valid_0's l1: 713.195
+[5]	valid_0's l1: 702.326
+[6]	valid_0's l1: 692.778
+[7]	valid_0's l1: 686.915
+[8]	valid_0's l1: 680.732
+[9]	valid_0's l1: 675.293
+[10]	valid_0's l1: 672.611
+[11]	valid_0's l1: 666.36
+[12]	valid_0's l1: 660.708
+[13]	valid_0's l1: 657.079
+[14]	valid_0's l1: 647.524
+[15]	valid_0's l1: 639.127
+[16]	valid_0's l1: 634.713
+[17]	valid_0's l1: 628.851
+[18]	valid_0's l1: 621.94
+[19]	valid_0's l1: 615.013
+[20]	valid_0's l1: 609.046
+[21]	valid_0's l1: 602.806
+[22]	valid_0's l1: 596.49
+[23]	valid_0's l1: 590.855
+[24]	valid_0's l1: 585.525
+[25]	valid_0's l1: 582.724
+[26]	valid_0's l1: 581.534
+[27]	valid_0's l1: 577.283
+[28]	valid_0's l1: 573.232
+[29]	valid_0's l1: 569.953
+[30]	valid_0's l1: 568.94
+[31]	valid_0's l1: 567.398
+[32]	valid_0's l1: 565.384
+[33]	valid_0's l1: 561.839
+[34]	valid_0's l1: 558.836
+[35]	valid_0's l1: 556.613
+[36]	valid_0's l1: 553.913
+[37]	valid_0's l1: 550.826
+[38]	valid_0's l1: 547.679
+[39]	valid_0's l1: 544.695
+[40]	valid_0's l1: 541.805
+[41]	valid_0's l1: 540.339
+[42]	valid_0's l1: 539.569
+[43]	valid_0's l1: 536.924
+[44]	valid_0's l1: 535.074
+[45]	valid_0's l1: 532.624
+[46]	valid_0's l1: 531.848
+[47]	valid_0's l1: 529.587
+[48]	valid_0's l1: 528.863
+[49]	valid_0's l1: 528.204
+[50]	valid_0's l1: 526.315
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [508, 200, 1726, 17, 831, 14, 1532, 1, 602, 579, 987, 894, 834, 835, 1785, 568, 115, 286, 436])
+                      feature  importances
+7                        rain            1
+5                        wind           14
+3                 temperature           17
+16                   food_num          115
+1                     area_id          200
+17                     minute          286
+18      deliverying_order_num          436
+0           waiting_order_num          508
+15          working_rider_num          568
+9            food_total_value          579
+8             box_total_value          602
+4           delivery_distance          831
+12          customer_latitude          834
+13         customer_longitude          835
+11  notbusy_working_rider_num          894
+10      not_fetched_order_num          987
+6                      poi_id         1532
+2                     poi_lng         1726
+14                    poi_lat         1785
+526.315159862
+try without f delivery_distance
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.222
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 735.405
+[3]	valid_0's l1: 722.607
+[4]	valid_0's l1: 715.503
+[5]	valid_0's l1: 704.325
+[6]	valid_0's l1: 695.796
+[7]	valid_0's l1: 689.998
+[8]	valid_0's l1: 684.257
+[9]	valid_0's l1: 678.53
+[10]	valid_0's l1: 676.698
+[11]	valid_0's l1: 671.194
+[12]	valid_0's l1: 665.92
+[13]	valid_0's l1: 662.645
+[14]	valid_0's l1: 654.338
+[15]	valid_0's l1: 646.326
+[16]	valid_0's l1: 642.237
+[17]	valid_0's l1: 637.346
+[18]	valid_0's l1: 630.46
+[19]	valid_0's l1: 624.911
+[20]	valid_0's l1: 619.444
+[21]	valid_0's l1: 614.957
+[22]	valid_0's l1: 609.03
+[23]	valid_0's l1: 603.824
+[24]	valid_0's l1: 598.55
+[25]	valid_0's l1: 595.919
+[26]	valid_0's l1: 594.797
+[27]	valid_0's l1: 590.674
+[28]	valid_0's l1: 587.044
+[29]	valid_0's l1: 583.178
+[30]	valid_0's l1: 582.405
+[31]	valid_0's l1: 580.721
+[32]	valid_0's l1: 578.641
+[33]	valid_0's l1: 575.794
+[34]	valid_0's l1: 573.159
+[35]	valid_0's l1: 571.084
+[36]	valid_0's l1: 568.449
+[37]	valid_0's l1: 565.787
+[38]	valid_0's l1: 563.091
+[39]	valid_0's l1: 560.511
+[40]	valid_0's l1: 557.531
+[41]	valid_0's l1: 556.082
+[42]	valid_0's l1: 555.462
+[43]	valid_0's l1: 553.273
+[44]	valid_0's l1: 550.837
+[45]	valid_0's l1: 547.955
+[46]	valid_0's l1: 547.131
+[47]	valid_0's l1: 545.921
+[48]	valid_0's l1: 545.105
+[49]	valid_0's l1: 544.697
+[50]	valid_0's l1: 542.791
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [366, 183, 1617, 20, 62, 11, 1533, 0, 475, 475, 756, 723, 1779, 1801, 1743, 460, 112, 265, 369])
+                      feature  importances
+7                        rain            0
+5                        wind           11
+3                 temperature           20
+4                        hour           62
+16                   food_num          112
+1                     area_id          183
+17                     minute          265
+0           waiting_order_num          366
+18      deliverying_order_num          369
+15          working_rider_num          460
+8             box_total_value          475
+9            food_total_value          475
+11  notbusy_working_rider_num          723
+10      not_fetched_order_num          756
+6                      poi_id         1533
+2                     poi_lng         1617
+14                    poi_lat         1743
+12          customer_latitude         1779
+13         customer_longitude         1801
+542.791332296
+try without f wind
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3270
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.04
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.314
+[3]	valid_0's l1: 720.112
+[4]	valid_0's l1: 709.747
+[5]	valid_0's l1: 697.681
+[6]	valid_0's l1: 688.446
+[7]	valid_0's l1: 682.605
+[8]	valid_0's l1: 676.734
+[9]	valid_0's l1: 670.646
+[10]	valid_0's l1: 668.083
+[11]	valid_0's l1: 662.034
+[12]	valid_0's l1: 656.484
+[13]	valid_0's l1: 653.216
+[14]	valid_0's l1: 644.351
+[15]	valid_0's l1: 637.841
+[16]	valid_0's l1: 633.523
+[17]	valid_0's l1: 627.766
+[18]	valid_0's l1: 620.961
+[19]	valid_0's l1: 614.264
+[20]	valid_0's l1: 608.362
+[21]	valid_0's l1: 603.807
+[22]	valid_0's l1: 597.304
+[23]	valid_0's l1: 592.521
+[24]	valid_0's l1: 587.06
+[25]	valid_0's l1: 584.329
+[26]	valid_0's l1: 583.161
+[27]	valid_0's l1: 578.624
+[28]	valid_0's l1: 574.432
+[29]	valid_0's l1: 570.987
+[30]	valid_0's l1: 570.164
+[31]	valid_0's l1: 569.799
+[32]	valid_0's l1: 568.065
+[33]	valid_0's l1: 564.31
+[34]	valid_0's l1: 560.94
+[35]	valid_0's l1: 559.006
+[36]	valid_0's l1: 555.785
+[37]	valid_0's l1: 552.747
+[38]	valid_0's l1: 549.73
+[39]	valid_0's l1: 546.839
+[40]	valid_0's l1: 544.112
+[41]	valid_0's l1: 542.116
+[42]	valid_0's l1: 541.287
+[43]	valid_0's l1: 538.794
+[44]	valid_0's l1: 536.615
+[45]	valid_0's l1: 534.026
+[46]	valid_0's l1: 533.301
+[47]	valid_0's l1: 531.256
+[48]	valid_0's l1: 530.595
+[49]	valid_0's l1: 530.286
+[50]	valid_0's l1: 527.44
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [526, 204, 1746, 24, 78, 933, 1552, 0, 512, 616, 1052, 866, 782, 721, 1733, 570, 136, 311, 388])
+                      feature  importances
+7                        rain            0
+3                 temperature           24
+4                        hour           78
+16                   food_num          136
+1                     area_id          204
+17                     minute          311
+18      deliverying_order_num          388
+8             box_total_value          512
+0           waiting_order_num          526
+15          working_rider_num          570
+9            food_total_value          616
+13         customer_longitude          721
+12          customer_latitude          782
+11  notbusy_working_rider_num          866
+5           delivery_distance          933
+10      not_fetched_order_num         1052
+6                      poi_id         1552
+14                    poi_lat         1733
+2                     poi_lng         1746
+527.439979052
+try without f poi_id
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'box_total_value', 'rain', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 747.933
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.265
+[3]	valid_0's l1: 719.588
+[4]	valid_0's l1: 709.378
+[5]	valid_0's l1: 696.581
+[6]	valid_0's l1: 687.329
+[7]	valid_0's l1: 681.248
+[8]	valid_0's l1: 675.425
+[9]	valid_0's l1: 669.255
+[10]	valid_0's l1: 666.757
+[11]	valid_0's l1: 660.712
+[12]	valid_0's l1: 655.391
+[13]	valid_0's l1: 652.094
+[14]	valid_0's l1: 642.508
+[15]	valid_0's l1: 636.957
+[16]	valid_0's l1: 632.466
+[17]	valid_0's l1: 626.728
+[18]	valid_0's l1: 620.156
+[19]	valid_0's l1: 613.538
+[20]	valid_0's l1: 607.356
+[21]	valid_0's l1: 602.477
+[22]	valid_0's l1: 596.484
+[23]	valid_0's l1: 590.572
+[24]	valid_0's l1: 584.4
+[25]	valid_0's l1: 581.6
+[26]	valid_0's l1: 580.648
+[27]	valid_0's l1: 576.193
+[28]	valid_0's l1: 571.891
+[29]	valid_0's l1: 568.065
+[30]	valid_0's l1: 567.316
+[31]	valid_0's l1: 566.684
+[32]	valid_0's l1: 564.988
+[33]	valid_0's l1: 561.743
+[34]	valid_0's l1: 558.171
+[35]	valid_0's l1: 555.78
+[36]	valid_0's l1: 552.984
+[37]	valid_0's l1: 550.296
+[38]	valid_0's l1: 547.625
+[39]	valid_0's l1: 545.155
+[40]	valid_0's l1: 542.456
+[41]	valid_0's l1: 540.838
+[42]	valid_0's l1: 540.217
+[43]	valid_0's l1: 537.469
+[44]	valid_0's l1: 535.127
+[45]	valid_0's l1: 532.927
+[46]	valid_0's l1: 532.134
+[47]	valid_0's l1: 530.538
+[48]	valid_0's l1: 529.887
+[49]	valid_0's l1: 529.638
+[50]	valid_0's l1: 527.307
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'box_total_value', u'rain', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [541, 189, 2126, 20, 102, 979, 20, 703, 0, 690, 1077, 933, 892, 900, 2063, 628, 159, 343, 385])
+                      feature  importances
+8                        rain            0
+3                 temperature           20
+6                        wind           20
+4                        hour          102
+16                   food_num          159
+1                     area_id          189
+17                     minute          343
+18      deliverying_order_num          385
+0           waiting_order_num          541
+15          working_rider_num          628
+9            food_total_value          690
+7             box_total_value          703
+12          customer_latitude          892
+13         customer_longitude          900
+11  notbusy_working_rider_num          933
+5           delivery_distance          979
+10      not_fetched_order_num         1077
+14                    poi_lat         2063
+2                     poi_lng         2126
+527.306607893
+try without f rain
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3262
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 747.859
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 732.96
+[3]	valid_0's l1: 719.301
+[4]	valid_0's l1: 709.797
+[5]	valid_0's l1: 697.487
+[6]	valid_0's l1: 688.017
+[7]	valid_0's l1: 682.285
+[8]	valid_0's l1: 675.897
+[9]	valid_0's l1: 670.048
+[10]	valid_0's l1: 667.407
+[11]	valid_0's l1: 661.474
+[12]	valid_0's l1: 656.064
+[13]	valid_0's l1: 652.71
+[14]	valid_0's l1: 643
+[15]	valid_0's l1: 634.662
+[16]	valid_0's l1: 630.363
+[17]	valid_0's l1: 625.139
+[18]	valid_0's l1: 617.824
+[19]	valid_0's l1: 611.051
+[20]	valid_0's l1: 605.236
+[21]	valid_0's l1: 600.007
+[22]	valid_0's l1: 593.799
+[23]	valid_0's l1: 588.583
+[24]	valid_0's l1: 583.2
+[25]	valid_0's l1: 580.449
+[26]	valid_0's l1: 579.126
+[27]	valid_0's l1: 574.704
+[28]	valid_0's l1: 570.555
+[29]	valid_0's l1: 567.155
+[30]	valid_0's l1: 566.282
+[31]	valid_0's l1: 565.909
+[32]	valid_0's l1: 564.311
+[33]	valid_0's l1: 560.777
+[34]	valid_0's l1: 557.354
+[35]	valid_0's l1: 554.997
+[36]	valid_0's l1: 552.202
+[37]	valid_0's l1: 549.485
+[38]	valid_0's l1: 546.338
+[39]	valid_0's l1: 543.131
+[40]	valid_0's l1: 540.239
+[41]	valid_0's l1: 538.262
+[42]	valid_0's l1: 537.438
+[43]	valid_0's l1: 535.077
+[44]	valid_0's l1: 532.868
+[45]	valid_0's l1: 530.045
+[46]	valid_0's l1: 529.318
+[47]	valid_0's l1: 527.075
+[48]	valid_0's l1: 526.38
+[49]	valid_0's l1: 526.101
+[50]	valid_0's l1: 523.966
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [535, 197, 1664, 22, 84, 896, 13, 1784, 523, 640, 1030, 864, 831, 725, 1619, 557, 135, 293, 338])
+                      feature  importances
+6                        wind           13
+3                 temperature           22
+4                        hour           84
+16                   food_num          135
+1                     area_id          197
+17                     minute          293
+18      deliverying_order_num          338
+8             box_total_value          523
+0           waiting_order_num          535
+15          working_rider_num          557
+9            food_total_value          640
+13         customer_longitude          725
+12          customer_latitude          831
+11  notbusy_working_rider_num          864
+5           delivery_distance          896
+10      not_fetched_order_num         1030
+14                    poi_lat         1619
+2                     poi_lng         1664
+7                      poi_id         1784
+523.965615331
+try without f box_total_value
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3209
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 747.933
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.695
+[3]	valid_0's l1: 719.779
+[4]	valid_0's l1: 710.237
+[5]	valid_0's l1: 697.795
+[6]	valid_0's l1: 688.984
+[7]	valid_0's l1: 683.4
+[8]	valid_0's l1: 677.583
+[9]	valid_0's l1: 671.753
+[10]	valid_0's l1: 669.039
+[11]	valid_0's l1: 662.947
+[12]	valid_0's l1: 657.609
+[13]	valid_0's l1: 654.257
+[14]	valid_0's l1: 644.64
+[15]	valid_0's l1: 636.537
+[16]	valid_0's l1: 632.312
+[17]	valid_0's l1: 626.774
+[18]	valid_0's l1: 619.951
+[19]	valid_0's l1: 613.286
+[20]	valid_0's l1: 607.43
+[21]	valid_0's l1: 602.735
+[22]	valid_0's l1: 596.659
+[23]	valid_0's l1: 591.594
+[24]	valid_0's l1: 585.921
+[25]	valid_0's l1: 582.97
+[26]	valid_0's l1: 581.793
+[27]	valid_0's l1: 576.539
+[28]	valid_0's l1: 572.286
+[29]	valid_0's l1: 567.929
+[30]	valid_0's l1: 567.134
+[31]	valid_0's l1: 566.772
+[32]	valid_0's l1: 565.117
+[33]	valid_0's l1: 562.007
+[34]	valid_0's l1: 558.697
+[35]	valid_0's l1: 556.082
+[36]	valid_0's l1: 553.137
+[37]	valid_0's l1: 550.261
+[38]	valid_0's l1: 546.388
+[39]	valid_0's l1: 543.535
+[40]	valid_0's l1: 540.854
+[41]	valid_0's l1: 539.611
+[42]	valid_0's l1: 538.705
+[43]	valid_0's l1: 536.502
+[44]	valid_0's l1: 534.457
+[45]	valid_0's l1: 532.165
+[46]	valid_0's l1: 531.343
+[47]	valid_0's l1: 528.819
+[48]	valid_0's l1: 528.183
+[49]	valid_0's l1: 527.907
+[50]	valid_0's l1: 525.497
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [540, 199, 1794, 28, 91, 922, 21, 1928, 1, 698, 1034, 843, 836, 746, 1680, 575, 115, 334, 365])
+                      feature  importances
+8                        rain            1
+6                        wind           21
+3                 temperature           28
+4                        hour           91
+16                   food_num          115
+1                     area_id          199
+17                     minute          334
+18      deliverying_order_num          365
+0           waiting_order_num          540
+15          working_rider_num          575
+9            food_total_value          698
+13         customer_longitude          746
+12          customer_latitude          836
+11  notbusy_working_rider_num          843
+5           delivery_distance          922
+10      not_fetched_order_num         1034
+14                    poi_lat         1680
+2                     poi_lng         1794
+7                      poi_id         1928
+525.496955886
+try without f food_total_value
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.899
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 734.471
+[3]	valid_0's l1: 723.182
+[4]	valid_0's l1: 712.486
+[5]	valid_0's l1: 701.173
+[6]	valid_0's l1: 692.625
+[7]	valid_0's l1: 686.973
+[8]	valid_0's l1: 681.288
+[9]	valid_0's l1: 675.666
+[10]	valid_0's l1: 672.946
+[11]	valid_0's l1: 667.315
+[12]	valid_0's l1: 661.948
+[13]	valid_0's l1: 658.585
+[14]	valid_0's l1: 648.674
+[15]	valid_0's l1: 640.374
+[16]	valid_0's l1: 636.138
+[17]	valid_0's l1: 631.123
+[18]	valid_0's l1: 624.5
+[19]	valid_0's l1: 617.667
+[20]	valid_0's l1: 611.705
+[21]	valid_0's l1: 607.331
+[22]	valid_0's l1: 601.404
+[23]	valid_0's l1: 596.592
+[24]	valid_0's l1: 591.539
+[25]	valid_0's l1: 588.816
+[26]	valid_0's l1: 587.81
+[27]	valid_0's l1: 583.078
+[28]	valid_0's l1: 578.867
+[29]	valid_0's l1: 574.753
+[30]	valid_0's l1: 573.753
+[31]	valid_0's l1: 573.321
+[32]	valid_0's l1: 571.76
+[33]	valid_0's l1: 568.652
+[34]	valid_0's l1: 564.962
+[35]	valid_0's l1: 562.58
+[36]	valid_0's l1: 560.049
+[37]	valid_0's l1: 557.129
+[38]	valid_0's l1: 554.177
+[39]	valid_0's l1: 551.363
+[40]	valid_0's l1: 548.632
+[41]	valid_0's l1: 547.23
+[42]	valid_0's l1: 546.098
+[43]	valid_0's l1: 543.544
+[44]	valid_0's l1: 541.216
+[45]	valid_0's l1: 538.725
+[46]	valid_0's l1: 538.052
+[47]	valid_0's l1: 536.183
+[48]	valid_0's l1: 535.602
+[49]	valid_0's l1: 535.134
+[50]	valid_0's l1: 532.147
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [465, 216, 1811, 20, 95, 807, 19, 2166, 0, 615, 962, 795, 880, 822, 1722, 569, 129, 301, 356])
+                      feature  importances
+8                        rain            0
+6                        wind           19
+3                 temperature           20
+4                        hour           95
+16                   food_num          129
+1                     area_id          216
+17                     minute          301
+18      deliverying_order_num          356
+0           waiting_order_num          465
+15          working_rider_num          569
+9             box_total_value          615
+11  notbusy_working_rider_num          795
+5           delivery_distance          807
+13         customer_longitude          822
+12          customer_latitude          880
+10      not_fetched_order_num          962
+14                    poi_lat         1722
+2                     poi_lng         1811
+7                      poi_id         2166
+532.146680184
+try without f not_fetched_order_num
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'working_rider_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.077
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 736.293
+[3]	valid_0's l1: 732.633
+[4]	valid_0's l1: 724.021
+[5]	valid_0's l1: 719.459
+[6]	valid_0's l1: 708.681
+[7]	valid_0's l1: 702.894
+[8]	valid_0's l1: 696.57
+[9]	valid_0's l1: 691.007
+[10]	valid_0's l1: 688.663
+[11]	valid_0's l1: 682.725
+[12]	valid_0's l1: 677.05
+[13]	valid_0's l1: 673.405
+[14]	valid_0's l1: 665.38
+[15]	valid_0's l1: 660.555
+[16]	valid_0's l1: 656.034
+[17]	valid_0's l1: 650.224
+[18]	valid_0's l1: 646.081
+[19]	valid_0's l1: 643.491
+[20]	valid_0's l1: 639.657
+[21]	valid_0's l1: 634.874
+[22]	valid_0's l1: 629.086
+[23]	valid_0's l1: 626.479
+[24]	valid_0's l1: 624.514
+[25]	valid_0's l1: 621.599
+[26]	valid_0's l1: 620.787
+[27]	valid_0's l1: 616.563
+[28]	valid_0's l1: 613.896
+[29]	valid_0's l1: 609.282
+[30]	valid_0's l1: 608.729
+[31]	valid_0's l1: 608.76
+[32]	valid_0's l1: 607.385
+[33]	valid_0's l1: 605.859
+[34]	valid_0's l1: 604.058
+[35]	valid_0's l1: 601.268
+[36]	valid_0's l1: 599.402
+[37]	valid_0's l1: 598.143
+[38]	valid_0's l1: 595.353
+[39]	valid_0's l1: 592.454
+[40]	valid_0's l1: 592.224
+[41]	valid_0's l1: 589.96
+[42]	valid_0's l1: 589.446
+[43]	valid_0's l1: 586.585
+[44]	valid_0's l1: 584.238
+[45]	valid_0's l1: 582.541
+[46]	valid_0's l1: 581.777
+[47]	valid_0's l1: 579.726
+[48]	valid_0's l1: 578.927
+[49]	valid_0's l1: 578.626
+[50]	valid_0's l1: 578.205
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'working_rider_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [472, 286, 1803, 29, 184, 920, 9, 1872, 2, 405, 699, 909, 505, 856, 682, 1824, 121, 412, 760])
+                      feature  importances
+8                        rain            2
+6                        wind            9
+3                 temperature           29
+16                   food_num          121
+4                        hour          184
+1                     area_id          286
+9             box_total_value          405
+17                     minute          412
+0           waiting_order_num          472
+12  notbusy_working_rider_num          505
+14         customer_longitude          682
+10           food_total_value          699
+18      deliverying_order_num          760
+13          customer_latitude          856
+11          working_rider_num          909
+5           delivery_distance          920
+2                     poi_lng         1803
+15                    poi_lat         1824
+7                      poi_id         1872
+578.205374023
+try without f notbusy_working_rider_num
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'wind', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3079
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.04
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.227
+[3]	valid_0's l1: 719.903
+[4]	valid_0's l1: 710.442
+[5]	valid_0's l1: 698.365
+[6]	valid_0's l1: 688.931
+[7]	valid_0's l1: 682.921
+[8]	valid_0's l1: 677.078
+[9]	valid_0's l1: 671.226
+[10]	valid_0's l1: 668.659
+[11]	valid_0's l1: 662.621
+[12]	valid_0's l1: 657.093
+[13]	valid_0's l1: 653.777
+[14]	valid_0's l1: 645.012
+[15]	valid_0's l1: 637.092
+[16]	valid_0's l1: 632.774
+[17]	valid_0's l1: 626.929
+[18]	valid_0's l1: 620.121
+[19]	valid_0's l1: 613.248
+[20]	valid_0's l1: 607.403
+[21]	valid_0's l1: 602.596
+[22]	valid_0's l1: 596.089
+[23]	valid_0's l1: 591.233
+[24]	valid_0's l1: 586.114
+[25]	valid_0's l1: 583.337
+[26]	valid_0's l1: 582.106
+[27]	valid_0's l1: 577.717
+[28]	valid_0's l1: 573.717
+[29]	valid_0's l1: 570.247
+[30]	valid_0's l1: 569.41
+[31]	valid_0's l1: 568.58
+[32]	valid_0's l1: 566.984
+[33]	valid_0's l1: 563.193
+[34]	valid_0's l1: 559.893
+[35]	valid_0's l1: 557.759
+[36]	valid_0's l1: 555.037
+[37]	valid_0's l1: 552.025
+[38]	valid_0's l1: 548.804
+[39]	valid_0's l1: 546.025
+[40]	valid_0's l1: 542.98
+[41]	valid_0's l1: 541.259
+[42]	valid_0's l1: 540.612
+[43]	valid_0's l1: 538.328
+[44]	valid_0's l1: 536.262
+[45]	valid_0's l1: 533.564
+[46]	valid_0's l1: 532.757
+[47]	valid_0's l1: 530.539
+[48]	valid_0's l1: 529.889
+[49]	valid_0's l1: 529.588
+[50]	valid_0's l1: 527.594
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'wind', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [520, 239, 1846, 21, 97, 906, 1561, 1, 541, 635, 1043, 18, 852, 738, 1779, 1082, 146, 324, 401])
+                  feature  importances
+7                    rain            1
+11                   wind           18
+3             temperature           21
+4                    hour           97
+16               food_num          146
+1                 area_id          239
+17                 minute          324
+18  deliverying_order_num          401
+0       waiting_order_num          520
+8         box_total_value          541
+9        food_total_value          635
+13     customer_longitude          738
+12      customer_latitude          852
+5       delivery_distance          906
+10  not_fetched_order_num         1043
+15      working_rider_num         1082
+6                  poi_id         1561
+14                poi_lat         1779
+2                 poi_lng         1846
+527.594276508
+try without f customer_latitude
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 747.652
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 732.313
+[3]	valid_0's l1: 728.977
+[4]	valid_0's l1: 716.568
+[5]	valid_0's l1: 710.907
+[6]	valid_0's l1: 698.471
+[7]	valid_0's l1: 688.568
+[8]	valid_0's l1: 678.669
+[9]	valid_0's l1: 669.804
+[10]	valid_0's l1: 661.141
+[11]	valid_0's l1: 655.096
+[12]	valid_0's l1: 647.391
+[13]	valid_0's l1: 639.121
+[14]	valid_0's l1: 630.587
+[15]	valid_0's l1: 624.138
+[16]	valid_0's l1: 617.955
+[17]	valid_0's l1: 612.008
+[18]	valid_0's l1: 606.201
+[19]	valid_0's l1: 599.552
+[20]	valid_0's l1: 595.81
+[21]	valid_0's l1: 590.397
+[22]	valid_0's l1: 585.016
+[23]	valid_0's l1: 582.083
+[24]	valid_0's l1: 577.022
+[25]	valid_0's l1: 574.282
+[26]	valid_0's l1: 570.39
+[27]	valid_0's l1: 567.064
+[28]	valid_0's l1: 563.054
+[29]	valid_0's l1: 559.766
+[30]	valid_0's l1: 558.728
+[31]	valid_0's l1: 554.776
+[32]	valid_0's l1: 551.397
+[33]	valid_0's l1: 548.496
+[34]	valid_0's l1: 545.484
+[35]	valid_0's l1: 542.488
+[36]	valid_0's l1: 540.042
+[37]	valid_0's l1: 538.633
+[38]	valid_0's l1: 535.917
+[39]	valid_0's l1: 533.264
+[40]	valid_0's l1: 531.245
+[41]	valid_0's l1: 529.011
+[42]	valid_0's l1: 527.951
+[43]	valid_0's l1: 525.912
+[44]	valid_0's l1: 524.485
+[45]	valid_0's l1: 522.84
+[46]	valid_0's l1: 520.731
+[47]	valid_0's l1: 519.347
+[48]	valid_0's l1: 518.671
+[49]	valid_0's l1: 517.041
+[50]	valid_0's l1: 515.333
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [509, 279, 1783, 22, 74, 924, 17, 1823, 0, 405, 753, 1261, 744, 821, 1714, 770, 143, 261, 447])
+                      feature  importances
+8                        rain            0
+6                        wind           17
+3                 temperature           22
+4                        hour           74
+16                   food_num          143
+17                     minute          261
+1                     area_id          279
+9             box_total_value          405
+18      deliverying_order_num          447
+0           waiting_order_num          509
+12  notbusy_working_rider_num          744
+10           food_total_value          753
+15          working_rider_num          770
+13         customer_longitude          821
+5           delivery_distance          924
+11      not_fetched_order_num         1261
+14                    poi_lat         1714
+2                     poi_lng         1783
+7                      poi_id         1823
+515.332695796
+try without f poi_lat
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3057
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.077
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.355
+[3]	valid_0's l1: 730.077
+[4]	valid_0's l1: 719.865
+[5]	valid_0's l1: 714.471
+[6]	valid_0's l1: 702.258
+[7]	valid_0's l1: 692.065
+[8]	valid_0's l1: 682.119
+[9]	valid_0's l1: 672.505
+[10]	valid_0's l1: 664.343
+[11]	valid_0's l1: 658.498
+[12]	valid_0's l1: 650.098
+[13]	valid_0's l1: 641.013
+[14]	valid_0's l1: 632.436
+[15]	valid_0's l1: 625.741
+[16]	valid_0's l1: 619.034
+[17]	valid_0's l1: 613.853
+[18]	valid_0's l1: 607.951
+[19]	valid_0's l1: 600.519
+[20]	valid_0's l1: 596.783
+[21]	valid_0's l1: 591.147
+[22]	valid_0's l1: 585.787
+[23]	valid_0's l1: 582.715
+[24]	valid_0's l1: 578.165
+[25]	valid_0's l1: 575.436
+[26]	valid_0's l1: 571.071
+[27]	valid_0's l1: 567.926
+[28]	valid_0's l1: 564.128
+[29]	valid_0's l1: 561.137
+[30]	valid_0's l1: 560.065
+[31]	valid_0's l1: 556.316
+[32]	valid_0's l1: 553.276
+[33]	valid_0's l1: 550.458
+[34]	valid_0's l1: 547.839
+[35]	valid_0's l1: 544.885
+[36]	valid_0's l1: 542.417
+[37]	valid_0's l1: 540.899
+[38]	valid_0's l1: 538.271
+[39]	valid_0's l1: 535.958
+[40]	valid_0's l1: 533.686
+[41]	valid_0's l1: 531.178
+[42]	valid_0's l1: 530.122
+[43]	valid_0's l1: 528.196
+[44]	valid_0's l1: 526.113
+[45]	valid_0's l1: 524.252
+[46]	valid_0's l1: 522.746
+[47]	valid_0's l1: 521.701
+[48]	valid_0's l1: 521.123
+[49]	valid_0's l1: 519.523
+[50]	valid_0's l1: 517.912
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [528, 291, 2127, 23, 79, 978, 16, 2165, 0, 423, 784, 1236, 724, 1072, 629, 814, 151, 261, 449])
+                      feature  importances
+8                        rain            0
+6                        wind           16
+3                 temperature           23
+4                        hour           79
+16                   food_num          151
+17                     minute          261
+1                     area_id          291
+9             box_total_value          423
+18      deliverying_order_num          449
+0           waiting_order_num          528
+14         customer_longitude          629
+12  notbusy_working_rider_num          724
+10           food_total_value          784
+15          working_rider_num          814
+5           delivery_distance          978
+13          customer_latitude         1072
+11      not_fetched_order_num         1236
+2                     poi_lng         2127
+7                      poi_id         2165
+517.91187368
+try without f customer_longitude
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.077
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 732.469
+[3]	valid_0's l1: 729.208
+[4]	valid_0's l1: 716.408
+[5]	valid_0's l1: 711.049
+[6]	valid_0's l1: 698.998
+[7]	valid_0's l1: 689.076
+[8]	valid_0's l1: 679.198
+[9]	valid_0's l1: 669.595
+[10]	valid_0's l1: 660.958
+[11]	valid_0's l1: 654.975
+[12]	valid_0's l1: 646.94
+[13]	valid_0's l1: 637.84
+[14]	valid_0's l1: 629.45
+[15]	valid_0's l1: 622.541
+[16]	valid_0's l1: 615.853
+[17]	valid_0's l1: 611.144
+[18]	valid_0's l1: 604.93
+[19]	valid_0's l1: 598.511
+[20]	valid_0's l1: 594.829
+[21]	valid_0's l1: 589.222
+[22]	valid_0's l1: 583.764
+[23]	valid_0's l1: 581.015
+[24]	valid_0's l1: 576.2
+[25]	valid_0's l1: 573.498
+[26]	valid_0's l1: 569.28
+[27]	valid_0's l1: 565.888
+[28]	valid_0's l1: 562.2
+[29]	valid_0's l1: 558.809
+[30]	valid_0's l1: 557.759
+[31]	valid_0's l1: 553.69
+[32]	valid_0's l1: 550.436
+[33]	valid_0's l1: 547.637
+[34]	valid_0's l1: 544.916
+[35]	valid_0's l1: 542.176
+[36]	valid_0's l1: 540.191
+[37]	valid_0's l1: 538.752
+[38]	valid_0's l1: 535.997
+[39]	valid_0's l1: 533.266
+[40]	valid_0's l1: 530.987
+[41]	valid_0's l1: 528.055
+[42]	valid_0's l1: 526.998
+[43]	valid_0's l1: 524.855
+[44]	valid_0's l1: 523.059
+[45]	valid_0's l1: 520.802
+[46]	valid_0's l1: 519.499
+[47]	valid_0's l1: 518.266
+[48]	valid_0's l1: 517.627
+[49]	valid_0's l1: 515.93
+[50]	valid_0's l1: 514.375
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [507, 277, 1820, 21, 76, 905, 12, 1807, 1, 410, 757, 1248, 701, 961, 1671, 745, 138, 268, 425])
+                      feature  importances
+8                        rain            1
+6                        wind           12
+3                 temperature           21
+4                        hour           76
+16                   food_num          138
+17                     minute          268
+1                     area_id          277
+9             box_total_value          410
+18      deliverying_order_num          425
+0           waiting_order_num          507
+12  notbusy_working_rider_num          701
+15          working_rider_num          745
+10           food_total_value          757
+5           delivery_distance          905
+13          customer_latitude          961
+11      not_fetched_order_num         1248
+14                    poi_lat         1671
+7                      poi_id         1807
+2                     poi_lng         1820
+514.375266267
+try without f working_rider_num
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3080
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.077
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.355
+[3]	valid_0's l1: 729.689
+[4]	valid_0's l1: 719.596
+[5]	valid_0's l1: 715.053
+[6]	valid_0's l1: 703.38
+[7]	valid_0's l1: 693.264
+[8]	valid_0's l1: 682.839
+[9]	valid_0's l1: 673.987
+[10]	valid_0's l1: 665.159
+[11]	valid_0's l1: 659.234
+[12]	valid_0's l1: 651.004
+[13]	valid_0's l1: 642.655
+[14]	valid_0's l1: 634.599
+[15]	valid_0's l1: 627.262
+[16]	valid_0's l1: 620.322
+[17]	valid_0's l1: 615.208
+[18]	valid_0's l1: 609.107
+[19]	valid_0's l1: 602.116
+[20]	valid_0's l1: 598.405
+[21]	valid_0's l1: 592.468
+[22]	valid_0's l1: 587.722
+[23]	valid_0's l1: 584.816
+[24]	valid_0's l1: 580.298
+[25]	valid_0's l1: 577.589
+[26]	valid_0's l1: 573.634
+[27]	valid_0's l1: 570.301
+[28]	valid_0's l1: 566.645
+[29]	valid_0's l1: 563.467
+[30]	valid_0's l1: 562.518
+[31]	valid_0's l1: 558.502
+[32]	valid_0's l1: 555.074
+[33]	valid_0's l1: 551.595
+[34]	valid_0's l1: 548.995
+[35]	valid_0's l1: 545.949
+[36]	valid_0's l1: 543.375
+[37]	valid_0's l1: 541.92
+[38]	valid_0's l1: 538.628
+[39]	valid_0's l1: 536.514
+[40]	valid_0's l1: 534.438
+[41]	valid_0's l1: 531.93
+[42]	valid_0's l1: 530.845
+[43]	valid_0's l1: 528.703
+[44]	valid_0's l1: 527.138
+[45]	valid_0's l1: 525.567
+[46]	valid_0's l1: 524.225
+[47]	valid_0's l1: 523.013
+[48]	valid_0's l1: 522.243
+[49]	valid_0's l1: 520.733
+[50]	valid_0's l1: 519.339
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [529, 288, 1766, 24, 104, 956, 13, 1812, 1, 383, 689, 1129, 849, 896, 618, 1903, 142, 235, 413])
+                      feature  importances
+8                        rain            1
+6                        wind           13
+3                 temperature           24
+4                        hour          104
+16                   food_num          142
+17                     minute          235
+1                     area_id          288
+9             box_total_value          383
+18      deliverying_order_num          413
+0           waiting_order_num          529
+14         customer_longitude          618
+10           food_total_value          689
+12  notbusy_working_rider_num          849
+13          customer_latitude          896
+5           delivery_distance          956
+11      not_fetched_order_num         1129
+2                     poi_lng         1766
+7                      poi_id         1812
+15                    poi_lat         1903
+519.339330702
+try without f food_num
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3285
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 748.077
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.355
+[3]	valid_0's l1: 729.714
+[4]	valid_0's l1: 719.632
+[5]	valid_0's l1: 713.983
+[6]	valid_0's l1: 702.327
+[7]	valid_0's l1: 692.47
+[8]	valid_0's l1: 682.053
+[9]	valid_0's l1: 673.428
+[10]	valid_0's l1: 665.277
+[11]	valid_0's l1: 659.369
+[12]	valid_0's l1: 651.122
+[13]	valid_0's l1: 642.054
+[14]	valid_0's l1: 634.096
+[15]	valid_0's l1: 627.865
+[16]	valid_0's l1: 621.229
+[17]	valid_0's l1: 616.006
+[18]	valid_0's l1: 609.739
+[19]	valid_0's l1: 602.959
+[20]	valid_0's l1: 599.261
+[21]	valid_0's l1: 593.708
+[22]	valid_0's l1: 588.765
+[23]	valid_0's l1: 586.046
+[24]	valid_0's l1: 581.61
+[25]	valid_0's l1: 578.838
+[26]	valid_0's l1: 573.844
+[27]	valid_0's l1: 570.318
+[28]	valid_0's l1: 566.7
+[29]	valid_0's l1: 563.287
+[30]	valid_0's l1: 562.323
+[31]	valid_0's l1: 558.504
+[32]	valid_0's l1: 555.317
+[33]	valid_0's l1: 552.174
+[34]	valid_0's l1: 549.53
+[35]	valid_0's l1: 546.473
+[36]	valid_0's l1: 544.169
+[37]	valid_0's l1: 542.77
+[38]	valid_0's l1: 539.988
+[39]	valid_0's l1: 537.357
+[40]	valid_0's l1: 535.309
+[41]	valid_0's l1: 532.932
+[42]	valid_0's l1: 531.833
+[43]	valid_0's l1: 529.55
+[44]	valid_0's l1: 528.089
+[45]	valid_0's l1: 526.079
+[46]	valid_0's l1: 524.402
+[47]	valid_0's l1: 522.835
+[48]	valid_0's l1: 522.179
+[49]	valid_0's l1: 520.72
+[50]	valid_0's l1: 518.753
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [504, 252, 1730, 23, 74, 901, 11, 1762, 0, 381, 737, 1159, 665, 859, 574, 1860, 608, 231, 419])
+                      feature  importances
+8                        rain            0
+6                        wind           11
+3                 temperature           23
+4                        hour           74
+17                     minute          231
+1                     area_id          252
+9             box_total_value          381
+18      deliverying_order_num          419
+0           waiting_order_num          504
+14         customer_longitude          574
+16          working_rider_num          608
+12  notbusy_working_rider_num          665
+10           food_total_value          737
+13          customer_latitude          859
+5           delivery_distance          901
+11      not_fetched_order_num         1159
+2                     poi_lng         1730
+7                      poi_id         1762
+15                    poi_lat         1860
+518.753398952
+try without f minute
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3250
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 745.683
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 730.992
+[3]	valid_0's l1: 716.565
+[4]	valid_0's l1: 705.418
+[5]	valid_0's l1: 693.579
+[6]	valid_0's l1: 684.4
+[7]	valid_0's l1: 677.69
+[8]	valid_0's l1: 670.967
+[9]	valid_0's l1: 664.405
+[10]	valid_0's l1: 660.072
+[11]	valid_0's l1: 654.117
+[12]	valid_0's l1: 648.622
+[13]	valid_0's l1: 645.306
+[14]	valid_0's l1: 635.769
+[15]	valid_0's l1: 626.291
+[16]	valid_0's l1: 622.007
+[17]	valid_0's l1: 615.967
+[18]	valid_0's l1: 608.96
+[19]	valid_0's l1: 602.129
+[20]	valid_0's l1: 596.59
+[21]	valid_0's l1: 589.798
+[22]	valid_0's l1: 584.038
+[23]	valid_0's l1: 578.746
+[24]	valid_0's l1: 573.564
+[25]	valid_0's l1: 570.82
+[26]	valid_0's l1: 568.991
+[27]	valid_0's l1: 564.371
+[28]	valid_0's l1: 560.487
+[29]	valid_0's l1: 556.858
+[30]	valid_0's l1: 555.593
+[31]	valid_0's l1: 552.421
+[32]	valid_0's l1: 550.551
+[33]	valid_0's l1: 546.918
+[34]	valid_0's l1: 543.661
+[35]	valid_0's l1: 541.165
+[36]	valid_0's l1: 537.89
+[37]	valid_0's l1: 534.906
+[38]	valid_0's l1: 531.945
+[39]	valid_0's l1: 529.187
+[40]	valid_0's l1: 526.323
+[41]	valid_0's l1: 524.535
+[42]	valid_0's l1: 523.681
+[43]	valid_0's l1: 521.197
+[44]	valid_0's l1: 518.778
+[45]	valid_0's l1: 516.165
+[46]	valid_0's l1: 515.316
+[47]	valid_0's l1: 513.378
+[48]	valid_0's l1: 512.638
+[49]	valid_0's l1: 512.212
+[50]	valid_0's l1: 509.661
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'wind', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [555, 193, 1826, 19, 92, 912, 1542, 3, 524, 601, 1103, 920, 835, 766, 1715, 571, 137, 19, 417])
+                      feature  importances
+7                        rain            3
+3                 temperature           19
+17                       wind           19
+4                        hour           92
+16                   food_num          137
+1                     area_id          193
+18      deliverying_order_num          417
+8             box_total_value          524
+0           waiting_order_num          555
+15          working_rider_num          571
+9            food_total_value          601
+13         customer_longitude          766
+12          customer_latitude          835
+5           delivery_distance          912
+11  notbusy_working_rider_num          920
+10      not_fetched_order_num         1103
+6                      poi_id         1542
+14                    poi_lat         1715
+2                     poi_lng         1826
+509.660838725
+try without f deliverying_order_num
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute']
+Start training...
+[LightGBM] [Info] Total Bins 3115
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[1]	valid_0's l1: 751.145
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 736.691
+[3]	valid_0's l1: 730.224
+[4]	valid_0's l1: 719.788
+[5]	valid_0's l1: 714.23
+[6]	valid_0's l1: 705.199
+[7]	valid_0's l1: 694.786
+[8]	valid_0's l1: 684.125
+[9]	valid_0's l1: 674.623
+[10]	valid_0's l1: 664.672
+[11]	valid_0's l1: 658.881
+[12]	valid_0's l1: 650.257
+[13]	valid_0's l1: 641.953
+[14]	valid_0's l1: 634.955
+[15]	valid_0's l1: 628.626
+[16]	valid_0's l1: 621.501
+[17]	valid_0's l1: 618.041
+[18]	valid_0's l1: 611.218
+[19]	valid_0's l1: 604.276
+[20]	valid_0's l1: 600.585
+[21]	valid_0's l1: 595.346
+[22]	valid_0's l1: 590.587
+[23]	valid_0's l1: 589.224
+[24]	valid_0's l1: 584.133
+[25]	valid_0's l1: 581.538
+[26]	valid_0's l1: 577.128
+[27]	valid_0's l1: 574.938
+[28]	valid_0's l1: 571.074
+[29]	valid_0's l1: 569.116
+[30]	valid_0's l1: 567.782
+[31]	valid_0's l1: 563.528
+[32]	valid_0's l1: 559.339
+[33]	valid_0's l1: 555.694
+[34]	valid_0's l1: 553.034
+[35]	valid_0's l1: 549.93
+[36]	valid_0's l1: 547.493
+[37]	valid_0's l1: 546.001
+[38]	valid_0's l1: 543.54
+[39]	valid_0's l1: 541.317
+[40]	valid_0's l1: 538.71
+[41]	valid_0's l1: 536.343
+[42]	valid_0's l1: 535.244
+[43]	valid_0's l1: 533.416
+[44]	valid_0's l1: 532.59
+[45]	valid_0's l1: 530.845
+[46]	valid_0's l1: 528.746
+[47]	valid_0's l1: 527.799
+[48]	valid_0's l1: 526.999
+[49]	valid_0's l1: 524.94
+[50]	valid_0's l1: 523.647
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute'])
+Calculate feature importances...
+('Feature importances:', [547, 246, 1731, 26, 92, 937, 17, 1810, 0, 386, 721, 1255, 697, 850, 619, 1782, 653, 123, 258])
+                      feature  importances
+8                        rain            0
+6                        wind           17
+3                 temperature           26
+4                        hour           92
+17                   food_num          123
+1                     area_id          246
+18                     minute          258
+9             box_total_value          386
+0           waiting_order_num          547
+14         customer_longitude          619
+16          working_rider_num          653
+12  notbusy_working_rider_num          697
+10           food_total_value          721
+13          customer_latitude          850
+5           delivery_distance          937
+11      not_fetched_order_num         1255
+2                     poi_lng         1731
+15                    poi_lat         1782
+7                      poi_id         1810
+523.646828799
+try without f None
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'wind', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3310
+[LightGBM] [Info] Number of data: 116472, number of used features: 20
+[1]	valid_0's l1: 747.619
+Training until validation scores don't improve for 700 rounds.
+[2]	valid_0's l1: 733.524
+[3]	valid_0's l1: 724.038
+[4]	valid_0's l1: 712.232
+[5]	valid_0's l1: 700.367
+[6]	valid_0's l1: 690.12
+[7]	valid_0's l1: 679.77
+[8]	valid_0's l1: 669.912
+[9]	valid_0's l1: 667.105
+[10]	valid_0's l1: 657.15
+[11]	valid_0's l1: 647.34
+[12]	valid_0's l1: 640.375
+[13]	valid_0's l1: 632.419
+[14]	valid_0's l1: 624.711
+[15]	valid_0's l1: 617.371
+[16]	valid_0's l1: 610.548
+[17]	valid_0's l1: 604.918
+[18]	valid_0's l1: 598.688
+[19]	valid_0's l1: 593.408
+[20]	valid_0's l1: 589.217
+[21]	valid_0's l1: 585.721
+[22]	valid_0's l1: 580.781
+[23]	valid_0's l1: 577.628
+[24]	valid_0's l1: 573.766
+[25]	valid_0's l1: 569.441
+[26]	valid_0's l1: 566.005
+[27]	valid_0's l1: 561.831
+[28]	valid_0's l1: 559.788
+[29]	valid_0's l1: 557.648
+[30]	valid_0's l1: 554.088
+[31]	valid_0's l1: 551.879
+[32]	valid_0's l1: 549.958
+[33]	valid_0's l1: 548.55
+[34]	valid_0's l1: 546.594
+[35]	valid_0's l1: 543.643
+[36]	valid_0's l1: 540.468
+[37]	valid_0's l1: 538.582
+[38]	valid_0's l1: 536.103
+[39]	valid_0's l1: 533.764
+[40]	valid_0's l1: 530.768
+[41]	valid_0's l1: 528.226
+[42]	valid_0's l1: 527.486
+[43]	valid_0's l1: 525.377
+[44]	valid_0's l1: 523.085
+[45]	valid_0's l1: 521.46
+[46]	valid_0's l1: 520.711
+[47]	valid_0's l1: 519.873
+[48]	valid_0's l1: 518.245
+[49]	valid_0's l1: 516.687
+[50]	valid_0's l1: 515.96
+[LightGBM] [Info] Finished loading 50 models
+('Feature names:', [u'waiting_order_num', u'area_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'wind', u'poi_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'notbusy_working_rider_num', u'customer_latitude', u'customer_longitude', u'poi_lat', u'working_rider_num', u'food_num', u'minute', u'deliverying_order_num'])
+Calculate feature importances...
+('Feature importances:', [504, 237, 1864, 28, 75, 739, 10, 1570, 1, 410, 808, 1040, 719, 893, 820, 1703, 588, 96, 167, 478])
+                      feature  importances
+8                        rain            1
+6                        wind           10
+3                 temperature           28
+4                        hour           75
+17                   food_num           96
+18                     minute          167
+1                     area_id          237
+9             box_total_value          410
+19      deliverying_order_num          478
+0           waiting_order_num          504
+16          working_rider_num          588
+12  notbusy_working_rider_num          719
+5           delivery_distance          739
+10           food_total_value          808
+14         customer_longitude          820
+13          customer_latitude          893
+11      not_fetched_order_num         1040
+7                      poi_id         1570
+15                    poi_lat         1703
+2                     poi_lng         1864
+515.959642215
+[['not_fetched_order_num', 578.20537402275284], ['delivery_distance', 542.79133229563547], ['food_total_value', 532.14668018364716], ['area_id', 528.7879933787649], ['notbusy_working_rider_num', 527.59427650779355], ['wind', 527.43997905150354], ['poi_lng', 527.35523027022725], ['poi_id', 527.3066078927161], ['waiting_order_num', 526.48024356416272], ['temperature', 526.47091192591574], ['hour', 526.31515986200702], ['box_total_value', 525.49695588633642], ['rain', 523.96561533100441], ['deliverying_order_num', 523.6468287990217], ['working_rider_num', 519.33933070216415], ['food_num', 518.75339895232071], ['poi_lat', 517.91187368019348], ['all_features', 515.95964221512611], ['customer_latitude', 515.3326957959855], ['customer_longitude', 514.37526626671786], ['minute', 509.66083872537985]]
+not_fetched_order_num:578.205374023
+delivery_distance:542.791332296
+food_total_value:532.146680184
+area_id:528.787993379
+notbusy_working_rider_num:527.594276508
+wind:527.439979052
+poi_lng:527.35523027
+poi_id:527.306607893
+waiting_order_num:526.480243564
+temperature:526.470911926
+hour:526.315159862
+box_total_value:525.496955886
+rain:523.965615331
+deliverying_order_num:523.646828799
+working_rider_num:519.339330702
+food_num:518.753398952
+poi_lat:517.91187368
+all_features:515.959642215
+customer_latitude:515.332695796
+customer_longitude:514.375266267
+minute:509.660838725

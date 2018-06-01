@@ -1,0 +1,2256 @@
+try without f None
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23716
+[LightGBM] [Info] Number of data: 500000, number of used features: 105
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.696592
+[20]	valid_0's auc: 0.69647
+[30]	valid_0's auc: 0.700409
+[40]	valid_0's auc: 0.702837
+[50]	valid_0's auc: 0.703447
+[60]	valid_0's auc: 0.702529
+[70]	valid_0's auc: 0.702478
+[80]	valid_0's auc: 0.703365
+[90]	valid_0's auc: 0.704408
+[100]	valid_0's auc: 0.703571
+[110]	valid_0's auc: 0.70456
+[120]	valid_0's auc: 0.704867
+Early stopping, best iteration is:
+[92]	valid_0's auc: 0.705054
+[LightGBM] [Info] Finished loading 92 models
+update best score from 0 to 0.705053523559
+best score is 0.705053523559, cur_s is 0.705053523559, 
+try without f order_cnt_5hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23645
+[LightGBM] [Info] Number of data: 500000, number of used features: 104
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.704298
+[20]	valid_0's auc: 0.698928
+[30]	valid_0's auc: 0.702318
+Early stopping, best iteration is:
+[8]	valid_0's auc: 0.707014
+[LightGBM] [Info] Finished loading 8 models
+update best score from 0.705053523559 to 0.707013901718
+best score is 0.707013901718, cur_s is 0.707013901718, 
+try without f order_cnt_3hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23553
+[LightGBM] [Info] Number of data: 500000, number of used features: 103
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.690179
+[20]	valid_0's auc: 0.689962
+[30]	valid_0's auc: 0.695121
+[40]	valid_0's auc: 0.701493
+[50]	valid_0's auc: 0.701544
+[60]	valid_0's auc: 0.701921
+[70]	valid_0's auc: 0.701799
+Early stopping, best iteration is:
+[42]	valid_0's auc: 0.702605
+[LightGBM] [Info] Finished loading 42 models
+best score is 0.707013901718, cur_s is 0.702605291105, 
+try without f order_cnt_2hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23435
+[LightGBM] [Info] Number of data: 500000, number of used features: 102
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.679531
+[20]	valid_0's auc: 0.69236
+[30]	valid_0's auc: 0.700553
+[40]	valid_0's auc: 0.698129
+[50]	valid_0's auc: 0.701653
+[60]	valid_0's auc: 0.702195
+[70]	valid_0's auc: 0.70383
+[80]	valid_0's auc: 0.701991
+[90]	valid_0's auc: 0.700609
+[100]	valid_0's auc: 0.701704
+Early stopping, best iteration is:
+[70]	valid_0's auc: 0.70383
+[LightGBM] [Info] Finished loading 70 models
+best score is 0.707013901718, cur_s is 0.703829656716, 
+try without f order_cnt_4hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23360
+[LightGBM] [Info] Number of data: 500000, number of used features: 101
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.650261
+[20]	valid_0's auc: 0.693104
+[30]	valid_0's auc: 0.694912
+[40]	valid_0's auc: 0.693995
+[50]	valid_0's auc: 0.701496
+[60]	valid_0's auc: 0.701139
+[70]	valid_0's auc: 0.699835
+[80]	valid_0's auc: 0.701128
+Early stopping, best iteration is:
+[55]	valid_0's auc: 0.701824
+[LightGBM] [Info] Finished loading 55 models
+best score is 0.707013901718, cur_s is 0.701823767985, 
+try without f order_cnt_8hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23119
+[LightGBM] [Info] Number of data: 500000, number of used features: 100
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.707029
+[20]	valid_0's auc: 0.698523
+[30]	valid_0's auc: 0.701639
+[40]	valid_0's auc: 0.703267
+Early stopping, best iteration is:
+[10]	valid_0's auc: 0.707029
+[LightGBM] [Info] Finished loading 10 models
+update best score from 0.707013901718 to 0.707029240424
+best score is 0.707029240424, cur_s is 0.707029240424, 
+try without f original_price_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 22864
+[LightGBM] [Info] Number of data: 500000, number of used features: 99
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.671196
+[20]	valid_0's auc: 0.695365
+[30]	valid_0's auc: 0.693394
+[40]	valid_0's auc: 0.693731
+Early stopping, best iteration is:
+[19]	valid_0's auc: 0.695626
+[LightGBM] [Info] Finished loading 19 models
+best score is 0.707029240424, cur_s is 0.695626191445, 
+try without f order_cnt_6hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 22725
+[LightGBM] [Info] Number of data: 500000, number of used features: 98
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.68717
+[20]	valid_0's auc: 0.694747
+[30]	valid_0's auc: 0.693945
+[40]	valid_0's auc: 0.69623
+[50]	valid_0's auc: 0.698158
+[60]	valid_0's auc: 0.696941
+[70]	valid_0's auc: 0.695898
+[80]	valid_0's auc: 0.696759
+Early stopping, best iteration is:
+[51]	valid_0's auc: 0.699175
+[LightGBM] [Info] Finished loading 51 models
+best score is 0.707029240424, cur_s is 0.699174623489, 
+try without f comment_2star
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 22573
+[LightGBM] [Info] Number of data: 500000, number of used features: 97
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.665189
+[20]	valid_0's auc: 0.702468
+[30]	valid_0's auc: 0.705595
+[40]	valid_0's auc: 0.704481
+[50]	valid_0's auc: 0.706761
+[60]	valid_0's auc: 0.707248
+[70]	valid_0's auc: 0.707714
+[80]	valid_0's auc: 0.707963
+[90]	valid_0's auc: 0.708004
+[100]	valid_0's auc: 0.708229
+[110]	valid_0's auc: 0.708443
+[120]	valid_0's auc: 0.708265
+Early stopping, best iteration is:
+[91]	valid_0's auc: 0.708496
+[LightGBM] [Info] Finished loading 91 models
+update best score from 0.707029240424 to 0.70849625073
+best score is 0.70849625073, cur_s is 0.70849625073, 
+try without f service_fee_rate_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 22318
+[LightGBM] [Info] Number of data: 500000, number of used features: 96
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.687082
+[20]	valid_0's auc: 0.687669
+[30]	valid_0's auc: 0.692686
+[40]	valid_0's auc: 0.694586
+[50]	valid_0's auc: 0.697446
+[60]	valid_0's auc: 0.696943
+[70]	valid_0's auc: 0.694289
+[80]	valid_0's auc: 0.693398
+Early stopping, best iteration is:
+[55]	valid_0's auc: 0.698005
+[LightGBM] [Info] Finished loading 55 models
+best score is 0.70849625073, cur_s is 0.698004727164, 
+try without f order_cnt_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 22063
+[LightGBM] [Info] Number of data: 500000, number of used features: 95
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.676236
+[20]	valid_0's auc: 0.683621
+[30]	valid_0's auc: 0.687415
+[40]	valid_0's auc: 0.692484
+[50]	valid_0's auc: 0.697364
+[60]	valid_0's auc: 0.697412
+[70]	valid_0's auc: 0.698537
+[80]	valid_0's auc: 0.700539
+[90]	valid_0's auc: 0.699418
+[100]	valid_0's auc: 0.698322
+[110]	valid_0's auc: 0.698278
+Early stopping, best iteration is:
+[81]	valid_0's auc: 0.701123
+[LightGBM] [Info] Finished loading 81 models
+best score is 0.70849625073, cur_s is 0.701123447892, 
+try without f order_cnt_1hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 21921
+[LightGBM] [Info] Number of data: 500000, number of used features: 94
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.697701
+[20]	valid_0's auc: 0.701122
+[30]	valid_0's auc: 0.704369
+[40]	valid_0's auc: 0.703372
+[50]	valid_0's auc: 0.704841
+[60]	valid_0's auc: 0.705232
+[70]	valid_0's auc: 0.704423
+[80]	valid_0's auc: 0.704548
+Early stopping, best iteration is:
+[54]	valid_0's auc: 0.706198
+[LightGBM] [Info] Finished loading 54 models
+best score is 0.70849625073, cur_s is 0.706197580961, 
+try without f order_cnt_23hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 21728
+[LightGBM] [Info] Number of data: 500000, number of used features: 93
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.637772
+[20]	valid_0's auc: 0.676922
+[30]	valid_0's auc: 0.694777
+[40]	valid_0's auc: 0.696812
+[50]	valid_0's auc: 0.699208
+[60]	valid_0's auc: 0.7014
+[70]	valid_0's auc: 0.702079
+[80]	valid_0's auc: 0.702328
+[90]	valid_0's auc: 0.702949
+[100]	valid_0's auc: 0.703155
+[110]	valid_0's auc: 0.704033
+[120]	valid_0's auc: 0.705182
+[130]	valid_0's auc: 0.705049
+[140]	valid_0's auc: 0.705823
+[150]	valid_0's auc: 0.705467
+[160]	valid_0's auc: 0.705452
+[170]	valid_0's auc: 0.705897
+[180]	valid_0's auc: 0.706677
+[190]	valid_0's auc: 0.706044
+[200]	valid_0's auc: 0.706237
+[210]	valid_0's auc: 0.705677
+Early stopping, best iteration is:
+[182]	valid_0's auc: 0.706788
+[LightGBM] [Info] Finished loading 182 models
+best score is 0.70849625073, cur_s is 0.706788174906, 
+try without f order_cnt_increase
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 21472
+[LightGBM] [Info] Number of data: 500000, number of used features: 92
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.670721
+[20]	valid_0's auc: 0.699996
+[30]	valid_0's auc: 0.700906
+[40]	valid_0's auc: 0.701281
+[50]	valid_0's auc: 0.701166
+[60]	valid_0's auc: 0.70316
+[70]	valid_0's auc: 0.703924
+[80]	valid_0's auc: 0.704016
+[90]	valid_0's auc: 0.703933
+[100]	valid_0's auc: 0.704731
+Early stopping, best iteration is:
+[74]	valid_0's auc: 0.704756
+[LightGBM] [Info] Finished loading 74 models
+best score is 0.70849625073, cur_s is 0.704755867617, 
+try without f order_cnt_7hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 21296
+[LightGBM] [Info] Number of data: 500000, number of used features: 91
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.701474
+[20]	valid_0's auc: 0.702677
+[30]	valid_0's auc: 0.70191
+[40]	valid_0's auc: 0.700618
+[50]	valid_0's auc: 0.701906
+[60]	valid_0's auc: 0.699264
+Early stopping, best iteration is:
+[32]	valid_0's auc: 0.703446
+[LightGBM] [Info] Finished loading 32 models
+best score is 0.70849625073, cur_s is 0.703445659396, 
+try without f order_cnt_9hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 21065
+[LightGBM] [Info] Number of data: 500000, number of used features: 90
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.69497
+[20]	valid_0's auc: 0.698566
+[30]	valid_0's auc: 0.701051
+[40]	valid_0's auc: 0.703392
+[50]	valid_0's auc: 0.701983
+[60]	valid_0's auc: 0.702713
+[70]	valid_0's auc: 0.703293
+[80]	valid_0's auc: 0.701704
+[90]	valid_0's auc: 0.701509
+Early stopping, best iteration is:
+[66]	valid_0's auc: 0.704516
+[LightGBM] [Info] Finished loading 66 models
+best score is 0.70849625073, cur_s is 0.704515950567, 
+try without f order_cnt_24hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 20894
+[LightGBM] [Info] Number of data: 500000, number of used features: 89
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.687926
+[20]	valid_0's auc: 0.695365
+[30]	valid_0's auc: 0.69792
+[40]	valid_0's auc: 0.704119
+[50]	valid_0's auc: 0.703676
+[60]	valid_0's auc: 0.704502
+[70]	valid_0's auc: 0.70508
+[80]	valid_0's auc: 0.705881
+[90]	valid_0's auc: 0.706353
+[100]	valid_0's auc: 0.706049
+[110]	valid_0's auc: 0.705813
+[120]	valid_0's auc: 0.706226
+Early stopping, best iteration is:
+[90]	valid_0's auc: 0.706353
+[LightGBM] [Info] Finished loading 90 models
+best score is 0.70849625073, cur_s is 0.706353008549, 
+try without f order_cnt_15hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 20714
+[LightGBM] [Info] Number of data: 500000, number of used features: 88
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.675617
+[20]	valid_0's auc: 0.697591
+[30]	valid_0's auc: 0.699563
+[40]	valid_0's auc: 0.704633
+[50]	valid_0's auc: 0.703897
+[60]	valid_0's auc: 0.70307
+[70]	valid_0's auc: 0.701501
+Early stopping, best iteration is:
+[45]	valid_0's auc: 0.704677
+[LightGBM] [Info] Finished loading 45 models
+best score is 0.70849625073, cur_s is 0.704677379177, 
+try without f comment_1star
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 20505
+[LightGBM] [Info] Number of data: 500000, number of used features: 87
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.695075
+[20]	valid_0's auc: 0.70006
+[30]	valid_0's auc: 0.698346
+[40]	valid_0's auc: 0.700894
+[50]	valid_0's auc: 0.702888
+[60]	valid_0's auc: 0.703402
+[70]	valid_0's auc: 0.70246
+[80]	valid_0's auc: 0.701394
+Early stopping, best iteration is:
+[58]	valid_0's auc: 0.704234
+[LightGBM] [Info] Finished loading 58 models
+best score is 0.70849625073, cur_s is 0.704234334015, 
+try without f order_cnt_22hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 20298
+[LightGBM] [Info] Number of data: 500000, number of used features: 86
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.699624
+[20]	valid_0's auc: 0.703241
+[30]	valid_0's auc: 0.703186
+[40]	valid_0's auc: 0.702451
+Early stopping, best iteration is:
+[13]	valid_0's auc: 0.704969
+[LightGBM] [Info] Finished loading 13 models
+best score is 0.70849625073, cur_s is 0.704968706861, 
+try without f order_cnt_19hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 20043
+[LightGBM] [Info] Number of data: 500000, number of used features: 85
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.688401
+[20]	valid_0's auc: 0.690508
+[30]	valid_0's auc: 0.697142
+[40]	valid_0's auc: 0.700371
+[50]	valid_0's auc: 0.70088
+[60]	valid_0's auc: 0.702635
+[70]	valid_0's auc: 0.703007
+[80]	valid_0's auc: 0.703374
+[90]	valid_0's auc: 0.703993
+[100]	valid_0's auc: 0.704424
+[110]	valid_0's auc: 0.704
+[120]	valid_0's auc: 0.704479
+[130]	valid_0's auc: 0.704812
+[140]	valid_0's auc: 0.705455
+[150]	valid_0's auc: 0.70502
+[160]	valid_0's auc: 0.704953
+[170]	valid_0's auc: 0.704502
+Early stopping, best iteration is:
+[141]	valid_0's auc: 0.705475
+[LightGBM] [Info] Finished loading 141 models
+best score is 0.70849625073, cur_s is 0.705475455523, 
+try without f order_cnt_12hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 19788
+[LightGBM] [Info] Number of data: 500000, number of used features: 84
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.702049
+[20]	valid_0's auc: 0.703616
+[30]	valid_0's auc: 0.703753
+[40]	valid_0's auc: 0.702537
+[50]	valid_0's auc: 0.700545
+Early stopping, best iteration is:
+[21]	valid_0's auc: 0.70597
+[LightGBM] [Info] Finished loading 21 models
+best score is 0.70849625073, cur_s is 0.705970465337, 
+try without f order_cnt_14hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 19567
+[LightGBM] [Info] Number of data: 500000, number of used features: 83
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.68994
+[20]	valid_0's auc: 0.697568
+[30]	valid_0's auc: 0.695845
+[40]	valid_0's auc: 0.695504
+[50]	valid_0's auc: 0.698387
+[60]	valid_0's auc: 0.700339
+[70]	valid_0's auc: 0.700284
+[80]	valid_0's auc: 0.699493
+[90]	valid_0's auc: 0.700482
+[100]	valid_0's auc: 0.699256
+[110]	valid_0's auc: 0.698662
+[120]	valid_0's auc: 0.699603
+Early stopping, best iteration is:
+[96]	valid_0's auc: 0.700728
+[LightGBM] [Info] Finished loading 96 models
+best score is 0.70849625073, cur_s is 0.700728409395, 
+try without f pv_cxr_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 19312
+[LightGBM] [Info] Number of data: 500000, number of used features: 82
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.702005
+[20]	valid_0's auc: 0.699698
+[30]	valid_0's auc: 0.70179
+[40]	valid_0's auc: 0.701994
+[50]	valid_0's auc: 0.703566
+[60]	valid_0's auc: 0.706596
+[70]	valid_0's auc: 0.705373
+[80]	valid_0's auc: 0.705731
+Early stopping, best iteration is:
+[59]	valid_0's auc: 0.706638
+[LightGBM] [Info] Finished loading 59 models
+best score is 0.70849625073, cur_s is 0.706637699573, 
+try without f order_cnt_17hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 19057
+[LightGBM] [Info] Number of data: 500000, number of used features: 81
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.680094
+[20]	valid_0's auc: 0.682317
+[30]	valid_0's auc: 0.692049
+[40]	valid_0's auc: 0.699075
+[50]	valid_0's auc: 0.701113
+[60]	valid_0's auc: 0.701207
+[70]	valid_0's auc: 0.701779
+[80]	valid_0's auc: 0.703543
+[90]	valid_0's auc: 0.703697
+[100]	valid_0's auc: 0.704099
+[110]	valid_0's auc: 0.703933
+[120]	valid_0's auc: 0.703679
+Early stopping, best iteration is:
+[92]	valid_0's auc: 0.704494
+[LightGBM] [Info] Finished loading 92 models
+best score is 0.70849625073, cur_s is 0.704494379538, 
+try without f order_cnt_21hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 18849
+[LightGBM] [Info] Number of data: 500000, number of used features: 80
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.692988
+[20]	valid_0's auc: 0.701653
+[30]	valid_0's auc: 0.700065
+[40]	valid_0's auc: 0.701112
+Early stopping, best iteration is:
+[18]	valid_0's auc: 0.702232
+[LightGBM] [Info] Finished loading 18 models
+best score is 0.70849625073, cur_s is 0.702232405783, 
+try without f order_cnt_18hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 18594
+[LightGBM] [Info] Number of data: 500000, number of used features: 79
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.694163
+[20]	valid_0's auc: 0.694222
+[30]	valid_0's auc: 0.70003
+[40]	valid_0's auc: 0.704131
+[50]	valid_0's auc: 0.704515
+[60]	valid_0's auc: 0.703138
+[70]	valid_0's auc: 0.703756
+Early stopping, best iteration is:
+[42]	valid_0's auc: 0.705278
+[LightGBM] [Info] Finished loading 42 models
+best score is 0.70849625073, cur_s is 0.705278051925, 
+try without f order_cnt_16hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 18346
+[LightGBM] [Info] Number of data: 500000, number of used features: 78
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.702295
+[20]	valid_0's auc: 0.701303
+[30]	valid_0's auc: 0.70287
+[40]	valid_0's auc: 0.702765
+Early stopping, best iteration is:
+[13]	valid_0's auc: 0.705395
+[LightGBM] [Info] Finished loading 13 models
+best score is 0.70849625073, cur_s is 0.705395022998, 
+try without f pic_comment_cnt
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 18110
+[LightGBM] [Info] Number of data: 500000, number of used features: 77
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.682049
+[20]	valid_0's auc: 0.69236
+[30]	valid_0's auc: 0.688359
+[40]	valid_0's auc: 0.682815
+[50]	valid_0's auc: 0.689073
+Early stopping, best iteration is:
+[20]	valid_0's auc: 0.69236
+[LightGBM] [Info] Finished loading 20 models
+best score is 0.70849625073, cur_s is 0.692360481979, 
+try without f uv_ctr_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 17855
+[LightGBM] [Info] Number of data: 500000, number of used features: 76
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.684655
+[20]	valid_0's auc: 0.695704
+[30]	valid_0's auc: 0.698651
+[40]	valid_0's auc: 0.701791
+[50]	valid_0's auc: 0.704484
+[60]	valid_0's auc: 0.704419
+[70]	valid_0's auc: 0.705127
+[80]	valid_0's auc: 0.704111
+[90]	valid_0's auc: 0.705853
+[100]	valid_0's auc: 0.70587
+[110]	valid_0's auc: 0.704872
+[120]	valid_0's auc: 0.702278
+Early stopping, best iteration is:
+[93]	valid_0's auc: 0.706225
+[LightGBM] [Info] Finished loading 93 models
+best score is 0.70849625073, cur_s is 0.706224936025, 
+try without f avg_food_comment_score
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 17600
+[LightGBM] [Info] Number of data: 500000, number of used features: 75
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.668075
+[20]	valid_0's auc: 0.687476
+[30]	valid_0's auc: 0.695972
+[40]	valid_0's auc: 0.693941
+[50]	valid_0's auc: 0.699796
+[60]	valid_0's auc: 0.701456
+[70]	valid_0's auc: 0.703027
+[80]	valid_0's auc: 0.703678
+[90]	valid_0's auc: 0.703444
+[100]	valid_0's auc: 0.703775
+[110]	valid_0's auc: 0.703862
+[120]	valid_0's auc: 0.703874
+Early stopping, best iteration is:
+[94]	valid_0's auc: 0.704435
+[LightGBM] [Info] Finished loading 94 models
+best score is 0.70849625073, cur_s is 0.704434972313, 
+try without f uv_cvr_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 17344
+[LightGBM] [Info] Number of data: 500000, number of used features: 74
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.697627
+[20]	valid_0's auc: 0.696326
+[30]	valid_0's auc: 0.699278
+[40]	valid_0's auc: 0.69881
+[50]	valid_0's auc: 0.699013
+Early stopping, best iteration is:
+[25]	valid_0's auc: 0.702163
+[LightGBM] [Info] Finished loading 25 models
+best score is 0.70849625073, cur_s is 0.702163135988, 
+try without f comment_4star
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 17089
+[LightGBM] [Info] Number of data: 500000, number of used features: 73
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.703741
+[20]	valid_0's auc: 0.705232
+[30]	valid_0's auc: 0.705977
+[40]	valid_0's auc: 0.706438
+[50]	valid_0's auc: 0.707308
+[60]	valid_0's auc: 0.707373
+[70]	valid_0's auc: 0.707443
+[80]	valid_0's auc: 0.706737
+Early stopping, best iteration is:
+[52]	valid_0's auc: 0.708131
+[LightGBM] [Info] Finished loading 52 models
+best score is 0.70849625073, cur_s is 0.708130534739, 
+try without f month_original_price
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 16834
+[LightGBM] [Info] Number of data: 500000, number of used features: 72
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.689825
+[20]	valid_0's auc: 0.697602
+[30]	valid_0's auc: 0.700031
+[40]	valid_0's auc: 0.696979
+[50]	valid_0's auc: 0.700543
+Early stopping, best iteration is:
+[24]	valid_0's auc: 0.702056
+[LightGBM] [Info] Finished loading 24 models
+best score is 0.70849625073, cur_s is 0.702055730134, 
+try without f user_reorder_count
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 16785
+[LightGBM] [Info] Number of data: 500000, number of used features: 71
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.677398
+[20]	valid_0's auc: 0.695671
+[30]	valid_0's auc: 0.69252
+[40]	valid_0's auc: 0.697872
+[50]	valid_0's auc: 0.696834
+[60]	valid_0's auc: 0.701105
+[70]	valid_0's auc: 0.701358
+[80]	valid_0's auc: 0.701419
+[90]	valid_0's auc: 0.701734
+[100]	valid_0's auc: 0.700984
+Early stopping, best iteration is:
+[76]	valid_0's auc: 0.70202
+[LightGBM] [Info] Finished loading 76 models
+best score is 0.70849625073, cur_s is 0.702020295853, 
+try without f click_tag_pref_3day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 16541
+[LightGBM] [Info] Number of data: 500000, number of used features: 70
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.674049
+[20]	valid_0's auc: 0.678712
+[30]	valid_0's auc: 0.695999
+[40]	valid_0's auc: 0.695763
+[50]	valid_0's auc: 0.696258
+Early stopping, best iteration is:
+[27]	valid_0's auc: 0.697783
+[LightGBM] [Info] Finished loading 27 models
+best score is 0.70849625073, cur_s is 0.697782840302, 
+try without f dp_score
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 16494
+[LightGBM] [Info] Number of data: 500000, number of used features: 69
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.698429
+[20]	valid_0's auc: 0.698497
+[30]	valid_0's auc: 0.696697
+[40]	valid_0's auc: 0.698924
+Early stopping, best iteration is:
+[14]	valid_0's auc: 0.700697
+[LightGBM] [Info] Finished loading 14 models
+best score is 0.70849625073, cur_s is 0.700697159882, 
+try without f month_order_cnt
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 16239
+[LightGBM] [Info] Number of data: 500000, number of used features: 68
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.651258
+[20]	valid_0's auc: 0.668411
+[30]	valid_0's auc: 0.671194
+[40]	valid_0's auc: 0.681965
+[50]	valid_0's auc: 0.687009
+[60]	valid_0's auc: 0.694473
+[70]	valid_0's auc: 0.69189
+[80]	valid_0's auc: 0.692432
+Early stopping, best iteration is:
+[59]	valid_0's auc: 0.69504
+[LightGBM] [Info] Finished loading 59 models
+best score is 0.70849625073, cur_s is 0.695040230303, 
+try without f month_total_price
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 15984
+[LightGBM] [Info] Number of data: 500000, number of used features: 67
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.672061
+[20]	valid_0's auc: 0.691037
+[30]	valid_0's auc: 0.691844
+[40]	valid_0's auc: 0.69409
+[50]	valid_0's auc: 0.696402
+Early stopping, best iteration is:
+[25]	valid_0's auc: 0.698596
+[LightGBM] [Info] Finished loading 25 models
+best score is 0.70849625073, cur_s is 0.698595723437, 
+try without f uv_cxr_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 15729
+[LightGBM] [Info] Number of data: 500000, number of used features: 66
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.681245
+[20]	valid_0's auc: 0.678457
+[30]	valid_0's auc: 0.682154
+Early stopping, best iteration is:
+[5]	valid_0's auc: 0.688899
+[LightGBM] [Info] Finished loading 5 models
+best score is 0.70849625073, cur_s is 0.688898827544, 
+try without f op_time_30day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 15474
+[LightGBM] [Info] Number of data: 500000, number of used features: 65
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.698663
+[20]	valid_0's auc: 0.69576
+[30]	valid_0's auc: 0.700275
+Early stopping, best iteration is:
+[7]	valid_0's auc: 0.703317
+[LightGBM] [Info] Finished loading 7 models
+best score is 0.70849625073, cur_s is 0.703316969316, 
+try without f click_tag_pref_30day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 15219
+[LightGBM] [Info] Number of data: 500000, number of used features: 64
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.697515
+[20]	valid_0's auc: 0.694908
+[30]	valid_0's auc: 0.696926
+[40]	valid_0's auc: 0.698936
+[50]	valid_0's auc: 0.699165
+[60]	valid_0's auc: 0.700164
+[70]	valid_0's auc: 0.700692
+[80]	valid_0's auc: 0.70055
+[90]	valid_0's auc: 0.701442
+[100]	valid_0's auc: 0.701864
+[110]	valid_0's auc: 0.702366
+[120]	valid_0's auc: 0.702768
+[130]	valid_0's auc: 0.703075
+[140]	valid_0's auc: 0.703524
+[150]	valid_0's auc: 0.703509
+[160]	valid_0's auc: 0.703694
+[170]	valid_0's auc: 0.704118
+[180]	valid_0's auc: 0.704003
+[190]	valid_0's auc: 0.704213
+[200]	valid_0's auc: 0.704553
+[210]	valid_0's auc: 0.704622
+[220]	valid_0's auc: 0.704732
+[230]	valid_0's auc: 0.704904
+[240]	valid_0's auc: 0.705165
+[250]	valid_0's auc: 0.705331
+[260]	valid_0's auc: 0.70534
+[270]	valid_0's auc: 0.705436
+[280]	valid_0's auc: 0.705423
+[290]	valid_0's auc: 0.705373
+[300]	valid_0's auc: 0.705473
+[310]	valid_0's auc: 0.705282
+[320]	valid_0's auc: 0.705183
+[330]	valid_0's auc: 0.705236
+Early stopping, best iteration is:
+[303]	valid_0's auc: 0.705507
+[LightGBM] [Info] Finished loading 303 models
+best score is 0.70849625073, cur_s is 0.705507270606, 
+try without f click_tag_pref_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 14964
+[LightGBM] [Info] Number of data: 500000, number of used features: 63
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.68345
+[20]	valid_0's auc: 0.679419
+[30]	valid_0's auc: 0.681272
+[40]	valid_0's auc: 0.690122
+[50]	valid_0's auc: 0.696813
+[60]	valid_0's auc: 0.696925
+[70]	valid_0's auc: 0.700608
+[80]	valid_0's auc: 0.702428
+[90]	valid_0's auc: 0.701165
+[100]	valid_0's auc: 0.700308
+[110]	valid_0's auc: 0.7016
+Early stopping, best iteration is:
+[81]	valid_0's auc: 0.702556
+[LightGBM] [Info] Finished loading 81 models
+best score is 0.70849625073, cur_s is 0.7025563075, 
+try without f pv_ctr_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 14709
+[LightGBM] [Info] Number of data: 500000, number of used features: 62
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.685729
+[20]	valid_0's auc: 0.683223
+[30]	valid_0's auc: 0.678748
+Early stopping, best iteration is:
+[3]	valid_0's auc: 0.692714
+[LightGBM] [Info] Finished loading 3 models
+best score is 0.70849625073, cur_s is 0.692714075378, 
+try without f uv_cvr_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 14453
+[LightGBM] [Info] Number of data: 500000, number of used features: 61
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.698665
+[20]	valid_0's auc: 0.698892
+[30]	valid_0's auc: 0.70127
+[40]	valid_0's auc: 0.703115
+[50]	valid_0's auc: 0.701623
+[60]	valid_0's auc: 0.700625
+[70]	valid_0's auc: 0.701353
+Early stopping, best iteration is:
+[41]	valid_0's auc: 0.704039
+[LightGBM] [Info] Finished loading 41 models
+best score is 0.70849625073, cur_s is 0.704039136945, 
+try without f distance_30day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 14198
+[LightGBM] [Info] Number of data: 500000, number of used features: 60
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.675317
+[20]	valid_0's auc: 0.679976
+[30]	valid_0's auc: 0.683833
+[40]	valid_0's auc: 0.685588
+[50]	valid_0's auc: 0.69037
+[60]	valid_0's auc: 0.689395
+[70]	valid_0's auc: 0.694626
+[80]	valid_0's auc: 0.695794
+[90]	valid_0's auc: 0.698912
+[100]	valid_0's auc: 0.698895
+[110]	valid_0's auc: 0.700324
+[120]	valid_0's auc: 0.703312
+[130]	valid_0's auc: 0.704826
+[140]	valid_0's auc: 0.70519
+[150]	valid_0's auc: 0.705377
+[160]	valid_0's auc: 0.70572
+[170]	valid_0's auc: 0.706309
+[180]	valid_0's auc: 0.706206
+[190]	valid_0's auc: 0.706352
+[200]	valid_0's auc: 0.706353
+[210]	valid_0's auc: 0.706559
+[220]	valid_0's auc: 0.706991
+[230]	valid_0's auc: 0.707215
+[240]	valid_0's auc: 0.707033
+[250]	valid_0's auc: 0.707347
+[260]	valid_0's auc: 0.707439
+[270]	valid_0's auc: 0.707688
+[280]	valid_0's auc: 0.707605
+[290]	valid_0's auc: 0.707762
+[300]	valid_0's auc: 0.70769
+[310]	valid_0's auc: 0.707877
+[320]	valid_0's auc: 0.707797
+[330]	valid_0's auc: 0.707876
+[340]	valid_0's auc: 0.707632
+Early stopping, best iteration is:
+[314]	valid_0's auc: 0.70798
+[LightGBM] [Info] Finished loading 314 models
+best score is 0.70849625073, cur_s is 0.707979584749, 
+try without f order_cnt_13hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 13943
+[LightGBM] [Info] Number of data: 500000, number of used features: 59
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.686713
+[20]	valid_0's auc: 0.686375
+[30]	valid_0's auc: 0.699441
+[40]	valid_0's auc: 0.697323
+[50]	valid_0's auc: 0.700312
+[60]	valid_0's auc: 0.701069
+[70]	valid_0's auc: 0.699981
+[80]	valid_0's auc: 0.701534
+[90]	valid_0's auc: 0.702474
+[100]	valid_0's auc: 0.703672
+[110]	valid_0's auc: 0.704255
+[120]	valid_0's auc: 0.705199
+[130]	valid_0's auc: 0.705862
+[140]	valid_0's auc: 0.70608
+[150]	valid_0's auc: 0.705793
+[160]	valid_0's auc: 0.705533
+[170]	valid_0's auc: 0.706355
+[180]	valid_0's auc: 0.706059
+[190]	valid_0's auc: 0.705831
+[200]	valid_0's auc: 0.705685
+Early stopping, best iteration is:
+[170]	valid_0's auc: 0.706355
+[LightGBM] [Info] Finished loading 170 models
+best score is 0.70849625073, cur_s is 0.706354750967, 
+try without f pv_ctr_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 13688
+[LightGBM] [Info] Number of data: 500000, number of used features: 58
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.679996
+[20]	valid_0's auc: 0.693516
+[30]	valid_0's auc: 0.697712
+[40]	valid_0's auc: 0.701625
+[50]	valid_0's auc: 0.701908
+[60]	valid_0's auc: 0.701289
+[70]	valid_0's auc: 0.701551
+[80]	valid_0's auc: 0.699618
+[90]	valid_0's auc: 0.702162
+Early stopping, best iteration is:
+[63]	valid_0's auc: 0.702976
+[LightGBM] [Info] Finished loading 63 models
+best score is 0.70849625073, cur_s is 0.702976410652, 
+try without f uv_cvr_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 13432
+[LightGBM] [Info] Number of data: 500000, number of used features: 57
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.683
+[20]	valid_0's auc: 0.702024
+[30]	valid_0's auc: 0.699764
+[40]	valid_0's auc: 0.697416
+Early stopping, best iteration is:
+[14]	valid_0's auc: 0.703818
+[LightGBM] [Info] Finished loading 14 models
+best score is 0.70849625073, cur_s is 0.703818072572, 
+try without f uv_ctr_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 13177
+[LightGBM] [Info] Number of data: 500000, number of used features: 56
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.686994
+[20]	valid_0's auc: 0.675433
+[30]	valid_0's auc: 0.691787
+[40]	valid_0's auc: 0.697227
+[50]	valid_0's auc: 0.695929
+[60]	valid_0's auc: 0.697351
+[70]	valid_0's auc: 0.698994
+[80]	valid_0's auc: 0.700775
+[90]	valid_0's auc: 0.699082
+[100]	valid_0's auc: 0.69934
+Early stopping, best iteration is:
+[78]	valid_0's auc: 0.701088
+[LightGBM] [Info] Finished loading 78 models
+best score is 0.70849625073, cur_s is 0.701087913657, 
+try without f service_fee_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 12922
+[LightGBM] [Info] Number of data: 500000, number of used features: 55
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.688978
+[20]	valid_0's auc: 0.696789
+[30]	valid_0's auc: 0.698529
+[40]	valid_0's auc: 0.696885
+Early stopping, best iteration is:
+[17]	valid_0's auc: 0.699275
+[LightGBM] [Info] Finished loading 17 models
+best score is 0.70849625073, cur_s is 0.699274920789, 
+try without f pv_ctr_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 12667
+[LightGBM] [Info] Number of data: 500000, number of used features: 54
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.706754
+[20]	valid_0's auc: 0.70497
+[30]	valid_0's auc: 0.703203
+[40]	valid_0's auc: 0.701442
+Early stopping, best iteration is:
+[10]	valid_0's auc: 0.706754
+[LightGBM] [Info] Finished loading 10 models
+best score is 0.70849625073, cur_s is 0.706753574414, 
+try without f discount_rate_all_customer_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 12412
+[LightGBM] [Info] Number of data: 500000, number of used features: 53
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.662541
+[20]	valid_0's auc: 0.677429
+[30]	valid_0's auc: 0.68083
+[40]	valid_0's auc: 0.692688
+[50]	valid_0's auc: 0.697643
+[60]	valid_0's auc: 0.699462
+[70]	valid_0's auc: 0.700762
+[80]	valid_0's auc: 0.701756
+[90]	valid_0's auc: 0.70383
+[100]	valid_0's auc: 0.704292
+[110]	valid_0's auc: 0.703715
+[120]	valid_0's auc: 0.704447
+[130]	valid_0's auc: 0.704952
+[140]	valid_0's auc: 0.704998
+[150]	valid_0's auc: 0.705716
+[160]	valid_0's auc: 0.706214
+[170]	valid_0's auc: 0.70691
+[180]	valid_0's auc: 0.706727
+[190]	valid_0's auc: 0.706874
+[200]	valid_0's auc: 0.706879
+Early stopping, best iteration is:
+[174]	valid_0's auc: 0.707137
+[LightGBM] [Info] Finished loading 174 models
+best score is 0.70849625073, cur_s is 0.707136801986, 
+try without f food_comment_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 12157
+[LightGBM] [Info] Number of data: 500000, number of used features: 52
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.678248
+[20]	valid_0's auc: 0.674057
+[30]	valid_0's auc: 0.686845
+[40]	valid_0's auc: 0.693453
+[50]	valid_0's auc: 0.69672
+[60]	valid_0's auc: 0.697509
+[70]	valid_0's auc: 0.696132
+[80]	valid_0's auc: 0.695661
+[90]	valid_0's auc: 0.698195
+[100]	valid_0's auc: 0.700682
+[110]	valid_0's auc: 0.701779
+[120]	valid_0's auc: 0.701835
+[130]	valid_0's auc: 0.702446
+[140]	valid_0's auc: 0.702148
+[150]	valid_0's auc: 0.702641
+[160]	valid_0's auc: 0.703174
+[170]	valid_0's auc: 0.70366
+[180]	valid_0's auc: 0.704061
+[190]	valid_0's auc: 0.704659
+[200]	valid_0's auc: 0.704724
+[210]	valid_0's auc: 0.704899
+[220]	valid_0's auc: 0.705333
+[230]	valid_0's auc: 0.70567
+[240]	valid_0's auc: 0.704959
+[250]	valid_0's auc: 0.704799
+Early stopping, best iteration is:
+[226]	valid_0's auc: 0.705721
+[LightGBM] [Info] Finished loading 226 models
+best score is 0.70849625073, cur_s is 0.705721426584, 
+try without f pos_delivery_comment_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 11902
+[LightGBM] [Info] Number of data: 500000, number of used features: 51
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.664956
+[20]	valid_0's auc: 0.690764
+[30]	valid_0's auc: 0.68885
+[40]	valid_0's auc: 0.688586
+[50]	valid_0's auc: 0.694683
+[60]	valid_0's auc: 0.695568
+[70]	valid_0's auc: 0.695536
+[80]	valid_0's auc: 0.695191
+[90]	valid_0's auc: 0.697476
+[100]	valid_0's auc: 0.698103
+[110]	valid_0's auc: 0.699434
+[120]	valid_0's auc: 0.700318
+[130]	valid_0's auc: 0.702233
+[140]	valid_0's auc: 0.703284
+[150]	valid_0's auc: 0.70383
+[160]	valid_0's auc: 0.703791
+[170]	valid_0's auc: 0.703566
+[180]	valid_0's auc: 0.703876
+[190]	valid_0's auc: 0.703796
+Early stopping, best iteration is:
+[161]	valid_0's auc: 0.704119
+[LightGBM] [Info] Finished loading 161 models
+best score is 0.70849625073, cur_s is 0.704118863009, 
+try without f avg_delivery_comment_score
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 11647
+[LightGBM] [Info] Number of data: 500000, number of used features: 50
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.667609
+[20]	valid_0's auc: 0.69125
+[30]	valid_0's auc: 0.69771
+[40]	valid_0's auc: 0.69699
+[50]	valid_0's auc: 0.698693
+[60]	valid_0's auc: 0.702806
+[70]	valid_0's auc: 0.703488
+[80]	valid_0's auc: 0.704218
+[90]	valid_0's auc: 0.704056
+[100]	valid_0's auc: 0.705061
+[110]	valid_0's auc: 0.706101
+[120]	valid_0's auc: 0.706029
+[130]	valid_0's auc: 0.705623
+Early stopping, best iteration is:
+[109]	valid_0's auc: 0.70615
+[LightGBM] [Info] Finished loading 109 models
+best score is 0.70849625073, cur_s is 0.70614963256, 
+try without f dp_avg_price
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 11450
+[LightGBM] [Info] Number of data: 500000, number of used features: 49
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.676484
+[20]	valid_0's auc: 0.676697
+[30]	valid_0's auc: 0.685
+[40]	valid_0's auc: 0.694376
+[50]	valid_0's auc: 0.696983
+[60]	valid_0's auc: 0.699872
+[70]	valid_0's auc: 0.699155
+[80]	valid_0's auc: 0.700062
+Early stopping, best iteration is:
+[57]	valid_0's auc: 0.700261
+[LightGBM] [Info] Finished loading 57 models
+best score is 0.70849625073, cur_s is 0.700260802865, 
+try without f pv_cvr_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 11194
+[LightGBM] [Info] Number of data: 500000, number of used features: 48
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.701188
+[20]	valid_0's auc: 0.698353
+[30]	valid_0's auc: 0.698235
+[40]	valid_0's auc: 0.700073
+Early stopping, best iteration is:
+[14]	valid_0's auc: 0.704159
+[LightGBM] [Info] Finished loading 14 models
+best score is 0.70849625073, cur_s is 0.7041590195, 
+try without f order_cnt_20hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 10961
+[LightGBM] [Info] Number of data: 500000, number of used features: 47
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.642799
+[20]	valid_0's auc: 0.675694
+[30]	valid_0's auc: 0.6865
+[40]	valid_0's auc: 0.695168
+[50]	valid_0's auc: 0.692899
+[60]	valid_0's auc: 0.692605
+[70]	valid_0's auc: 0.695257
+[80]	valid_0's auc: 0.696204
+[90]	valid_0's auc: 0.699393
+[100]	valid_0's auc: 0.700496
+[110]	valid_0's auc: 0.700867
+[120]	valid_0's auc: 0.702437
+[130]	valid_0's auc: 0.703276
+[140]	valid_0's auc: 0.703153
+[150]	valid_0's auc: 0.703026
+[160]	valid_0's auc: 0.703282
+[170]	valid_0's auc: 0.704151
+[180]	valid_0's auc: 0.704641
+[190]	valid_0's auc: 0.704775
+[200]	valid_0's auc: 0.70439
+[210]	valid_0's auc: 0.704391
+Early stopping, best iteration is:
+[181]	valid_0's auc: 0.704788
+[LightGBM] [Info] Finished loading 181 models
+best score is 0.70849625073, cur_s is 0.704787581741, 
+try without f pos_comment_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 10706
+[LightGBM] [Info] Number of data: 500000, number of used features: 46
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.680192
+[20]	valid_0's auc: 0.679362
+[30]	valid_0's auc: 0.679203
+[40]	valid_0's auc: 0.689035
+[50]	valid_0's auc: 0.689475
+[60]	valid_0's auc: 0.696471
+[70]	valid_0's auc: 0.697642
+[80]	valid_0's auc: 0.696334
+[90]	valid_0's auc: 0.695171
+Early stopping, best iteration is:
+[63]	valid_0's auc: 0.698016
+[LightGBM] [Info] Finished loading 63 models
+best score is 0.70849625073, cur_s is 0.698015947404, 
+try without f click_tag_pref_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 10451
+[LightGBM] [Info] Number of data: 500000, number of used features: 45
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.704796
+[20]	valid_0's auc: 0.703891
+[30]	valid_0's auc: 0.699526
+Early stopping, best iteration is:
+[8]	valid_0's auc: 0.708077
+[LightGBM] [Info] Finished loading 8 models
+best score is 0.70849625073, cur_s is 0.70807735406, 
+try without f avg_price_month
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 10196
+[LightGBM] [Info] Number of data: 500000, number of used features: 44
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.70293
+[20]	valid_0's auc: 0.701436
+[30]	valid_0's auc: 0.702764
+[40]	valid_0's auc: 0.697528
+[50]	valid_0's auc: 0.701619
+Early stopping, best iteration is:
+[23]	valid_0's auc: 0.705709
+[LightGBM] [Info] Finished loading 23 models
+best score is 0.70849625073, cur_s is 0.705709464222, 
+try without f area_30day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 9941
+[LightGBM] [Info] Number of data: 500000, number of used features: 43
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.681144
+[20]	valid_0's auc: 0.699784
+[30]	valid_0's auc: 0.693618
+[40]	valid_0's auc: 0.702704
+[50]	valid_0's auc: 0.702699
+[60]	valid_0's auc: 0.70386
+[70]	valid_0's auc: 0.703966
+[80]	valid_0's auc: 0.703013
+[90]	valid_0's auc: 0.703181
+Early stopping, best iteration is:
+[64]	valid_0's auc: 0.704941
+[LightGBM] [Info] Finished loading 64 models
+best score is 0.70849625073, cur_s is 0.704941325176, 
+try without f food_comment_cnt
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 9686
+[LightGBM] [Info] Number of data: 500000, number of used features: 42
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.675104
+[20]	valid_0's auc: 0.690194
+[30]	valid_0's auc: 0.698291
+[40]	valid_0's auc: 0.695956
+[50]	valid_0's auc: 0.6938
+[60]	valid_0's auc: 0.701631
+[70]	valid_0's auc: 0.703059
+[80]	valid_0's auc: 0.703767
+[90]	valid_0's auc: 0.704775
+[100]	valid_0's auc: 0.704484
+[110]	valid_0's auc: 0.704175
+Early stopping, best iteration is:
+[89]	valid_0's auc: 0.704936
+[LightGBM] [Info] Finished loading 89 models
+best score is 0.70849625073, cur_s is 0.704935568263, 
+try without f poi_one_bought
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 9431
+[LightGBM] [Info] Number of data: 500000, number of used features: 41
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.6777
+[20]	valid_0's auc: 0.682902
+[30]	valid_0's auc: 0.685745
+[40]	valid_0's auc: 0.691015
+[50]	valid_0's auc: 0.693311
+[60]	valid_0's auc: 0.69565
+[70]	valid_0's auc: 0.695611
+[80]	valid_0's auc: 0.698165
+[90]	valid_0's auc: 0.702007
+[100]	valid_0's auc: 0.70413
+[110]	valid_0's auc: 0.703608
+[120]	valid_0's auc: 0.703807
+Early stopping, best iteration is:
+[99]	valid_0's auc: 0.704286
+[LightGBM] [Info] Finished loading 99 models
+best score is 0.70849625073, cur_s is 0.704286071636, 
+try without f comment_3star
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 9179
+[LightGBM] [Info] Number of data: 500000, number of used features: 40
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.670227
+[20]	valid_0's auc: 0.685256
+[30]	valid_0's auc: 0.694692
+[40]	valid_0's auc: 0.699199
+[50]	valid_0's auc: 0.69933
+[60]	valid_0's auc: 0.698268
+[70]	valid_0's auc: 0.696894
+[80]	valid_0's auc: 0.696658
+Early stopping, best iteration is:
+[51]	valid_0's auc: 0.700363
+[LightGBM] [Info] Finished loading 51 models
+best score is 0.70849625073, cur_s is 0.70036252087, 
+try without f uv_ctr_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 8924
+[LightGBM] [Info] Number of data: 500000, number of used features: 39
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.652687
+[20]	valid_0's auc: 0.685224
+[30]	valid_0's auc: 0.69188
+[40]	valid_0's auc: 0.697302
+[50]	valid_0's auc: 0.699917
+[60]	valid_0's auc: 0.69971
+[70]	valid_0's auc: 0.700765
+[80]	valid_0's auc: 0.702751
+[90]	valid_0's auc: 0.702608
+[100]	valid_0's auc: 0.701875
+[110]	valid_0's auc: 0.700933
+Early stopping, best iteration is:
+[82]	valid_0's auc: 0.703513
+[LightGBM] [Info] Finished loading 82 models
+best score is 0.70849625073, cur_s is 0.703513115449, 
+try without f uv_cxr_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 8669
+[LightGBM] [Info] Number of data: 500000, number of used features: 38
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.680882
+[20]	valid_0's auc: 0.701893
+[30]	valid_0's auc: 0.701498
+[40]	valid_0's auc: 0.703021
+[50]	valid_0's auc: 0.702325
+[60]	valid_0's auc: 0.701226
+[70]	valid_0's auc: 0.701272
+Early stopping, best iteration is:
+[42]	valid_0's auc: 0.703827
+[LightGBM] [Info] Finished loading 42 models
+best score is 0.70849625073, cur_s is 0.703827024001, 
+try without f service_fee_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 8414
+[LightGBM] [Info] Number of data: 500000, number of used features: 37
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.703364
+[20]	valid_0's auc: 0.703693
+[30]	valid_0's auc: 0.705023
+[40]	valid_0's auc: 0.703504
+[50]	valid_0's auc: 0.705591
+[60]	valid_0's auc: 0.705743
+[70]	valid_0's auc: 0.707047
+[80]	valid_0's auc: 0.7066
+[90]	valid_0's auc: 0.706597
+[100]	valid_0's auc: 0.707013
+Early stopping, best iteration is:
+[71]	valid_0's auc: 0.707539
+[LightGBM] [Info] Finished loading 71 models
+best score is 0.70849625073, cur_s is 0.707539309927, 
+try without f comment_5star
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 8159
+[LightGBM] [Info] Number of data: 500000, number of used features: 36
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.67733
+[20]	valid_0's auc: 0.689302
+[30]	valid_0's auc: 0.688599
+[40]	valid_0's auc: 0.697468
+[50]	valid_0's auc: 0.696143
+[60]	valid_0's auc: 0.698905
+[70]	valid_0's auc: 0.697522
+[80]	valid_0's auc: 0.699702
+Early stopping, best iteration is:
+[53]	valid_0's auc: 0.700832
+[LightGBM] [Info] Finished loading 53 models
+best score is 0.70849625073, cur_s is 0.700832163153, 
+try without f comment_5star_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 7904
+[LightGBM] [Info] Number of data: 500000, number of used features: 35
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.694541
+[20]	valid_0's auc: 0.698486
+[30]	valid_0's auc: 0.703824
+[40]	valid_0's auc: 0.705023
+[50]	valid_0's auc: 0.703875
+[60]	valid_0's auc: 0.705765
+[70]	valid_0's auc: 0.704995
+[80]	valid_0's auc: 0.70497
+Early stopping, best iteration is:
+[59]	valid_0's auc: 0.705816
+[LightGBM] [Info] Finished loading 59 models
+best score is 0.70849625073, cur_s is 0.705815887109, 
+try without f pic_comment_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 7649
+[LightGBM] [Info] Number of data: 500000, number of used features: 34
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.675292
+[20]	valid_0's auc: 0.669194
+[30]	valid_0's auc: 0.693166
+[40]	valid_0's auc: 0.692745
+[50]	valid_0's auc: 0.690785
+Early stopping, best iteration is:
+[28]	valid_0's auc: 0.69485
+[LightGBM] [Info] Finished loading 28 models
+best score is 0.70849625073, cur_s is 0.694850028685, 
+try without f avg_comment_score
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 7394
+[LightGBM] [Info] Number of data: 500000, number of used features: 33
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700898
+[20]	valid_0's auc: 0.699185
+[30]	valid_0's auc: 0.70237
+[40]	valid_0's auc: 0.70022
+[50]	valid_0's auc: 0.699241
+Early stopping, best iteration is:
+[27]	valid_0's auc: 0.70481
+[LightGBM] [Info] Finished loading 27 models
+best score is 0.70849625073, cur_s is 0.704810142769, 
+try without f order_cnt_11hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 7139
+[LightGBM] [Info] Number of data: 500000, number of used features: 32
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.705671
+[20]	valid_0's auc: 0.705265
+[30]	valid_0's auc: 0.704748
+Early stopping, best iteration is:
+[8]	valid_0's auc: 0.708143
+[LightGBM] [Info] Finished loading 8 models
+best score is 0.70849625073, cur_s is 0.708143039065, 
+try without f total_price_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 6884
+[LightGBM] [Info] Number of data: 500000, number of used features: 31
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.667536
+[20]	valid_0's auc: 0.695361
+[30]	valid_0's auc: 0.694372
+[40]	valid_0's auc: 0.699834
+[50]	valid_0's auc: 0.697265
+[60]	valid_0's auc: 0.698831
+[70]	valid_0's auc: 0.700831
+[80]	valid_0's auc: 0.701753
+[90]	valid_0's auc: 0.704102
+[100]	valid_0's auc: 0.704133
+[110]	valid_0's auc: 0.703612
+[120]	valid_0's auc: 0.703757
+Early stopping, best iteration is:
+[91]	valid_0's auc: 0.704432
+[LightGBM] [Info] Finished loading 91 models
+best score is 0.70849625073, cur_s is 0.704431740375, 
+try without f original_price_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 6629
+[LightGBM] [Info] Number of data: 500000, number of used features: 30
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.700793
+[20]	valid_0's auc: 0.702124
+[30]	valid_0's auc: 0.702174
+[40]	valid_0's auc: 0.701114
+[50]	valid_0's auc: 0.702352
+Early stopping, best iteration is:
+[26]	valid_0's auc: 0.70414
+[LightGBM] [Info] Finished loading 26 models
+best score is 0.70849625073, cur_s is 0.704140193947, 
+try without f discount_rate_new_customer_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 6374
+[LightGBM] [Info] Number of data: 500000, number of used features: 29
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.698724
+[20]	valid_0's auc: 0.696877
+[30]	valid_0's auc: 0.700996
+Early stopping, best iteration is:
+[7]	valid_0's auc: 0.704441
+[LightGBM] [Info] Finished loading 7 models
+best score is 0.70849625073, cur_s is 0.704441236028, 
+try without f uv_cxr_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 6119
+[LightGBM] [Info] Number of data: 500000, number of used features: 28
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.695885
+[20]	valid_0's auc: 0.698567
+[30]	valid_0's auc: 0.702601
+[40]	valid_0's auc: 0.701368
+[50]	valid_0's auc: 0.698618
+[60]	valid_0's auc: 0.698768
+Early stopping, best iteration is:
+[31]	valid_0's auc: 0.702777
+[LightGBM] [Info] Finished loading 31 models
+best score is 0.70849625073, cur_s is 0.702777453745, 
+try without f order_cnt_14day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 5864
+[LightGBM] [Info] Number of data: 500000, number of used features: 27
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.695724
+[20]	valid_0's auc: 0.696169
+[30]	valid_0's auc: 0.695244
+Early stopping, best iteration is:
+[8]	valid_0's auc: 0.69892
+[LightGBM] [Info] Finished loading 8 models
+best score is 0.70849625073, cur_s is 0.698920342664, 
+try without f tag_id
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 5743
+[LightGBM] [Info] Number of data: 500000, number of used features: 26
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.690914
+[20]	valid_0's auc: 0.696136
+[30]	valid_0's auc: 0.705523
+[40]	valid_0's auc: 0.703743
+[50]	valid_0's auc: 0.699433
+[60]	valid_0's auc: 0.698661
+Early stopping, best iteration is:
+[30]	valid_0's auc: 0.705523
+[LightGBM] [Info] Finished loading 30 models
+best score is 0.70849625073, cur_s is 0.705522988787, 
+try without f neg_delivery_comment_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 5488
+[LightGBM] [Info] Number of data: 500000, number of used features: 25
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.691701
+[20]	valid_0's auc: 0.692245
+[30]	valid_0's auc: 0.691227
+[40]	valid_0's auc: 0.69406
+Early stopping, best iteration is:
+[15]	valid_0's auc: 0.69673
+[LightGBM] [Info] Finished loading 15 models
+best score is 0.70849625073, cur_s is 0.696729910027, 
+try without f pv_cxr_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 5233
+[LightGBM] [Info] Number of data: 500000, number of used features: 24
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.685286
+[20]	valid_0's auc: 0.7034
+[30]	valid_0's auc: 0.699703
+[40]	valid_0's auc: 0.696432
+[50]	valid_0's auc: 0.699601
+Early stopping, best iteration is:
+[20]	valid_0's auc: 0.7034
+[LightGBM] [Info] Finished loading 20 models
+best score is 0.70849625073, cur_s is 0.7034003746, 
+try without f comment_uv
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4978
+[LightGBM] [Info] Number of data: 500000, number of used features: 23
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.670376
+[20]	valid_0's auc: 0.681735
+[30]	valid_0's auc: 0.692979
+[40]	valid_0's auc: 0.694246
+[50]	valid_0's auc: 0.699303
+[60]	valid_0's auc: 0.698288
+[70]	valid_0's auc: 0.69971
+[80]	valid_0's auc: 0.69928
+[90]	valid_0's auc: 0.702396
+[100]	valid_0's auc: 0.705034
+[110]	valid_0's auc: 0.704891
+[120]	valid_0's auc: 0.705499
+[130]	valid_0's auc: 0.705563
+[140]	valid_0's auc: 0.705521
+[150]	valid_0's auc: 0.7057
+[160]	valid_0's auc: 0.705496
+Early stopping, best iteration is:
+[132]	valid_0's auc: 0.705983
+[LightGBM] [Info] Finished loading 132 models
+best score is 0.70849625073, cur_s is 0.705983395599, 
+try without f pv_cvr_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4722
+[LightGBM] [Info] Number of data: 500000, number of used features: 22
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.675154
+[20]	valid_0's auc: 0.696743
+[30]	valid_0's auc: 0.700171
+[40]	valid_0's auc: 0.699849
+[50]	valid_0's auc: 0.700955
+[60]	valid_0's auc: 0.701015
+[70]	valid_0's auc: 0.702224
+[80]	valid_0's auc: 0.703541
+[90]	valid_0's auc: 0.703964
+[100]	valid_0's auc: 0.704045
+[110]	valid_0's auc: 0.704286
+[120]	valid_0's auc: 0.705441
+[130]	valid_0's auc: 0.705443
+[140]	valid_0's auc: 0.705028
+[150]	valid_0's auc: 0.70524
+Early stopping, best iteration is:
+[122]	valid_0's auc: 0.705498
+[LightGBM] [Info] Finished loading 122 models
+best score is 0.70849625073, cur_s is 0.705498220729, 
+try without f poi_two_bought
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4467
+[LightGBM] [Info] Number of data: 500000, number of used features: 21
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.687216
+[20]	valid_0's auc: 0.694698
+[30]	valid_0's auc: 0.702613
+[40]	valid_0's auc: 0.705004
+[50]	valid_0's auc: 0.703987
+[60]	valid_0's auc: 0.707143
+[70]	valid_0's auc: 0.708456
+[80]	valid_0's auc: 0.707617
+[90]	valid_0's auc: 0.706847
+[100]	valid_0's auc: 0.707661
+Early stopping, best iteration is:
+[73]	valid_0's auc: 0.708557
+[LightGBM] [Info] Finished loading 73 models
+update best score from 0.70849625073 to 0.708557053045
+best score is 0.708557053045, cur_s is 0.708557053045, 
+try without f poi_reorder_counts
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4212
+[LightGBM] [Info] Number of data: 500000, number of used features: 20
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.689186
+[20]	valid_0's auc: 0.689417
+[30]	valid_0's auc: 0.706201
+[40]	valid_0's auc: 0.706288
+[50]	valid_0's auc: 0.708565
+[60]	valid_0's auc: 0.707518
+[70]	valid_0's auc: 0.707996
+[80]	valid_0's auc: 0.708862
+[90]	valid_0's auc: 0.708339
+[100]	valid_0's auc: 0.709622
+[110]	valid_0's auc: 0.709493
+[120]	valid_0's auc: 0.709305
+[130]	valid_0's auc: 0.709069
+Early stopping, best iteration is:
+[103]	valid_0's auc: 0.709736
+[LightGBM] [Info] Finished loading 103 models
+update best score from 0.708557053045 to 0.709736118289
+best score is 0.709736118289, cur_s is 0.709736118289, 
+try without f order_tag_pref_3day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 4170
+[LightGBM] [Info] Number of data: 500000, number of used features: 19
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.682773
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.701898
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.699116
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.698156
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.699926
+Early stopping, best iteration is:
+[20]	valid_0's auc: 0.701898
+[LightGBM] [Info] Finished loading 20 models
+best score is 0.709736118289, cur_s is 0.701898391862, 
+try without f order_cnt_10hr
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 3915
+[LightGBM] [Info] Number of data: 500000, number of used features: 18
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.702527
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.69917
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.699533
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.699312
+Early stopping, best iteration is:
+[10]	valid_0's auc: 0.702527
+[LightGBM] [Info] Finished loading 10 models
+best score is 0.709736118289, cur_s is 0.702527288122, 
+try without f total_price_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 3660
+[LightGBM] [Info] Number of data: 500000, number of used features: 17
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.668477
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.674315
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.695178
+[40]	valid_0's auc: 0.692941
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.691871
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Early stopping, best iteration is:
+[22]	valid_0's auc: 0.700707
+[LightGBM] [Info] Finished loading 22 models
+best score is 0.709736118289, cur_s is 0.700707391128, 
+try without f user_reorder_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 3475
+[LightGBM] [Info] Number of data: 500000, number of used features: 16
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.681247
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.691174
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.691185
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.691412
+Early stopping, best iteration is:
+[11]	valid_0's auc: 0.692502
+[LightGBM] [Info] Finished loading 11 models
+best score is 0.709736118289, cur_s is 0.692502147275, 
+try without f order_cnt_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 3220
+[LightGBM] [Info] Number of data: 500000, number of used features: 15
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.670487
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.680378
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.681066
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.690212
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.690176
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.690129
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[70]	valid_0's auc: 0.690126
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[80]	valid_0's auc: 0.690789
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[90]	valid_0's auc: 0.691024
+[100]	valid_0's auc: 0.691938
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[110]	valid_0's auc: 0.692326
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[120]	valid_0's auc: 0.692691
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[130]	valid_0's auc: 0.692359
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[140]	valid_0's auc: 0.69282
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[150]	valid_0's auc: 0.6933
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[160]	valid_0's auc: 0.693002
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[170]	valid_0's auc: 0.693413
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[180]	valid_0's auc: 0.693606
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[190]	valid_0's auc: 0.693368
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[200]	valid_0's auc: 0.693256
+Early stopping, best iteration is:
+[171]	valid_0's auc: 0.693606
+[LightGBM] [Info] Finished loading 171 models
+best score is 0.709736118289, cur_s is 0.693606139098, 
+try without f neg_comment_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 2965
+[LightGBM] [Info] Number of data: 500000, number of used features: 14
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.662692
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.671218
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.678471
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.687397
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.689222
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.691322
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[70]	valid_0's auc: 0.692465
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[80]	valid_0's auc: 0.692666
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[90]	valid_0's auc: 0.693312
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[100]	valid_0's auc: 0.692772
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[110]	valid_0's auc: 0.692448
+Early stopping, best iteration is:
+[89]	valid_0's auc: 0.693371
+[LightGBM] [Info] Finished loading 89 models
+best score is 0.709736118289, cur_s is 0.693370842547, 
+try without f order_tag_pref_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 2844
+[LightGBM] [Info] Number of data: 500000, number of used features: 13
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.689253
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.691675
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.690009
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Early stopping, best iteration is:
+[6]	valid_0's auc: 0.692862
+[LightGBM] [Info] Finished loading 6 models
+best score is 0.709736118289, cur_s is 0.692861655303, 
+try without f submit_tag_pref_30day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 2606
+[LightGBM] [Info] Number of data: 500000, number of used features: 12
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.691747
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.695156
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.69358
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.691502
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.691312
+Early stopping, best iteration is:
+[20]	valid_0's auc: 0.695156
+[LightGBM] [Info] Finished loading 20 models
+best score is 0.709736118289, cur_s is 0.695155725922, 
+try without f service_fee_rate_1day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 2351
+[LightGBM] [Info] Number of data: 500000, number of used features: 11
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.68925
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.68799
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.686646
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.689536
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Early stopping, best iteration is:
+[11]	valid_0's auc: 0.691739
+[LightGBM] [Info] Finished loading 11 models
+best score is 0.709736118289, cur_s is 0.691739244023, 
+try without f submit_tag_pref_3day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 2284
+[LightGBM] [Info] Number of data: 500000, number of used features: 10
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.683308
+[20]	valid_0's auc: 0.68867
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.687277
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.68535
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Early stopping, best iteration is:
+[15]	valid_0's auc: 0.691171
+[LightGBM] [Info] Finished loading 15 models
+best score is 0.709736118289, cur_s is 0.691171301014, 
+try without f pv_cxr_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 2029
+[LightGBM] [Info] Number of data: 500000, number of used features: 9
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.662359
+[20]	valid_0's auc: 0.687135
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.694041
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.695719
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.695388
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.695462
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Early stopping, best iteration is:
+[38]	valid_0's auc: 0.69599
+[LightGBM] [Info] Finished loading 38 models
+best score is 0.709736118289, cur_s is 0.695989658716, 
+try without f order_tag_pref_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 1859
+[LightGBM] [Info] Number of data: 500000, number of used features: 8
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.691372
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.694146
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.694337
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.694359
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.694531
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.694659
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[70]	valid_0's auc: 0.694766
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[80]	valid_0's auc: 0.694801
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[90]	valid_0's auc: 0.694913
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[100]	valid_0's auc: 0.694969
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[110]	valid_0's auc: 0.695039
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[120]	valid_0's auc: 0.695105
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[130]	valid_0's auc: 0.695184
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[140]	valid_0's auc: 0.695247
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[150]	valid_0's auc: 0.695318
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[160]	valid_0's auc: 0.695364
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[170]	valid_0's auc: 0.695419
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[180]	valid_0's auc: 0.695454
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[190]	valid_0's auc: 0.6955
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[200]	valid_0's auc: 0.695541
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[210]	valid_0's auc: 0.695562
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[220]	valid_0's auc: 0.695595
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[230]	valid_0's auc: 0.695633
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[240]	valid_0's auc: 0.695681
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[250]	valid_0's auc: 0.695685
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[260]	valid_0's auc: 0.695705
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[270]	valid_0's auc: 0.695726
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[280]	valid_0's auc: 0.695743
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[290]	valid_0's auc: 0.695725
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[300]	valid_0's auc: 0.695736
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[310]	valid_0's auc: 0.695752
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[320]	valid_0's auc: 0.695778
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[330]	valid_0's auc: 0.695758
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[340]	valid_0's auc: 0.695768
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[350]	valid_0's auc: 0.695787
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[360]	valid_0's auc: 0.695808
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[370]	valid_0's auc: 0.695769
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[380]	valid_0's auc: 0.695774
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[390]	valid_0's auc: 0.695773
+Early stopping, best iteration is:
+[360]	valid_0's auc: 0.695808
+[LightGBM] [Info] Finished loading 360 models
+best score is 0.709736118289, cur_s is 0.695807671679, 
+try without f user_poi_submit_decay
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 1604
+[LightGBM] [Info] Number of data: 500000, number of used features: 7
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.69212
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.694637
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.69259
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.695052
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.695075
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.694938
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[70]	valid_0's auc: 0.695317
+Early stopping, best iteration is:
+[42]	valid_0's auc: 0.695619
+[LightGBM] [Info] Finished loading 42 models
+best score is 0.709736118289, cur_s is 0.695619124831, 
+try without f pv_cvr_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 1348
+[LightGBM] [Info] Number of data: 500000, number of used features: 6
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.684758
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.680662
+[30]	valid_0's auc: 0.692401
+[40]	valid_0's auc: 0.69447
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.693704
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.69302
+Early stopping, best iteration is:
+[38]	valid_0's auc: 0.69475
+[LightGBM] [Info] Finished loading 38 models
+best score is 0.709736118289, cur_s is 0.694750207801, 
+try without f user_poi_order_decay
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 1093
+[LightGBM] [Info] Number of data: 500000, number of used features: 5
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Training until validation scores don't improve for 30 rounds.
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[10]	valid_0's auc: 0.680043
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[20]	valid_0's auc: 0.681174
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[30]	valid_0's auc: 0.681417
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[40]	valid_0's auc: 0.681142
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[50]	valid_0's auc: 0.681549
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[60]	valid_0's auc: 0.681705
+Early stopping, best iteration is:
+[33]	valid_0's auc: 0.681943
+[LightGBM] [Info] Finished loading 33 models
+best score is 0.709736118289, cur_s is 0.68194268898, 
+try without f submit_tag_pref_7day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 927
+[LightGBM] [Info] Number of data: 500000, number of used features: 4
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.676432
+[20]	valid_0's auc: 0.679688
+[30]	valid_0's auc: 0.678959
+[40]	valid_0's auc: 0.679785
+[50]	valid_0's auc: 0.679436
+[60]	valid_0's auc: 0.679979
+[70]	valid_0's auc: 0.679747
+[80]	valid_0's auc: 0.680103
+[90]	valid_0's auc: 0.679869
+[100]	valid_0's auc: 0.680158
+[110]	valid_0's auc: 0.679975
+[120]	valid_0's auc: 0.680203
+[130]	valid_0's auc: 0.680063
+[140]	valid_0's auc: 0.680256
+[150]	valid_0's auc: 0.680108
+[160]	valid_0's auc: 0.680254
+[170]	valid_0's auc: 0.680151
+[180]	valid_0's auc: 0.68026
+[190]	valid_0's auc: 0.680144
+[200]	valid_0's auc: 0.680238
+Early stopping, best iteration is:
+[172]	valid_0's auc: 0.680266
+[LightGBM] [Info] Finished loading 172 models
+best score is 0.709736118289, cur_s is 0.680266247668, 
+try without f poi_reorder_rate
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 672
+[LightGBM] [Info] Number of data: 500000, number of used features: 3
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.641357
+[20]	valid_0's auc: 0.641854
+[30]	valid_0's auc: 0.644613
+[40]	valid_0's auc: 0.646977
+[50]	valid_0's auc: 0.647074
+[60]	valid_0's auc: 0.647277
+[70]	valid_0's auc: 0.647706
+[80]	valid_0's auc: 0.647827
+[90]	valid_0's auc: 0.648363
+[100]	valid_0's auc: 0.648644
+[110]	valid_0's auc: 0.64884
+[120]	valid_0's auc: 0.649112
+[130]	valid_0's auc: 0.64903
+[140]	valid_0's auc: 0.649059
+[150]	valid_0's auc: 0.649134
+[160]	valid_0's auc: 0.649069
+Early stopping, best iteration is:
+[135]	valid_0's auc: 0.649245
+[LightGBM] [Info] Finished loading 135 models
+best score is 0.709736118289, cur_s is 0.649245428034, 
+try without f submit_tag_pref_15day
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 493
+[LightGBM] [Info] Number of data: 500000, number of used features: 2
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.647583
+[20]	valid_0's auc: 0.647644
+[30]	valid_0's auc: 0.647522
+[40]	valid_0's auc: 0.647866
+[50]	valid_0's auc: 0.647989
+[60]	valid_0's auc: 0.648091
+[70]	valid_0's auc: 0.64816
+[80]	valid_0's auc: 0.648186
+[90]	valid_0's auc: 0.648217
+[100]	valid_0's auc: 0.648166
+[110]	valid_0's auc: 0.648154
+[120]	valid_0's auc: 0.648133
+[130]	valid_0's auc: 0.648457
+[140]	valid_0's auc: 0.648532
+[150]	valid_0's auc: 0.648652
+[160]	valid_0's auc: 0.648749
+[170]	valid_0's auc: 0.648697
+[180]	valid_0's auc: 0.648687
+[190]	valid_0's auc: 0.648689
+Early stopping, best iteration is:
+[162]	valid_0's auc: 0.64878
+[LightGBM] [Info] Finished loading 162 models
+best score is 0.709736118289, cur_s is 0.648780268876, 
+try without f user_poi_click_decay
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 238
+[LightGBM] [Info] Number of data: 500000, number of used features: 1
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.586958
+[20]	valid_0's auc: 0.58741
+[30]	valid_0's auc: 0.587988
+[40]	valid_0's auc: 0.587961
+[50]	valid_0's auc: 0.587878
+Early stopping, best iteration is:
+[22]	valid_0's auc: 0.58807
+[LightGBM] [Info] Finished loading 22 models
+best score is 0.709736118289, cur_s is 0.588069858105, 
+best score is 0.709736118289,mem drop is [u'order_cnt_5hr', u'order_cnt_3hr', u'order_cnt_2hr', u'order_cnt_4hr', u'order_cnt_8hr', u'original_price_7day', u'order_cnt_6hr', u'comment_2star', u'service_fee_rate_7day', u'order_cnt_7day', u'order_cnt_1hr', u'order_cnt_23hr', u'order_cnt_increase', u'order_cnt_7hr', u'order_cnt_9hr', u'order_cnt_24hr', u'order_cnt_15hr', u'comment_1star', u'order_cnt_22hr', u'order_cnt_19hr', u'order_cnt_12hr', u'order_cnt_14hr', u'pv_cxr_1day', u'order_cnt_17hr', u'order_cnt_21hr', u'order_cnt_18hr', u'order_cnt_16hr', u'pic_comment_cnt', u'uv_ctr_1day', u'avg_food_comment_score', u'uv_cvr_15day', u'comment_4star', u'month_original_price', u'user_reorder_count', u'click_tag_pref_3day', u'dp_score', u'month_order_cnt', u'month_total_price', u'uv_cxr_7day', u'op_time_30day', u'click_tag_pref_30day', u'click_tag_pref_15day', u'pv_ctr_7day', u'uv_cvr_7day', u'distance_30day', u'order_cnt_13hr', u'pv_ctr_15day', u'uv_cvr_1day', u'uv_ctr_15day', u'service_fee_7day', u'pv_ctr_1day', u'discount_rate_all_customer_7day', u'food_comment_rate', u'pos_delivery_comment_rate', u'avg_delivery_comment_score', u'dp_avg_price', u'pv_cvr_1day', u'order_cnt_20hr', u'pos_comment_rate', u'click_tag_pref_7day', u'avg_price_month', u'area_30day', u'food_comment_cnt', u'poi_one_bought', u'comment_3star', u'uv_ctr_7day', u'uv_cxr_1day', u'service_fee_1day', u'comment_5star', u'comment_5star_rate', u'pic_comment_rate', u'avg_comment_score', u'order_cnt_11hr', u'total_price_1day', u'original_price_1day', u'discount_rate_new_customer_7day', u'uv_cxr_15day', u'order_cnt_14day', u'tag_id', u'neg_delivery_comment_rate', u'pv_cxr_7day', u'comment_uv', u'pv_cvr_7day', u'poi_two_bought', u'poi_reorder_counts']
+[[None, 0.70505352355948647, 0.70505352355948647], [u'order_cnt_5hr', 0.70701390171764034, 0.70701390171764034], [u'order_cnt_3hr', 0.70260529110504488, 0.70701390171764034], [u'order_cnt_2hr', 0.70382965671558428, 0.70701390171764034], [u'order_cnt_4hr', 0.70182376798534096, 0.70701390171764034], [u'order_cnt_8hr', 0.70702924042415438, 0.70702924042415438], [u'original_price_7day', 0.69562619144481497, 0.70702924042415438], [u'order_cnt_6hr', 0.6991746234892402, 0.70702924042415438], [u'comment_2star', 0.70849625072974942, 0.70849625072974942], [u'service_fee_rate_7day', 0.69800472716352135, 0.70849625072974942], [u'order_cnt_7day', 0.70112344789152958, 0.70849625072974942], [u'order_cnt_1hr', 0.70619758096061302, 0.70849625072974942], [u'order_cnt_23hr', 0.70678817490564194, 0.70849625072974942], [u'order_cnt_increase', 0.70475586761666797, 0.70849625072974942], [u'order_cnt_7hr', 0.70344565939571613, 0.70849625072974942], [u'order_cnt_9hr', 0.70451595056735616, 0.70849625072974942], [u'order_cnt_24hr', 0.70635300854887872, 0.70849625072974942], [u'order_cnt_15hr', 0.70467737917717133, 0.70849625072974942], [u'comment_1star', 0.70423433401530033, 0.70849625072974942], [u'order_cnt_22hr', 0.7049687068613163, 0.70849625072974942], [u'order_cnt_19hr', 0.70547545552275359, 0.70849625072974942], [u'order_cnt_12hr', 0.70597046533718266, 0.70849625072974942], [u'order_cnt_14hr', 0.7007284093952062, 0.70849625072974942], [u'pv_cxr_1day', 0.70663769957282441, 0.70849625072974942], [u'order_cnt_17hr', 0.7044943795381482, 0.70849625072974942], [u'order_cnt_21hr', 0.70223240578348078, 0.70849625072974942], [u'order_cnt_18hr', 0.70527805192516413, 0.70849625072974942], [u'order_cnt_16hr', 0.7053950229983933, 0.70849625072974942], [u'pic_comment_cnt', 0.69236048197876499, 0.70849625072974942], [u'uv_ctr_1day', 0.70622493602528036, 0.70849625072974942], [u'avg_food_comment_score', 0.70443497231293406, 0.70849625072974942], [u'uv_cvr_15day', 0.70216313598796876, 0.70849625072974942], [u'comment_4star', 0.70813053473909859, 0.70849625072974942], [u'month_original_price', 0.70205573013372891, 0.70849625072974942], [u'user_reorder_count', 0.70202029585319026, 0.70849625072974942], [u'click_tag_pref_3day', 0.6977828403021189, 0.70849625072974942], [u'dp_score', 0.70069715988227899, 0.70849625072974942], [u'month_order_cnt', 0.6950402303034906, 0.70849625072974942], [u'month_total_price', 0.69859572343692544, 0.70849625072974942], [u'uv_cxr_7day', 0.68889882754384113, 0.70849625072974942], [u'op_time_30day', 0.70331696931564192, 0.70849625072974942], [u'click_tag_pref_30day', 0.70550727060590579, 0.70849625072974942], [u'click_tag_pref_15day', 0.70255630749981013, 0.70849625072974942], [u'pv_ctr_7day', 0.69271407537848939, 0.70849625072974942], [u'uv_cvr_7day', 0.70403913694524101, 0.70849625072974942], [u'distance_30day', 0.70797958474920919, 0.70849625072974942], [u'order_cnt_13hr', 0.70635475096727218, 0.70849625072974942], [u'pv_ctr_15day', 0.70297641065207395, 0.70849625072974942], [u'uv_cvr_1day', 0.70381807257162166, 0.70849625072974942], [u'uv_ctr_15day', 0.70108791365675049, 0.70849625072974942], [u'service_fee_7day', 0.6992749207887633, 0.70849625072974942], [u'pv_ctr_1day', 0.70675357441424513, 0.70849625072974942], [u'discount_rate_all_customer_7day', 0.70713680198600493, 0.70849625072974942], [u'food_comment_rate', 0.70572142658443082, 0.70849625072974942], [u'pos_delivery_comment_rate', 0.70411886300910254, 0.70849625072974942], [u'avg_delivery_comment_score', 0.70614963255984897, 0.70849625072974942], [u'dp_avg_price', 0.70026080286457559, 0.70849625072974942], [u'pv_cvr_1day', 0.70415901949965132, 0.70849625072974942], [u'order_cnt_20hr', 0.70478758174101452, 0.70849625072974942], [u'pos_comment_rate', 0.69801594740372908, 0.70849625072974942], [u'click_tag_pref_7day', 0.70807735406032812, 0.70849625072974942], [u'avg_price_month', 0.70570946422165859, 0.70849625072974942], [u'area_30day', 0.70494132517567032, 0.70849625072974942], [u'food_comment_cnt', 0.70493556826347203, 0.70849625072974942], [u'poi_one_bought', 0.70428607163611623, 0.70849625072974942], [u'comment_3star', 0.70036252087047679, 0.70849625072974942], [u'uv_ctr_7day', 0.70351311544870332, 0.70849625072974942], [u'uv_cxr_1day', 0.70382702400125485, 0.70849625072974942], [u'service_fee_1day', 0.70753930992710445, 0.70849625072974942], [u'comment_5star', 0.70083216315254826, 0.70849625072974942], [u'comment_5star_rate', 0.70581588710881982, 0.70849625072974942], [u'pic_comment_rate', 0.69485002868518442, 0.70849625072974942], [u'avg_comment_score', 0.70481014276925769, 0.70849625072974942], [u'order_cnt_11hr', 0.70814303906481291, 0.70849625072974942], [u'total_price_1day', 0.7044317403754442, 0.70849625072974942], [u'original_price_1day', 0.70414019394722016, 0.70849625072974942], [u'discount_rate_new_customer_7day', 0.70444123602829145, 0.70849625072974942], [u'uv_cxr_15day', 0.70277745374549583, 0.70849625072974942], [u'order_cnt_14day', 0.69892034266397107, 0.70849625072974942], [u'tag_id', 0.70552298878693587, 0.70849625072974942], [u'neg_delivery_comment_rate', 0.69672991002680318, 0.70849625072974942], [u'pv_cxr_7day', 0.70340037459966231, 0.70849625072974942], [u'comment_uv', 0.70598339559855505, 0.70849625072974942], [u'pv_cvr_7day', 0.70549822072888002, 0.70849625072974942], [u'poi_two_bought', 0.70855705304492833, 0.70855705304492833], [u'poi_reorder_counts', 0.70973611828865291, 0.70973611828865291], [u'order_tag_pref_3day', 0.70189839186239356, 0.70973611828865291], [u'order_cnt_10hr', 0.70252728812169607, 0.70973611828865291], [u'total_price_7day', 0.70070739112801672, 0.70973611828865291], [u'user_reorder_rate', 0.69250214727450576, 0.70973611828865291], [u'order_cnt_1day', 0.69360613909823676, 0.70973611828865291], [u'neg_comment_rate', 0.69337084254670545, 0.70973611828865291], [u'order_tag_pref_7day', 0.69286165530316957, 0.70973611828865291], [u'submit_tag_pref_30day', 0.69515572592153663, 0.70973611828865291], [u'service_fee_rate_1day', 0.69173924402250198, 0.70973611828865291], [u'submit_tag_pref_3day', 0.69117130101430435, 0.70973611828865291], [u'pv_cxr_15day', 0.695989658716196, 0.70973611828865291], [u'order_tag_pref_15day', 0.69580767167892599, 0.70973611828865291], [u'user_poi_submit_decay', 0.69561912483069666, 0.70973611828865291], [u'pv_cvr_15day', 0.69475020780072216, 0.70973611828865291], [u'user_poi_order_decay', 0.68194268897995769, 0.70973611828865291], [u'submit_tag_pref_7day', 0.68026624766840227, 0.70973611828865291], [u'poi_reorder_rate', 0.64924542803439822, 0.70973611828865291], [u'submit_tag_pref_15day', 0.64878026887581197, 0.70973611828865291], [u'user_poi_click_decay', 0.58806985810507573, 0.70973611828865291]]

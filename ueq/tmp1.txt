@@ -1,0 +1,38 @@
+select
+case when order1.label is null then 0 else order1.label end as label,
+expose.poi_id as poi_id,
+expose.uuid as uuid,
+expose.city_id as city_id,
+expose.expose_time as expose_time,
+expose.hour as hour,
+expose.ctype as ctype,
+expose.dt as dt
+from
+(
+select city_id, dt, hour, ctype, ad_request_id, poi_id, uuid,expose_time
+from
+(select city_id, dt, hour, ctype, ad_request_id, poi_id, uuid,expose_time,
+row_number() over (PARTITION by ad_request_id order by expose_time desc) as recent_request
+from mart_waimai.fact_flow_ad_cpm_bj_expose
+where dt>=20180122 and dt<=20180128 and is_charge=1 and ad_id is not null and ad_request_id is not null
+and ad_request_time is not null and ad_pos is not null and ad_entry_id is not null
+)tmp1
+where recent_request=1
+)expose
+left join
+(select label,ad_request_id, poi_id, dt
+from
+(
+select label,ad_request_id, poi_id, dt,
+row_number() over (PARTITION by ad_request_id order by event_timestamp desc) as recent_request
+from
+(select mt_charge_fee+total as label, get_json_object(get_json_object(get_json_object(s_attribute,'$.ad'),'$.adChargeInfo'),'$.request_id') as ad_request_id,
+poi_id, event_timestamp, dt
+from mart_waimai.fact_flow_sdk_ad_cpm_bj_order
+where dt>=20180122 and dt<=20180128
+)tmp1
+)tmp2
+where recent_request=1
+)order1
+on order1.ad_request_id = expose.ad_request_id and order1.poi_id = expose.poi_id
+and order1.dt = expose.dt

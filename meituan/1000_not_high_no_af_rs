@@ -1,0 +1,2029 @@
+Start training...
+[LightGBM] [Info] Total Bins 3335
+[LightGBM] [Info] Number of data: 509726, number of used features: 20
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[1]	valid_0's l1: 618.682
+Training until validation scores don't improve for 700 rounds.
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=13
+[2]	valid_0's l1: 605.316
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[3]	valid_0's l1: 594.788
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[4]	valid_0's l1: 583.138
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[5]	valid_0's l1: 570.108
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=13
+[6]	valid_0's l1: 560.134
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[7]	valid_0's l1: 549.174
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=11
+[8]	valid_0's l1: 538.558
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[9]	valid_0's l1: 531.931
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[10]	valid_0's l1: 522.476
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=11
+[11]	valid_0's l1: 513.782
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=13
+[12]	valid_0's l1: 507.099
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=11
+[13]	valid_0's l1: 499.428
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[14]	valid_0's l1: 493.353
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[15]	valid_0's l1: 486.603
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[16]	valid_0's l1: 481.743
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=13
+[17]	valid_0's l1: 475.923
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[18]	valid_0's l1: 470.35
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[19]	valid_0's l1: 466.123
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[20]	valid_0's l1: 462.785
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[21]	valid_0's l1: 459.553
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[22]	valid_0's l1: 454.953
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[23]	valid_0's l1: 450.914
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=12
+[24]	valid_0's l1: 447.216
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[25]	valid_0's l1: 444.248
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[26]	valid_0's l1: 441.664
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=13
+[27]	valid_0's l1: 439.385
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[28]	valid_0's l1: 436.362
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[29]	valid_0's l1: 433.573
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[30]	valid_0's l1: 431.205
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[31]	valid_0's l1: 429.303
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[32]	valid_0's l1: 426.975
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[33]	valid_0's l1: 425.569
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[34]	valid_0's l1: 423.303
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=13
+[35]	valid_0's l1: 421.066
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[36]	valid_0's l1: 419.072
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[37]	valid_0's l1: 417.315
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[38]	valid_0's l1: 415.604
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[39]	valid_0's l1: 413.863
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[40]	valid_0's l1: 412.046
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[41]	valid_0's l1: 410.495
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[42]	valid_0's l1: 409.305
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[43]	valid_0's l1: 407.888
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[44]	valid_0's l1: 406.572
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[45]	valid_0's l1: 405.284
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[46]	valid_0's l1: 404.274
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[47]	valid_0's l1: 403.078
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[48]	valid_0's l1: 401.912
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[49]	valid_0's l1: 400.817
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[50]	valid_0's l1: 399.839
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[51]	valid_0's l1: 399.019
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[52]	valid_0's l1: 398.129
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[53]	valid_0's l1: 397.302
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[54]	valid_0's l1: 396.561
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[55]	valid_0's l1: 395.719
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[56]	valid_0's l1: 394.833
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[57]	valid_0's l1: 393.985
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[58]	valid_0's l1: 393.241
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[59]	valid_0's l1: 392.53
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[60]	valid_0's l1: 391.854
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[61]	valid_0's l1: 391.037
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[62]	valid_0's l1: 390.383
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[63]	valid_0's l1: 389.852
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=15
+[64]	valid_0's l1: 389.206
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=14
+[65]	valid_0's l1: 388.694
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[66]	valid_0's l1: 388.202
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[67]	valid_0's l1: 387.71
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[68]	valid_0's l1: 387.174
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[69]	valid_0's l1: 386.641
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[70]	valid_0's l1: 386.161
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[71]	valid_0's l1: 385.759
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[72]	valid_0's l1: 385.325
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[73]	valid_0's l1: 384.767
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[74]	valid_0's l1: 384.401
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[75]	valid_0's l1: 384.008
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[76]	valid_0's l1: 383.642
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[77]	valid_0's l1: 383.16
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[78]	valid_0's l1: 382.898
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[79]	valid_0's l1: 382.679
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[80]	valid_0's l1: 382.344
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[81]	valid_0's l1: 382.069
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[82]	valid_0's l1: 381.692
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[83]	valid_0's l1: 381.283
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[84]	valid_0's l1: 380.932
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[85]	valid_0's l1: 380.636
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[86]	valid_0's l1: 380.168
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[87]	valid_0's l1: 379.767
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[88]	valid_0's l1: 379.466
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[89]	valid_0's l1: 378.982
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[90]	valid_0's l1: 378.738
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[91]	valid_0's l1: 378.452
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[92]	valid_0's l1: 378.192
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[93]	valid_0's l1: 377.918
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[94]	valid_0's l1: 377.647
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[95]	valid_0's l1: 377.405
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[96]	valid_0's l1: 377.145
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[97]	valid_0's l1: 376.943
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[98]	valid_0's l1: 376.776
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[99]	valid_0's l1: 376.582
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[100]	valid_0's l1: 376.409
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[101]	valid_0's l1: 376.255
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[102]	valid_0's l1: 376.093
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[103]	valid_0's l1: 375.908
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[104]	valid_0's l1: 375.699
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[105]	valid_0's l1: 375.443
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[106]	valid_0's l1: 375.297
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[107]	valid_0's l1: 375.148
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[108]	valid_0's l1: 374.96
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[109]	valid_0's l1: 374.744
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[110]	valid_0's l1: 374.54
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[111]	valid_0's l1: 374.311
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[112]	valid_0's l1: 374.122
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[113]	valid_0's l1: 373.731
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[114]	valid_0's l1: 373.604
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[115]	valid_0's l1: 373.429
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[116]	valid_0's l1: 373.205
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[117]	valid_0's l1: 373.057
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[118]	valid_0's l1: 372.896
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[119]	valid_0's l1: 372.762
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[120]	valid_0's l1: 372.617
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[121]	valid_0's l1: 372.463
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[122]	valid_0's l1: 372.347
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[123]	valid_0's l1: 372.202
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[124]	valid_0's l1: 371.993
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[125]	valid_0's l1: 371.87
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[126]	valid_0's l1: 371.756
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[127]	valid_0's l1: 371.611
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[128]	valid_0's l1: 371.377
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[129]	valid_0's l1: 371.272
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[130]	valid_0's l1: 371.159
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[131]	valid_0's l1: 371.004
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[132]	valid_0's l1: 370.674
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[133]	valid_0's l1: 370.531
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[134]	valid_0's l1: 370.202
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[135]	valid_0's l1: 370.026
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[136]	valid_0's l1: 369.8
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[137]	valid_0's l1: 369.709
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[138]	valid_0's l1: 369.554
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[139]	valid_0's l1: 369.399
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[140]	valid_0's l1: 369.299
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[141]	valid_0's l1: 369.189
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[142]	valid_0's l1: 369.066
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[143]	valid_0's l1: 368.961
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[144]	valid_0's l1: 368.877
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[145]	valid_0's l1: 368.769
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[146]	valid_0's l1: 368.604
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[147]	valid_0's l1: 368.5
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[148]	valid_0's l1: 368.175
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[149]	valid_0's l1: 368.037
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[150]	valid_0's l1: 367.92
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[151]	valid_0's l1: 367.764
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[152]	valid_0's l1: 367.642
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[153]	valid_0's l1: 367.538
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[154]	valid_0's l1: 367.436
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[155]	valid_0's l1: 367.325
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[156]	valid_0's l1: 367.088
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[157]	valid_0's l1: 366.984
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[158]	valid_0's l1: 366.859
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[159]	valid_0's l1: 366.785
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[160]	valid_0's l1: 366.66
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[161]	valid_0's l1: 366.559
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[162]	valid_0's l1: 366.468
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[163]	valid_0's l1: 366.38
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[164]	valid_0's l1: 366.298
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=39
+[165]	valid_0's l1: 366.145
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[166]	valid_0's l1: 366.02
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[167]	valid_0's l1: 365.795
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[168]	valid_0's l1: 365.716
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[169]	valid_0's l1: 365.623
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[170]	valid_0's l1: 365.541
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[171]	valid_0's l1: 365.447
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[172]	valid_0's l1: 365.356
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[173]	valid_0's l1: 365.279
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[174]	valid_0's l1: 365.16
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=39
+[175]	valid_0's l1: 364.926
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[176]	valid_0's l1: 364.832
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[177]	valid_0's l1: 364.739
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[178]	valid_0's l1: 364.649
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[179]	valid_0's l1: 364.57
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[180]	valid_0's l1: 364.463
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[181]	valid_0's l1: 364.344
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[182]	valid_0's l1: 364.219
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[183]	valid_0's l1: 364.138
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[184]	valid_0's l1: 364.107
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[185]	valid_0's l1: 364.013
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[186]	valid_0's l1: 363.989
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[187]	valid_0's l1: 363.9
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[188]	valid_0's l1: 363.825
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[189]	valid_0's l1: 363.687
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[190]	valid_0's l1: 363.583
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[191]	valid_0's l1: 363.477
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[192]	valid_0's l1: 363.33
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[193]	valid_0's l1: 363.252
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[194]	valid_0's l1: 363.159
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[195]	valid_0's l1: 363.077
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[196]	valid_0's l1: 362.982
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[197]	valid_0's l1: 362.929
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[198]	valid_0's l1: 362.805
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[199]	valid_0's l1: 362.683
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[200]	valid_0's l1: 362.547
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[201]	valid_0's l1: 362.488
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[202]	valid_0's l1: 362.447
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[203]	valid_0's l1: 362.25
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[204]	valid_0's l1: 362.17
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[205]	valid_0's l1: 362.091
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[206]	valid_0's l1: 362.04
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[207]	valid_0's l1: 361.969
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[208]	valid_0's l1: 361.882
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[209]	valid_0's l1: 361.786
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[210]	valid_0's l1: 361.731
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[211]	valid_0's l1: 361.642
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[212]	valid_0's l1: 361.609
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[213]	valid_0's l1: 361.531
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[214]	valid_0's l1: 361.441
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[215]	valid_0's l1: 361.385
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[216]	valid_0's l1: 361.31
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[217]	valid_0's l1: 361.229
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[218]	valid_0's l1: 361.175
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[219]	valid_0's l1: 361.108
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[220]	valid_0's l1: 361.027
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[221]	valid_0's l1: 360.958
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[222]	valid_0's l1: 360.858
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[223]	valid_0's l1: 360.788
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[224]	valid_0's l1: 360.722
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[225]	valid_0's l1: 360.6
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[226]	valid_0's l1: 360.529
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[227]	valid_0's l1: 360.478
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[228]	valid_0's l1: 360.317
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[229]	valid_0's l1: 360.272
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[230]	valid_0's l1: 360.15
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[231]	valid_0's l1: 360.078
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[232]	valid_0's l1: 360.016
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[233]	valid_0's l1: 359.962
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[234]	valid_0's l1: 359.829
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[235]	valid_0's l1: 359.725
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[236]	valid_0's l1: 359.647
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[237]	valid_0's l1: 359.59
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[238]	valid_0's l1: 359.524
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[239]	valid_0's l1: 359.462
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[240]	valid_0's l1: 359.384
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[241]	valid_0's l1: 359.327
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[242]	valid_0's l1: 359.303
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[243]	valid_0's l1: 359.255
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[244]	valid_0's l1: 359.21
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[245]	valid_0's l1: 359.193
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[246]	valid_0's l1: 359.118
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[247]	valid_0's l1: 359.048
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[248]	valid_0's l1: 358.975
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[249]	valid_0's l1: 358.933
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[250]	valid_0's l1: 358.843
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[251]	valid_0's l1: 358.785
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[252]	valid_0's l1: 358.712
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[253]	valid_0's l1: 358.694
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[254]	valid_0's l1: 358.663
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[255]	valid_0's l1: 358.602
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[256]	valid_0's l1: 358.544
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[257]	valid_0's l1: 358.45
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[258]	valid_0's l1: 358.401
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[259]	valid_0's l1: 358.334
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[260]	valid_0's l1: 358.26
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[261]	valid_0's l1: 358.173
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[262]	valid_0's l1: 358.085
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[263]	valid_0's l1: 358.02
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[264]	valid_0's l1: 357.954
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[265]	valid_0's l1: 357.937
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[266]	valid_0's l1: 357.883
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[267]	valid_0's l1: 357.876
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[268]	valid_0's l1: 357.815
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[269]	valid_0's l1: 357.725
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[270]	valid_0's l1: 357.699
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[271]	valid_0's l1: 357.628
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[272]	valid_0's l1: 357.566
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[273]	valid_0's l1: 357.494
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[274]	valid_0's l1: 357.429
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[275]	valid_0's l1: 357.371
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[276]	valid_0's l1: 357.307
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[277]	valid_0's l1: 357.205
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[278]	valid_0's l1: 357.16
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[279]	valid_0's l1: 357.111
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[280]	valid_0's l1: 357.023
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[281]	valid_0's l1: 356.967
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[282]	valid_0's l1: 356.892
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[283]	valid_0's l1: 356.811
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[284]	valid_0's l1: 356.744
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[285]	valid_0's l1: 356.652
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[286]	valid_0's l1: 356.566
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[287]	valid_0's l1: 356.468
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[288]	valid_0's l1: 356.423
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[289]	valid_0's l1: 356.365
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[290]	valid_0's l1: 356.311
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[291]	valid_0's l1: 356.254
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[292]	valid_0's l1: 356.197
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[293]	valid_0's l1: 356.13
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[294]	valid_0's l1: 356.073
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[295]	valid_0's l1: 355.99
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[296]	valid_0's l1: 355.942
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[297]	valid_0's l1: 355.888
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[298]	valid_0's l1: 355.826
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[299]	valid_0's l1: 355.768
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[300]	valid_0's l1: 355.748
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[301]	valid_0's l1: 355.683
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[302]	valid_0's l1: 355.626
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[303]	valid_0's l1: 355.581
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[304]	valid_0's l1: 355.504
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[305]	valid_0's l1: 355.433
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[306]	valid_0's l1: 355.364
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[307]	valid_0's l1: 355.311
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[308]	valid_0's l1: 355.238
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[309]	valid_0's l1: 355.227
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[310]	valid_0's l1: 355.181
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[311]	valid_0's l1: 355.12
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[312]	valid_0's l1: 355.069
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[313]	valid_0's l1: 355.018
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[314]	valid_0's l1: 354.975
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[315]	valid_0's l1: 354.93
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[316]	valid_0's l1: 354.844
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[317]	valid_0's l1: 354.789
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[318]	valid_0's l1: 354.731
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[319]	valid_0's l1: 354.68
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[320]	valid_0's l1: 354.621
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[321]	valid_0's l1: 354.535
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[322]	valid_0's l1: 354.47
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[323]	valid_0's l1: 354.355
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[324]	valid_0's l1: 354.324
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[325]	valid_0's l1: 354.269
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[326]	valid_0's l1: 354.201
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[327]	valid_0's l1: 354.143
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[328]	valid_0's l1: 354.082
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[329]	valid_0's l1: 354.051
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[330]	valid_0's l1: 354.009
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[331]	valid_0's l1: 353.956
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[332]	valid_0's l1: 353.853
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[333]	valid_0's l1: 353.819
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[334]	valid_0's l1: 353.759
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[335]	valid_0's l1: 353.735
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[336]	valid_0's l1: 353.691
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[337]	valid_0's l1: 353.632
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[338]	valid_0's l1: 353.583
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[339]	valid_0's l1: 353.547
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[340]	valid_0's l1: 353.511
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[341]	valid_0's l1: 353.484
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[342]	valid_0's l1: 353.413
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[343]	valid_0's l1: 353.362
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[344]	valid_0's l1: 353.307
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[345]	valid_0's l1: 353.249
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[346]	valid_0's l1: 353.197
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[347]	valid_0's l1: 353.142
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[348]	valid_0's l1: 353.094
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[349]	valid_0's l1: 352.938
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[350]	valid_0's l1: 352.892
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[351]	valid_0's l1: 352.822
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[352]	valid_0's l1: 352.745
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[353]	valid_0's l1: 352.702
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[354]	valid_0's l1: 352.622
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[355]	valid_0's l1: 352.571
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[356]	valid_0's l1: 352.497
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=38
+[357]	valid_0's l1: 352.492
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[358]	valid_0's l1: 352.411
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[359]	valid_0's l1: 352.354
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[360]	valid_0's l1: 352.297
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[361]	valid_0's l1: 352.235
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[362]	valid_0's l1: 352.194
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[363]	valid_0's l1: 352.152
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[364]	valid_0's l1: 352.113
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[365]	valid_0's l1: 352.054
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[366]	valid_0's l1: 351.981
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[367]	valid_0's l1: 351.919
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[368]	valid_0's l1: 351.917
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[369]	valid_0's l1: 351.86
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[370]	valid_0's l1: 351.805
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[371]	valid_0's l1: 351.752
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[372]	valid_0's l1: 351.706
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[373]	valid_0's l1: 351.644
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[374]	valid_0's l1: 351.572
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[375]	valid_0's l1: 351.498
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[376]	valid_0's l1: 351.435
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[377]	valid_0's l1: 351.387
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[378]	valid_0's l1: 351.325
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[379]	valid_0's l1: 351.323
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[380]	valid_0's l1: 351.277
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[381]	valid_0's l1: 351.215
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[382]	valid_0's l1: 351.164
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[383]	valid_0's l1: 351.113
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[384]	valid_0's l1: 351.061
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[385]	valid_0's l1: 351.011
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[386]	valid_0's l1: 350.96
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[387]	valid_0's l1: 350.896
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[388]	valid_0's l1: 350.846
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[389]	valid_0's l1: 350.769
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[390]	valid_0's l1: 350.713
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[391]	valid_0's l1: 350.618
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[392]	valid_0's l1: 350.546
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[393]	valid_0's l1: 350.494
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[394]	valid_0's l1: 350.446
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[395]	valid_0's l1: 350.395
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[396]	valid_0's l1: 350.364
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[397]	valid_0's l1: 350.311
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[398]	valid_0's l1: 350.271
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[399]	valid_0's l1: 350.271
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[400]	valid_0's l1: 350.221
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[401]	valid_0's l1: 350.182
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[402]	valid_0's l1: 350.131
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[403]	valid_0's l1: 350.09
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[404]	valid_0's l1: 350.041
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[405]	valid_0's l1: 349.987
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[406]	valid_0's l1: 349.962
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[407]	valid_0's l1: 349.925
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[408]	valid_0's l1: 349.854
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[409]	valid_0's l1: 349.792
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[410]	valid_0's l1: 349.717
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[411]	valid_0's l1: 349.694
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[412]	valid_0's l1: 349.649
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[413]	valid_0's l1: 349.572
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[414]	valid_0's l1: 349.513
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[415]	valid_0's l1: 349.459
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[416]	valid_0's l1: 349.391
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[417]	valid_0's l1: 349.328
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[418]	valid_0's l1: 349.29
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[419]	valid_0's l1: 349.212
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[420]	valid_0's l1: 349.148
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[421]	valid_0's l1: 349.12
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[422]	valid_0's l1: 349.042
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[423]	valid_0's l1: 348.966
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[424]	valid_0's l1: 348.926
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[425]	valid_0's l1: 348.878
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[426]	valid_0's l1: 348.806
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=34
+[427]	valid_0's l1: 348.803
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[428]	valid_0's l1: 348.752
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[429]	valid_0's l1: 348.699
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[430]	valid_0's l1: 348.642
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[431]	valid_0's l1: 348.566
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[432]	valid_0's l1: 348.53
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[433]	valid_0's l1: 348.483
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[434]	valid_0's l1: 348.427
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[435]	valid_0's l1: 348.377
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[436]	valid_0's l1: 348.318
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[437]	valid_0's l1: 348.291
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[438]	valid_0's l1: 348.241
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[439]	valid_0's l1: 348.208
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[440]	valid_0's l1: 348.132
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[441]	valid_0's l1: 348.088
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[442]	valid_0's l1: 348.014
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[443]	valid_0's l1: 347.945
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[444]	valid_0's l1: 347.893
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[445]	valid_0's l1: 347.894
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[446]	valid_0's l1: 347.847
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[447]	valid_0's l1: 347.769
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[448]	valid_0's l1: 347.726
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[449]	valid_0's l1: 347.662
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[450]	valid_0's l1: 347.612
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[451]	valid_0's l1: 347.599
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[452]	valid_0's l1: 347.531
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[453]	valid_0's l1: 347.459
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[454]	valid_0's l1: 347.42
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[455]	valid_0's l1: 347.388
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[456]	valid_0's l1: 347.361
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[457]	valid_0's l1: 347.309
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[458]	valid_0's l1: 347.278
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[459]	valid_0's l1: 347.237
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[460]	valid_0's l1: 347.188
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[461]	valid_0's l1: 347.123
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[462]	valid_0's l1: 347.084
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[463]	valid_0's l1: 347.042
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[464]	valid_0's l1: 347.024
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[465]	valid_0's l1: 346.983
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[466]	valid_0's l1: 346.938
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[467]	valid_0's l1: 346.873
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[468]	valid_0's l1: 346.843
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[469]	valid_0's l1: 346.796
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[470]	valid_0's l1: 346.744
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[471]	valid_0's l1: 346.715
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[472]	valid_0's l1: 346.634
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[473]	valid_0's l1: 346.62
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[474]	valid_0's l1: 346.573
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[475]	valid_0's l1: 346.536
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[476]	valid_0's l1: 346.444
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[477]	valid_0's l1: 346.369
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[478]	valid_0's l1: 346.297
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[479]	valid_0's l1: 346.265
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[480]	valid_0's l1: 346.2
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[481]	valid_0's l1: 346.137
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[482]	valid_0's l1: 346.08
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[483]	valid_0's l1: 346.01
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[484]	valid_0's l1: 345.949
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[485]	valid_0's l1: 345.866
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[486]	valid_0's l1: 345.808
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[487]	valid_0's l1: 345.755
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[488]	valid_0's l1: 345.705
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[489]	valid_0's l1: 345.664
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[490]	valid_0's l1: 345.613
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[491]	valid_0's l1: 345.564
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[492]	valid_0's l1: 345.517
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[493]	valid_0's l1: 345.456
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[494]	valid_0's l1: 345.37
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[495]	valid_0's l1: 345.329
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[496]	valid_0's l1: 345.285
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[497]	valid_0's l1: 345.233
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[498]	valid_0's l1: 345.196
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[499]	valid_0's l1: 345.147
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[500]	valid_0's l1: 345.099
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[501]	valid_0's l1: 345.019
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[502]	valid_0's l1: 344.965
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[503]	valid_0's l1: 344.924
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[504]	valid_0's l1: 344.878
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[505]	valid_0's l1: 344.828
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[506]	valid_0's l1: 344.778
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[507]	valid_0's l1: 344.727
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[508]	valid_0's l1: 344.668
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[509]	valid_0's l1: 344.62
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[510]	valid_0's l1: 344.574
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[511]	valid_0's l1: 344.519
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[512]	valid_0's l1: 344.468
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[513]	valid_0's l1: 344.467
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[514]	valid_0's l1: 344.398
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[515]	valid_0's l1: 344.346
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[516]	valid_0's l1: 344.256
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[517]	valid_0's l1: 344.216
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[518]	valid_0's l1: 344.133
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[519]	valid_0's l1: 344.075
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[520]	valid_0's l1: 344.047
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[521]	valid_0's l1: 344.006
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[522]	valid_0's l1: 343.981
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[523]	valid_0's l1: 343.918
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[524]	valid_0's l1: 343.875
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[525]	valid_0's l1: 343.846
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[526]	valid_0's l1: 343.805
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[527]	valid_0's l1: 343.794
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[528]	valid_0's l1: 343.742
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[529]	valid_0's l1: 343.704
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[530]	valid_0's l1: 343.672
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[531]	valid_0's l1: 343.606
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[532]	valid_0's l1: 343.546
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[533]	valid_0's l1: 343.493
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[534]	valid_0's l1: 343.453
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[535]	valid_0's l1: 343.418
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[536]	valid_0's l1: 343.361
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[537]	valid_0's l1: 343.291
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[538]	valid_0's l1: 343.216
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[539]	valid_0's l1: 343.213
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[540]	valid_0's l1: 343.171
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[541]	valid_0's l1: 343.137
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[542]	valid_0's l1: 343.092
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[543]	valid_0's l1: 343.06
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[544]	valid_0's l1: 343.046
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[545]	valid_0's l1: 342.985
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[546]	valid_0's l1: 342.898
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[547]	valid_0's l1: 342.839
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[548]	valid_0's l1: 342.788
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[549]	valid_0's l1: 342.73
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[550]	valid_0's l1: 342.666
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[551]	valid_0's l1: 342.597
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[552]	valid_0's l1: 342.542
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[553]	valid_0's l1: 342.471
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[554]	valid_0's l1: 342.427
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[555]	valid_0's l1: 342.367
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[556]	valid_0's l1: 342.318
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[557]	valid_0's l1: 342.269
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[558]	valid_0's l1: 342.224
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[559]	valid_0's l1: 342.169
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[560]	valid_0's l1: 342.156
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[561]	valid_0's l1: 342.014
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[562]	valid_0's l1: 341.938
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[563]	valid_0's l1: 341.89
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[564]	valid_0's l1: 341.82
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[565]	valid_0's l1: 341.801
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[566]	valid_0's l1: 341.756
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[567]	valid_0's l1: 341.707
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[568]	valid_0's l1: 341.661
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[569]	valid_0's l1: 341.624
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[570]	valid_0's l1: 341.578
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[571]	valid_0's l1: 341.522
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[572]	valid_0's l1: 341.466
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[573]	valid_0's l1: 341.431
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[574]	valid_0's l1: 341.376
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[575]	valid_0's l1: 341.357
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[576]	valid_0's l1: 341.322
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[577]	valid_0's l1: 341.275
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[578]	valid_0's l1: 341.225
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[579]	valid_0's l1: 341.152
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[580]	valid_0's l1: 341.111
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[581]	valid_0's l1: 341.058
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[582]	valid_0's l1: 340.99
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[583]	valid_0's l1: 340.946
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[584]	valid_0's l1: 340.892
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[585]	valid_0's l1: 340.859
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[586]	valid_0's l1: 340.802
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[587]	valid_0's l1: 340.753
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[588]	valid_0's l1: 340.687
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[589]	valid_0's l1: 340.615
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[590]	valid_0's l1: 340.567
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[591]	valid_0's l1: 340.528
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[592]	valid_0's l1: 340.481
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[593]	valid_0's l1: 340.451
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[594]	valid_0's l1: 340.441
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[595]	valid_0's l1: 340.423
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[596]	valid_0's l1: 340.377
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[597]	valid_0's l1: 340.335
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[598]	valid_0's l1: 340.291
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[599]	valid_0's l1: 340.216
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[600]	valid_0's l1: 340.176
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[601]	valid_0's l1: 340.143
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[602]	valid_0's l1: 340.102
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[603]	valid_0's l1: 340.02
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[604]	valid_0's l1: 339.974
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[605]	valid_0's l1: 339.939
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[606]	valid_0's l1: 339.914
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[607]	valid_0's l1: 339.87
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[608]	valid_0's l1: 339.812
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[609]	valid_0's l1: 339.69
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[610]	valid_0's l1: 339.638
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[611]	valid_0's l1: 339.591
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[612]	valid_0's l1: 339.537
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[613]	valid_0's l1: 339.452
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[614]	valid_0's l1: 339.379
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[615]	valid_0's l1: 339.324
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[616]	valid_0's l1: 339.284
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[617]	valid_0's l1: 339.239
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[618]	valid_0's l1: 339.193
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[619]	valid_0's l1: 339.148
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[620]	valid_0's l1: 339.118
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[621]	valid_0's l1: 339.049
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[622]	valid_0's l1: 339.003
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[623]	valid_0's l1: 338.95
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[624]	valid_0's l1: 338.887
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[625]	valid_0's l1: 338.833
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[626]	valid_0's l1: 338.834
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[627]	valid_0's l1: 338.782
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[628]	valid_0's l1: 338.695
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[629]	valid_0's l1: 338.657
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[630]	valid_0's l1: 338.607
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[631]	valid_0's l1: 338.556
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[632]	valid_0's l1: 338.508
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[633]	valid_0's l1: 338.425
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[634]	valid_0's l1: 338.382
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=34
+[635]	valid_0's l1: 338.36
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[636]	valid_0's l1: 338.35
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[637]	valid_0's l1: 338.309
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[638]	valid_0's l1: 338.257
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[639]	valid_0's l1: 338.257
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[640]	valid_0's l1: 338.205
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[641]	valid_0's l1: 338.153
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[642]	valid_0's l1: 338.098
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[643]	valid_0's l1: 338.038
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[644]	valid_0's l1: 338.002
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[645]	valid_0's l1: 337.97
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[646]	valid_0's l1: 337.923
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[647]	valid_0's l1: 337.882
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[648]	valid_0's l1: 337.826
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[649]	valid_0's l1: 337.761
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[650]	valid_0's l1: 337.715
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[651]	valid_0's l1: 337.658
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[652]	valid_0's l1: 337.646
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[653]	valid_0's l1: 337.609
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[654]	valid_0's l1: 337.564
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[655]	valid_0's l1: 337.504
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[656]	valid_0's l1: 337.452
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[657]	valid_0's l1: 337.411
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[658]	valid_0's l1: 337.351
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[659]	valid_0's l1: 337.312
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[660]	valid_0's l1: 337.277
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[661]	valid_0's l1: 337.219
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[662]	valid_0's l1: 337.219
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[663]	valid_0's l1: 337.168
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[664]	valid_0's l1: 337.158
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[665]	valid_0's l1: 337.123
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[666]	valid_0's l1: 337.071
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[667]	valid_0's l1: 337.031
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[668]	valid_0's l1: 336.985
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[669]	valid_0's l1: 336.906
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[670]	valid_0's l1: 336.907
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[671]	valid_0's l1: 336.892
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[672]	valid_0's l1: 336.847
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[673]	valid_0's l1: 336.818
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[674]	valid_0's l1: 336.766
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[675]	valid_0's l1: 336.725
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[676]	valid_0's l1: 336.686
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[677]	valid_0's l1: 336.643
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[678]	valid_0's l1: 336.601
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[679]	valid_0's l1: 336.56
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[680]	valid_0's l1: 336.543
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[681]	valid_0's l1: 336.491
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[682]	valid_0's l1: 336.451
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[683]	valid_0's l1: 336.4
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=34
+[684]	valid_0's l1: 336.357
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[685]	valid_0's l1: 336.32
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[686]	valid_0's l1: 336.319
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[687]	valid_0's l1: 336.267
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=36
+[688]	valid_0's l1: 336.259
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[689]	valid_0's l1: 336.218
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[690]	valid_0's l1: 336.157
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[691]	valid_0's l1: 336.11
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[692]	valid_0's l1: 336.059
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[693]	valid_0's l1: 336.022
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[694]	valid_0's l1: 335.969
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[695]	valid_0's l1: 335.933
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[696]	valid_0's l1: 335.891
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[697]	valid_0's l1: 335.892
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[698]	valid_0's l1: 335.834
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[699]	valid_0's l1: 335.816
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[700]	valid_0's l1: 335.773
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[701]	valid_0's l1: 335.753
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[702]	valid_0's l1: 335.682
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[703]	valid_0's l1: 335.661
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[704]	valid_0's l1: 335.615
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[705]	valid_0's l1: 335.572
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[706]	valid_0's l1: 335.54
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[707]	valid_0's l1: 335.496
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[708]	valid_0's l1: 335.463
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[709]	valid_0's l1: 335.447
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[710]	valid_0's l1: 335.428
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[711]	valid_0's l1: 335.427
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[712]	valid_0's l1: 335.362
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[713]	valid_0's l1: 335.314
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[714]	valid_0's l1: 335.252
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[715]	valid_0's l1: 335.253
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[716]	valid_0's l1: 335.185
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[717]	valid_0's l1: 335.14
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[718]	valid_0's l1: 335.086
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[719]	valid_0's l1: 335.033
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[720]	valid_0's l1: 335.015
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[721]	valid_0's l1: 334.982
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[722]	valid_0's l1: 334.937
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[723]	valid_0's l1: 334.893
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[724]	valid_0's l1: 334.827
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[725]	valid_0's l1: 334.82
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[726]	valid_0's l1: 334.796
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[727]	valid_0's l1: 334.785
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[728]	valid_0's l1: 334.72
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[729]	valid_0's l1: 334.683
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[730]	valid_0's l1: 334.639
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[731]	valid_0's l1: 334.581
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[732]	valid_0's l1: 334.472
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[733]	valid_0's l1: 334.473
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[734]	valid_0's l1: 334.436
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[735]	valid_0's l1: 334.297
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[736]	valid_0's l1: 334.233
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[737]	valid_0's l1: 334.187
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[738]	valid_0's l1: 334.136
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[739]	valid_0's l1: 334.067
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[740]	valid_0's l1: 334.017
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[741]	valid_0's l1: 333.965
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[742]	valid_0's l1: 333.922
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[743]	valid_0's l1: 333.883
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[744]	valid_0's l1: 333.874
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[745]	valid_0's l1: 333.821
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[746]	valid_0's l1: 333.783
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[747]	valid_0's l1: 333.739
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[748]	valid_0's l1: 333.694
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[749]	valid_0's l1: 333.64
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[750]	valid_0's l1: 333.582
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[751]	valid_0's l1: 333.535
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[752]	valid_0's l1: 333.496
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[753]	valid_0's l1: 333.452
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[754]	valid_0's l1: 333.403
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[755]	valid_0's l1: 333.372
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[756]	valid_0's l1: 333.357
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[757]	valid_0's l1: 333.32
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[758]	valid_0's l1: 333.299
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[759]	valid_0's l1: 333.259
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[760]	valid_0's l1: 333.218
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[761]	valid_0's l1: 333.129
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[762]	valid_0's l1: 333.08
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[763]	valid_0's l1: 333.054
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[764]	valid_0's l1: 333.004
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[765]	valid_0's l1: 332.955
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[766]	valid_0's l1: 332.921
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[767]	valid_0's l1: 332.892
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[768]	valid_0's l1: 332.854
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[769]	valid_0's l1: 332.813
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[770]	valid_0's l1: 332.774
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[771]	valid_0's l1: 332.721
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[772]	valid_0's l1: 332.686
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[773]	valid_0's l1: 332.66
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[774]	valid_0's l1: 332.602
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[775]	valid_0's l1: 332.561
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[776]	valid_0's l1: 332.525
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[777]	valid_0's l1: 332.475
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[778]	valid_0's l1: 332.439
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[779]	valid_0's l1: 332.387
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[780]	valid_0's l1: 332.352
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[781]	valid_0's l1: 332.315
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[782]	valid_0's l1: 332.241
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[783]	valid_0's l1: 332.181
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[784]	valid_0's l1: 332.132
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[785]	valid_0's l1: 332.074
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[786]	valid_0's l1: 332.025
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[787]	valid_0's l1: 331.991
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[788]	valid_0's l1: 331.932
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[789]	valid_0's l1: 331.911
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[790]	valid_0's l1: 331.86
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[791]	valid_0's l1: 331.812
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[792]	valid_0's l1: 331.754
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[793]	valid_0's l1: 331.727
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[794]	valid_0's l1: 331.689
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[795]	valid_0's l1: 331.645
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[796]	valid_0's l1: 331.619
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[797]	valid_0's l1: 331.619
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[798]	valid_0's l1: 331.607
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[799]	valid_0's l1: 331.561
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[800]	valid_0's l1: 331.523
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[801]	valid_0's l1: 331.477
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[802]	valid_0's l1: 331.457
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[803]	valid_0's l1: 331.425
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[804]	valid_0's l1: 331.388
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[805]	valid_0's l1: 331.346
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[806]	valid_0's l1: 331.302
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[807]	valid_0's l1: 331.254
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[808]	valid_0's l1: 331.212
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[809]	valid_0's l1: 331.166
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[810]	valid_0's l1: 331.112
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[811]	valid_0's l1: 331.071
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[812]	valid_0's l1: 331.012
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[813]	valid_0's l1: 330.935
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[814]	valid_0's l1: 330.889
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[815]	valid_0's l1: 330.846
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[816]	valid_0's l1: 330.823
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[817]	valid_0's l1: 330.794
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[818]	valid_0's l1: 330.746
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=40
+[819]	valid_0's l1: 330.727
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[820]	valid_0's l1: 330.684
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[821]	valid_0's l1: 330.652
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[822]	valid_0's l1: 330.616
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[823]	valid_0's l1: 330.578
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[824]	valid_0's l1: 330.542
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[825]	valid_0's l1: 330.503
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[826]	valid_0's l1: 330.451
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[827]	valid_0's l1: 330.397
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[828]	valid_0's l1: 330.356
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[829]	valid_0's l1: 330.311
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[830]	valid_0's l1: 330.312
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[831]	valid_0's l1: 330.283
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[832]	valid_0's l1: 330.247
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[833]	valid_0's l1: 330.204
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[834]	valid_0's l1: 330.169
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[835]	valid_0's l1: 330.133
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[836]	valid_0's l1: 330.07
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[837]	valid_0's l1: 330.041
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[838]	valid_0's l1: 329.992
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[839]	valid_0's l1: 329.954
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[840]	valid_0's l1: 329.927
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[841]	valid_0's l1: 329.857
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[842]	valid_0's l1: 329.814
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[843]	valid_0's l1: 329.777
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[844]	valid_0's l1: 329.741
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[845]	valid_0's l1: 329.699
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[846]	valid_0's l1: 329.648
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[847]	valid_0's l1: 329.587
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[848]	valid_0's l1: 329.543
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[849]	valid_0's l1: 329.505
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[850]	valid_0's l1: 329.467
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[851]	valid_0's l1: 329.426
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[852]	valid_0's l1: 329.395
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[853]	valid_0's l1: 329.345
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[854]	valid_0's l1: 329.316
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[855]	valid_0's l1: 329.265
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[856]	valid_0's l1: 329.235
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[857]	valid_0's l1: 329.192
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[858]	valid_0's l1: 329.162
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[859]	valid_0's l1: 329.121
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[860]	valid_0's l1: 329.108
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[861]	valid_0's l1: 329.045
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[862]	valid_0's l1: 328.963
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[863]	valid_0's l1: 328.933
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[864]	valid_0's l1: 328.893
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[865]	valid_0's l1: 328.852
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[866]	valid_0's l1: 328.792
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[867]	valid_0's l1: 328.781
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[868]	valid_0's l1: 328.745
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[869]	valid_0's l1: 328.685
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[870]	valid_0's l1: 328.673
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[871]	valid_0's l1: 328.63
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[872]	valid_0's l1: 328.612
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[873]	valid_0's l1: 328.576
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[874]	valid_0's l1: 328.538
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[875]	valid_0's l1: 328.5
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[876]	valid_0's l1: 328.448
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[877]	valid_0's l1: 328.41
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[878]	valid_0's l1: 328.358
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[879]	valid_0's l1: 328.312
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[880]	valid_0's l1: 328.277
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[881]	valid_0's l1: 328.254
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[882]	valid_0's l1: 328.218
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[883]	valid_0's l1: 328.172
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[884]	valid_0's l1: 328.123
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[885]	valid_0's l1: 328.087
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[886]	valid_0's l1: 328.045
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[887]	valid_0's l1: 327.997
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[888]	valid_0's l1: 327.964
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[889]	valid_0's l1: 327.937
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[890]	valid_0's l1: 327.886
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[891]	valid_0's l1: 327.845
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[892]	valid_0's l1: 327.808
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[893]	valid_0's l1: 327.769
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[894]	valid_0's l1: 327.755
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[895]	valid_0's l1: 327.717
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[896]	valid_0's l1: 327.677
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=16
+[897]	valid_0's l1: 327.629
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[898]	valid_0's l1: 327.592
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[899]	valid_0's l1: 327.577
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[900]	valid_0's l1: 327.558
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[901]	valid_0's l1: 327.52
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[902]	valid_0's l1: 327.482
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[903]	valid_0's l1: 327.441
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[904]	valid_0's l1: 327.404
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[905]	valid_0's l1: 327.364
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[906]	valid_0's l1: 327.325
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[907]	valid_0's l1: 327.298
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[908]	valid_0's l1: 327.253
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[909]	valid_0's l1: 327.212
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[910]	valid_0's l1: 327.161
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[911]	valid_0's l1: 327.119
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[912]	valid_0's l1: 327.071
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[913]	valid_0's l1: 327.023
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[914]	valid_0's l1: 326.976
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[915]	valid_0's l1: 326.94
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[916]	valid_0's l1: 326.909
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[917]	valid_0's l1: 326.867
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[918]	valid_0's l1: 326.807
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=35
+[919]	valid_0's l1: 326.774
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[920]	valid_0's l1: 326.733
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[921]	valid_0's l1: 326.717
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[922]	valid_0's l1: 326.671
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[923]	valid_0's l1: 326.639
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[924]	valid_0's l1: 326.606
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[925]	valid_0's l1: 326.541
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[926]	valid_0's l1: 326.5
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[927]	valid_0's l1: 326.501
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[928]	valid_0's l1: 326.453
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=17
+[929]	valid_0's l1: 326.439
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[930]	valid_0's l1: 326.404
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[931]	valid_0's l1: 326.345
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[932]	valid_0's l1: 326.33
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=33
+[933]	valid_0's l1: 326.303
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[934]	valid_0's l1: 326.249
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[935]	valid_0's l1: 326.155
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[936]	valid_0's l1: 326.126
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[937]	valid_0's l1: 326.088
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[938]	valid_0's l1: 326.044
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[939]	valid_0's l1: 326.001
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[940]	valid_0's l1: 325.973
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[941]	valid_0's l1: 325.936
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[942]	valid_0's l1: 325.902
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[943]	valid_0's l1: 325.891
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[944]	valid_0's l1: 325.87
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[945]	valid_0's l1: 325.829
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[946]	valid_0's l1: 325.799
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[947]	valid_0's l1: 325.754
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[948]	valid_0's l1: 325.745
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[949]	valid_0's l1: 325.725
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[950]	valid_0's l1: 325.682
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[951]	valid_0's l1: 325.642
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[952]	valid_0's l1: 325.611
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[953]	valid_0's l1: 325.583
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[954]	valid_0's l1: 325.542
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[955]	valid_0's l1: 325.488
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[956]	valid_0's l1: 325.369
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[957]	valid_0's l1: 325.331
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[958]	valid_0's l1: 325.285
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=31
+[959]	valid_0's l1: 325.244
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=19
+[960]	valid_0's l1: 325.2
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[961]	valid_0's l1: 325.166
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[962]	valid_0's l1: 325.151
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[963]	valid_0's l1: 325.105
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=32
+[964]	valid_0's l1: 325.076
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[965]	valid_0's l1: 325.037
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[966]	valid_0's l1: 324.965
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[967]	valid_0's l1: 324.928
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[968]	valid_0's l1: 324.827
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[969]	valid_0's l1: 324.8
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[970]	valid_0's l1: 324.756
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[971]	valid_0's l1: 324.726
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[972]	valid_0's l1: 324.719
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[973]	valid_0's l1: 324.665
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[974]	valid_0's l1: 324.593
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[975]	valid_0's l1: 324.559
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[976]	valid_0's l1: 324.525
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=29
+[977]	valid_0's l1: 324.462
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[978]	valid_0's l1: 324.447
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[979]	valid_0's l1: 324.408
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=20
+[980]	valid_0's l1: 324.365
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=27
+[981]	valid_0's l1: 324.327
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[982]	valid_0's l1: 324.279
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[983]	valid_0's l1: 324.235
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[984]	valid_0's l1: 324.228
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[985]	valid_0's l1: 324.186
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[986]	valid_0's l1: 324.143
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[987]	valid_0's l1: 324.109
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[988]	valid_0's l1: 324.091
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=28
+[989]	valid_0's l1: 324.055
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=22
+[990]	valid_0's l1: 324.004
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[991]	valid_0's l1: 323.959
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=25
+[992]	valid_0's l1: 323.96
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=26
+[993]	valid_0's l1: 323.884
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[994]	valid_0's l1: 323.863
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=18
+[995]	valid_0's l1: 323.814
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[996]	valid_0's l1: 323.768
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=24
+[997]	valid_0's l1: 323.734
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=23
+[998]	valid_0's l1: 323.713
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=30
+[999]	valid_0's l1: 323.681
+[LightGBM] [Info] Trained a tree with leaves=256 and max_depth=21
+[1000]	valid_0's l1: 323.627
+[LightGBM] [Info] Finished loading 1001 models
+('Feature names:', [u'waiting_order_num', u'poi_id', u'poi_lng', u'temperature', u'hour', u'delivery_distance', u'minute', u'area_id', u'rain', u'box_total_value', u'food_total_value', u'not_fetched_order_num', u'deliverying_order_num', u'customer_latitude', u'poi_lat', u'customer_longitude', u'working_rider_num', u'food_num', u'wind', u'notbusy_working_rider_num'])
+Calculate feature importances...
+('Feature importances:', [13629, 19844, 17134, 2135, 3317, 23846, 16159, 1281, 231, 8222, 21616, 21683, 19441, 19712, 16959, 17202, 16391, 1353, 1277, 13568])
+                      feature  importances
+8                        rain          231
+18                       wind         1277
+7                     area_id         1281
+17                   food_num         1353
+3                 temperature         2135
+4                        hour         3317
+9             box_total_value         8222
+19  notbusy_working_rider_num        13568
+0           waiting_order_num        13629
+6                      minute        16159
+16          working_rider_num        16391
+14                    poi_lat        16959
+2                     poi_lng        17134
+15         customer_longitude        17202
+12      deliverying_order_num        19441
+13          customer_latitude        19712
+1                      poi_id        19844
+10           food_total_value        21616
+11      not_fetched_order_num        21683
+5           delivery_distance        23846

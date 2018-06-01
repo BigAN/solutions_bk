@@ -1,0 +1,17 @@
+#nohup python -u 9778_train_ftr_feature_select.py --fileno prev_unique_diff --tra train_149903890_184903890_False_False.ftr --tst test_149903890_184903890_False_False.ftr --val val_149903890_184903890_False_False.ftr \
+#--fea ip_by_app_countuniq,hour,channel,ip_device_os_by_app_cumcount,app,ip_by_device_countuniq,app_by_channel_countuniq,ip_day_hourcount,ip_by_channel_countuniq,ip_app_by_os_countuniq,ip_app_os_by_hour_var,device,ip_device_os_by_app_countuniq,ip_appcount,os,ip_by_os_cumcount,ip_day_by_hour_countuniq,ip_app_oscount \
+#--addfeas prev,unique,diff \
+#--detailfeas ip_channel_prevClick#ip_os_prevClick#ip_app_device_os_channel_nextClick#ip_os_device_app_nextClick#ip_os_device_nextClick,\
+#ip_by_os_countuniq#ip_day_by_period_countuniq#ip_device_by_channel_countuniq#ip_app_by_device_countuniq#ip_device_os_app_by_period_countuniq,\
+#next_next_ip_os_device_app_diff#next_prev_ip_os_device_app_diff\
+#>> rs_fea_sel_4 2>&1 &
+
+nohup python -u 9778_train_ftr_feature_select.py --fileno moreuniq --tra train_119903890_179903890_False_False.ftr --tst test_119903890_179903890_False_False.ftr --val val_119903890_179903890_False_False.ftr \
+--fea ip_by_app_countuniq,hour,channel,ip_device_os_by_app_cumcount,app,ip_by_device_countuniq,app_by_channel_countuniq,ip_day_hourcount,ip_by_channel_countuniq,ip_app_os_by_hour_var,device,ip_device_os_by_app_countuniq,ip_appcount,os,ip_by_os_cumcount,ip_day_by_hour_countuniq,ip_app_oscount \
+--rm ip_app_os_by_hour_var,ip_app_oscount,ip_by_os_cumcount,ip_channel_prevClick,ip_os_prevClick,ip_day_by_hour_countuniq \
+--addfeas prev,unique,diff,unique2 \
+--detailfeas ip_channel_prevClick#ip_os_prevClick#ip_app_device_os_channel_nextClick#ip_os_device_app_nextClick#ip_os_device_nextClick,\
+ip_by_os_countuniq#ip_app_channel_by_device_countuniq#ip_device_os_appcount#app_channelcount#ip_oscount#ipcount#ip_app_by_device_cumcount#app_channel_by_ip_countuniq#app_channel_by_os_countuniq,\
+next_next_ip_os_device_app_diff#next_prev_ip_os_device_app_diff#next_next_ip_os_device_app_diff_mean#next_next_ip_app_diff#next_prev_ip_app_diff,\
+channel_by_app_countuniq#app_oscount#app_os_by_channel_countuniq#app_os_by_device_countuniq#app_os_by_ip_countuniq \
+>> rs_fea_sel_5 2>&1 &

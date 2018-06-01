@@ -1,0 +1,16 @@
+done:
+做 e**(x/4600) 转换,再转 log. 使用 e 的原因是指标是 mae,需要对大的部分进行加权,小的部分进行降权.
+ori.loc[:, "log_delivery_duration"] =   mt.e**((ori["delivery_duration"]-2139)/811)
+结论:
+    不好使. cv 401.3 对比 不转换395.3.
+
+尝试 1,3,7,14的特征.
+尝试 利用 area weather test last hour
+#增加覆盖率地的特征去除
+
+去除 fillna 0
+cv 395.3 -->394.78 public lead:404.5800
+
+补充覆盖率 过滤值 为3,去除right_index . --- 无效.
+改回 50 阈值 --
+改回 speed 算法

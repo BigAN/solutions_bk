@@ -1,0 +1,222 @@
+                   uuid  wm_poi_id  shipping_fee  order_time  total  \
+0  -1591401001296264364    2759672           3.0  1505535257   53.3   
+1  -4458817782016207280     361002           5.0  1505565650  106.8   
+2  -5007896300539974560     282856           4.0  1505524222   17.0   
+3  -5417409195447726191      93777           3.0  1505522960   26.5   
+4  -6994174706008770126    2388058           2.5  1505555372   27.5   
+
+   original_price  longitude  latitude  reorder  poi_reorder_rate    ...     \
+0            95.0  118808205  32079721        0          0.350000    ...      
+1           132.0  118716790  32003749        0          0.172566    ...      
+2            31.0  117375404  39179274        0          0.144000    ...      
+3            40.5  121479080  31287540        1          0.364004    ...      
+4            29.5  106530550  29504910        0          0.341573    ...      
+
+   click_tag_pref_30day  submit_tag_pref_3day  submit_tag_pref_7day  \
+0                   0.0                   0.0                   0.0   
+1                   0.0                   0.0                   0.0   
+2                   0.0                   0.0                   0.0   
+3                   0.0                   0.0                   0.0   
+4                   0.0                   0.0                   0.0   
+
+   submit_tag_pref_15day  submit_tag_pref_30day  order_tag_pref_3day  \
+0                    0.0                    0.0                  0.0   
+1                    0.0                    0.0                  0.0   
+2                    0.0                    0.0                  0.0   
+3                    0.0                    0.0                  0.0   
+4                    0.0                    0.0                  0.0   
+
+   order_tag_pref_7day  order_tag_pref_15day order_tag_pref_30day        dt  
+0                  0.0                   0.0                  0.0  20170916  
+1                  0.0                   0.0                  0.0  20170916  
+2                  0.0                   0.0                  0.0  20170916  
+3                  0.0                   0.0                  0.0  20170916  
+4                  0.0                   0.0                  0.0  20170916  
+
+[5 rows x 118 columns]
+uuid                                object
+wm_poi_id                            int64
+shipping_fee                       float64
+order_time                           int64
+total                              float64
+original_price                     float64
+longitude                            int64
+latitude                             int64
+reorder                              int64
+poi_reorder_rate                   float64
+poi_reorder_counts                 float64
+poi_one_bought                     float64
+poi_two_bought                     float64
+user_reorder_rate                  float64
+user_reorder_count                   int64
+month_original_price               float64
+month_total_price                  float64
+month_order_cnt                    float64
+timescope_original_price            object
+timescope_total_price               object
+timescope_order_cnt                 object
+avg_price_month                    float64
+comment_1star                      float64
+comment_2star                      float64
+comment_3star                      float64
+comment_4star                      float64
+comment_5star                      float64
+comment_uv                         float64
+pos_delivery_comment_rate          float64
+neg_delivery_comment_rate          float64
+                                    ...   
+service_fee_rate_1day              float64
+service_fee_rate_7day              float64
+order_cnt_increase                 float64
+pic_comment_cnt                    float64
+food_comment_rate                  float64
+pic_comment_rate                   float64
+dp_avg_price                       float64
+tag_id                               int64
+dp_score                           float64
+discount_rate_new_customer_7day    float64
+discount_rate_all_customer_7day    float64
+distance_30day                     float64
+area_30day                         float64
+op_time_30day                      float64
+user_poi_click_decay               float64
+user_poi_submit_decay              float64
+user_poi_order_decay               float64
+click_tag_pref_3day                float64
+click_tag_pref_7day                float64
+click_tag_pref_15day               float64
+click_tag_pref_30day               float64
+submit_tag_pref_3day               float64
+submit_tag_pref_7day               float64
+submit_tag_pref_15day              float64
+submit_tag_pref_30day              float64
+order_tag_pref_3day                float64
+order_tag_pref_7day                float64
+order_tag_pref_15day               float64
+order_tag_pref_30day               float64
+dt                                   int64
+Length: 118, dtype: object
+len feas 105, feas ['area_30day', 'pv_ctr_1day', 'neg_delivery_comment_rate', 'order_cnt_12hr', 'op_time_30day', 'click_tag_pref_15day', 'poi_reorder_counts', 'user_reorder_count', 'food_comment_cnt', 'pv_cvr_7day', 'pos_delivery_comment_rate', 'service_fee_rate_7day', 'comment_3star', 'order_tag_pref_15day', 'comment_4star', 'pic_comment_cnt', 'comment_5star_rate', 'month_original_price', 'order_cnt_14hr', 'pv_ctr_7day', 'pos_comment_rate', 'order_cnt_10hr', 'order_cnt_20hr', 'avg_price_month', 'order_cnt_21hr', 'order_cnt_17hr', 'poi_reorder_rate', 'pv_cxr_1day', 'comment_uv', 'month_order_cnt', 'order_cnt_22hr', 'order_cnt_6hr', 'submit_tag_pref_7day', 'order_cnt_23hr', 'pv_cxr_15day', 'uv_cvr_1day', 'user_poi_order_decay', 'original_price_1day', 'comment_1star', 'order_cnt_19hr', 'order_tag_pref_30day', 'dp_score', 'dp_avg_price', 'order_cnt_1day', 'original_price_7day', 'order_cnt_2hr', 'poi_one_bought', 'total_price_7day', 'uv_cvr_7day', 'neg_comment_rate', 'food_comment_rate', 'total_price_1day', 'user_poi_click_decay', 'uv_ctr_1day', 'order_cnt_7hr', 'avg_comment_score', 'order_cnt_increase', 'order_cnt_4hr', 'click_tag_pref_30day', 'month_total_price', 'order_cnt_5hr', 'uv_cvr_15day', 'pic_comment_rate', 'order_cnt_8hr', 'order_cnt_9hr', 'pv_cvr_15day', 'submit_tag_pref_30day', 'uv_cxr_15day', 'order_cnt_16hr', 'order_cnt_15hr', 'click_tag_pref_7day', 'uv_ctr_7day', 'order_cnt_11hr', 'discount_rate_all_customer_7day', 'comment_5star', 'pv_cxr_7day', 'discount_rate_new_customer_7day', 'order_cnt_1hr', 'service_fee_1day', 'avg_delivery_comment_score', 'comment_2star', 'service_fee_7day', 'order_cnt_3hr', 'order_tag_pref_3day', 'user_poi_submit_decay', 'uv_ctr_15day', 'order_cnt_18hr', 'submit_tag_pref_3day', 'uv_cxr_7day', 'pv_cvr_1day', 'order_cnt_24hr', 'uv_cxr_1day', 'avg_food_comment_score', 'order_cnt_14day', 'submit_tag_pref_15day', 'tag_id', 'pv_ctr_15day', 'order_cnt_13hr', 'service_fee_rate_1day', 'distance_30day', 'order_tag_pref_7day', 'poi_two_bought', 'order_cnt_7day', 'click_tag_pref_3day', 'user_reorder_rate']
+Start training...
+[LightGBM] [Info] Number of positive: 154362, number of negative: 345638
+[LightGBM] [Info] Total Bins 23716
+[LightGBM] [Info] Number of data: 500000, number of used features: 105
+Training until validation scores don't improve for 30 rounds.
+[10]	valid_0's auc: 0.697974
+[20]	valid_0's auc: 0.699131
+[30]	valid_0's auc: 0.703146
+[40]	valid_0's auc: 0.706324
+[50]	valid_0's auc: 0.705407
+[60]	valid_0's auc: 0.704318
+[70]	valid_0's auc: 0.701519
+Early stopping, best iteration is:
+[42]	valid_0's auc: 0.706755
+[LightGBM] [Info] Finished loading 42 models
+feature  importances    fscore
+           order_tag_pref_30day          285  0.068543
+           user_poi_click_decay          224  0.053872
+          submit_tag_pref_15day          173  0.041607
+               poi_reorder_rate          144  0.034632
+           submit_tag_pref_7day          140  0.033670
+           user_poi_order_decay          121  0.029101
+                   pv_cvr_15day          117  0.028139
+          user_poi_submit_decay          114  0.027417
+           order_tag_pref_15day          105  0.025253
+                   pv_cxr_15day           91  0.021886
+           submit_tag_pref_3day           90  0.021645
+          service_fee_rate_1day           87  0.020924
+          submit_tag_pref_30day           84  0.020202
+            order_tag_pref_7day           73  0.017557
+               neg_comment_rate           67  0.016114
+                 order_cnt_1day           67  0.016114
+              user_reorder_rate           67  0.016114
+               total_price_7day           65  0.015633
+                 order_cnt_10hr           64  0.015392
+            order_tag_pref_3day           63  0.015152
+             poi_reorder_counts           62  0.014911
+                 poi_two_bought           62  0.014911
+                    pv_cvr_7day           56  0.013468
+                     comment_uv           54  0.012987
+                    pv_cxr_7day           52  0.012506
+      neg_delivery_comment_rate           50  0.012025
+                         tag_id           49  0.011785
+                order_cnt_14day           46  0.011063
+                   uv_cxr_15day           45  0.010823
+discount_rate_new_customer_7day           43  0.010342
+            original_price_1day           41  0.009861
+               total_price_1day           40  0.009620
+                 order_cnt_11hr           38  0.009139
+              avg_comment_score           38  0.009139
+               pic_comment_rate           37  0.008899
+             comment_5star_rate           37  0.008899
+                  comment_5star           37  0.008899
+               service_fee_1day           37  0.008899
+                    uv_cxr_1day           35  0.008418
+                    uv_ctr_7day           34  0.008177
+                  comment_3star           32  0.007696
+                 poi_one_bought           31  0.007456
+               food_comment_cnt           30  0.007215
+                     area_30day           30  0.007215
+                avg_price_month           29  0.006975
+            click_tag_pref_7day           29  0.006975
+               pos_comment_rate           28  0.006734
+                 order_cnt_20hr           27  0.006494
+                    pv_cvr_1day           27  0.006494
+                   dp_avg_price           26  0.006253
+     avg_delivery_comment_score           25  0.006013
+      pos_delivery_comment_rate           25  0.006013
+              food_comment_rate           25  0.006013
+discount_rate_all_customer_7day           25  0.006013
+                    pv_ctr_1day           24  0.005772
+               service_fee_7day           24  0.005772
+                   uv_ctr_15day           23  0.005532
+                    uv_cvr_1day           23  0.005532
+                   pv_ctr_15day           23  0.005532
+                 order_cnt_13hr           23  0.005532
+                 distance_30day           23  0.005532
+                    uv_cvr_7day           23  0.005532
+                    pv_ctr_7day           22  0.005291
+           click_tag_pref_15day           21  0.005051
+           click_tag_pref_30day           20  0.004810
+                  op_time_30day           20  0.004810
+                    uv_cxr_7day           20  0.004810
+              month_total_price           18  0.004329
+                month_order_cnt           17  0.004089
+                       dp_score           17  0.004089
+            click_tag_pref_3day           16  0.003848
+             user_reorder_count           16  0.003848
+           month_original_price           15  0.003608
+                  comment_4star           15  0.003608
+                   uv_cvr_15day           14  0.003367
+         avg_food_comment_score           14  0.003367
+                    uv_ctr_1day           14  0.003367
+                pic_comment_cnt           13  0.003127
+                 order_cnt_16hr           12  0.002886
+                 order_cnt_18hr           12  0.002886
+                 order_cnt_21hr           11  0.002646
+                 order_cnt_17hr           11  0.002646
+                    pv_cxr_1day           11  0.002646
+                 order_cnt_14hr           11  0.002646
+                 order_cnt_12hr           10  0.002405
+                 order_cnt_19hr           10  0.002405
+                 order_cnt_22hr            8  0.001924
+                  comment_1star            8  0.001924
+                 order_cnt_15hr            8  0.001924
+                 order_cnt_24hr            7  0.001684
+                  order_cnt_9hr            7  0.001684
+                  order_cnt_7hr            6  0.001443
+             order_cnt_increase            6  0.001443
+                 order_cnt_23hr            6  0.001443
+                  order_cnt_1hr            6  0.001443
+                 order_cnt_7day            6  0.001443
+          service_fee_rate_7day            6  0.001443
+                  comment_2star            5  0.001203
+                  order_cnt_6hr            4  0.000962
+            original_price_7day            3  0.000722
+                  order_cnt_8hr            2  0.000481
+                  order_cnt_4hr            1  0.000241
+                  order_cnt_2hr            0  0.000000
+                  order_cnt_3hr            0  0.000000
+                  order_cnt_5hr            0  0.000000
+-------------------- features--------------------
+[u'order_tag_pref_30day', u'user_poi_click_decay', u'submit_tag_pref_15day', u'poi_reorder_rate', u'submit_tag_pref_7day', u'user_poi_order_decay', u'pv_cvr_15day', u'user_poi_submit_decay', u'order_tag_pref_15day', u'pv_cxr_15day', u'submit_tag_pref_3day', u'service_fee_rate_1day', u'submit_tag_pref_30day', u'order_tag_pref_7day', u'neg_comment_rate', u'order_cnt_1day', u'user_reorder_rate', u'total_price_7day', u'order_cnt_10hr', u'order_tag_pref_3day', u'poi_reorder_counts', u'poi_two_bought', u'pv_cvr_7day', u'comment_uv', u'pv_cxr_7day', u'neg_delivery_comment_rate', u'tag_id', u'order_cnt_14day', u'uv_cxr_15day', u'discount_rate_new_customer_7day', u'original_price_1day', u'total_price_1day', u'order_cnt_11hr', u'avg_comment_score', u'pic_comment_rate', u'comment_5star_rate', u'comment_5star', u'service_fee_1day', u'uv_cxr_1day', u'uv_ctr_7day', u'comment_3star', u'poi_one_bought', u'food_comment_cnt', u'area_30day', u'avg_price_month', u'click_tag_pref_7day', u'pos_comment_rate', u'order_cnt_20hr', u'pv_cvr_1day', u'dp_avg_price', u'avg_delivery_comment_score', u'pos_delivery_comment_rate', u'food_comment_rate', u'discount_rate_all_customer_7day', u'pv_ctr_1day', u'service_fee_7day', u'uv_ctr_15day', u'uv_cvr_1day', u'pv_ctr_15day', u'order_cnt_13hr', u'distance_30day', u'uv_cvr_7day', u'pv_ctr_7day', u'click_tag_pref_15day', u'click_tag_pref_30day', u'op_time_30day', u'uv_cxr_7day', u'month_total_price', u'month_order_cnt', u'dp_score', u'click_tag_pref_3day', u'user_reorder_count', u'month_original_price', u'comment_4star', u'uv_cvr_15day', u'avg_food_comment_score', u'uv_ctr_1day', u'pic_comment_cnt', u'order_cnt_16hr', u'order_cnt_18hr', u'order_cnt_21hr', u'order_cnt_17hr', u'pv_cxr_1day', u'order_cnt_14hr', u'order_cnt_12hr', u'order_cnt_19hr', u'order_cnt_22hr', u'comment_1star', u'order_cnt_15hr', u'order_cnt_24hr', u'order_cnt_9hr', u'order_cnt_7hr', u'order_cnt_increase', u'order_cnt_23hr', u'order_cnt_1hr', u'order_cnt_7day', u'service_fee_rate_7day', u'comment_2star', u'order_cnt_6hr', u'original_price_7day', u'order_cnt_8hr', u'order_cnt_4hr', u'order_cnt_2hr', u'order_cnt_3hr', u'order_cnt_5hr']

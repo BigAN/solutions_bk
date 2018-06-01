@@ -1,0 +1,2 @@
+python -u 9778_train_ftr.py --tra train_119903890_179903890_False_False.ftr --tst test_119903890_179903890_False_False.ftr --val val_119903890_179903890_False_False.ftr \
+--fea app,channel,ip_appcount,ip_os_device_app_nextClick,os,ip_by_channel_countuniq,ip_by_app_countuniq,ip_day_hourcount,ip_app_device_os_channel_nextClick,ip_os_device_nextClick,hour,ip_device_os_by_app_countuniq,ip_device_os_by_app_cumcount,ip_by_device_countuniq,device\

@@ -1,0 +1,973 @@
+try without f None
+Start training...
+[LightGBM] [Info] Total Bins 29670
+[LightGBM] [Info] Number of data: 497228, number of used features: 161
+[LightGBM] [Info] Finished loading 250 models
+cur f is None,last score is 0, cur_s is 397.896556687, 
+try without f _10min_not_fetched_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_not_fetched_order_num,last score is 397.896556687, cur_s is 421.225099003, 
+try without f delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is delivery_distance,last score is 397.896556687, cur_s is 408.2208523, 
+try without f food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is food_total_value,last score is 397.896556687, cur_s is 403.568713931, 
+try without f 10min#poi_id_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_mean_food_total_value,last score is 397.896556687, cur_s is 399.424740592, 
+try without f _10min_working_rider_num
+Start training...
+[LightGBM] [Info] Total Bins 29425
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_working_rider_num,last score is 397.896556687, cur_s is 400.342700129, 
+try without f poi_id_lasthour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_mean_dd,last score is 397.896556687, cur_s is 401.49420531, 
+try without f waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29574
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is waiting_order_num,last score is 397.896556687, cur_s is 401.22717104, 
+try without f dropoff_cluster#hour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_fetch_cost,last score is 397.896556687, cur_s is 398.904146264, 
+try without f dropoff_cluster
+Start training...
+[LightGBM] [Info] Total Bins 29422
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster,last score is 397.896556687, cur_s is 399.069240672, 
+try without f pickup_cluster#hour_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29463
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_food_total_value,last score is 397.896556687, cur_s is 399.05397561, 
+try without f dropoff_cluster#hour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_delivery_distance,last score is 397.896556687, cur_s is 399.337052889, 
+try without f _avg_speed_hour#poi_id
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_hour#poi_id,last score is 397.896556687, cur_s is 398.840221533, 
+try without f poi_id
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id,last score is 397.896556687, cur_s is 399.243383318, 
+try without f poi_id_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29439
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_waiting_order_num,last score is 397.896556687, cur_s is 399.428987171, 
+try without f dropoff_cluster#10min_lasthour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_min_dd,last score is 397.896556687, cur_s is 399.435809143, 
+try without f _avg_speed_10min
+Start training...
+[LightGBM] [Info] Total Bins 29663
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_10min,last score is 397.896556687, cur_s is 399.607610293, 
+try without f dropoff_cluster#hour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_dd,last score is 397.896556687, cur_s is 399.082730036, 
+try without f pickup_cluster#10min_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29631
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_mean_box_total_value,last score is 397.896556687, cur_s is 399.128678368, 
+try without f pickup_cluster#dropoff_cluster#hour_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29498
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_total_food_num,last score is 397.896556687, cur_s is 399.299228214, 
+try without f pickup_cluster#dropoff_cluster#hour_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29420
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_waiting_order_num,last score is 397.896556687, cur_s is 398.832493765, 
+try without f _avg_speed_weekday_hour
+Start training...
+[LightGBM] [Info] Total Bins 29659
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_weekday_hour,last score is 397.896556687, cur_s is 399.03910577, 
+try without f 10min#poi_id_lasthour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_mean_dd,last score is 397.896556687, cur_s is 398.82990468, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29616
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_dd,last score is 397.896556687, cur_s is 398.907218075, 
+try without f pickup_cluster#10min_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29422
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_mean_food_total_value,last score is 397.896556687, cur_s is 399.235994893, 
+try without f poi_id_lasthour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29420
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_max_dd,last score is 397.896556687, cur_s is 399.306903159, 
+try without f _10min_notbusy_working_rider_num
+Start training...
+[LightGBM] [Info] Total Bins 29474
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_notbusy_working_rider_num,last score is 397.896556687, cur_s is 400.315984701, 
+try without f _avg_speed_dropoff_cluster
+Start training...
+[LightGBM] [Info] Total Bins 29416
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_dropoff_cluster,last score is 397.896556687, cur_s is 398.769469658, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29661
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_box_total_value,last score is 397.896556687, cur_s is 400.23175098, 
+try without f hour#poi_id_coor_count
+Start training...
+[LightGBM] [Info] Total Bins 29425
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_coor_count,last score is 397.896556687, cur_s is 399.361308714, 
+try without f 10min#poi_id_lasthour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_mean_fetch_cost,last score is 397.896556687, cur_s is 398.70405574, 
+try without f pickup_cluster#hour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29431
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_min_dd,last score is 397.896556687, cur_s is 399.254914903, 
+try without f dropoff_cluster#10min_lasthour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_mean_dd,last score is 397.896556687, cur_s is 399.202839742, 
+try without f 10min
+Start training...
+[LightGBM] [Info] Total Bins 29664
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min,last score is 397.896556687, cur_s is 398.841038162, 
+try without f hour#poi_id_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_min_dd,last score is 397.896556687, cur_s is 399.098968727, 
+try without f pickup_cluster#dropoff_cluster_lasthour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_mean_dd,last score is 397.896556687, cur_s is 398.889323353, 
+try without f 10min#poi_id_lasthour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.468379115, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29617
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.080473971, 
+try without f dropoff_cluster#hour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.117329218, 
+try without f hour#poi_id_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.458246299, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29416
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_fetch_cost,last score is 397.896556687, cur_s is 399.10323643, 
+try without f pickup_cluster#10min_lasthour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_mean_dd,last score is 397.896556687, cur_s is 399.383452489, 
+try without f _avg_speed_pickup_cluster#dropoff_cluster#hour
+Start training...
+[LightGBM] [Info] Total Bins 29465
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_pickup_cluster#dropoff_cluster#hour,last score is 397.896556687, cur_s is 399.142027976, 
+try without f poi_lat
+Start training...
+[LightGBM] [Info] Total Bins 29416
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_lat,last score is 397.896556687, cur_s is 399.437999696, 
+try without f poi_id_lasthour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 398.992624328, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29646
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_box_total_value,last score is 397.896556687, cur_s is 399.855321233, 
+try without f 10min#poi_id_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29504
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_total_food_num,last score is 397.896556687, cur_s is 398.832104669, 
+try without f pickup_cluster#dropoff_cluster_lasthour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_mean_delivery_distance,last score is 397.896556687, cur_s is 399.373503985, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29456
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_food_total_value,last score is 397.896556687, cur_s is 398.269129175, 
+try without f dropoff_cluster#hour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 398.577677203, 
+try without f customer_longitude
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is customer_longitude,last score is 397.896556687, cur_s is 399.871793107, 
+try without f dropoff_cluster#hour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_min_dd,last score is 397.896556687, cur_s is 399.249751524, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29635
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_food_total_value,last score is 397.896556687, cur_s is 399.286226855, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29416
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.52759033, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29641
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_total_food_num,last score is 397.896556687, cur_s is 399.614951707, 
+try without f pickup_cluster#hour_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29425
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_waiting_order_num,last score is 397.896556687, cur_s is 399.726148077, 
+try without f pickup_cluster#10min_lasthour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29417
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_max_dd,last score is 397.896556687, cur_s is 398.769907836, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29618
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_max_dd,last score is 397.896556687, cur_s is 399.443098338, 
+try without f pickup_cluster#dropoff_cluster_lasthour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.620450758, 
+try without f pickup_cluster#10min_lasthour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_min_dd,last score is 397.896556687, cur_s is 399.070559904, 
+try without f dropoff_cluster#hour_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29418
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_waiting_order_num,last score is 397.896556687, cur_s is 399.176353263, 
+try without f pickup_cluster
+Start training...
+[LightGBM] [Info] Total Bins 29455
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster,last score is 397.896556687, cur_s is 398.944325116, 
+try without f hour#poi_id_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_fetch_cost,last score is 397.896556687, cur_s is 398.781133685, 
+try without f pickup_cluster#dropoff_cluster#hour_coor_count
+Start training...
+[LightGBM] [Info] Total Bins 29524
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_coor_count,last score is 397.896556687, cur_s is 399.295491147, 
+try without f dropoff_cluster#hour_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29648
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_box_total_value,last score is 397.896556687, cur_s is 399.411208504, 
+try without f dropoff_cluster#hour_coor_count
+Start training...
+[LightGBM] [Info] Total Bins 29420
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_coor_count,last score is 397.896556687, cur_s is 399.71230996, 
+try without f pickup_cluster#10min_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29428
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_waiting_order_num,last score is 397.896556687, cur_s is 398.58464275, 
+try without f hour#poi_id_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29428
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_food_total_value,last score is 397.896556687, cur_s is 398.978273223, 
+try without f pickup_cluster#hour_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29668
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_food_num,last score is 397.896556687, cur_s is 399.556860565, 
+try without f pickup_cluster#dropoff_cluster_lasthour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.328277642, 
+try without f 10min#poi_id_lasthour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_mean_delivery_distance,last score is 397.896556687, cur_s is 398.810513184, 
+try without f direction
+Start training...
+[LightGBM] [Info] Total Bins 29414
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is direction,last score is 397.896556687, cur_s is 399.021976582, 
+try without f poi_lng
+Start training...
+[LightGBM] [Info] Total Bins 29416
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_lng,last score is 397.896556687, cur_s is 398.75839926, 
+try without f _avg_speed_10min#hour#dropoff_cluster
+Start training...
+[LightGBM] [Info] Total Bins 29436
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_10min#hour#dropoff_cluster,last score is 397.896556687, cur_s is 399.490434297, 
+try without f hour#poi_id_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29651
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_box_total_value,last score is 397.896556687, cur_s is 398.814262205, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_coor_count
+Start training...
+[LightGBM] [Info] Total Bins 29645
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_coor_count,last score is 397.896556687, cur_s is 399.196546201, 
+try without f dropoff_cluster#10min_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29665
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_mean_food_num,last score is 397.896556687, cur_s is 399.080771374, 
+try without f hour#poi_id_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29417
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_dd,last score is 397.896556687, cur_s is 398.265293385, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29668
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_food_num,last score is 397.896556687, cur_s is 399.825227296, 
+try without f pickup_cluster#10min_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29436
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_total_food_num,last score is 397.896556687, cur_s is 399.246320738, 
+try without f pickup_cluster#10min_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29662
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_mean_food_num,last score is 397.896556687, cur_s is 399.076336141, 
+try without f 10min#poi_id_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29654
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_mean_food_num,last score is 397.896556687, cur_s is 399.401360188, 
+try without f 10min#poi_id_lasthour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_min_dd,last score is 397.896556687, cur_s is 399.333794524, 
+try without f pickup_cluster#hour_coor_count
+Start training...
+[LightGBM] [Info] Total Bins 29425
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_coor_count,last score is 397.896556687, cur_s is 398.96994, 
+try without f 10min#poi_id_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29433
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_waiting_order_num,last score is 397.896556687, cur_s is 399.321118545, 
+try without f pickup_cluster#hour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29423
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.11304355, 
+try without f pickup_cluster#dropoff_cluster_lasthour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_mean_fetch_cost,last score is 397.896556687, cur_s is 399.182938745, 
+try without f hour#poi_id_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29423
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_max_dd,last score is 397.896556687, cur_s is 399.232456512, 
+try without f pickup_cluster#dropoff_cluster_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29542
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_total_food_num,last score is 397.896556687, cur_s is 399.448967305, 
+try without f _10min_deliverying_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_deliverying_order_num,last score is 397.896556687, cur_s is 398.999872272, 
+try without f hour#poi_id_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.383067666, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29623
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_delivery_distance,last score is 397.896556687, cur_s is 399.630566506, 
+try without f poi_id_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29421
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_mean_food_total_value,last score is 397.896556687, cur_s is 399.798980365, 
+try without f hour#poi_id_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29420
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_waiting_order_num,last score is 397.896556687, cur_s is 399.695325046, 
+try without f pickup_cluster#hour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29419
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_dd,last score is 397.896556687, cur_s is 399.727780302, 
+try without f dropoff_cluster#10min_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29506
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_total_food_num,last score is 397.896556687, cur_s is 399.249420526, 
+try without f pickup_cluster#dropoff_cluster_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_mean_food_total_value,last score is 397.896556687, cur_s is 399.792109877, 
+try without f hour#poi_id_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29425
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_total_food_num,last score is 397.896556687, cur_s is 399.043401704, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29668
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_food_num,last score is 397.896556687, cur_s is 399.629725669, 
+try without f pickup_cluster#dropoff_cluster#hour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29423
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_max_dd,last score is 397.896556687, cur_s is 399.940308295, 
+try without f 15min
+Start training...
+[LightGBM] [Info] Total Bins 29666
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 15min,last score is 397.896556687, cur_s is 399.890002896, 
+try without f hour#poi_id_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29665
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_food_num,last score is 397.896556687, cur_s is 399.347395803, 
+try without f poi_id_lasthour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 398.805735861, 
+try without f weekday
+Start training...
+[LightGBM] [Info] Total Bins 29663
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is weekday,last score is 397.896556687, cur_s is 399.556347537, 
+try without f dropoff_cluster#hour_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29421
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_total_food_num,last score is 397.896556687, cur_s is 399.300302653, 
+try without f poi_id_lasthour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_mean_delivery_distance,last score is 397.896556687, cur_s is 399.725500083, 
+try without f 10min#poi_id_lasthour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.51273086, 
+try without f pickup_cluster#dropoff_cluster#hour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_min_dd,last score is 397.896556687, cur_s is 398.790985645, 
+try without f pickup_cluster#hour_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29425
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_total_food_num,last score is 397.896556687, cur_s is 399.224733503, 
+try without f dropoff_cluster#hour_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29668
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_food_num,last score is 397.896556687, cur_s is 399.052586432, 
+try without f poi_id_total_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29436
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_total_food_num,last score is 397.896556687, cur_s is 399.202984457, 
+try without f dropoff_cluster#10min_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29419
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_waiting_order_num,last score is 397.896556687, cur_s is 399.157587144, 
+try without f poi_id_lasthour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_min_dd,last score is 397.896556687, cur_s is 398.854910224, 
+try without f _avg_speed_pickup_cluster
+Start training...
+[LightGBM] [Info] Total Bins 29484
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_pickup_cluster,last score is 397.896556687, cur_s is 399.857623078, 
+try without f pickup_cluster#hour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.498967992, 
+try without f dropoff_cluster#10min_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29620
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_mean_box_total_value,last score is 397.896556687, cur_s is 399.936797197, 
+try without f customer_latitude
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is customer_latitude,last score is 397.896556687, cur_s is 399.448623754, 
+try without f _avg_speed_10min#hour#pickup_cluster
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_10min#hour#pickup_cluster,last score is 397.896556687, cur_s is 399.418094627, 
+try without f pickup_cluster#10min_lasthour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.431689163, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29619
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_fetch_cost,last score is 397.896556687, cur_s is 399.598543796, 
+try without f dropoff_cluster#10min_lasthour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_mean_fetch_cost,last score is 397.896556687, cur_s is 399.363037304, 
+try without f pickup_cluster#dropoff_cluster_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29654
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_mean_food_num,last score is 397.896556687, cur_s is 399.786722385, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.535380455, 
+try without f pickup_cluster#hour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_delivery_distance,last score is 397.896556687, cur_s is 398.948637987, 
+try without f pickup_cluster#dropoff_cluster_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29430
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_waiting_order_num,last score is 397.896556687, cur_s is 399.006687911, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_delivery_distance,last score is 397.896556687, cur_s is 399.390529055, 
+try without f pickup_cluster#10min_lasthour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_mean_delivery_distance,last score is 397.896556687, cur_s is 399.577069403, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_waiting_order_num
+Start training...
+[LightGBM] [Info] Total Bins 29616
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_waiting_order_num,last score is 397.896556687, cur_s is 399.917632826, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29616
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.148527807, 
+try without f hour#poi_id_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour#poi_id_mean_delivery_distance,last score is 397.896556687, cur_s is 399.069643908, 
+try without f _10min_wind
+Start training...
+[LightGBM] [Info] Total Bins 29596
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_wind,last score is 397.896556687, cur_s is 399.441998461, 
+try without f area_id
+Start training...
+[LightGBM] [Info] Total Bins 29658
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is area_id,last score is 397.896556687, cur_s is 399.547667787, 
+try without f pickup_cluster#dropoff_cluster#hour_mean_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour_mean_dd,last score is 397.896556687, cur_s is 398.989414048, 
+try without f pickup_cluster#10min_lasthour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.406661101, 
+try without f poi_id_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29633
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_mean_box_total_value,last score is 397.896556687, cur_s is 399.767334731, 
+try without f pickup_cluster#hour_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29651
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_box_total_value,last score is 397.896556687, cur_s is 399.132986062, 
+try without f box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29567
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is box_total_value,last score is 397.896556687, cur_s is 399.588248445, 
+try without f 10min#poi_id_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29585
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_mean_box_total_value,last score is 397.896556687, cur_s is 399.609005456, 
+try without f pickup_cluster#hour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29427
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_max_dd,last score is 397.896556687, cur_s is 398.439515364, 
+try without f pickup_cluster#dropoff_cluster_mean_box_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29592
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_mean_box_total_value,last score is 397.896556687, cur_s is 398.818310428, 
+try without f food_num
+Start training...
+[LightGBM] [Info] Total Bins 29647
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is food_num,last score is 397.896556687, cur_s is 399.599986174, 
+try without f dropoff_cluster#10min_lasthour_mean_delivery_distance
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_mean_delivery_distance,last score is 397.896556687, cur_s is 399.211971945, 
+try without f dropoff_cluster#10min_lasthour_mean_arrive_guest_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_mean_arrive_guest_cost,last score is 397.896556687, cur_s is 399.621170116, 
+try without f poi_id_lasthour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_lasthour_mean_fetch_cost,last score is 397.896556687, cur_s is 399.000210944, 
+try without f pickup_cluster#dropoff_cluster_lasthour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_max_dd,last score is 397.896556687, cur_s is 399.27486928, 
+try without f _10min_rain
+Start training...
+[LightGBM] [Info] Total Bins 29571
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_rain,last score is 397.896556687, cur_s is 399.909530956, 
+try without f dropoff_cluster#10min_lasthour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_max_dd,last score is 397.896556687, cur_s is 399.262126945, 
+try without f poi_id_mean_food_num
+Start training...
+[LightGBM] [Info] Total Bins 29659
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is poi_id_mean_food_num,last score is 397.896556687, cur_s is 399.233079723, 
+try without f dropoff_cluster#10min_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29421
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_mean_food_total_value,last score is 397.896556687, cur_s is 399.199420067, 
+try without f weekday_hour
+Start training...
+[LightGBM] [Info] Total Bins 29627
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is weekday_hour,last score is 397.896556687, cur_s is 399.085137617, 
+try without f dropoff_cluster#hour_mean_food_total_value
+Start training...
+[LightGBM] [Info] Total Bins 29445
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_mean_food_total_value,last score is 397.896556687, cur_s is 399.761824159, 
+try without f _avg_speed_weekday
+Start training...
+[LightGBM] [Info] Total Bins 29662
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _avg_speed_weekday,last score is 397.896556687, cur_s is 398.834833131, 
+try without f pickup_cluster#dropoff_cluster#hour#10min_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29619
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster#hour#10min_min_dd,last score is 397.896556687, cur_s is 399.833455623, 
+try without f 10min#poi_id_lasthour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is 10min#poi_id_lasthour_max_dd,last score is 397.896556687, cur_s is 399.892696752, 
+try without f dropoff_cluster#hour_max_dd
+Start training...
+[LightGBM] [Info] Total Bins 29421
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#hour_max_dd,last score is 397.896556687, cur_s is 399.032833971, 
+try without f pickup_cluster#hour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#hour_mean_fetch_cost,last score is 397.896556687, cur_s is 398.944067054, 
+try without f dropoff_cluster#10min_lasthour_mean_arriveshop_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is dropoff_cluster#10min_lasthour_mean_arriveshop_cost,last score is 397.896556687, cur_s is 399.434131967, 
+try without f minute
+Start training...
+[LightGBM] [Info] Total Bins 29610
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is minute,last score is 397.896556687, cur_s is 399.136402771, 
+try without f pickup_cluster#dropoff_cluster_lasthour_min_dd
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#dropoff_cluster_lasthour_min_dd,last score is 397.896556687, cur_s is 398.551093855, 
+try without f _10min_temperature
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is _10min_temperature,last score is 397.896556687, cur_s is 398.274616755, 
+try without f pickup_cluster#10min_lasthour_mean_fetch_cost
+Start training...
+[LightGBM] [Info] Total Bins 29415
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is pickup_cluster#10min_lasthour_mean_fetch_cost,last score is 397.896556687, cur_s is 399.670774723, 
+try without f hour
+Start training...
+[LightGBM] [Info] Total Bins 29663
+[LightGBM] [Info] Number of data: 497228, number of used features: 160
+[LightGBM] [Info] Finished loading 250 models
+cur f is hour,last score is 397.896556687, cur_s is 398.256397336, 
+final score is  397.896556687,best_drop is []

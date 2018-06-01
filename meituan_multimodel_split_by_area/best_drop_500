@@ -1,0 +1,132 @@
+try without f None
+['waiting_order_num', 'area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3310
+[LightGBM] [Info] Number of data: 116472, number of used features: 20
+[LightGBM] [Info] Finished loading 500 models
+cur f is None,last score is 0, cur_s is 473.004625396, 
+try without f waiting_order_num
+['area_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'working_rider_num', 'notbusy_working_rider_num', 'customer_latitude', 'poi_lat', 'customer_longitude', 'not_fetched_order_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3237
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[LightGBM] [Info] Finished loading 500 models
+try without f area_id
+['waiting_order_num', 'poi_id', 'poi_lng', 'temperature', 'hour', 'delivery_distance', 'minute', 'box_total_value', 'rain', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3298
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[LightGBM] [Info] Finished loading 500 models
+try without f poi_lng
+['waiting_order_num', 'area_id', 'temperature', 'hour', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3056
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[LightGBM] [Info] Finished loading 500 models
+try without f temperature
+['waiting_order_num', 'area_id', 'poi_lng', 'hour', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3055
+[LightGBM] [Info] Number of data: 116472, number of used features: 19
+[LightGBM] [Info] Finished loading 500 models
+cur f is temperature,last score is 473.004625396, cur_s is 468.742044983, 
+try without f hour
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3052
+[LightGBM] [Info] Number of data: 116472, number of used features: 18
+[LightGBM] [Info] Finished loading 500 models
+cur f is hour,last score is 468.742044983, cur_s is 467.756328248, 
+try without f delivery_distance
+['waiting_order_num', 'area_id', 'poi_lng', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2797
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f wind
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'minute', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3012
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f poi_id
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'minute', 'box_total_value', 'rain', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2797
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f rain
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'minute', 'poi_id', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 3004
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f box_total_value
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'minute', 'poi_id', 'rain', 'food_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2951
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f food_total_value
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'not_fetched_order_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2797
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f not_fetched_order_num
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'minute', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'working_rider_num', 'notbusy_working_rider_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2797
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+try without f notbusy_working_rider_num
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2821
+[LightGBM] [Info] Number of data: 116472, number of used features: 17
+[LightGBM] [Info] Finished loading 500 models
+cur f is notbusy_working_rider_num,last score is 467.756328248, cur_s is 465.977753665, 
+try without f customer_latitude
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_longitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2566
+[LightGBM] [Info] Number of data: 116472, number of used features: 16
+[LightGBM] [Info] Finished loading 500 models
+try without f poi_lat
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_latitude', 'customer_longitude', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2568
+[LightGBM] [Info] Number of data: 116472, number of used features: 16
+[LightGBM] [Info] Finished loading 500 models
+try without f customer_longitude
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_latitude', 'poi_lat', 'working_rider_num', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2566
+[LightGBM] [Info] Number of data: 116472, number of used features: 16
+[LightGBM] [Info] Finished loading 500 models
+try without f working_rider_num
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_latitude', 'customer_longitude', 'poi_lat', 'food_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2591
+[LightGBM] [Info] Number of data: 116472, number of used features: 16
+[LightGBM] [Info] Finished loading 500 models
+try without f food_num
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'wind', 'deliverying_order_num']
+Start training...
+[LightGBM] [Info] Total Bins 2796
+[LightGBM] [Info] Number of data: 116472, number of used features: 16
+[LightGBM] [Info] Finished loading 500 models
+cur f is food_num,last score is 465.977753665, cur_s is 462.664784425, 
+try without f minute
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'deliverying_order_num', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'wind']
+Start training...
+[LightGBM] [Info] Total Bins 2736
+[LightGBM] [Info] Number of data: 116472, number of used features: 15
+[LightGBM] [Info] Finished loading 500 models
+try without f deliverying_order_num
+['waiting_order_num', 'area_id', 'poi_lng', 'delivery_distance', 'poi_id', 'rain', 'box_total_value', 'food_total_value', 'not_fetched_order_num', 'minute', 'customer_latitude', 'customer_longitude', 'poi_lat', 'working_rider_num', 'wind']
+Start training...
+[LightGBM] [Info] Total Bins 2601
+[LightGBM] [Info] Number of data: 116472, number of used features: 15
+[LightGBM] [Info] Finished loading 500 models
+final score is  462.664784425,best_drop is ['temperature', 'hour', 'notbusy_working_rider_num', 'food_num']

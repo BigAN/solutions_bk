@@ -1,0 +1,362 @@
+f  ['poi_id_total_food_num', 'pickup_cluster#hour_mean_delivery_distance', 'dropoff_cluster#10min_waiting_order_num', 'pickup_cluster#10min_mean_food_num', '_avg_speed_10min#hour#pickup_cluster', 'pickup_cluster#dropoff_cluster_waiting_order_num', '_10min_deliverying_order_num', 'pickup_cluster#dropoff_cluster#hour_min_dd', 'pickup_cluster#dropoff_cluster#hour#10min_total_food_num', 'pickup_cluster#dropoff_cluster_mean_food_total_value', 'food_total_value', 'hour#poi_id_mean_food_num', 'pickup_cluster#dropoff_cluster#hour_mean_delivery_distance', 'pickup_cluster#10min_lasthour_mean_arrive_guest_cost', 'pickup_cluster#hour_mean_arriveshop_cost', 'dropoff_cluster#10min_total_food_num', 'customer_latitude', 'hour#poi_id_mean_arriveshop_cost', 'pickup_cluster#hour_total_food_num', 'delivery_distance', 'poi_id_lasthour_mean_dd', 'dropoff_cluster#10min_mean_box_total_value', 'poi_id_lasthour_mean_delivery_distance', 'hour#poi_id_waiting_order_num', 'dropoff_cluster#10min_lasthour_mean_fetch_cost', 'poi_id_mean_food_total_value', '_avg_speed_pickup_cluster', 'pickup_cluster#dropoff_cluster_mean_food_num', 'dropoff_cluster#hour_total_food_num', 'pickup_cluster#dropoff_cluster#hour#10min_mean_fetch_cost', '10min#poi_id_lasthour_mean_arrive_guest_cost', 'pickup_cluster#10min_total_food_num', 'dropoff_cluster', 'pickup_cluster#dropoff_cluster#hour_max_dd', 'pickup_cluster#dropoff_cluster_lasthour_mean_fetch_cost', 'dropoff_cluster#hour_mean_food_num', '_10min_notbusy_working_rider_num', 'poi_id_lasthour_max_dd', 'pickup_cluster#dropoff_cluster#hour#10min_mean_arriveshop_cost', 'weekday', '15min', 'poi_lat', 'pickup_cluster#dropoff_cluster_lasthour_mean_arriveshop_cost', '_10min_not_fetched_order_num', 'dropoff_cluster#hour_min_dd', 'pickup_cluster#hour_mean_arrive_guest_cost', 'pickup_cluster#hour_waiting_order_num', '10min#poi_id_lasthour_mean_delivery_distance', 'pickup_cluster#dropoff_cluster#hour#10min_mean_delivery_distance', 'dropoff_cluster#hour_waiting_order_num', 'dropoff_cluster#10min_mean_food_num', 'dropoff_cluster#hour_mean_arriveshop_cost', 'pickup_cluster#dropoff_cluster_total_food_num', '10min#poi_id_mean_food_num', 'hour#poi_id_total_food_num', 'hour#poi_id_mean_box_total_value', 'dropoff_cluster#hour_mean_arrive_guest_cost', 'hour#poi_id_max_dd', 'poi_id_lasthour_mean_arrive_guest_cost', 'pickup_cluster#dropoff_cluster_lasthour_mean_dd', '_avg_speed_pickup_cluster#dropoff_cluster#hour', 'direction', 'poi_lng', 'pickup_cluster#dropoff_cluster_lasthour_mean_delivery_distance', 'hour#poi_id_mean_dd', 'pickup_cluster#dropoff_cluster#hour_mean_fetch_cost', 'poi_id', 'pickup_cluster#hour_min_dd', 'pickup_cluster#dropoff_cluster#hour#10min_mean_food_total_value', 'pickup_cluster#10min_lasthour_min_dd', '_avg_speed_dropoff_cluster', '10min#poi_id_mean_food_total_value', '_avg_speed_hour#poi_id', 'pickup_cluster#10min_mean_food_total_value', 'pickup_cluster#dropoff_cluster#hour_mean_arriveshop_cost', '10min#poi_id_total_food_num', 'pickup_cluster#10min_mean_box_total_value', 'pickup_cluster', '_avg_speed_weekday_hour', '10min#poi_id_lasthour_mean_fetch_cost', '10min', 'dropoff_cluster#hour_mean_fetch_cost', 'pickup_cluster#10min_lasthour_max_dd', 'pickup_cluster#dropoff_cluster#hour_mean_food_total_value', 'pickup_cluster#dropoff_cluster#hour_mean_arrive_guest_cost', 'hour#poi_id_min_dd', 'dropoff_cluster#hour_mean_delivery_distance', 'pickup_cluster#hour_mean_food_total_value', 'pickup_cluster#dropoff_cluster#hour_waiting_order_num', 'pickup_cluster#dropoff_cluster#hour#10min_mean_dd', 'dropoff_cluster#10min_lasthour_mean_dd', 'dropoff_cluster#hour_mean_dd', 'dropoff_cluster#10min_lasthour_min_dd', '10min#poi_id_lasthour_mean_dd', '_10min_working_rider_num', 'pickup_cluster#hour_mean_food_num', 'poi_id_lasthour_min_dd', '_avg_speed_10min', 'pickup_cluster#dropoff_cluster#hour#10min_mean_box_total_value', 'customer_longitude', 'poi_id_waiting_order_num', '10min#poi_id_lasthour_mean_arriveshop_cost', 'waiting_order_num', 'pickup_cluster#10min_lasthour_mean_dd', 'pickup_cluster#dropoff_cluster#hour_mean_food_num', 'pickup_cluster#dropoff_cluster#hour_mean_box_total_value', 'pickup_cluster#hour_mean_dd', 'poi_id_lasthour_mean_arriveshop_cost', 'pickup_cluster#dropoff_cluster#hour_total_food_num', 'pickup_cluster#dropoff_cluster#hour#10min_mean_food_num', 'pickup_cluster#dropoff_cluster#hour#10min_max_dd', 'hour#poi_id_mean_arrive_guest_cost', '_avg_speed_10min#hour#dropoff_cluster', 'pickup_cluster#10min_waiting_order_num', 'dropoff_cluster#hour_mean_box_total_value', '10min#poi_id_waiting_order_num', 'pickup_cluster#dropoff_cluster_lasthour_mean_arrive_guest_cost', 'hour#poi_id_mean_fetch_cost', '10min#poi_id_lasthour_min_dd', 'hour#poi_id_mean_food_total_value']   e
+Start training...
+[LightGBM] [Info] Total Bins 23455
+[LightGBM] [Info] Number of data: 497228, number of used features: 120
+[1]	valid_0's l1: 379.912
+Training until validation scores don't improve for 200 rounds.
+[2]	valid_0's l1: 377.678
+[3]	valid_0's l1: 375.999
+[4]	valid_0's l1: 374.207
+[5]	valid_0's l1: 372.74
+[6]	valid_0's l1: 371.269
+[7]	valid_0's l1: 370.048
+[8]	valid_0's l1: 368.858
+[9]	valid_0's l1: 367.782
+[10]	valid_0's l1: 366.547
+[11]	valid_0's l1: 365.657
+[12]	valid_0's l1: 364.456
+[13]	valid_0's l1: 363.647
+[14]	valid_0's l1: 362.783
+[15]	valid_0's l1: 362.069
+[16]	valid_0's l1: 361.277
+[17]	valid_0's l1: 360.496
+[18]	valid_0's l1: 359.584
+[19]	valid_0's l1: 358.933
+[20]	valid_0's l1: 358.444
+[21]	valid_0's l1: 357.692
+[22]	valid_0's l1: 357.242
+[23]	valid_0's l1: 356.732
+[24]	valid_0's l1: 356.332
+[25]	valid_0's l1: 355.669
+[26]	valid_0's l1: 355.035
+[27]	valid_0's l1: 354.527
+[28]	valid_0's l1: 354.036
+[29]	valid_0's l1: 353.703
+[30]	valid_0's l1: 353.329
+[31]	valid_0's l1: 353.211
+[32]	valid_0's l1: 352.907
+[33]	valid_0's l1: 352.583
+[34]	valid_0's l1: 352.257
+[35]	valid_0's l1: 352.041
+[36]	valid_0's l1: 351.775
+[37]	valid_0's l1: 351.564
+[38]	valid_0's l1: 351.303
+[39]	valid_0's l1: 351.137
+[40]	valid_0's l1: 351.052
+[41]	valid_0's l1: 350.861
+[42]	valid_0's l1: 350.698
+[43]	valid_0's l1: 350.567
+[44]	valid_0's l1: 350.429
+[45]	valid_0's l1: 350.276
+[46]	valid_0's l1: 350.167
+[47]	valid_0's l1: 350.011
+[48]	valid_0's l1: 349.845
+[49]	valid_0's l1: 349.744
+[50]	valid_0's l1: 349.668
+[51]	valid_0's l1: 349.607
+[52]	valid_0's l1: 349.504
+[53]	valid_0's l1: 349.396
+[54]	valid_0's l1: 349.352
+[55]	valid_0's l1: 349.322
+[56]	valid_0's l1: 349.257
+[57]	valid_0's l1: 349.132
+[58]	valid_0's l1: 349.151
+[59]	valid_0's l1: 349.045
+[60]	valid_0's l1: 348.955
+[61]	valid_0's l1: 348.907
+[62]	valid_0's l1: 348.854
+[63]	valid_0's l1: 348.788
+[64]	valid_0's l1: 348.759
+[65]	valid_0's l1: 348.743
+[66]	valid_0's l1: 348.791
+[67]	valid_0's l1: 348.723
+[68]	valid_0's l1: 348.692
+[69]	valid_0's l1: 348.744
+[70]	valid_0's l1: 348.792
+[71]	valid_0's l1: 348.8
+[72]	valid_0's l1: 348.795
+[73]	valid_0's l1: 348.781
+[74]	valid_0's l1: 348.725
+[75]	valid_0's l1: 348.748
+[76]	valid_0's l1: 348.731
+[77]	valid_0's l1: 348.759
+[78]	valid_0's l1: 348.739
+[79]	valid_0's l1: 348.75
+[80]	valid_0's l1: 348.793
+[81]	valid_0's l1: 348.745
+[82]	valid_0's l1: 348.721
+[83]	valid_0's l1: 348.801
+[84]	valid_0's l1: 348.815
+[85]	valid_0's l1: 348.863
+[86]	valid_0's l1: 348.896
+[87]	valid_0's l1: 348.861
+[88]	valid_0's l1: 348.811
+[89]	valid_0's l1: 348.872
+[90]	valid_0's l1: 348.848
+[91]	valid_0's l1: 348.822
+[92]	valid_0's l1: 348.876
+[93]	valid_0's l1: 348.907
+[94]	valid_0's l1: 348.909
+[95]	valid_0's l1: 348.921
+[96]	valid_0's l1: 348.924
+[97]	valid_0's l1: 348.941
+[98]	valid_0's l1: 348.951
+[99]	valid_0's l1: 348.953
+[100]	valid_0's l1: 348.914
+[101]	valid_0's l1: 348.932
+[102]	valid_0's l1: 348.922
+[103]	valid_0's l1: 349.033
+[104]	valid_0's l1: 349.02
+[105]	valid_0's l1: 348.994
+[106]	valid_0's l1: 348.99
+[107]	valid_0's l1: 349.023
+[108]	valid_0's l1: 349.04
+[109]	valid_0's l1: 349.017
+[110]	valid_0's l1: 349.062
+[111]	valid_0's l1: 349.068
+[112]	valid_0's l1: 349.043
+[113]	valid_0's l1: 349.024
+[114]	valid_0's l1: 349.029
+[115]	valid_0's l1: 349.034
+[116]	valid_0's l1: 349.059
+[117]	valid_0's l1: 349.047
+[118]	valid_0's l1: 349.05
+[119]	valid_0's l1: 349.12
+[120]	valid_0's l1: 349.139
+[121]	valid_0's l1: 349.15
+[122]	valid_0's l1: 349.177
+[123]	valid_0's l1: 349.197
+[124]	valid_0's l1: 349.221
+[125]	valid_0's l1: 349.243
+[126]	valid_0's l1: 349.295
+[127]	valid_0's l1: 349.333
+[128]	valid_0's l1: 349.407
+[129]	valid_0's l1: 349.445
+[130]	valid_0's l1: 349.483
+[131]	valid_0's l1: 349.517
+[132]	valid_0's l1: 349.529
+[133]	valid_0's l1: 349.553
+[134]	valid_0's l1: 349.534
+[135]	valid_0's l1: 349.543
+[136]	valid_0's l1: 349.564
+[137]	valid_0's l1: 349.588
+[138]	valid_0's l1: 349.585
+[139]	valid_0's l1: 349.609
+[140]	valid_0's l1: 349.673
+[141]	valid_0's l1: 349.686
+[142]	valid_0's l1: 349.671
+[143]	valid_0's l1: 349.686
+[144]	valid_0's l1: 349.7
+[145]	valid_0's l1: 349.713
+[146]	valid_0's l1: 349.723
+[147]	valid_0's l1: 349.727
+[148]	valid_0's l1: 349.711
+[149]	valid_0's l1: 349.735
+[150]	valid_0's l1: 349.748
+[151]	valid_0's l1: 349.776
+[152]	valid_0's l1: 349.915
+[153]	valid_0's l1: 349.914
+[154]	valid_0's l1: 349.948
+[155]	valid_0's l1: 349.943
+[156]	valid_0's l1: 349.952
+[157]	valid_0's l1: 349.968
+[158]	valid_0's l1: 349.948
+[159]	valid_0's l1: 349.964
+[160]	valid_0's l1: 350.043
+[161]	valid_0's l1: 350.04
+[162]	valid_0's l1: 350.099
+[163]	valid_0's l1: 350.103
+[164]	valid_0's l1: 350.11
+[165]	valid_0's l1: 350.131
+[166]	valid_0's l1: 350.149
+[167]	valid_0's l1: 350.139
+[168]	valid_0's l1: 350.141
+[169]	valid_0's l1: 350.242
+[170]	valid_0's l1: 350.256
+[171]	valid_0's l1: 350.278
+[172]	valid_0's l1: 350.286
+[173]	valid_0's l1: 350.283
+[174]	valid_0's l1: 350.292
+[175]	valid_0's l1: 350.289
+[176]	valid_0's l1: 350.313
+[177]	valid_0's l1: 350.331
+[178]	valid_0's l1: 350.348
+[179]	valid_0's l1: 350.313
+[180]	valid_0's l1: 350.297
+[181]	valid_0's l1: 350.359
+[182]	valid_0's l1: 350.368
+[183]	valid_0's l1: 350.367
+[184]	valid_0's l1: 350.39
+[185]	valid_0's l1: 350.362
+[186]	valid_0's l1: 350.367
+[187]	valid_0's l1: 350.365
+[188]	valid_0's l1: 350.357
+[189]	valid_0's l1: 350.357
+[190]	valid_0's l1: 350.338
+[191]	valid_0's l1: 350.363
+[192]	valid_0's l1: 350.419
+[193]	valid_0's l1: 350.386
+[194]	valid_0's l1: 350.412
+[195]	valid_0's l1: 350.412
+[196]	valid_0's l1: 350.432
+[197]	valid_0's l1: 350.433
+[198]	valid_0's l1: 350.419
+[199]	valid_0's l1: 350.432
+[200]	valid_0's l1: 350.432
+[201]	valid_0's l1: 350.438
+[202]	valid_0's l1: 350.436
+[203]	valid_0's l1: 350.443
+[204]	valid_0's l1: 350.473
+[205]	valid_0's l1: 350.514
+[206]	valid_0's l1: 350.515
+[207]	valid_0's l1: 350.575
+[208]	valid_0's l1: 350.574
+[209]	valid_0's l1: 350.601
+[210]	valid_0's l1: 350.595
+[211]	valid_0's l1: 350.606
+[212]	valid_0's l1: 350.599
+[213]	valid_0's l1: 350.635
+[214]	valid_0's l1: 350.63
+[215]	valid_0's l1: 350.626
+[216]	valid_0's l1: 350.643
+[217]	valid_0's l1: 350.655
+[218]	valid_0's l1: 350.693
+[219]	valid_0's l1: 350.691
+[220]	valid_0's l1: 350.682
+[221]	valid_0's l1: 350.708
+[222]	valid_0's l1: 350.763
+[223]	valid_0's l1: 350.759
+[224]	valid_0's l1: 350.775
+[225]	valid_0's l1: 350.817
+[226]	valid_0's l1: 350.815
+[227]	valid_0's l1: 350.898
+[228]	valid_0's l1: 350.896
+[229]	valid_0's l1: 350.898
+[230]	valid_0's l1: 350.916
+[231]	valid_0's l1: 350.92
+[232]	valid_0's l1: 350.908
+[233]	valid_0's l1: 350.892
+[234]	valid_0's l1: 350.899
+[235]	valid_0's l1: 350.925
+[236]	valid_0's l1: 350.932
+[237]	valid_0's l1: 350.937
+[238]	valid_0's l1: 350.942
+[239]	valid_0's l1: 350.954
+[240]	valid_0's l1: 350.989
+[241]	valid_0's l1: 351.003
+[242]	valid_0's l1: 351.014
+[243]	valid_0's l1: 351.024
+[244]	valid_0's l1: 351.052
+[245]	valid_0's l1: 351.081
+[246]	valid_0's l1: 351.114
+[247]	valid_0's l1: 351.117
+[248]	valid_0's l1: 351.092
+[249]	valid_0's l1: 351.09
+[250]	valid_0's l1: 351.108
+[251]	valid_0's l1: 351.119
+[252]	valid_0's l1: 351.114
+[253]	valid_0's l1: 351.115
+[254]	valid_0's l1: 351.113
+[255]	valid_0's l1: 351.147
+[256]	valid_0's l1: 351.166
+[257]	valid_0's l1: 351.16
+[258]	valid_0's l1: 351.224
+[259]	valid_0's l1: 351.244
+[260]	valid_0's l1: 351.263
+[261]	valid_0's l1: 351.274
+[262]	valid_0's l1: 351.269
+[263]	valid_0's l1: 351.295
+[264]	valid_0's l1: 351.308
+[265]	valid_0's l1: 351.322
+[266]	valid_0's l1: 351.336
+[267]	valid_0's l1: 351.338
+[268]	valid_0's l1: 351.339
+Early stopping, best iteration is:
+[68]	valid_0's l1: 348.692
+[LightGBM] [Info] Finished loading 68 models
+('Feature names:', [u'poi_id_total_food_num', u'pickup_cluster#hour_mean_delivery_distance', u'dropoff_cluster#10min_waiting_order_num', u'pickup_cluster#10min_mean_food_num', u'_avg_speed_10min#hour#pickup_cluster', u'pickup_cluster#dropoff_cluster_waiting_order_num', u'_10min_deliverying_order_num', u'pickup_cluster#dropoff_cluster#hour_min_dd', u'pickup_cluster#dropoff_cluster#hour#10min_total_food_num', u'pickup_cluster#dropoff_cluster_mean_food_total_value', u'food_total_value', u'hour#poi_id_mean_food_num', u'pickup_cluster#dropoff_cluster#hour_mean_delivery_distance', u'pickup_cluster#10min_lasthour_mean_arrive_guest_cost', u'pickup_cluster#hour_mean_arriveshop_cost', u'dropoff_cluster#10min_total_food_num', u'customer_latitude', u'hour#poi_id_mean_arriveshop_cost', u'pickup_cluster#hour_total_food_num', u'delivery_distance', u'poi_id_lasthour_mean_dd', u'dropoff_cluster#10min_mean_box_total_value', u'poi_id_lasthour_mean_delivery_distance', u'hour#poi_id_waiting_order_num', u'dropoff_cluster#10min_lasthour_mean_fetch_cost', u'poi_id_mean_food_total_value', u'_avg_speed_pickup_cluster', u'pickup_cluster#dropoff_cluster_mean_food_num', u'dropoff_cluster#hour_total_food_num', u'pickup_cluster#dropoff_cluster#hour#10min_mean_fetch_cost', u'10min#poi_id_lasthour_mean_arrive_guest_cost', u'pickup_cluster#10min_total_food_num', u'dropoff_cluster', u'pickup_cluster#dropoff_cluster#hour_max_dd', u'pickup_cluster#dropoff_cluster_lasthour_mean_fetch_cost', u'dropoff_cluster#hour_mean_food_num', u'_10min_notbusy_working_rider_num', u'poi_id_lasthour_max_dd', u'pickup_cluster#dropoff_cluster#hour#10min_mean_arriveshop_cost', u'weekday', u'15min', u'poi_lat', u'pickup_cluster#dropoff_cluster_lasthour_mean_arriveshop_cost', u'_10min_not_fetched_order_num', u'dropoff_cluster#hour_min_dd', u'pickup_cluster#hour_mean_arrive_guest_cost', u'pickup_cluster#hour_waiting_order_num', u'10min#poi_id_lasthour_mean_delivery_distance', u'pickup_cluster#dropoff_cluster#hour#10min_mean_delivery_distance', u'dropoff_cluster#hour_waiting_order_num', u'dropoff_cluster#10min_mean_food_num', u'dropoff_cluster#hour_mean_arriveshop_cost', u'pickup_cluster#dropoff_cluster_total_food_num', u'10min#poi_id_mean_food_num', u'hour#poi_id_total_food_num', u'hour#poi_id_mean_box_total_value', u'dropoff_cluster#hour_mean_arrive_guest_cost', u'hour#poi_id_max_dd', u'poi_id_lasthour_mean_arrive_guest_cost', u'pickup_cluster#dropoff_cluster_lasthour_mean_dd', u'_avg_speed_pickup_cluster#dropoff_cluster#hour', u'direction', u'poi_lng', u'pickup_cluster#dropoff_cluster_lasthour_mean_delivery_distance', u'hour#poi_id_mean_dd', u'pickup_cluster#dropoff_cluster#hour_mean_fetch_cost', u'poi_id', u'pickup_cluster#hour_min_dd', u'pickup_cluster#dropoff_cluster#hour#10min_mean_food_total_value', u'pickup_cluster#10min_lasthour_min_dd', u'_avg_speed_dropoff_cluster', u'10min#poi_id_mean_food_total_value', u'_avg_speed_hour#poi_id', u'pickup_cluster#10min_mean_food_total_value', u'pickup_cluster#dropoff_cluster#hour_mean_arriveshop_cost', u'10min#poi_id_total_food_num', u'pickup_cluster#10min_mean_box_total_value', u'pickup_cluster', u'_avg_speed_weekday_hour', u'10min#poi_id_lasthour_mean_fetch_cost', u'10min', u'dropoff_cluster#hour_mean_fetch_cost', u'pickup_cluster#10min_lasthour_max_dd', u'pickup_cluster#dropoff_cluster#hour_mean_food_total_value', u'pickup_cluster#dropoff_cluster#hour_mean_arrive_guest_cost', u'hour#poi_id_min_dd', u'dropoff_cluster#hour_mean_delivery_distance', u'pickup_cluster#hour_mean_food_total_value', u'pickup_cluster#dropoff_cluster#hour_waiting_order_num', u'pickup_cluster#dropoff_cluster#hour#10min_mean_dd', u'dropoff_cluster#10min_lasthour_mean_dd', u'dropoff_cluster#hour_mean_dd', u'dropoff_cluster#10min_lasthour_min_dd', u'10min#poi_id_lasthour_mean_dd', u'_10min_working_rider_num', u'pickup_cluster#hour_mean_food_num', u'poi_id_lasthour_min_dd', u'_avg_speed_10min', u'pickup_cluster#dropoff_cluster#hour#10min_mean_box_total_value', u'customer_longitude', u'poi_id_waiting_order_num', u'10min#poi_id_lasthour_mean_arriveshop_cost', u'waiting_order_num', u'pickup_cluster#10min_lasthour_mean_dd', u'pickup_cluster#dropoff_cluster#hour_mean_food_num', u'pickup_cluster#dropoff_cluster#hour_mean_box_total_value', u'pickup_cluster#hour_mean_dd', u'poi_id_lasthour_mean_arriveshop_cost', u'pickup_cluster#dropoff_cluster#hour_total_food_num', u'pickup_cluster#dropoff_cluster#hour#10min_mean_food_num', u'pickup_cluster#dropoff_cluster#hour#10min_max_dd', u'hour#poi_id_mean_arrive_guest_cost', u'_avg_speed_10min#hour#dropoff_cluster', u'pickup_cluster#10min_waiting_order_num', u'dropoff_cluster#hour_mean_box_total_value', u'10min#poi_id_waiting_order_num', u'pickup_cluster#dropoff_cluster_lasthour_mean_arrive_guest_cost', u'hour#poi_id_mean_fetch_cost', u'10min#poi_id_lasthour_min_dd', u'hour#poi_id_mean_food_total_value'])
+Calculate feature importances...
+('Feature importances:', [186, 122, 169, 0, 107, 121, 605, 41, 8, 121, 771, 7, 28, 155, 216, 143, 194, 207, 163, 225, 371, 42, 201, 106, 150, 321, 98, 0, 124, 51, 102, 120, 123, 47, 174, 1, 462, 159, 6, 200, 56, 333, 106, 626, 103, 103, 111, 107, 4, 140, 0, 218, 93, 3, 143, 27, 128, 108, 259, 120, 20, 203, 209, 103, 224, 236, 162, 114, 20, 140, 88, 140, 99, 99, 69, 109, 43, 94, 90, 257, 43, 349, 101, 44, 47, 177, 81, 103, 34, 9, 171, 169, 127, 100, 265, 0, 363, 23, 2, 152, 132, 117, 1083, 84, 0, 9, 129, 303, 37, 0, 10, 121, 57, 86, 10, 80, 138, 461, 135, 234])
+                                               feature  importances
+50                 dropoff_cluster#10min_mean_food_num            0
+104  pickup_cluster#dropoff_cluster#hour_mean_food_num            0
+3                   pickup_cluster#10min_mean_food_num            0
+95                   pickup_cluster#hour_mean_food_num            0
+27        pickup_cluster#dropoff_cluster_mean_food_num            0
+109  pickup_cluster#dropoff_cluster#hour#10min_mean...            0
+35                  dropoff_cluster#hour_mean_food_num            1
+98   pickup_cluster#dropoff_cluster#hour#10min_mean...            2
+53                          10min#poi_id_mean_food_num            3
+48   pickup_cluster#dropoff_cluster#hour#10min_mean...            4
+38   pickup_cluster#dropoff_cluster#hour#10min_mean...            6
+11                           hour#poi_id_mean_food_num            7
+8    pickup_cluster#dropoff_cluster#hour#10min_tota...            8
+89   pickup_cluster#dropoff_cluster#hour#10min_mean_dd            9
+105  pickup_cluster#dropoff_cluster#hour_mean_box_t...            9
+114          dropoff_cluster#hour_mean_box_total_value           10
+110   pickup_cluster#dropoff_cluster#hour#10min_max_dd           10
+60      _avg_speed_pickup_cluster#dropoff_cluster#hour           20
+68   pickup_cluster#dropoff_cluster#hour#10min_mean...           20
+97                                    _avg_speed_10min           23
+55                    hour#poi_id_mean_box_total_value           27
+12   pickup_cluster#dropoff_cluster#hour_mean_deliv...           28
+88   pickup_cluster#dropoff_cluster#hour_waiting_or...           34
+108  pickup_cluster#dropoff_cluster#hour_total_food...           37
+7           pickup_cluster#dropoff_cluster#hour_min_dd           41
+21          dropoff_cluster#10min_mean_box_total_value           42
+80                                               10min           43
+76           pickup_cluster#10min_mean_box_total_value           43
+83   pickup_cluster#dropoff_cluster#hour_mean_food_...           44
+33          pickup_cluster#dropoff_cluster#hour_max_dd           47
+..                                                 ...          ...
+34   pickup_cluster#dropoff_cluster_lasthour_mean_f...          174
+85                                  hour#poi_id_min_dd          177
+0                                poi_id_total_food_num          186
+16                                   customer_latitude          194
+39                                             weekday          200
+22              poi_id_lasthour_mean_delivery_distance          201
+61                                           direction          203
+17                    hour#poi_id_mean_arriveshop_cost          207
+62                                             poi_lng          209
+14            pickup_cluster#hour_mean_arriveshop_cost          216
+51           dropoff_cluster#hour_mean_arriveshop_cost          218
+64                                 hour#poi_id_mean_dd          224
+19                                   delivery_distance          225
+119                  hour#poi_id_mean_food_total_value          234
+65   pickup_cluster#dropoff_cluster#hour_mean_fetch...          236
+79               10min#poi_id_lasthour_mean_fetch_cost          257
+58              poi_id_lasthour_mean_arrive_guest_cost          259
+94                            _10min_working_rider_num          265
+107               poi_id_lasthour_mean_arriveshop_cost          303
+25                        poi_id_mean_food_total_value          321
+41                                             poi_lat          333
+81                dropoff_cluster#hour_mean_fetch_cost          349
+96                              poi_id_lasthour_min_dd          363
+20                             poi_id_lasthour_mean_dd          371
+117                        hour#poi_id_mean_fetch_cost          461
+36                    _10min_notbusy_working_rider_num          462
+6                         _10min_deliverying_order_num          605
+43                        _10min_not_fetched_order_num          626
+10                                    food_total_value          771
+102                                  waiting_order_num         1083
+
+[120 rows x 2 columns]
+348.692236826
+count    70753.000000
+mean       504.766986
+std        175.908976
+min        136.418205
+25%        379.254979
+50%        483.273299
+75%        603.707691
+max       1983.148076
+Name: delivery_duration_prd, dtype: float64
+count    70753.000000
+mean       487.272950
+std        501.384767
+min          0.000000
+25%         95.000000
+50%        338.000000
+75%        722.000000
+max       3972.000000
+Name: fetch_cost, dtype: float64

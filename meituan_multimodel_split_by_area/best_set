@@ -1,0 +1,68 @@
+Start training...
+[LightGBM] [Info] Total Bins 30161
+[LightGBM] [Info] Number of data: 320455, number of used features: 171
+[LightGBM] [Info] Finished loading 500 models
+                                               feature  importances
+27                                    food_total_value         3736
+100                       _10min_not_fetched_order_num         3653
+67                                   delivery_distance         3286
+19                        _10min_deliverying_order_num         2219
+173                                                day         2209
+52                                   waiting_order_num         2123
+125                                          direction         2086
+167        10min#hour#weekday#area_id_lasthour_mean_dd         2064
+35                                  _10min_temperature         2050
+154                   _10min_notbusy_working_rider_num         1779
+8      10min#hour#weekday#area_id_mean_arriveshop_cost         1709
+89            10min#hour#weekday#area_id_max_avg_speed         1572
+144                 10min#hour#weekday#area_id_mean_dd         1557
+128                                hour#poi_id_mean_dd         1557
+75      dropoff_cluster#10min_lasthour_mean_fetch_cost         1555
+174                  10min#hour#weekday#area_id_min_dd         1537
+195                        hour#poi_id_mean_fetch_cost         1532
+62                    hour#poi_id_mean_arriveshop_cost         1510
+176  10min#hour#weekday#area_id_lasthour_mean_arriv...         1393
+48   10min#hour#weekday#area_id_lasthour_mean_fetch...         1373
+26         dropoff_cluster#10min_mean_food_total_value         1370
+130                                             poi_id         1369
+50   dropoff_cluster#10min_lasthour_mean_arriveshop...         1368
+101  pickup_cluster#dropoff_cluster_lasthour_mean_d...         1364
+161             dropoff_cluster#10min_lasthour_mean_dd         1291
+193  pickup_cluster#dropoff_cluster_lasthour_mean_a...         1270
+188              _avg_speed_10min#hour#dropoff_cluster         1250
+165                           _10min_working_rider_num         1239
+60                                   customer_latitude         1209
+123    pickup_cluster#dropoff_cluster_lasthour_mean_dd         1208
+..                                                 ...          ...
+0    10min#hour#weekday#poi_id_lasthour_mean_delive...            0
+166                  pickup_cluster#hour_mean_food_num            0
+66   10min#hour#weekday#poi_id_lasthour_mean_arrive...            0
+2       10min#hour#weekday#poi_id_mean_box_total_value            0
+5              10min#hour#weekday#poi_id_mean_food_num            0
+20           poi_id#hour#weekday_mean_food_total_value            0
+29     10min#hour#weekday#poi_id_mean_food_total_value            0
+34   10min#hour#weekday#poi_id_lasthour_10min_not_f...            0
+37            10min#hour#weekday#poi_id_total_food_num            0
+44                poi_id#hour#weekday_lasthour_mean_dd            0
+46   dropoff_cluster#hour#pickup_cluster#day_mean_f...            0
+53   poi_id#hour#weekday_lasthour_10min_working_rid...            0
+55   poi_id#hour#weekday_lasthour_mean_delivery_dis...            0
+56   10min#hour#weekday#poi_id_lasthour_10min_notbu...            0
+59   10min#hour#weekday#poi_id_lasthour_mean_fetch_...            0
+69          10min#hour#weekday#poi_id_lasthour_mean_dd            0
+158       poi_id#hour#weekday_lasthour_mean_fetch_cost            0
+84   dropoff_cluster#hour#pickup_cluster#day_mean_b...            0
+91                  dropoff_cluster#hour_mean_food_num            0
+102  poi_id#hour#weekday_lasthour_mean_arriveshop_cost            0
+107           poi_id#hour#weekday_mean_box_total_value            0
+113              poi_id#hour#weekday_waiting_order_num            0
+131                  poi_id#hour#weekday_mean_food_num            0
+133  poi_id#hour#weekday_lasthour_10min_not_fetched...            0
+135                 poi_id#hour#weekday_total_food_num            0
+138        10min#hour#weekday#poi_id_waiting_order_num            0
+140  poi_id#hour#weekday_lasthour_mean_arrive_guest...            0
+143  poi_id#hour#weekday_lasthour_10min_notbusy_wor...            0
+148  poi_id#hour#weekday_lasthour_10min_not_fetched...            0
+99   10min#hour#weekday#poi_id_lasthour_10min_worki...            0
+
+[199 rows x 2 columns]
